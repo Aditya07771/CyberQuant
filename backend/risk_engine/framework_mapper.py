@@ -14,6 +14,10 @@ from typing import Dict, List, Set
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 MAPPINGS_FILE = DATA_DIR / "compliance_mappings.json"
 
+# Version of the control-to-framework mapping dataset. Bump whenever
+# compliance_mappings.json content changes so callers can detect staleness.
+MAPPING_VERSION = "1.0.0"
+
 
 def _load_mappings() -> dict:
     """Load the compliance_mappings.json file."""
