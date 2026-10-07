@@ -26,33 +26,49 @@ class DependencyGraphEngine:
         self.nodes: Dict[str, dict] = {}
         self.edges: List[dict] = []
         self._built = False
+        self.last_seed: Optional[int] = None
 
-    def build_graph(self, assets_df: Optional[pd.DataFrame] = None) -> dict:
-        """Construct the AD topology from the current asset inventory."""
+    def build_graph(
+        self,
+        assets_df: Optional[pd.DataFrame] = None,
+        risk_summary_df: Optional[pd.DataFrame] = None,
+        seed: int = 42,
+    ) -> dict:
+        """
+        Construct the AD topology from an explicit, caller-supplied asset inventory.
+
+        Callers MUST pass the tenant/run-scoped DataFrames. When ``assets_df`` is
+        None the engine reports an empty graph rather than reading a shared global
+        file, so no request can leak another tenant's assets.
+
+        Edge generation is deterministic for a given ``seed`` so repeated calls for
+        the same run produce identical output.
+        """
+        rng = random.Random(seed)
+        self.last_seed = seed
+
         if assets_df is None or assets_df.empty:
-            assets_path = DATA_DIR / "assets.csv"
-            if assets_path.exists():
-                assets_df = pd.read_csv(assets_path)
-            else:
-                assets_df = pd.DataFrame()
+            self.nodes = {}
+            self.edges = []
+            return {
+                "nodes": [],
+                "edges": [],
+                "total_nodes": 0,
+                "total_edges": 0,
+                "data_quality": "no_asset_inventory",
+                "seed": seed,
+                "edge_source": "inferred",
+            }
 
-        if assets_df.empty:
-            return {"nodes": [], "edges": []}
-
-        # Load risk summary if available for actual financial values
+        # Derive financial values from the run's risk summary when provided.
         risk_map = {}
-        risk_parquet = OUTPUT_DIR / "asset_risk_summary.parquet"
-        if risk_parquet.exists():
-            try:
-                rdf = pd.read_parquet(risk_parquet)
-                for _, r in rdf.iterrows():
-                    risk_map[str(r.get("asset_id"))] = {
-                        "EAL_usd": float(r.get("EAL_usd", 10000)),
-                        "VaR95_usd": float(r.get("VaR95_usd", 35000)),
-                        "priority_score": float(r.get("priority_score", 5000)),
-                    }
-            except Exception:
-                pass
+        if risk_summary_df is not None and not risk_summary_df.empty:
+            for _, r in risk_summary_df.iterrows():
+                risk_map[str(r.get("asset_id"))] = {
+                    "EAL_usd": float(r.get("EAL_usd", 0.0) or 0.0),
+                    "VaR95_usd": float(r.get("VaR95_usd", 0.0) or 0.0),
+                    "priority_score": float(r.get("priority_score", 0.0) or 0.0),
+                }
 
         self.nodes = {}
         self.edges = []
@@ -84,7 +100,18 @@ class DependencyGraphEngine:
                 role = "User Endpoint"
                 tier = 4
 
-            r_data = risk_map.get(aid, {"EAL_usd": fin_val * 0.12, "VaR95_usd": fin_val * 0.35, "priority_score": fin_val * 0.08})
+            # When the run has no modelled risk for an asset, derive a clearly
+            # labelled heuristic estimate instead of inventing a fixed constant.
+            if aid in risk_map:
+                r_data = risk_map[aid]
+                value_source = "run_risk_model"
+            else:
+                r_data = {
+                    "EAL_usd": fin_val * 0.12,
+                    "VaR95_usd": fin_val * 0.35,
+                    "priority_score": fin_val * 0.08,
+                }
+                value_source = "heuristic_from_financial_value"
 
             self.nodes[aid] = {
                 "asset_id": aid,
@@ -97,6 +124,7 @@ class DependencyGraphEngine:
                 "tier": tier,
                 "EAL_usd": round(r_data["EAL_usd"], 2),
                 "VaR95_usd": round(r_data["VaR95_usd"], 2),
+                "value_source": value_source,
             }
 
         # Build realistic directed trust & lateral movement edges
@@ -131,44 +159,45 @@ class DependencyGraphEngine:
                     "protocol": proto,
                     "lateral_movement_probability": round(prob, 2),
                     "attack_vector": desc,
+                    "edge_type": "inferred",
                 })
 
         # 1. User Endpoints -> App Servers (Standard network traffic, HTTP/SMB)
         for u in users:
-            target_apps = random.sample(apps, min(len(apps), random.randint(1, 2))) if apps else []
+            target_apps = rng.sample(apps, min(len(apps), rng.randint(1, 2))) if apps else []
             for app in target_apps:
-                add_edge(u, app, "HTTP/SMB", random.uniform(0.65, 0.85), "Web Application / API Exploitation")
+                add_edge(u, app, "HTTP/SMB", rng.uniform(0.65, 0.85), "Web Application / API Exploitation")
 
         # 2. User Endpoints -> Admin Workstations (Phishing / Kerberoasting pivot)
         for u in users[: len(users) // 2]:
             if admins:
-                target_admin = random.choice(admins)
-                add_edge(u, target_admin, "Kerberos/RPC", random.uniform(0.40, 0.60), "Credential Harvesting / Kerberoasting")
+                target_admin = rng.choice(admins)
+                add_edge(u, target_admin, "Kerberos/RPC", rng.uniform(0.40, 0.60), "Credential Harvesting / Kerberoasting")
 
         # 3. App Servers -> Core Databases (DB connections, SQL injection / trusted links)
         for app in apps:
-            target_dbs = random.sample(dbs, min(len(dbs), random.randint(1, 2))) if dbs else []
+            target_dbs = rng.sample(dbs, min(len(dbs), rng.randint(1, 2))) if dbs else []
             for db in target_dbs:
-                add_edge(app, db, "TDS/PostgreSQL", random.uniform(0.70, 0.90), "Service Account Impersonation / Direct DB Access")
+                add_edge(app, db, "TDS/PostgreSQL", rng.uniform(0.70, 0.90), "Service Account Impersonation / Direct DB Access")
 
         # 4. Admin Workstations -> Domain Controllers (DCSync / Pass-the-Hash)
         for admin in admins:
             for dc in dcs:
-                add_edge(admin, dc, "LDAP/RPC", random.uniform(0.75, 0.95), "DCSync & Remote Registry Admin Compromise")
+                add_edge(admin, dc, "LDAP/RPC", rng.uniform(0.75, 0.95), "DCSync & Remote Registry Admin Compromise")
 
         # 5. Domain Controllers -> All other assets (Golden Ticket / GPO push)
         for dc in dcs:
-            for dst in random.sample(node_ids, min(len(node_ids), 12)):
+            for dst in rng.sample(node_ids, min(len(node_ids), 12)):
                 if dst != dc:
-                    add_edge(dc, dst, "GPO/WMI", random.uniform(0.92, 0.99), "Domain Admin Takeover / GPO Malicious Push")
+                    add_edge(dc, dst, "GPO/WMI", rng.uniform(0.92, 0.99), "Domain Admin Takeover / GPO Malicious Push")
 
         # 6. Same-BU lateral movement (peer-to-peer SMB / SSH)
         for nid in node_ids:
             bu = self.nodes[nid]["business_unit"]
             peers = [p for p in node_ids if p != nid and self.nodes[p]["business_unit"] == bu]
             if peers:
-                target_peer = random.choice(peers)
-                add_edge(nid, target_peer, "SMB/SSH", random.uniform(0.35, 0.55), "Subnet Lateral Pivot")
+                target_peer = rng.choice(peers)
+                add_edge(nid, target_peer, "SMB/SSH", rng.uniform(0.35, 0.55), "Subnet Lateral Pivot")
 
         self._built = True
         return {
@@ -176,6 +205,8 @@ class DependencyGraphEngine:
             "edges": self.edges,
             "total_nodes": len(self.nodes),
             "total_edges": len(self.edges),
+            "edge_source": "inferred",
+            "seed": seed,
         }
 
     def propagate_risk(self, breached_asset_id: str) -> dict:
@@ -187,8 +218,9 @@ class DependencyGraphEngine:
             self.build_graph()
 
         if breached_asset_id not in self.nodes:
-            # Fallback to first node
-            breached_asset_id = list(self.nodes.keys())[0] if self.nodes else "AST-1000"
+            raise KeyError(
+                f"Asset '{breached_asset_id}' is not part of this run's asset inventory"
+            )
 
         # Build adjacency list: node -> list of (target, prob, edge_dict)
         adj: Dict[str, List[Tuple[str, float, dict]]] = {nid: [] for nid in self.nodes}
