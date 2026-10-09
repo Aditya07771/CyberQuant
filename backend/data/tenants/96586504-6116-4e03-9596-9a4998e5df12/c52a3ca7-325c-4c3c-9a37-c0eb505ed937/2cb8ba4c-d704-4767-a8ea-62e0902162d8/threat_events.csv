@@ -1,0 +1,1801 @@
+event_id,timestamp,asset_id,mitre_technique_id,description,severity,source_ip,action_taken,downtime_hours_caused,records_compromised
+EVT-eb977fc1,2026-09-12 08:12:51,AST-1290,T1059.001,PowerShell Execution,Medium,59.140.239.155,Blocked,0,0
+EVT-f511a240,2026-09-12 08:29:57,AST-1007,T1059.001,PowerShell Execution,Medium,195.232.228.201,Blocked,0,0
+EVT-ef383b0d,2026-09-12 09:09:18,AST-1250,T1110.001,Password Guessing,Low,29.197.38.11,Allowed,0,0
+EVT-b03ad0d0,2026-09-12 09:16:38,AST-1199,T1078,Valid Accounts,Medium,118.97.127.30,Blocked,0,0
+EVT-03c73b51,2026-09-12 09:33:25,AST-1133,T1078,Valid Accounts,Medium,32.229.119.151,Blocked,0,0
+EVT-3962caae,2026-09-12 09:43:58,AST-1097,T1003.001,LSASS Memory Credential Dumping,High,68.199.243.202,Alerted,0,0
+EVT-02960457,2026-09-12 09:45:41,AST-1237,T1486,Data Encrypted for Impact (Ransomware),Critical,185.146.91.12,Alerted,0,0
+EVT-c6d1bdf3,2026-09-12 09:53:02,AST-1253,T1059.001,PowerShell Execution,Medium,203.79.254.68,Alerted,0,0
+EVT-4c21e10c,2026-09-12 10:02:17,AST-1007,T1059.001,PowerShell Execution,Medium,147.9.148.13,Alerted,0,0
+EVT-b3a493c4,2026-09-12 10:28:25,AST-1021,T1078,Valid Accounts,Medium,211.28.45.7,Blocked,0,0
+EVT-1c19ff18,2026-09-12 10:49:41,AST-1016,T1486,Data Encrypted for Impact (Ransomware),Critical,100.190.41.249,Blocked,0,0
+EVT-da2b9135,2026-09-12 11:05:41,AST-1017,T1110.001,Password Guessing,Low,190.24.89.19,Alerted,0,0
+EVT-2bf59f33,2026-09-12 11:46:17,AST-1271,T1110.001,Password Guessing,Low,58.215.197.220,Allowed,0,0
+EVT-5897f1c8,2026-09-12 12:42:57,AST-1132,T1003.001,LSASS Memory Credential Dumping,High,109.122.128.191,Blocked,0,0
+EVT-c052b897,2026-09-12 13:30:40,AST-1227,T1110.001,Password Guessing,Low,214.133.180.234,Allowed,0,0
+EVT-7e13471a,2026-09-12 13:41:00,AST-1255,T1003.001,LSASS Memory Credential Dumping,High,18.117.197.244,Allowed,0,31826
+EVT-fc1b21f9,2026-09-12 14:06:11,AST-1182,T1003.001,LSASS Memory Credential Dumping,High,12.179.26.216,Blocked,0,0
+EVT-81a92515,2026-09-12 14:50:21,AST-1099,T1078,Valid Accounts,Medium,207.136.5.144,Alerted,0,0
+EVT-2072cc30,2026-09-12 15:15:13,AST-1138,T1003.001,LSASS Memory Credential Dumping,High,220.88.20.154,Allowed,0,8709
+EVT-19a8cc9d,2026-09-12 15:42:11,AST-1040,T1110.001,Password Guessing,Low,32.155.198.89,Alerted,0,0
+EVT-e21c5b22,2026-09-12 16:19:58,AST-1068,T1110.001,Password Guessing,Low,132.97.26.53,Allowed,0,0
+EVT-f831ca26,2026-09-12 16:21:31,AST-1139,T1078,Valid Accounts,Medium,79.188.116.121,Blocked,0,0
+EVT-ec329fda,2026-09-12 16:50:20,AST-1227,T1059.001,PowerShell Execution,Medium,117.245.162.151,Blocked,0,0
+EVT-c0ce9adb,2026-09-12 17:19:38,AST-1262,T1110.001,Password Guessing,Low,212.168.110.204,Alerted,0,0
+EVT-31f9e775,2026-09-12 17:53:21,AST-1271,T1078,Valid Accounts,Medium,116.108.219.213,Blocked,0,0
+EVT-bae8b59f,2026-09-12 18:34:08,AST-1203,T1078,Valid Accounts,Medium,142.169.182.51,Blocked,0,0
+EVT-36d2581b,2026-09-12 19:13:08,AST-1054,T1059.001,PowerShell Execution,Medium,133.58.154.243,Blocked,0,0
+EVT-76e65d31,2026-09-12 19:39:32,AST-1133,T1003.001,LSASS Memory Credential Dumping,High,73.138.14.54,Blocked,0,0
+EVT-8a9ee861,2026-09-12 19:47:30,AST-1223,T1059.001,PowerShell Execution,Medium,130.46.244.98,Alerted,0,0
+EVT-ab82f98a,2026-09-12 19:59:02,AST-1007,T1059.001,PowerShell Execution,Medium,208.182.196.163,Alerted,0,0
+EVT-9c5517d0,2026-09-12 20:06:57,AST-1022,T1003.001,LSASS Memory Credential Dumping,High,209.75.179.8,Blocked,0,0
+EVT-beb0994d,2026-09-12 20:27:28,AST-1266,T1486,Data Encrypted for Impact (Ransomware),Critical,188.155.17.17,Allowed,5,0
+EVT-359f9394,2026-09-12 20:37:16,AST-1081,T1059.001,PowerShell Execution,Medium,133.160.87.170,Blocked,0,0
+EVT-a24a7007,2026-09-12 20:52:11,AST-1151,T1486,Data Encrypted for Impact (Ransomware),Critical,16.43.16.248,Allowed,15,0
+EVT-9228394e,2026-09-12 20:58:14,AST-1139,T1486,Data Encrypted for Impact (Ransomware),Critical,116.135.116.146,Alerted,0,0
+EVT-2988e7e1,2026-09-12 21:00:02,AST-1016,T1078,Valid Accounts,Medium,23.193.106.7,Allowed,0,0
+EVT-1c5d1a99,2026-09-12 21:03:06,AST-1263,T1003.001,LSASS Memory Credential Dumping,High,74.107.210.6,Allowed,0,24244
+EVT-acf604cd,2026-09-12 21:20:48,AST-1268,T1110.001,Password Guessing,Low,105.19.165.63,Blocked,0,0
+EVT-ee9be33d,2026-09-12 22:08:12,AST-1184,T1110.001,Password Guessing,Low,68.224.206.92,Allowed,0,0
+EVT-bd1b54a1,2026-09-12 23:09:36,AST-1260,T1059.001,PowerShell Execution,Medium,98.3.211.163,Blocked,0,0
+EVT-f8ced53c,2026-09-13 00:06:04,AST-1102,T1059.001,PowerShell Execution,Medium,49.155.191.209,Blocked,0,0
+EVT-032dcb15,2026-09-13 00:23:01,AST-1153,T1078,Valid Accounts,Medium,179.61.93.29,Blocked,0,0
+EVT-2ff65803,2026-09-13 01:31:26,AST-1041,T1078,Valid Accounts,Medium,72.80.156.248,Alerted,0,0
+EVT-3161bcd9,2026-09-13 01:32:58,AST-1013,T1110.001,Password Guessing,Low,30.190.48.173,Alerted,0,0
+EVT-0b804d54,2026-09-13 01:34:05,AST-1141,T1078,Valid Accounts,Medium,188.2.174.155,Blocked,0,0
+EVT-f983e18d,2026-09-13 01:43:51,AST-1137,T1110.001,Password Guessing,Low,64.27.224.154,Alerted,0,0
+EVT-ad98d254,2026-09-13 02:01:12,AST-1139,T1059.001,PowerShell Execution,Medium,20.232.43.116,Blocked,0,0
+EVT-04f263f3,2026-09-13 02:36:20,AST-1170,T1110.001,Password Guessing,Low,112.141.1.20,Allowed,0,0
+EVT-f958a88b,2026-09-13 03:10:30,AST-1135,T1078,Valid Accounts,Medium,183.30.34.177,Alerted,0,0
+EVT-d4bee9d6,2026-09-13 03:14:31,AST-1180,T1486,Data Encrypted for Impact (Ransomware),Critical,204.40.229.71,Blocked,0,0
+EVT-80a06ad2,2026-09-13 03:29:50,AST-1102,T1078,Valid Accounts,Medium,64.233.76.82,Alerted,0,0
+EVT-ce2aedbf,2026-09-13 03:38:32,AST-1035,T1078,Valid Accounts,Medium,108.82.224.130,Alerted,0,0
+EVT-b8aea94b,2026-09-13 03:40:58,AST-1110,T1059.001,PowerShell Execution,Medium,67.211.29.89,Blocked,0,0
+EVT-28613173,2026-09-13 04:12:05,AST-1149,T1110.001,Password Guessing,Low,86.32.181.188,Blocked,0,0
+EVT-7d82e27e,2026-09-13 05:51:57,AST-1019,T1078,Valid Accounts,Medium,83.212.177.254,Alerted,0,0
+EVT-7f353940,2026-09-13 05:57:22,AST-1098,T1110.001,Password Guessing,Low,29.39.166.66,Alerted,0,0
+EVT-0c3f3456,2026-09-13 06:32:13,AST-1260,T1486,Data Encrypted for Impact (Ransomware),Critical,171.115.130.1,Allowed,50,0
+EVT-4aa69f5c,2026-09-13 06:41:55,AST-1205,T1078,Valid Accounts,Medium,169.13.159.130,Blocked,0,0
+EVT-28f247b2,2026-09-13 07:01:52,AST-1099,T1110.001,Password Guessing,Low,188.254.153.213,Blocked,0,0
+EVT-830ab206,2026-09-13 07:26:53,AST-1003,T1110.001,Password Guessing,Low,156.161.180.81,Alerted,0,0
+EVT-16adb3f5,2026-09-13 07:32:08,AST-1220,T1003.001,LSASS Memory Credential Dumping,High,146.168.111.173,Alerted,0,0
+EVT-5260d0c4,2026-09-13 08:12:23,AST-1139,T1486,Data Encrypted for Impact (Ransomware),Critical,204.204.155.122,Blocked,0,0
+EVT-697b40a2,2026-09-13 08:35:33,AST-1238,T1486,Data Encrypted for Impact (Ransomware),Critical,196.224.105.149,Allowed,7,0
+EVT-135109d5,2026-09-13 08:44:19,AST-1228,T1003.001,LSASS Memory Credential Dumping,High,223.187.151.208,Blocked,0,0
+EVT-6db544c4,2026-09-13 09:04:39,AST-1119,T1059.001,PowerShell Execution,Medium,155.158.106.129,Blocked,0,0
+EVT-bec18527,2026-09-13 09:23:19,AST-1102,T1110.001,Password Guessing,Low,77.43.181.14,Alerted,0,0
+EVT-41825283,2026-09-13 09:58:30,AST-1196,T1110.001,Password Guessing,Low,204.190.251.160,Blocked,0,0
+EVT-5718cb85,2026-09-13 10:38:14,AST-1196,T1078,Valid Accounts,Medium,201.114.120.140,Allowed,0,0
+EVT-25a120d0,2026-09-13 11:05:21,AST-1095,T1003.001,LSASS Memory Credential Dumping,High,207.82.131.9,Blocked,0,0
+EVT-a40e27b3,2026-09-13 11:21:41,AST-1009,T1059.001,PowerShell Execution,Medium,59.223.235.226,Blocked,0,0
+EVT-b51bad24,2026-09-13 11:50:41,AST-1138,T1059.001,PowerShell Execution,Medium,209.245.137.254,Blocked,0,0
+EVT-43250057,2026-09-13 11:55:38,AST-1093,T1059.001,PowerShell Execution,Medium,104.225.143.56,Allowed,0,0
+EVT-ed15bc12,2026-09-13 12:01:49,AST-1216,T1078,Valid Accounts,Medium,124.86.8.171,Allowed,0,0
+EVT-c24f3434,2026-09-13 12:09:06,AST-1095,T1059.001,PowerShell Execution,Medium,88.5.251.21,Allowed,0,0
+EVT-2763a230,2026-09-13 12:19:07,AST-1274,T1059.001,PowerShell Execution,Medium,66.90.175.10,Allowed,0,0
+EVT-ee4107a4,2026-09-13 12:54:43,AST-1242,T1003.001,LSASS Memory Credential Dumping,High,179.44.220.176,Alerted,0,0
+EVT-3c546f42,2026-09-13 13:13:55,AST-1009,T1059.001,PowerShell Execution,Medium,120.90.149.38,Blocked,0,0
+EVT-ee0bfa49,2026-09-13 13:26:39,AST-1013,T1110.001,Password Guessing,Low,111.225.151.151,Blocked,0,0
+EVT-07e13b51,2026-09-13 14:06:53,AST-1216,T1078,Valid Accounts,Medium,207.39.20.166,Alerted,0,0
+EVT-c60ad8d8,2026-09-13 15:59:00,AST-1159,T1486,Data Encrypted for Impact (Ransomware),Critical,158.39.119.40,Alerted,0,0
+EVT-397f23db,2026-09-13 16:07:48,AST-1031,T1059.001,PowerShell Execution,Medium,57.37.226.27,Blocked,0,0
+EVT-873987e3,2026-09-13 17:09:36,AST-1067,T1486,Data Encrypted for Impact (Ransomware),Critical,219.150.39.29,Blocked,0,0
+EVT-3fe86a17,2026-09-13 18:03:22,AST-1155,T1486,Data Encrypted for Impact (Ransomware),Critical,144.17.72.110,Allowed,21,0
+EVT-d2648434,2026-09-13 18:09:09,AST-1262,T1003.001,LSASS Memory Credential Dumping,High,129.112.162.251,Blocked,0,0
+EVT-b6b607e7,2026-09-13 18:29:25,AST-1279,T1003.001,LSASS Memory Credential Dumping,High,104.209.178.193,Blocked,0,0
+EVT-87979cb8,2026-09-13 18:36:13,AST-1258,T1003.001,LSASS Memory Credential Dumping,High,55.58.225.168,Blocked,0,0
+EVT-ee9ebd6a,2026-09-13 19:23:09,AST-1185,T1003.001,LSASS Memory Credential Dumping,High,66.193.151.90,Alerted,0,0
+EVT-cff76d84,2026-09-13 19:51:13,AST-1040,T1003.001,LSASS Memory Credential Dumping,High,83.177.8.77,Blocked,0,0
+EVT-396fde66,2026-09-13 20:02:05,AST-1248,T1003.001,LSASS Memory Credential Dumping,High,57.126.251.40,Alerted,0,0
+EVT-1df18e23,2026-09-13 20:11:57,AST-1038,T1078,Valid Accounts,Medium,64.166.222.226,Allowed,0,0
+EVT-d3e2e724,2026-09-13 20:13:08,AST-1144,T1078,Valid Accounts,Medium,180.98.214.2,Allowed,0,0
+EVT-9a7d0a99,2026-09-13 20:41:50,AST-1287,T1486,Data Encrypted for Impact (Ransomware),Critical,49.180.182.239,Allowed,53,0
+EVT-6053fc5d,2026-09-13 21:18:11,AST-1020,T1078,Valid Accounts,Medium,149.135.223.60,Allowed,0,0
+EVT-b6cd0e62,2026-09-13 21:59:02,AST-1216,T1059.001,PowerShell Execution,Medium,160.176.251.43,Blocked,0,0
+EVT-059e42e9,2026-09-13 22:29:26,AST-1254,T1003.001,LSASS Memory Credential Dumping,High,70.145.47.15,Blocked,0,0
+EVT-ff7a6c77,2026-09-13 23:16:23,AST-1181,T1078,Valid Accounts,Medium,163.135.84.126,Alerted,0,0
+EVT-de752d2f,2026-09-14 00:39:50,AST-1073,T1078,Valid Accounts,Medium,164.35.188.57,Allowed,0,0
+EVT-a4a448cd,2026-09-14 00:53:58,AST-1084,T1078,Valid Accounts,Medium,62.32.104.137,Alerted,0,0
+EVT-a59f986d,2026-09-14 01:34:13,AST-1117,T1078,Valid Accounts,Medium,202.191.230.239,Blocked,0,0
+EVT-9bd1675e,2026-09-14 01:36:07,AST-1274,T1059.001,PowerShell Execution,Medium,84.79.9.103,Alerted,0,0
+EVT-3d1c9610,2026-09-14 01:47:22,AST-1047,T1078,Valid Accounts,Medium,65.70.251.103,Alerted,0,0
+EVT-bdfc2137,2026-09-14 01:54:51,AST-1097,T1078,Valid Accounts,Medium,165.100.47.206,Allowed,0,0
+EVT-97b0584a,2026-09-14 02:24:36,AST-1183,T1003.001,LSASS Memory Credential Dumping,High,163.88.196.154,Blocked,0,0
+EVT-a834cef6,2026-09-14 03:04:57,AST-1020,T1003.001,LSASS Memory Credential Dumping,High,221.124.191.181,Allowed,0,14060
+EVT-17417cc1,2026-09-14 03:44:25,AST-1056,T1059.001,PowerShell Execution,Medium,198.20.49.86,Blocked,0,0
+EVT-fb385eba,2026-09-14 05:08:17,AST-1220,T1059.001,PowerShell Execution,Medium,202.58.104.119,Blocked,0,0
+EVT-f593862b,2026-09-14 05:11:27,AST-1109,T1110.001,Password Guessing,Low,81.96.132.69,Alerted,0,0
+EVT-56d65e50,2026-09-14 05:15:01,AST-1144,T1003.001,LSASS Memory Credential Dumping,High,218.143.143.146,Blocked,0,0
+EVT-164246bc,2026-09-14 05:23:22,AST-1107,T1110.001,Password Guessing,Low,24.96.15.57,Alerted,0,0
+EVT-fb2b5a7b,2026-09-14 05:28:02,AST-1165,T1059.001,PowerShell Execution,Medium,190.98.238.50,Alerted,0,0
+EVT-d52da923,2026-09-14 05:47:49,AST-1110,T1059.001,PowerShell Execution,Medium,125.177.152.213,Blocked,0,0
+EVT-3b6287d6,2026-09-14 06:02:49,AST-1268,T1486,Data Encrypted for Impact (Ransomware),Critical,162.13.239.204,Allowed,5,0
+EVT-cd6d1497,2026-09-14 06:31:35,AST-1195,T1003.001,LSASS Memory Credential Dumping,High,92.57.16.200,Blocked,0,0
+EVT-1fb4b7b1,2026-09-14 07:20:40,AST-1082,T1486,Data Encrypted for Impact (Ransomware),Critical,93.119.101.38,Allowed,66,0
+EVT-bffc82f1,2026-09-14 07:40:50,AST-1199,T1110.001,Password Guessing,Low,210.56.103.135,Blocked,0,0
+EVT-a715b40a,2026-09-14 07:47:02,AST-1034,T1078,Valid Accounts,Medium,38.149.64.214,Allowed,0,0
+EVT-d3cca12f,2026-09-14 09:16:52,AST-1119,T1003.001,LSASS Memory Credential Dumping,High,18.161.155.220,Blocked,0,0
+EVT-d428afdf,2026-09-14 10:06:57,AST-1179,T1059.001,PowerShell Execution,Medium,25.191.191.45,Alerted,0,0
+EVT-0082c97f,2026-09-14 11:13:43,AST-1184,T1059.001,PowerShell Execution,Medium,64.45.196.191,Alerted,0,0
+EVT-fc24a32b,2026-09-14 11:28:25,AST-1036,T1059.001,PowerShell Execution,Medium,99.209.157.224,Blocked,0,0
+EVT-184d9169,2026-09-14 11:39:18,AST-1009,T1003.001,LSASS Memory Credential Dumping,High,62.193.10.205,Allowed,0,7335
+EVT-0bf37bfa,2026-09-14 11:46:00,AST-1166,T1059.001,PowerShell Execution,Medium,61.50.162.63,Alerted,0,0
+EVT-5825a29b,2026-09-14 11:54:24,AST-1005,T1110.001,Password Guessing,Low,49.187.25.129,Blocked,0,0
+EVT-b417ff77,2026-09-14 12:44:49,AST-1007,T1486,Data Encrypted for Impact (Ransomware),Critical,66.69.124.83,Allowed,11,0
+EVT-b251b52c,2026-09-14 13:54:25,AST-1036,T1003.001,LSASS Memory Credential Dumping,High,210.28.30.106,Blocked,0,0
+EVT-1550fa86,2026-09-14 14:10:04,AST-1215,T1110.001,Password Guessing,Low,92.228.7.8,Blocked,0,0
+EVT-42694f90,2026-09-14 14:11:18,AST-1139,T1059.001,PowerShell Execution,Medium,162.212.38.195,Blocked,0,0
+EVT-6e39627d,2026-09-14 15:59:41,AST-1060,T1059.001,PowerShell Execution,Medium,34.48.223.77,Allowed,0,0
+EVT-b5317261,2026-09-14 16:49:06,AST-1287,T1078,Valid Accounts,Medium,164.233.2.52,Allowed,0,0
+EVT-fc6b52bc,2026-09-14 16:53:57,AST-1086,T1003.001,LSASS Memory Credential Dumping,High,71.50.91.167,Alerted,0,0
+EVT-6b62ce3a,2026-09-14 17:03:26,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,112.72.105.40,Allowed,0,49691
+EVT-e7f16c9e,2026-09-14 17:48:00,AST-1021,T1003.001,LSASS Memory Credential Dumping,High,209.143.54.125,Alerted,0,0
+EVT-2c1a394f,2026-09-14 18:10:54,AST-1157,T1059.001,PowerShell Execution,Medium,183.194.97.36,Alerted,0,0
+EVT-13668d8b,2026-09-14 18:28:47,AST-1235,T1486,Data Encrypted for Impact (Ransomware),Critical,44.64.1.163,Allowed,12,0
+EVT-f96a69ca,2026-09-14 19:03:54,AST-1070,T1003.001,LSASS Memory Credential Dumping,High,129.40.15.165,Alerted,0,0
+EVT-be5d81a1,2026-09-14 19:12:14,AST-1002,T1003.001,LSASS Memory Credential Dumping,High,74.222.6.233,Allowed,0,16651
+EVT-096eec72,2026-09-14 19:15:41,AST-1104,T1059.001,PowerShell Execution,Medium,105.100.203.114,Alerted,0,0
+EVT-7a816662,2026-09-14 19:37:05,AST-1131,T1110.001,Password Guessing,Low,216.8.63.72,Allowed,0,0
+EVT-bcf85fb6,2026-09-14 19:52:55,AST-1039,T1003.001,LSASS Memory Credential Dumping,High,213.163.190.117,Allowed,0,17311
+EVT-f1ea40b1,2026-09-14 20:05:20,AST-1036,T1059.001,PowerShell Execution,Medium,206.129.31.163,Allowed,0,0
+EVT-29d437ad,2026-09-14 20:43:06,AST-1268,T1059.001,PowerShell Execution,Medium,55.219.138.163,Allowed,0,0
+EVT-130b31a9,2026-09-14 21:18:57,AST-1117,T1110.001,Password Guessing,Low,98.232.161.103,Allowed,0,0
+EVT-b0436e45,2026-09-14 21:45:33,AST-1042,T1078,Valid Accounts,Medium,189.110.23.122,Blocked,0,0
+EVT-78dfb776,2026-09-14 22:00:59,AST-1159,T1110.001,Password Guessing,Low,166.165.134.231,Allowed,0,0
+EVT-6f7a96ac,2026-09-14 22:27:57,AST-1122,T1059.001,PowerShell Execution,Medium,118.253.231.215,Allowed,0,0
+EVT-27b508ab,2026-09-14 22:41:46,AST-1229,T1110.001,Password Guessing,Low,29.128.195.70,Alerted,0,0
+EVT-a0eef56e,2026-09-14 22:43:56,AST-1147,T1003.001,LSASS Memory Credential Dumping,High,16.175.74.249,Blocked,0,0
+EVT-47cb5949,2026-09-14 23:20:44,AST-1165,T1078,Valid Accounts,Medium,45.223.109.189,Blocked,0,0
+EVT-61dee434,2026-09-14 23:43:32,AST-1014,T1110.001,Password Guessing,Low,36.3.123.93,Alerted,0,0
+EVT-bc895bf3,2026-09-14 23:43:38,AST-1094,T1486,Data Encrypted for Impact (Ransomware),Critical,194.60.209.112,Blocked,0,0
+EVT-de092c56,2026-09-14 23:58:01,AST-1192,T1110.001,Password Guessing,Low,46.250.165.208,Allowed,0,0
+EVT-1379f340,2026-09-15 00:02:15,AST-1054,T1059.001,PowerShell Execution,Medium,152.204.208.43,Blocked,0,0
+EVT-5d1f5515,2026-09-15 00:02:54,AST-1033,T1078,Valid Accounts,Medium,90.224.100.217,Blocked,0,0
+EVT-369f2058,2026-09-15 00:23:29,AST-1018,T1078,Valid Accounts,Medium,46.233.151.104,Alerted,0,0
+EVT-7d99ca29,2026-09-15 01:23:37,AST-1248,T1059.001,PowerShell Execution,Medium,146.129.104.113,Blocked,0,0
+EVT-09f6dfb9,2026-09-15 01:25:22,AST-1112,T1486,Data Encrypted for Impact (Ransomware),Critical,137.56.210.243,Blocked,0,0
+EVT-495cb1b6,2026-09-15 02:13:27,AST-1212,T1078,Valid Accounts,Medium,56.170.152.103,Alerted,0,0
+EVT-d61e5fac,2026-09-15 03:05:19,AST-1271,T1078,Valid Accounts,Medium,196.174.234.120,Blocked,0,0
+EVT-57470012,2026-09-15 03:12:34,AST-1082,T1003.001,LSASS Memory Credential Dumping,High,73.113.37.54,Blocked,0,0
+EVT-592407be,2026-09-15 03:53:45,AST-1261,T1078,Valid Accounts,Medium,163.100.148.249,Blocked,0,0
+EVT-704bac6c,2026-09-15 04:07:06,AST-1089,T1486,Data Encrypted for Impact (Ransomware),Critical,76.7.126.251,Alerted,0,0
+EVT-a3b23282,2026-09-15 04:29:46,AST-1147,T1003.001,LSASS Memory Credential Dumping,High,105.116.176.178,Allowed,0,34821
+EVT-3a955eed,2026-09-15 04:54:20,AST-1225,T1110.001,Password Guessing,Low,178.105.101.190,Blocked,0,0
+EVT-d8cef325,2026-09-15 05:19:57,AST-1002,T1110.001,Password Guessing,Low,17.216.4.179,Alerted,0,0
+EVT-6fb6ffa5,2026-09-15 05:24:49,AST-1044,T1486,Data Encrypted for Impact (Ransomware),Critical,117.61.82.56,Alerted,0,0
+EVT-cf50d5ca,2026-09-15 06:39:07,AST-1014,T1003.001,LSASS Memory Credential Dumping,High,177.161.103.174,Alerted,0,0
+EVT-886aed9d,2026-09-15 07:48:34,AST-1003,T1486,Data Encrypted for Impact (Ransomware),Critical,73.88.48.86,Alerted,0,0
+EVT-cb14a230,2026-09-15 07:53:47,AST-1190,T1078,Valid Accounts,Medium,137.188.197.223,Alerted,0,0
+EVT-ff2746d0,2026-09-15 08:01:04,AST-1234,T1110.001,Password Guessing,Low,151.44.93.156,Blocked,0,0
+EVT-e36538e7,2026-09-15 08:07:43,AST-1034,T1486,Data Encrypted for Impact (Ransomware),Critical,209.16.46.105,Blocked,0,0
+EVT-4ced87ba,2026-09-15 08:11:09,AST-1217,T1078,Valid Accounts,Medium,105.80.132.251,Alerted,0,0
+EVT-58202035,2026-09-15 08:15:59,AST-1183,T1059.001,PowerShell Execution,Medium,24.222.171.246,Alerted,0,0
+EVT-a668f7c0,2026-09-15 10:01:24,AST-1168,T1486,Data Encrypted for Impact (Ransomware),Critical,197.41.131.146,Blocked,0,0
+EVT-e1db54bb,2026-09-15 10:02:39,AST-1153,T1078,Valid Accounts,Medium,106.253.29.161,Blocked,0,0
+EVT-cee29604,2026-09-15 10:29:42,AST-1028,T1078,Valid Accounts,Medium,195.49.95.101,Alerted,0,0
+EVT-7331c245,2026-09-15 10:32:22,AST-1153,T1110.001,Password Guessing,Low,120.194.71.229,Blocked,0,0
+EVT-9dca7c18,2026-09-15 11:12:18,AST-1292,T1059.001,PowerShell Execution,Medium,185.18.37.133,Allowed,0,0
+EVT-f516acb8,2026-09-15 11:13:44,AST-1110,T1059.001,PowerShell Execution,Medium,110.9.85.23,Alerted,0,0
+EVT-74993095,2026-09-15 11:17:50,AST-1258,T1486,Data Encrypted for Impact (Ransomware),Critical,96.214.200.167,Allowed,70,0
+EVT-97622a78,2026-09-15 11:18:28,AST-1290,T1059.001,PowerShell Execution,Medium,131.73.166.203,Blocked,0,0
+EVT-25d02d1c,2026-09-15 11:43:36,AST-1061,T1003.001,LSASS Memory Credential Dumping,High,181.118.21.219,Blocked,0,0
+EVT-a53390f3,2026-09-15 11:45:14,AST-1280,T1486,Data Encrypted for Impact (Ransomware),Critical,36.54.123.90,Allowed,19,0
+EVT-9f3ec87b,2026-09-15 12:21:05,AST-1184,T1110.001,Password Guessing,Low,105.150.200.65,Allowed,0,0
+EVT-2fd3366b,2026-09-15 12:49:35,AST-1010,T1003.001,LSASS Memory Credential Dumping,High,162.216.153.49,Allowed,0,10700
+EVT-9d5495d2,2026-09-15 13:06:32,AST-1075,T1059.001,PowerShell Execution,Medium,204.57.114.55,Blocked,0,0
+EVT-90ca45c4,2026-09-15 14:25:23,AST-1065,T1110.001,Password Guessing,Low,57.222.204.251,Allowed,0,0
+EVT-8ebb7e6d,2026-09-15 14:52:21,AST-1100,T1110.001,Password Guessing,Low,186.252.91.181,Alerted,0,0
+EVT-6452e4f9,2026-09-15 15:46:02,AST-1195,T1486,Data Encrypted for Impact (Ransomware),Critical,147.197.211.228,Blocked,0,0
+EVT-fea53a1e,2026-09-15 16:23:13,AST-1140,T1078,Valid Accounts,Medium,174.229.250.212,Blocked,0,0
+EVT-1796bd2f,2026-09-15 16:52:22,AST-1271,T1059.001,PowerShell Execution,Medium,95.108.213.177,Alerted,0,0
+EVT-5a7acd9e,2026-09-15 17:00:29,AST-1068,T1059.001,PowerShell Execution,Medium,141.206.244.112,Alerted,0,0
+EVT-4b2ae3b8,2026-09-15 17:02:03,AST-1220,T1059.001,PowerShell Execution,Medium,178.205.127.238,Alerted,0,0
+EVT-6b3cf692,2026-09-15 17:13:27,AST-1279,T1059.001,PowerShell Execution,Medium,15.61.36.215,Allowed,0,0
+EVT-c77fa638,2026-09-15 17:17:12,AST-1247,T1110.001,Password Guessing,Low,91.71.233.120,Blocked,0,0
+EVT-561fecff,2026-09-15 18:56:45,AST-1070,T1059.001,PowerShell Execution,Medium,38.44.204.87,Alerted,0,0
+EVT-5a8cbfd3,2026-09-15 19:12:27,AST-1258,T1486,Data Encrypted for Impact (Ransomware),Critical,162.36.7.110,Blocked,0,0
+EVT-4151074a,2026-09-15 19:52:23,AST-1094,T1110.001,Password Guessing,Low,214.205.113.118,Allowed,0,0
+EVT-2d9c5de7,2026-09-15 20:32:47,AST-1029,T1059.001,PowerShell Execution,Medium,50.49.144.182,Blocked,0,0
+EVT-73307766,2026-09-15 20:35:00,AST-1098,T1059.001,PowerShell Execution,Medium,197.145.234.136,Allowed,0,0
+EVT-8fb12ea7,2026-09-15 20:40:07,AST-1049,T1486,Data Encrypted for Impact (Ransomware),Critical,59.106.103.112,Alerted,0,0
+EVT-75a8a496,2026-09-15 20:49:47,AST-1153,T1059.001,PowerShell Execution,Medium,48.247.188.44,Alerted,0,0
+EVT-ce623611,2026-09-15 21:20:59,AST-1034,T1078,Valid Accounts,Medium,137.138.90.147,Allowed,0,0
+EVT-f02afba7,2026-09-15 21:24:20,AST-1144,T1059.001,PowerShell Execution,Medium,168.46.125.44,Allowed,0,0
+EVT-bf2649a2,2026-09-15 21:32:57,AST-1195,T1078,Valid Accounts,Medium,39.139.234.16,Blocked,0,0
+EVT-f37cf77f,2026-09-15 21:56:29,AST-1293,T1003.001,LSASS Memory Credential Dumping,High,145.237.124.217,Allowed,0,28809
+EVT-0c530f4d,2026-09-15 22:51:32,AST-1184,T1486,Data Encrypted for Impact (Ransomware),Critical,98.211.60.38,Blocked,0,0
+EVT-88e47203,2026-09-15 23:25:11,AST-1142,T1078,Valid Accounts,Medium,108.253.157.145,Alerted,0,0
+EVT-089c69ca,2026-09-15 23:48:11,AST-1257,T1110.001,Password Guessing,Low,195.167.96.99,Blocked,0,0
+EVT-7c9b2b58,2026-09-16 00:39:38,AST-1271,T1078,Valid Accounts,Medium,14.10.40.115,Blocked,0,0
+EVT-aa14ca87,2026-09-16 01:35:16,AST-1158,T1110.001,Password Guessing,Low,168.232.42.32,Blocked,0,0
+EVT-9694b3ae,2026-09-16 02:00:39,AST-1079,T1059.001,PowerShell Execution,Medium,50.119.22.9,Alerted,0,0
+EVT-80437c43,2026-09-16 02:10:43,AST-1178,T1059.001,PowerShell Execution,Medium,195.44.220.42,Allowed,0,0
+EVT-26043f25,2026-09-16 03:05:27,AST-1166,T1003.001,LSASS Memory Credential Dumping,High,215.208.206.145,Allowed,0,1186
+EVT-abfce25e,2026-09-16 04:11:36,AST-1292,T1110.001,Password Guessing,Low,85.6.240.160,Blocked,0,0
+EVT-3b5c2864,2026-09-16 04:33:28,AST-1058,T1486,Data Encrypted for Impact (Ransomware),Critical,174.63.183.148,Alerted,0,0
+EVT-b09577f1,2026-09-16 04:46:31,AST-1216,T1078,Valid Accounts,Medium,193.39.122.58,Alerted,0,0
+EVT-dcbd3398,2026-09-16 04:54:53,AST-1205,T1059.001,PowerShell Execution,Medium,26.48.199.74,Blocked,0,0
+EVT-48bad3b4,2026-09-16 07:03:17,AST-1102,T1110.001,Password Guessing,Low,134.59.87.239,Alerted,0,0
+EVT-0dfdea9a,2026-09-16 07:43:28,AST-1020,T1078,Valid Accounts,Medium,79.117.185.156,Allowed,0,0
+EVT-884351b1,2026-09-16 07:51:31,AST-1258,T1003.001,LSASS Memory Credential Dumping,High,83.11.101.149,Blocked,0,0
+EVT-607c421a,2026-09-16 07:51:40,AST-1220,T1078,Valid Accounts,Medium,85.56.227.4,Allowed,0,0
+EVT-8e646121,2026-09-16 08:42:14,AST-1217,T1059.001,PowerShell Execution,Medium,43.143.127.158,Alerted,0,0
+EVT-f2700687,2026-09-16 08:52:47,AST-1239,T1110.001,Password Guessing,Low,157.247.223.187,Blocked,0,0
+EVT-3b5e62d7,2026-09-16 09:00:40,AST-1095,T1110.001,Password Guessing,Low,90.41.150.32,Allowed,0,0
+EVT-d977bc10,2026-09-16 09:03:02,AST-1203,T1078,Valid Accounts,Medium,123.111.67.110,Blocked,0,0
+EVT-7473f6ff,2026-09-16 09:25:40,AST-1065,T1059.001,PowerShell Execution,Medium,167.21.173.179,Alerted,0,0
+EVT-8035acfb,2026-09-16 09:38:51,AST-1086,T1003.001,LSASS Memory Credential Dumping,High,180.42.126.165,Alerted,0,0
+EVT-10f13cb3,2026-09-16 09:44:17,AST-1133,T1003.001,LSASS Memory Credential Dumping,High,86.79.141.211,Allowed,0,13093
+EVT-0714deaa,2026-09-16 11:29:58,AST-1102,T1110.001,Password Guessing,Low,188.203.233.104,Blocked,0,0
+EVT-d27c2db6,2026-09-16 12:19:48,AST-1092,T1003.001,LSASS Memory Credential Dumping,High,27.165.94.54,Allowed,0,35824
+EVT-6889fb87,2026-09-16 12:30:40,AST-1232,T1059.001,PowerShell Execution,Medium,203.242.125.31,Blocked,0,0
+EVT-80472a52,2026-09-16 12:54:26,AST-1261,T1110.001,Password Guessing,Low,196.118.129.230,Allowed,0,0
+EVT-b852e177,2026-09-16 12:56:12,AST-1142,T1486,Data Encrypted for Impact (Ransomware),Critical,44.220.213.67,Alerted,0,0
+EVT-4a65ca40,2026-09-16 13:10:01,AST-1033,T1078,Valid Accounts,Medium,42.129.195.114,Blocked,0,0
+EVT-fcecd590,2026-09-16 13:18:15,AST-1203,T1003.001,LSASS Memory Credential Dumping,High,223.76.123.83,Allowed,0,24772
+EVT-08e56e03,2026-09-16 14:11:23,AST-1258,T1059.001,PowerShell Execution,Medium,12.92.107.250,Allowed,0,0
+EVT-82a036be,2026-09-16 14:14:45,AST-1121,T1110.001,Password Guessing,Low,217.183.31.233,Alerted,0,0
+EVT-ba381b6a,2026-09-16 14:24:28,AST-1290,T1078,Valid Accounts,Medium,88.105.65.245,Alerted,0,0
+EVT-49ff8884,2026-09-16 14:27:53,AST-1299,T1486,Data Encrypted for Impact (Ransomware),Critical,72.100.173.240,Allowed,29,0
+EVT-0ce34ffb,2026-09-16 14:38:40,AST-1031,T1003.001,LSASS Memory Credential Dumping,High,154.137.97.240,Blocked,0,0
+EVT-70572816,2026-09-16 14:42:54,AST-1164,T1486,Data Encrypted for Impact (Ransomware),Critical,111.202.125.163,Allowed,49,0
+EVT-82bcec5e,2026-09-16 14:49:30,AST-1080,T1078,Valid Accounts,Medium,100.245.128.253,Blocked,0,0
+EVT-da06fb4b,2026-09-16 14:50:46,AST-1013,T1078,Valid Accounts,Medium,77.74.165.67,Blocked,0,0
+EVT-edc44e4b,2026-09-16 15:01:46,AST-1153,T1078,Valid Accounts,Medium,15.240.231.214,Blocked,0,0
+EVT-c3885763,2026-09-16 15:12:06,AST-1269,T1110.001,Password Guessing,Low,113.138.160.146,Allowed,0,0
+EVT-ba8e159a,2026-09-16 15:43:40,AST-1020,T1110.001,Password Guessing,Low,176.4.127.185,Blocked,0,0
+EVT-2715e757,2026-09-16 15:51:08,AST-1217,T1110.001,Password Guessing,Low,84.63.17.60,Blocked,0,0
+EVT-9dc31d69,2026-09-16 16:20:03,AST-1092,T1486,Data Encrypted for Impact (Ransomware),Critical,19.224.115.44,Alerted,0,0
+EVT-f53c8658,2026-09-16 16:34:34,AST-1122,T1059.001,PowerShell Execution,Medium,152.26.54.228,Alerted,0,0
+EVT-bdf4d80a,2026-09-16 16:49:05,AST-1120,T1486,Data Encrypted for Impact (Ransomware),Critical,167.170.53.42,Allowed,26,0
+EVT-670157a1,2026-09-16 17:04:04,AST-1113,T1078,Valid Accounts,Medium,19.95.153.52,Alerted,0,0
+EVT-05821d5d,2026-09-16 18:32:39,AST-1216,T1003.001,LSASS Memory Credential Dumping,High,151.124.202.206,Allowed,0,680
+EVT-7153a13e,2026-09-16 18:54:37,AST-1173,T1486,Data Encrypted for Impact (Ransomware),Critical,101.10.101.85,Allowed,27,0
+EVT-c93b7966,2026-09-16 19:47:58,AST-1088,T1003.001,LSASS Memory Credential Dumping,High,72.22.103.88,Blocked,0,0
+EVT-79358c16,2026-09-16 20:05:37,AST-1154,T1059.001,PowerShell Execution,Medium,121.246.70.35,Allowed,0,0
+EVT-7f6c45d6,2026-09-16 21:03:51,AST-1176,T1078,Valid Accounts,Medium,11.107.173.80,Alerted,0,0
+EVT-ceb5c145,2026-09-16 21:16:19,AST-1117,T1059.001,PowerShell Execution,Medium,129.176.253.28,Alerted,0,0
+EVT-c69e9663,2026-09-16 21:17:29,AST-1222,T1110.001,Password Guessing,Low,98.112.242.113,Blocked,0,0
+EVT-9f0993d9,2026-09-16 21:21:02,AST-1124,T1110.001,Password Guessing,Low,54.24.27.253,Alerted,0,0
+EVT-6746d599,2026-09-16 22:58:07,AST-1268,T1059.001,PowerShell Execution,Medium,164.251.201.56,Allowed,0,0
+EVT-541a92bc,2026-09-16 23:01:56,AST-1194,T1110.001,Password Guessing,Low,198.227.159.54,Blocked,0,0
+EVT-a600c6b4,2026-09-16 23:09:52,AST-1088,T1003.001,LSASS Memory Credential Dumping,High,134.36.8.55,Alerted,0,0
+EVT-6f09d9c6,2026-09-16 23:20:52,AST-1035,T1110.001,Password Guessing,Low,13.225.166.120,Allowed,0,0
+EVT-20327402,2026-09-16 23:25:46,AST-1011,T1110.001,Password Guessing,Low,94.142.57.6,Allowed,0,0
+EVT-3f28135e,2026-09-17 00:21:55,AST-1004,T1003.001,LSASS Memory Credential Dumping,High,191.31.252.163,Blocked,0,0
+EVT-dd2fb0ab,2026-09-17 00:31:16,AST-1038,T1110.001,Password Guessing,Low,122.149.95.173,Blocked,0,0
+EVT-725a9546,2026-09-17 00:44:07,AST-1214,T1110.001,Password Guessing,Low,13.211.87.188,Blocked,0,0
+EVT-ca660ef0,2026-09-17 00:59:31,AST-1043,T1003.001,LSASS Memory Credential Dumping,High,129.17.226.103,Blocked,0,0
+EVT-7bf1c0a3,2026-09-17 01:16:43,AST-1092,T1110.001,Password Guessing,Low,213.24.167.23,Blocked,0,0
+EVT-2b54c491,2026-09-17 01:26:10,AST-1274,T1078,Valid Accounts,Medium,70.191.78.28,Allowed,0,0
+EVT-267d2fc1,2026-09-17 01:40:39,AST-1141,T1003.001,LSASS Memory Credential Dumping,High,215.194.244.197,Alerted,0,0
+EVT-30db15a7,2026-09-17 01:58:34,AST-1044,T1059.001,PowerShell Execution,Medium,82.44.94.192,Blocked,0,0
+EVT-8a7d61a3,2026-09-17 02:10:19,AST-1227,T1486,Data Encrypted for Impact (Ransomware),Critical,136.23.10.29,Blocked,0,0
+EVT-e9078efd,2026-09-17 02:20:37,AST-1057,T1078,Valid Accounts,Medium,72.21.211.94,Blocked,0,0
+EVT-49f72cac,2026-09-17 02:58:46,AST-1065,T1486,Data Encrypted for Impact (Ransomware),Critical,208.19.120.206,Alerted,0,0
+EVT-263793fd,2026-09-17 02:59:43,AST-1195,T1486,Data Encrypted for Impact (Ransomware),Critical,78.135.212.183,Blocked,0,0
+EVT-7d2dc435,2026-09-17 03:15:58,AST-1034,T1486,Data Encrypted for Impact (Ransomware),Critical,29.158.109.5,Blocked,0,0
+EVT-06fa88fa,2026-09-17 03:28:19,AST-1133,T1486,Data Encrypted for Impact (Ransomware),Critical,175.72.204.39,Allowed,44,0
+EVT-62176464,2026-09-17 03:44:13,AST-1249,T1078,Valid Accounts,Medium,176.174.88.91,Blocked,0,0
+EVT-842d8543,2026-09-17 04:22:32,AST-1274,T1003.001,LSASS Memory Credential Dumping,High,157.153.140.2,Blocked,0,0
+EVT-829b8eb7,2026-09-17 04:57:23,AST-1178,T1486,Data Encrypted for Impact (Ransomware),Critical,115.117.51.165,Alerted,0,0
+EVT-7faec292,2026-09-17 05:12:46,AST-1117,T1110.001,Password Guessing,Low,128.58.184.136,Blocked,0,0
+EVT-b5f06138,2026-09-17 06:14:02,AST-1122,T1110.001,Password Guessing,Low,85.71.69.242,Blocked,0,0
+EVT-a679f82d,2026-09-17 06:14:26,AST-1285,T1059.001,PowerShell Execution,Medium,221.151.111.119,Blocked,0,0
+EVT-f4047f87,2026-09-17 06:19:10,AST-1268,T1078,Valid Accounts,Medium,109.78.47.104,Alerted,0,0
+EVT-7e94b81d,2026-09-17 06:44:52,AST-1054,T1486,Data Encrypted for Impact (Ransomware),Critical,118.3.170.252,Blocked,0,0
+EVT-2ff11b61,2026-09-17 07:50:30,AST-1076,T1486,Data Encrypted for Impact (Ransomware),Critical,64.238.214.225,Alerted,0,0
+EVT-4dbd1e6f,2026-09-17 07:52:11,AST-1123,T1486,Data Encrypted for Impact (Ransomware),Critical,61.156.132.60,Alerted,0,0
+EVT-71cd7f47,2026-09-17 08:08:43,AST-1238,T1486,Data Encrypted for Impact (Ransomware),Critical,149.132.53.157,Alerted,0,0
+EVT-7324a001,2026-09-17 08:46:52,AST-1132,T1003.001,LSASS Memory Credential Dumping,High,13.220.117.140,Blocked,0,0
+EVT-83c5f4f9,2026-09-17 09:37:40,AST-1052,T1078,Valid Accounts,Medium,152.198.136.143,Alerted,0,0
+EVT-d4769368,2026-09-17 11:07:20,AST-1220,T1003.001,LSASS Memory Credential Dumping,High,46.13.33.163,Alerted,0,0
+EVT-743e7586,2026-09-17 11:30:34,AST-1002,T1078,Valid Accounts,Medium,41.238.188.247,Allowed,0,0
+EVT-cd9202a3,2026-09-17 11:44:02,AST-1244,T1059.001,PowerShell Execution,Medium,202.136.170.162,Blocked,0,0
+EVT-de761c1f,2026-09-17 11:54:56,AST-1190,T1003.001,LSASS Memory Credential Dumping,High,140.76.22.181,Alerted,0,0
+EVT-5228ec04,2026-09-17 13:30:22,AST-1084,T1110.001,Password Guessing,Low,27.165.88.83,Alerted,0,0
+EVT-aed071b7,2026-09-17 13:40:05,AST-1094,T1059.001,PowerShell Execution,Medium,183.16.50.46,Allowed,0,0
+EVT-c6b7f14d,2026-09-17 13:49:05,AST-1083,T1486,Data Encrypted for Impact (Ransomware),Critical,155.75.29.35,Alerted,0,0
+EVT-e139ca42,2026-09-17 15:00:20,AST-1045,T1486,Data Encrypted for Impact (Ransomware),Critical,139.128.135.191,Alerted,0,0
+EVT-aae714e8,2026-09-17 15:07:13,AST-1252,T1486,Data Encrypted for Impact (Ransomware),Critical,141.215.151.23,Blocked,0,0
+EVT-22c36469,2026-09-17 16:11:23,AST-1186,T1486,Data Encrypted for Impact (Ransomware),Critical,18.1.110.137,Alerted,0,0
+EVT-a14d8dbc,2026-09-17 16:47:38,AST-1271,T1059.001,PowerShell Execution,Medium,197.15.164.72,Allowed,0,0
+EVT-80773a8e,2026-09-17 17:22:35,AST-1180,T1110.001,Password Guessing,Low,108.171.5.140,Blocked,0,0
+EVT-d697cba9,2026-09-17 17:23:50,AST-1042,T1078,Valid Accounts,Medium,193.63.146.216,Allowed,0,0
+EVT-588e50d8,2026-09-17 17:27:50,AST-1291,T1110.001,Password Guessing,Low,161.92.113.237,Alerted,0,0
+EVT-0be7eed8,2026-09-17 17:33:14,AST-1182,T1110.001,Password Guessing,Low,33.80.197.196,Blocked,0,0
+EVT-2a6de20d,2026-09-17 18:21:16,AST-1093,T1059.001,PowerShell Execution,Medium,44.32.38.114,Allowed,0,0
+EVT-979d77c5,2026-09-17 18:34:03,AST-1062,T1110.001,Password Guessing,Low,152.87.216.128,Allowed,0,0
+EVT-9d9ca021,2026-09-17 18:42:40,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,106.22.27.183,Blocked,0,0
+EVT-6be66701,2026-09-17 19:29:54,AST-1098,T1059.001,PowerShell Execution,Medium,118.175.217.126,Alerted,0,0
+EVT-532a5f34,2026-09-17 19:38:50,AST-1085,T1078,Valid Accounts,Medium,214.244.64.74,Blocked,0,0
+EVT-2c2db4e1,2026-09-17 20:01:48,AST-1007,T1003.001,LSASS Memory Credential Dumping,High,54.141.191.237,Allowed,0,7162
+EVT-d819373c,2026-09-17 20:06:12,AST-1016,T1059.001,PowerShell Execution,Medium,103.222.235.48,Blocked,0,0
+EVT-5bca83d1,2026-09-17 20:29:15,AST-1109,T1059.001,PowerShell Execution,Medium,195.72.86.243,Allowed,0,0
+EVT-e1b1aa91,2026-09-17 21:21:11,AST-1047,T1078,Valid Accounts,Medium,180.13.109.114,Alerted,0,0
+EVT-ab79e851,2026-09-17 21:29:21,AST-1029,T1486,Data Encrypted for Impact (Ransomware),Critical,137.158.38.91,Alerted,0,0
+EVT-4b2c58ab,2026-09-17 22:14:41,AST-1237,T1486,Data Encrypted for Impact (Ransomware),Critical,184.34.158.113,Allowed,51,0
+EVT-8f636097,2026-09-17 22:19:47,AST-1072,T1003.001,LSASS Memory Credential Dumping,High,111.189.113.252,Blocked,0,0
+EVT-552aa3f1,2026-09-17 23:43:41,AST-1237,T1003.001,LSASS Memory Credential Dumping,High,82.63.161.5,Allowed,0,28325
+EVT-d37aed57,2026-09-17 23:49:43,AST-1180,T1110.001,Password Guessing,Low,130.48.84.254,Blocked,0,0
+EVT-cebdd6ab,2026-09-18 00:10:26,AST-1107,T1078,Valid Accounts,Medium,167.89.208.193,Alerted,0,0
+EVT-e52a148b,2026-09-18 00:13:46,AST-1133,T1078,Valid Accounts,Medium,62.91.220.19,Allowed,0,0
+EVT-bbc2e634,2026-09-18 00:55:42,AST-1078,T1078,Valid Accounts,Medium,40.254.66.188,Alerted,0,0
+EVT-b2d5de91,2026-09-18 01:12:11,AST-1096,T1059.001,PowerShell Execution,Medium,89.64.214.6,Allowed,0,0
+EVT-657c29c9,2026-09-18 02:16:49,AST-1268,T1078,Valid Accounts,Medium,68.64.82.70,Allowed,0,0
+EVT-0fe64fb7,2026-09-18 02:28:01,AST-1248,T1110.001,Password Guessing,Low,56.62.34.160,Alerted,0,0
+EVT-3fb4ecd2,2026-09-18 02:34:33,AST-1098,T1486,Data Encrypted for Impact (Ransomware),Critical,147.4.214.174,Blocked,0,0
+EVT-8195953b,2026-09-18 04:06:13,AST-1007,T1078,Valid Accounts,Medium,154.93.111.229,Blocked,0,0
+EVT-1ee4d77e,2026-09-18 04:07:43,AST-1182,T1110.001,Password Guessing,Low,44.67.179.80,Allowed,0,0
+EVT-3b1100c1,2026-09-18 04:08:45,AST-1119,T1110.001,Password Guessing,Low,87.245.155.22,Alerted,0,0
+EVT-d808dce1,2026-09-18 04:10:45,AST-1268,T1078,Valid Accounts,Medium,217.224.165.156,Blocked,0,0
+EVT-1d39a4be,2026-09-18 04:12:23,AST-1205,T1003.001,LSASS Memory Credential Dumping,High,140.158.187.239,Alerted,0,0
+EVT-c0eac302,2026-09-18 04:54:04,AST-1033,T1486,Data Encrypted for Impact (Ransomware),Critical,212.156.143.88,Blocked,0,0
+EVT-2ece7643,2026-09-18 05:35:39,AST-1193,T1078,Valid Accounts,Medium,201.19.21.89,Blocked,0,0
+EVT-a745363e,2026-09-18 05:53:42,AST-1060,T1078,Valid Accounts,Medium,56.171.180.254,Blocked,0,0
+EVT-d3b69e3b,2026-09-18 06:37:48,AST-1156,T1059.001,PowerShell Execution,Medium,88.99.196.16,Allowed,0,0
+EVT-01d2472f,2026-09-18 07:11:24,AST-1214,T1059.001,PowerShell Execution,Medium,120.172.200.3,Blocked,0,0
+EVT-316345e7,2026-09-18 07:29:56,AST-1286,T1003.001,LSASS Memory Credential Dumping,High,96.99.252.11,Blocked,0,0
+EVT-61e8f824,2026-09-18 08:02:45,AST-1012,T1486,Data Encrypted for Impact (Ransomware),Critical,131.72.202.170,Blocked,0,0
+EVT-140a9473,2026-09-18 08:09:45,AST-1198,T1003.001,LSASS Memory Credential Dumping,High,84.39.181.180,Alerted,0,0
+EVT-70b5cc90,2026-09-18 09:15:23,AST-1298,T1078,Valid Accounts,Medium,180.192.254.91,Allowed,0,0
+EVT-c7eaf483,2026-09-18 09:51:08,AST-1057,T1486,Data Encrypted for Impact (Ransomware),Critical,80.166.12.150,Alerted,0,0
+EVT-d66beb60,2026-09-18 10:12:18,AST-1025,T1059.001,PowerShell Execution,Medium,64.55.234.105,Blocked,0,0
+EVT-c19a139d,2026-09-18 10:28:58,AST-1142,T1059.001,PowerShell Execution,Medium,40.188.73.6,Alerted,0,0
+EVT-cc69c862,2026-09-18 11:14:57,AST-1070,T1003.001,LSASS Memory Credential Dumping,High,213.199.65.5,Blocked,0,0
+EVT-03b2b772,2026-09-18 11:20:37,AST-1016,T1078,Valid Accounts,Medium,153.104.65.45,Blocked,0,0
+EVT-d3747a3a,2026-09-18 11:27:42,AST-1266,T1059.001,PowerShell Execution,Medium,36.132.205.220,Blocked,0,0
+EVT-3d219184,2026-09-18 11:30:39,AST-1272,T1486,Data Encrypted for Impact (Ransomware),Critical,181.81.110.10,Blocked,0,0
+EVT-f909ffe1,2026-09-18 11:31:05,AST-1262,T1110.001,Password Guessing,Low,179.59.71.226,Blocked,0,0
+EVT-08c19f7b,2026-09-18 11:45:46,AST-1097,T1003.001,LSASS Memory Credential Dumping,High,83.42.226.217,Allowed,0,7797
+EVT-58fdd6cc,2026-09-18 11:51:28,AST-1265,T1110.001,Password Guessing,Low,66.124.12.236,Alerted,0,0
+EVT-9c8d6914,2026-09-18 12:55:47,AST-1220,T1003.001,LSASS Memory Credential Dumping,High,183.194.35.138,Allowed,0,24457
+EVT-63b55e77,2026-09-18 13:31:10,AST-1287,T1486,Data Encrypted for Impact (Ransomware),Critical,200.152.177.113,Alerted,0,0
+EVT-373a5196,2026-09-18 13:45:10,AST-1078,T1486,Data Encrypted for Impact (Ransomware),Critical,142.48.165.57,Alerted,0,0
+EVT-22cad630,2026-09-18 13:57:52,AST-1297,T1003.001,LSASS Memory Credential Dumping,High,46.82.229.201,Alerted,0,0
+EVT-3c4a6ba1,2026-09-18 14:50:48,AST-1196,T1059.001,PowerShell Execution,Medium,176.114.118.6,Alerted,0,0
+EVT-741e1e66,2026-09-18 15:01:51,AST-1132,T1486,Data Encrypted for Impact (Ransomware),Critical,109.174.186.76,Blocked,0,0
+EVT-0b935ac3,2026-09-18 15:23:03,AST-1205,T1059.001,PowerShell Execution,Medium,193.124.119.194,Alerted,0,0
+EVT-ad5145c0,2026-09-18 16:51:27,AST-1174,T1003.001,LSASS Memory Credential Dumping,High,39.49.202.84,Blocked,0,0
+EVT-e5ae0995,2026-09-18 17:03:20,AST-1077,T1059.001,PowerShell Execution,Medium,158.221.119.164,Blocked,0,0
+EVT-4a08988e,2026-09-18 17:24:21,AST-1046,T1003.001,LSASS Memory Credential Dumping,High,156.207.126.136,Allowed,0,15797
+EVT-f2467755,2026-09-18 18:19:38,AST-1131,T1486,Data Encrypted for Impact (Ransomware),Critical,215.130.139.174,Blocked,0,0
+EVT-8aad3cbb,2026-09-18 18:52:30,AST-1078,T1110.001,Password Guessing,Low,95.68.136.183,Allowed,0,0
+EVT-497fb424,2026-09-18 19:04:09,AST-1012,T1110.001,Password Guessing,Low,223.170.53.119,Blocked,0,0
+EVT-42c04f93,2026-09-18 19:12:31,AST-1168,T1003.001,LSASS Memory Credential Dumping,High,196.169.43.223,Allowed,0,46556
+EVT-549c4c35,2026-09-18 19:38:04,AST-1296,T1110.001,Password Guessing,Low,57.24.96.59,Alerted,0,0
+EVT-7c55cbbd,2026-09-18 19:39:38,AST-1118,T1078,Valid Accounts,Medium,216.136.250.191,Allowed,0,0
+EVT-94459274,2026-09-18 20:02:45,AST-1099,T1110.001,Password Guessing,Low,131.76.37.78,Allowed,0,0
+EVT-5fdce5c6,2026-09-18 20:13:07,AST-1283,T1003.001,LSASS Memory Credential Dumping,High,193.237.248.145,Blocked,0,0
+EVT-af83617a,2026-09-18 20:16:20,AST-1182,T1486,Data Encrypted for Impact (Ransomware),Critical,72.236.62.113,Blocked,0,0
+EVT-00f6afb3,2026-09-18 22:25:31,AST-1235,T1078,Valid Accounts,Medium,70.220.242.232,Alerted,0,0
+EVT-f1018609,2026-09-18 22:37:32,AST-1159,T1059.001,PowerShell Execution,Medium,152.69.89.159,Blocked,0,0
+EVT-777cc1e5,2026-09-18 22:57:03,AST-1207,T1486,Data Encrypted for Impact (Ransomware),Critical,177.208.69.33,Alerted,0,0
+EVT-f4d67154,2026-09-18 23:01:27,AST-1039,T1486,Data Encrypted for Impact (Ransomware),Critical,201.130.32.68,Alerted,0,0
+EVT-fc27c34e,2026-09-18 23:21:13,AST-1217,T1078,Valid Accounts,Medium,116.90.119.60,Alerted,0,0
+EVT-ef7eb3e6,2026-09-18 23:21:34,AST-1173,T1110.001,Password Guessing,Low,115.164.164.94,Blocked,0,0
+EVT-8c91ce31,2026-09-18 23:35:50,AST-1245,T1486,Data Encrypted for Impact (Ransomware),Critical,93.44.34.15,Blocked,0,0
+EVT-ea2d88d2,2026-09-19 00:07:18,AST-1237,T1486,Data Encrypted for Impact (Ransomware),Critical,75.218.59.210,Blocked,0,0
+EVT-feb6e537,2026-09-19 00:10:02,AST-1271,T1078,Valid Accounts,Medium,90.232.49.168,Allowed,0,0
+EVT-2e5dc319,2026-09-19 00:45:17,AST-1075,T1003.001,LSASS Memory Credential Dumping,High,12.201.236.57,Allowed,0,12911
+EVT-d428eb53,2026-09-19 00:56:50,AST-1017,T1003.001,LSASS Memory Credential Dumping,High,84.87.138.103,Blocked,0,0
+EVT-a7c74464,2026-09-19 01:07:19,AST-1069,T1078,Valid Accounts,Medium,181.137.75.77,Alerted,0,0
+EVT-91e16731,2026-09-19 01:30:16,AST-1297,T1003.001,LSASS Memory Credential Dumping,High,53.202.130.56,Alerted,0,0
+EVT-3d582b46,2026-09-19 01:39:22,AST-1292,T1003.001,LSASS Memory Credential Dumping,High,170.201.54.1,Alerted,0,0
+EVT-72905a73,2026-09-19 02:30:10,AST-1217,T1110.001,Password Guessing,Low,75.137.13.213,Alerted,0,0
+EVT-66f2c008,2026-09-19 03:40:13,AST-1109,T1486,Data Encrypted for Impact (Ransomware),Critical,133.184.50.99,Blocked,0,0
+EVT-f7b88b9f,2026-09-19 03:40:43,AST-1016,T1078,Valid Accounts,Medium,179.176.169.105,Blocked,0,0
+EVT-31ecd4e7,2026-09-19 04:40:12,AST-1249,T1059.001,PowerShell Execution,Medium,125.172.132.153,Alerted,0,0
+EVT-2ffdde86,2026-09-19 04:59:18,AST-1236,T1110.001,Password Guessing,Low,13.174.140.52,Blocked,0,0
+EVT-bfbf657f,2026-09-19 05:13:25,AST-1056,T1110.001,Password Guessing,Low,31.216.4.131,Blocked,0,0
+EVT-bb6b2c3b,2026-09-19 05:17:50,AST-1158,T1078,Valid Accounts,Medium,191.90.187.145,Blocked,0,0
+EVT-b8c47778,2026-09-19 05:18:31,AST-1203,T1003.001,LSASS Memory Credential Dumping,High,53.167.245.239,Alerted,0,0
+EVT-90918113,2026-09-19 05:30:11,AST-1146,T1078,Valid Accounts,Medium,195.234.108.65,Alerted,0,0
+EVT-ce41f248,2026-09-19 05:45:10,AST-1010,T1486,Data Encrypted for Impact (Ransomware),Critical,160.65.17.249,Alerted,0,0
+EVT-7bea9969,2026-09-19 05:51:25,AST-1296,T1486,Data Encrypted for Impact (Ransomware),Critical,205.125.40.50,Allowed,46,0
+EVT-51591d45,2026-09-19 05:57:49,AST-1008,T1003.001,LSASS Memory Credential Dumping,High,137.194.109.186,Blocked,0,0
+EVT-c466cfa4,2026-09-19 06:07:33,AST-1045,T1110.001,Password Guessing,Low,11.123.140.176,Alerted,0,0
+EVT-802c48ce,2026-09-19 06:27:15,AST-1161,T1059.001,PowerShell Execution,Medium,205.121.77.106,Blocked,0,0
+EVT-1b662989,2026-09-19 07:17:21,AST-1271,T1078,Valid Accounts,Medium,221.243.146.252,Allowed,0,0
+EVT-4f32daa9,2026-09-19 07:50:37,AST-1224,T1078,Valid Accounts,Medium,223.99.131.121,Allowed,0,0
+EVT-ec4143b6,2026-09-19 08:46:11,AST-1139,T1003.001,LSASS Memory Credential Dumping,High,111.227.122.106,Blocked,0,0
+EVT-42271ae6,2026-09-19 10:04:36,AST-1054,T1078,Valid Accounts,Medium,84.185.151.158,Allowed,0,0
+EVT-5cd7535e,2026-09-19 10:08:14,AST-1257,T1003.001,LSASS Memory Credential Dumping,High,194.117.1.41,Allowed,0,3902
+EVT-b88c7075,2026-09-19 10:20:31,AST-1271,T1078,Valid Accounts,Medium,33.41.63.29,Allowed,0,0
+EVT-6149f197,2026-09-19 11:14:49,AST-1211,T1486,Data Encrypted for Impact (Ransomware),Critical,148.83.21.1,Alerted,0,0
+EVT-53388c9a,2026-09-19 11:37:40,AST-1217,T1110.001,Password Guessing,Low,155.215.21.64,Blocked,0,0
+EVT-ac874576,2026-09-19 11:45:38,AST-1252,T1059.001,PowerShell Execution,Medium,51.135.96.193,Alerted,0,0
+EVT-e48a7b36,2026-09-19 11:54:23,AST-1176,T1003.001,LSASS Memory Credential Dumping,High,215.60.25.30,Alerted,0,0
+EVT-294fce41,2026-09-19 12:15:28,AST-1176,T1003.001,LSASS Memory Credential Dumping,High,25.63.1.252,Blocked,0,0
+EVT-1b65d3db,2026-09-19 12:23:57,AST-1188,T1059.001,PowerShell Execution,Medium,106.185.30.170,Blocked,0,0
+EVT-193024a6,2026-09-19 12:25:17,AST-1220,T1003.001,LSASS Memory Credential Dumping,High,131.238.204.89,Blocked,0,0
+EVT-59ea3167,2026-09-19 13:01:10,AST-1271,T1078,Valid Accounts,Medium,173.186.44.189,Blocked,0,0
+EVT-f0fdea7f,2026-09-19 13:11:13,AST-1189,T1059.001,PowerShell Execution,Medium,14.233.254.48,Blocked,0,0
+EVT-22120aa3,2026-09-19 13:21:25,AST-1211,T1003.001,LSASS Memory Credential Dumping,High,155.73.105.132,Blocked,0,0
+EVT-74bdbddd,2026-09-19 13:27:18,AST-1239,T1078,Valid Accounts,Medium,199.174.238.21,Blocked,0,0
+EVT-b1e9e5ff,2026-09-19 13:31:56,AST-1258,T1110.001,Password Guessing,Low,144.4.20.162,Blocked,0,0
+EVT-076a35f7,2026-09-19 13:52:47,AST-1173,T1003.001,LSASS Memory Credential Dumping,High,131.121.201.101,Blocked,0,0
+EVT-f6567a32,2026-09-19 14:05:54,AST-1192,T1003.001,LSASS Memory Credential Dumping,High,91.157.112.69,Allowed,0,17037
+EVT-b5eec153,2026-09-19 14:05:58,AST-1216,T1059.001,PowerShell Execution,Medium,200.209.216.97,Allowed,0,0
+EVT-a6c92074,2026-09-19 14:31:00,AST-1110,T1110.001,Password Guessing,Low,37.82.250.236,Alerted,0,0
+EVT-db90b9de,2026-09-19 14:37:36,AST-1228,T1110.001,Password Guessing,Low,173.119.4.126,Blocked,0,0
+EVT-e9fcc928,2026-09-19 14:54:33,AST-1092,T1110.001,Password Guessing,Low,214.67.37.111,Alerted,0,0
+EVT-250217d9,2026-09-19 15:18:01,AST-1183,T1078,Valid Accounts,Medium,199.205.83.67,Alerted,0,0
+EVT-d983b6c7,2026-09-19 15:31:47,AST-1088,T1110.001,Password Guessing,Low,67.239.119.120,Alerted,0,0
+EVT-4e068d02,2026-09-19 17:07:13,AST-1155,T1110.001,Password Guessing,Low,153.203.117.179,Allowed,0,0
+EVT-9437abd2,2026-09-19 17:18:56,AST-1107,T1003.001,LSASS Memory Credential Dumping,High,49.39.157.63,Alerted,0,0
+EVT-07eb62b6,2026-09-19 17:23:55,AST-1251,T1003.001,LSASS Memory Credential Dumping,High,194.44.119.48,Alerted,0,0
+EVT-604f722c,2026-09-19 17:24:31,AST-1106,T1003.001,LSASS Memory Credential Dumping,High,145.175.143.5,Alerted,0,0
+EVT-db926f96,2026-09-19 17:31:17,AST-1178,T1059.001,PowerShell Execution,Medium,47.54.14.168,Alerted,0,0
+EVT-7cffc92b,2026-09-19 17:53:14,AST-1213,T1003.001,LSASS Memory Credential Dumping,High,36.210.150.149,Alerted,0,0
+EVT-4963e1d3,2026-09-19 18:16:20,AST-1144,T1059.001,PowerShell Execution,Medium,122.220.214.21,Blocked,0,0
+EVT-b78ab6b8,2026-09-19 18:48:40,AST-1073,T1110.001,Password Guessing,Low,131.110.78.254,Allowed,0,0
+EVT-c84845fe,2026-09-19 19:33:07,AST-1205,T1078,Valid Accounts,Medium,45.32.199.10,Alerted,0,0
+EVT-514dc5c1,2026-09-19 19:34:09,AST-1039,T1486,Data Encrypted for Impact (Ransomware),Critical,187.103.16.132,Alerted,0,0
+EVT-a3e2f782,2026-09-19 19:43:53,AST-1178,T1486,Data Encrypted for Impact (Ransomware),Critical,22.39.62.10,Blocked,0,0
+EVT-2d1681bb,2026-09-19 19:44:02,AST-1271,T1110.001,Password Guessing,Low,25.147.134.39,Blocked,0,0
+EVT-4f4060df,2026-09-19 20:00:07,AST-1200,T1486,Data Encrypted for Impact (Ransomware),Critical,25.115.74.110,Allowed,41,0
+EVT-7de123a2,2026-09-19 20:03:08,AST-1136,T1003.001,LSASS Memory Credential Dumping,High,119.65.203.231,Alerted,0,0
+EVT-f3767e3f,2026-09-19 22:09:32,AST-1016,T1078,Valid Accounts,Medium,89.115.82.99,Blocked,0,0
+EVT-f5afa56f,2026-09-19 22:46:56,AST-1153,T1003.001,LSASS Memory Credential Dumping,High,68.124.196.112,Alerted,0,0
+EVT-fa26f892,2026-09-19 23:00:51,AST-1274,T1486,Data Encrypted for Impact (Ransomware),Critical,155.17.33.191,Alerted,0,0
+EVT-64bea355,2026-09-19 23:07:45,AST-1275,T1003.001,LSASS Memory Credential Dumping,High,170.96.204.248,Blocked,0,0
+EVT-ec7762f3,2026-09-20 00:19:34,AST-1068,T1059.001,PowerShell Execution,Medium,95.192.9.23,Blocked,0,0
+EVT-8cbc4355,2026-09-20 00:50:05,AST-1014,T1059.001,PowerShell Execution,Medium,86.126.199.69,Allowed,0,0
+EVT-495c4093,2026-09-20 00:50:51,AST-1181,T1003.001,LSASS Memory Credential Dumping,High,80.35.129.232,Alerted,0,0
+EVT-39bd96f2,2026-09-20 00:54:06,AST-1287,T1059.001,PowerShell Execution,Medium,145.108.248.220,Allowed,0,0
+EVT-df59b1cb,2026-09-20 01:02:46,AST-1228,T1486,Data Encrypted for Impact (Ransomware),Critical,203.139.27.126,Alerted,0,0
+EVT-b3d61faf,2026-09-20 01:32:07,AST-1064,T1003.001,LSASS Memory Credential Dumping,High,119.170.69.4,Alerted,0,0
+EVT-ca954244,2026-09-20 03:33:02,AST-1123,T1003.001,LSASS Memory Credential Dumping,High,157.67.169.171,Alerted,0,0
+EVT-526b1b57,2026-09-20 03:46:20,AST-1274,T1059.001,PowerShell Execution,Medium,141.232.160.24,Allowed,0,0
+EVT-9314a358,2026-09-20 04:18:59,AST-1204,T1078,Valid Accounts,Medium,33.189.7.24,Alerted,0,0
+EVT-cb8088e7,2026-09-20 05:13:17,AST-1245,T1003.001,LSASS Memory Credential Dumping,High,75.178.44.98,Allowed,0,36549
+EVT-9d612762,2026-09-20 05:24:19,AST-1252,T1078,Valid Accounts,Medium,99.110.82.165,Alerted,0,0
+EVT-243813c2,2026-09-20 06:32:15,AST-1266,T1059.001,PowerShell Execution,Medium,217.98.199.115,Blocked,0,0
+EVT-f0f15499,2026-09-20 06:55:00,AST-1269,T1003.001,LSASS Memory Credential Dumping,High,140.132.81.97,Blocked,0,0
+EVT-df7d41ed,2026-09-20 06:58:24,AST-1215,T1003.001,LSASS Memory Credential Dumping,High,143.165.67.113,Blocked,0,0
+EVT-fdcf9cd7,2026-09-20 07:04:25,AST-1292,T1110.001,Password Guessing,Low,174.253.4.129,Alerted,0,0
+EVT-eafe470d,2026-09-20 07:16:03,AST-1062,T1003.001,LSASS Memory Credential Dumping,High,82.253.52.227,Alerted,0,0
+EVT-846f44cd,2026-09-20 07:56:50,AST-1250,T1486,Data Encrypted for Impact (Ransomware),Critical,89.185.85.116,Blocked,0,0
+EVT-d50555b5,2026-09-20 08:53:07,AST-1190,T1003.001,LSASS Memory Credential Dumping,High,112.175.20.214,Allowed,0,37512
+EVT-158314fd,2026-09-20 09:09:49,AST-1254,T1003.001,LSASS Memory Credential Dumping,High,135.138.148.230,Blocked,0,0
+EVT-fce7b4c0,2026-09-20 09:32:28,AST-1093,T1059.001,PowerShell Execution,Medium,131.199.117.184,Alerted,0,0
+EVT-8b2a73ad,2026-09-20 09:39:55,AST-1003,T1110.001,Password Guessing,Low,137.100.162.61,Blocked,0,0
+EVT-68d4aa8d,2026-09-20 09:49:20,AST-1180,T1059.001,PowerShell Execution,Medium,46.50.129.210,Blocked,0,0
+EVT-d98f9a13,2026-09-20 09:56:58,AST-1182,T1003.001,LSASS Memory Credential Dumping,High,184.196.174.198,Blocked,0,0
+EVT-631b51b7,2026-09-20 10:19:56,AST-1184,T1078,Valid Accounts,Medium,135.18.213.218,Blocked,0,0
+EVT-f11b6d4e,2026-09-20 10:57:15,AST-1145,T1078,Valid Accounts,Medium,43.206.154.38,Allowed,0,0
+EVT-e43041b1,2026-09-20 11:22:08,AST-1080,T1486,Data Encrypted for Impact (Ransomware),Critical,133.14.222.126,Alerted,0,0
+EVT-a18e2897,2026-09-20 11:27:47,AST-1260,T1486,Data Encrypted for Impact (Ransomware),Critical,54.142.159.29,Allowed,72,0
+EVT-b144e699,2026-09-20 12:25:19,AST-1056,T1078,Valid Accounts,Medium,52.135.191.67,Alerted,0,0
+EVT-f6960d51,2026-09-20 12:32:03,AST-1032,T1486,Data Encrypted for Impact (Ransomware),Critical,17.199.225.2,Blocked,0,0
+EVT-f5545726,2026-09-20 12:40:59,AST-1245,T1078,Valid Accounts,Medium,105.199.201.167,Alerted,0,0
+EVT-6a0db6fa,2026-09-20 12:55:52,AST-1043,T1110.001,Password Guessing,Low,126.129.177.99,Alerted,0,0
+EVT-3893112d,2026-09-20 13:00:06,AST-1070,T1110.001,Password Guessing,Low,129.102.178.186,Allowed,0,0
+EVT-cadfd2af,2026-09-20 13:10:48,AST-1026,T1078,Valid Accounts,Medium,64.43.29.29,Alerted,0,0
+EVT-5ec72531,2026-09-20 15:34:14,AST-1290,T1078,Valid Accounts,Medium,165.35.248.209,Allowed,0,0
+EVT-d84a48c8,2026-09-20 15:56:22,AST-1271,T1110.001,Password Guessing,Low,142.142.186.230,Blocked,0,0
+EVT-56eec1df,2026-09-20 16:16:17,AST-1007,T1110.001,Password Guessing,Low,190.175.128.35,Alerted,0,0
+EVT-acdfa0dd,2026-09-20 16:37:36,AST-1046,T1110.001,Password Guessing,Low,203.128.221.232,Blocked,0,0
+EVT-13761434,2026-09-20 17:00:26,AST-1026,T1110.001,Password Guessing,Low,163.134.157.236,Alerted,0,0
+EVT-b13f0946,2026-09-20 17:11:14,AST-1046,T1486,Data Encrypted for Impact (Ransomware),Critical,62.228.73.183,Blocked,0,0
+EVT-b12020a4,2026-09-20 17:32:58,AST-1185,T1003.001,LSASS Memory Credential Dumping,High,109.95.239.18,Blocked,0,0
+EVT-22efe822,2026-09-20 18:01:01,AST-1196,T1486,Data Encrypted for Impact (Ransomware),Critical,215.68.104.109,Blocked,0,0
+EVT-36561ce5,2026-09-20 18:55:36,AST-1279,T1078,Valid Accounts,Medium,31.214.51.229,Blocked,0,0
+EVT-ac5dbd69,2026-09-20 19:30:55,AST-1192,T1059.001,PowerShell Execution,Medium,141.234.92.64,Blocked,0,0
+EVT-32b16fe8,2026-09-20 20:08:30,AST-1086,T1003.001,LSASS Memory Credential Dumping,High,77.193.71.58,Alerted,0,0
+EVT-2c01e492,2026-09-20 20:09:12,AST-1042,T1078,Valid Accounts,Medium,167.222.197.239,Alerted,0,0
+EVT-d7523a6c,2026-09-20 20:31:35,AST-1118,T1486,Data Encrypted for Impact (Ransomware),Critical,147.245.77.41,Allowed,35,0
+EVT-a31a1a55,2026-09-20 20:45:23,AST-1012,T1486,Data Encrypted for Impact (Ransomware),Critical,66.144.69.45,Alerted,0,0
+EVT-709d5d72,2026-09-20 21:20:36,AST-1190,T1003.001,LSASS Memory Credential Dumping,High,213.229.171.99,Allowed,0,7983
+EVT-5e42f873,2026-09-20 22:55:28,AST-1227,T1110.001,Password Guessing,Low,177.69.100.239,Allowed,0,0
+EVT-5369c718,2026-09-20 22:57:46,AST-1188,T1003.001,LSASS Memory Credential Dumping,High,68.112.137.250,Blocked,0,0
+EVT-293c3d23,2026-09-20 23:48:54,AST-1229,T1059.001,PowerShell Execution,Medium,12.62.2.230,Alerted,0,0
+EVT-dc8b50ef,2026-09-20 23:54:22,AST-1077,T1059.001,PowerShell Execution,Medium,59.72.181.45,Alerted,0,0
+EVT-7d0ae7d3,2026-09-21 00:03:17,AST-1227,T1059.001,PowerShell Execution,Medium,202.218.12.124,Alerted,0,0
+EVT-607e8d80,2026-09-21 00:38:50,AST-1263,T1059.001,PowerShell Execution,Medium,101.100.240.144,Alerted,0,0
+EVT-49972702,2026-09-21 01:15:28,AST-1054,T1003.001,LSASS Memory Credential Dumping,High,175.76.136.251,Blocked,0,0
+EVT-210a3455,2026-09-21 01:36:33,AST-1217,T1059.001,PowerShell Execution,Medium,170.233.183.80,Blocked,0,0
+EVT-a8ee8aa8,2026-09-21 02:58:04,AST-1245,T1110.001,Password Guessing,Low,64.223.1.164,Blocked,0,0
+EVT-a796a9ce,2026-09-21 03:25:21,AST-1092,T1486,Data Encrypted for Impact (Ransomware),Critical,67.176.132.214,Blocked,0,0
+EVT-512f5cbd,2026-09-21 03:42:01,AST-1038,T1059.001,PowerShell Execution,Medium,173.102.174.7,Blocked,0,0
+EVT-6025f985,2026-09-21 03:46:24,AST-1242,T1078,Valid Accounts,Medium,168.98.166.243,Blocked,0,0
+EVT-c10ff558,2026-09-21 03:50:09,AST-1224,T1003.001,LSASS Memory Credential Dumping,High,223.144.249.65,Allowed,0,1071
+EVT-aea5919c,2026-09-21 04:47:25,AST-1204,T1003.001,LSASS Memory Credential Dumping,High,204.65.11.98,Blocked,0,0
+EVT-9bf0f934,2026-09-21 05:03:37,AST-1073,T1110.001,Password Guessing,Low,167.140.40.168,Blocked,0,0
+EVT-e72588e5,2026-09-21 05:49:23,AST-1166,T1003.001,LSASS Memory Credential Dumping,High,98.178.206.201,Blocked,0,0
+EVT-40842dd1,2026-09-21 06:36:04,AST-1143,T1486,Data Encrypted for Impact (Ransomware),Critical,20.199.29.175,Alerted,0,0
+EVT-96c7a999,2026-09-21 06:40:24,AST-1190,T1110.001,Password Guessing,Low,13.29.182.233,Alerted,0,0
+EVT-42acb4de,2026-09-21 06:46:16,AST-1155,T1078,Valid Accounts,Medium,110.188.45.144,Alerted,0,0
+EVT-2ef50e72,2026-09-21 07:07:09,AST-1292,T1059.001,PowerShell Execution,Medium,173.79.102.239,Blocked,0,0
+EVT-dab300a3,2026-09-21 07:24:40,AST-1147,T1486,Data Encrypted for Impact (Ransomware),Critical,222.171.188.73,Blocked,0,0
+EVT-5600ed9d,2026-09-21 07:32:07,AST-1050,T1486,Data Encrypted for Impact (Ransomware),Critical,77.145.166.111,Alerted,0,0
+EVT-02b12ceb,2026-09-21 07:45:46,AST-1251,T1059.001,PowerShell Execution,Medium,183.62.153.216,Blocked,0,0
+EVT-315ff86e,2026-09-21 07:51:21,AST-1002,T1059.001,PowerShell Execution,Medium,168.246.183.196,Alerted,0,0
+EVT-36911de9,2026-09-21 07:53:43,AST-1024,T1059.001,PowerShell Execution,Medium,175.77.81.25,Blocked,0,0
+EVT-03000a5d,2026-09-21 08:13:05,AST-1126,T1486,Data Encrypted for Impact (Ransomware),Critical,22.48.184.102,Alerted,0,0
+EVT-eb9494b6,2026-09-21 08:25:42,AST-1031,T1003.001,LSASS Memory Credential Dumping,High,40.23.71.11,Blocked,0,0
+EVT-b47086d7,2026-09-21 08:37:11,AST-1152,T1003.001,LSASS Memory Credential Dumping,High,69.246.94.173,Allowed,0,43748
+EVT-6bf4a5bf,2026-09-21 08:47:18,AST-1227,T1110.001,Password Guessing,Low,119.249.95.229,Allowed,0,0
+EVT-bf278d93,2026-09-21 09:49:50,AST-1147,T1003.001,LSASS Memory Credential Dumping,High,54.202.240.245,Blocked,0,0
+EVT-3fa3ca61,2026-09-21 09:53:53,AST-1195,T1486,Data Encrypted for Impact (Ransomware),Critical,34.196.61.247,Alerted,0,0
+EVT-fe5f2d85,2026-09-21 09:57:43,AST-1056,T1003.001,LSASS Memory Credential Dumping,High,212.87.174.96,Blocked,0,0
+EVT-9885fd4e,2026-09-21 10:51:00,AST-1124,T1003.001,LSASS Memory Credential Dumping,High,185.188.5.139,Alerted,0,0
+EVT-ee2840aa,2026-09-21 10:51:22,AST-1200,T1486,Data Encrypted for Impact (Ransomware),Critical,48.250.111.35,Blocked,0,0
+EVT-d41d5917,2026-09-21 10:53:43,AST-1068,T1003.001,LSASS Memory Credential Dumping,High,104.148.6.93,Alerted,0,0
+EVT-79f8ce49,2026-09-21 11:18:05,AST-1131,T1078,Valid Accounts,Medium,139.240.33.85,Blocked,0,0
+EVT-bc41da32,2026-09-21 11:25:53,AST-1131,T1110.001,Password Guessing,Low,196.244.180.23,Blocked,0,0
+EVT-65c1fa2d,2026-09-21 11:31:19,AST-1139,T1059.001,PowerShell Execution,Medium,120.254.191.191,Alerted,0,0
+EVT-a4f3f381,2026-09-21 11:36:09,AST-1077,T1059.001,PowerShell Execution,Medium,72.10.7.72,Alerted,0,0
+EVT-48ba5472,2026-09-21 12:04:39,AST-1133,T1003.001,LSASS Memory Credential Dumping,High,169.209.137.219,Alerted,0,0
+EVT-4891da07,2026-09-21 13:06:11,AST-1248,T1003.001,LSASS Memory Credential Dumping,High,54.107.195.199,Allowed,0,32545
+EVT-5051b6cb,2026-09-21 13:27:35,AST-1248,T1486,Data Encrypted for Impact (Ransomware),Critical,145.67.48.183,Blocked,0,0
+EVT-d20a4e5d,2026-09-21 13:49:26,AST-1299,T1059.001,PowerShell Execution,Medium,187.246.194.165,Blocked,0,0
+EVT-64a4e2f9,2026-09-21 13:58:35,AST-1093,T1003.001,LSASS Memory Credential Dumping,High,210.16.43.52,Blocked,0,0
+EVT-037c6b94,2026-09-21 14:23:48,AST-1271,T1486,Data Encrypted for Impact (Ransomware),Critical,25.177.44.245,Blocked,0,0
+EVT-102b3de2,2026-09-21 14:51:00,AST-1217,T1110.001,Password Guessing,Low,57.231.15.174,Alerted,0,0
+EVT-2369462b,2026-09-21 14:54:47,AST-1048,T1059.001,PowerShell Execution,Medium,70.60.142.172,Blocked,0,0
+EVT-d84331a3,2026-09-21 16:01:12,AST-1013,T1059.001,PowerShell Execution,Medium,54.229.14.35,Allowed,0,0
+EVT-f57bad1e,2026-09-21 16:44:18,AST-1052,T1003.001,LSASS Memory Credential Dumping,High,115.84.198.29,Blocked,0,0
+EVT-e3a1b7ce,2026-09-21 16:44:26,AST-1203,T1059.001,PowerShell Execution,Medium,118.28.87.5,Blocked,0,0
+EVT-8aa76790,2026-09-21 17:08:39,AST-1122,T1110.001,Password Guessing,Low,11.186.12.18,Blocked,0,0
+EVT-ee69500e,2026-09-21 17:18:04,AST-1012,T1110.001,Password Guessing,Low,132.120.68.51,Alerted,0,0
+EVT-6b8b16ae,2026-09-21 18:39:48,AST-1262,T1110.001,Password Guessing,Low,163.127.250.252,Allowed,0,0
+EVT-2491814e,2026-09-21 18:45:38,AST-1272,T1059.001,PowerShell Execution,Medium,52.199.246.178,Alerted,0,0
+EVT-9f4b34b2,2026-09-21 19:01:28,AST-1262,T1110.001,Password Guessing,Low,146.236.114.202,Blocked,0,0
+EVT-cd21abae,2026-09-21 19:08:26,AST-1275,T1486,Data Encrypted for Impact (Ransomware),Critical,132.38.172.105,Blocked,0,0
+EVT-1c09973f,2026-09-21 19:21:37,AST-1191,T1486,Data Encrypted for Impact (Ransomware),Critical,213.55.159.58,Blocked,0,0
+EVT-0bad92e1,2026-09-21 19:25:28,AST-1089,T1110.001,Password Guessing,Low,208.119.196.205,Blocked,0,0
+EVT-2607ef00,2026-09-21 21:10:00,AST-1146,T1003.001,LSASS Memory Credential Dumping,High,20.64.123.164,Blocked,0,0
+EVT-75115e44,2026-09-21 21:11:12,AST-1127,T1486,Data Encrypted for Impact (Ransomware),Critical,166.183.118.68,Allowed,25,0
+EVT-148f3005,2026-09-21 21:42:15,AST-1068,T1110.001,Password Guessing,Low,128.220.138.11,Alerted,0,0
+EVT-8d336910,2026-09-21 21:59:58,AST-1224,T1110.001,Password Guessing,Low,26.43.244.71,Blocked,0,0
+EVT-743dc87d,2026-09-21 22:30:41,AST-1100,T1078,Valid Accounts,Medium,195.31.42.248,Blocked,0,0
+EVT-7742c25a,2026-09-21 23:17:53,AST-1001,T1486,Data Encrypted for Impact (Ransomware),Critical,58.221.229.196,Alerted,0,0
+EVT-6d7cd2da,2026-09-21 23:34:54,AST-1015,T1003.001,LSASS Memory Credential Dumping,High,134.97.235.31,Allowed,0,23109
+EVT-9e916222,2026-09-22 00:11:35,AST-1164,T1486,Data Encrypted for Impact (Ransomware),Critical,139.68.20.10,Allowed,66,0
+EVT-1519cb0f,2026-09-22 00:29:07,AST-1077,T1059.001,PowerShell Execution,Medium,130.36.32.64,Blocked,0,0
+EVT-3c52d2ae,2026-09-22 00:55:37,AST-1140,T1059.001,PowerShell Execution,Medium,152.125.174.206,Alerted,0,0
+EVT-1fc0020d,2026-09-22 01:31:15,AST-1028,T1003.001,LSASS Memory Credential Dumping,High,101.226.213.113,Allowed,0,5333
+EVT-582e78ff,2026-09-22 01:33:20,AST-1284,T1003.001,LSASS Memory Credential Dumping,High,64.193.149.16,Allowed,0,4146
+EVT-c959bd9d,2026-09-22 01:58:02,AST-1107,T1078,Valid Accounts,Medium,135.57.35.186,Blocked,0,0
+EVT-b42d032d,2026-09-22 02:11:09,AST-1049,T1078,Valid Accounts,Medium,137.18.64.183,Allowed,0,0
+EVT-f0c9b954,2026-09-22 02:17:34,AST-1085,T1003.001,LSASS Memory Credential Dumping,High,56.129.248.253,Blocked,0,0
+EVT-d2e9b2ec,2026-09-22 02:52:39,AST-1122,T1059.001,PowerShell Execution,Medium,223.114.242.242,Allowed,0,0
+EVT-09e5f663,2026-09-22 03:09:53,AST-1070,T1059.001,PowerShell Execution,Medium,182.71.88.63,Blocked,0,0
+EVT-f1019659,2026-09-22 03:32:13,AST-1200,T1003.001,LSASS Memory Credential Dumping,High,38.190.245.129,Blocked,0,0
+EVT-7dd56675,2026-09-22 03:38:51,AST-1272,T1486,Data Encrypted for Impact (Ransomware),Critical,181.88.117.61,Allowed,45,0
+EVT-77812a27,2026-09-22 03:54:51,AST-1131,T1486,Data Encrypted for Impact (Ransomware),Critical,75.55.215.137,Alerted,0,0
+EVT-795d38ce,2026-09-22 04:12:35,AST-1018,T1003.001,LSASS Memory Credential Dumping,High,201.130.194.129,Allowed,0,49364
+EVT-a77245e4,2026-09-22 04:16:02,AST-1142,T1003.001,LSASS Memory Credential Dumping,High,120.42.22.85,Allowed,0,19186
+EVT-15816bbf,2026-09-22 04:34:42,AST-1266,T1059.001,PowerShell Execution,Medium,205.10.230.162,Blocked,0,0
+EVT-b695a8b1,2026-09-22 04:34:49,AST-1140,T1059.001,PowerShell Execution,Medium,60.189.111.250,Blocked,0,0
+EVT-dc75f1ef,2026-09-22 04:39:49,AST-1022,T1486,Data Encrypted for Impact (Ransomware),Critical,60.129.55.182,Allowed,5,0
+EVT-67cee475,2026-09-22 04:41:54,AST-1271,T1059.001,PowerShell Execution,Medium,89.244.78.178,Blocked,0,0
+EVT-55aede8e,2026-09-22 05:10:48,AST-1275,T1486,Data Encrypted for Impact (Ransomware),Critical,156.7.119.239,Blocked,0,0
+EVT-88ee87d8,2026-09-22 05:41:33,AST-1266,T1486,Data Encrypted for Impact (Ransomware),Critical,164.42.38.73,Allowed,24,0
+EVT-ca8a0e78,2026-09-22 05:50:05,AST-1135,T1078,Valid Accounts,Medium,58.61.105.109,Allowed,0,0
+EVT-dc928e80,2026-09-22 05:56:01,AST-1053,T1078,Valid Accounts,Medium,97.127.249.43,Blocked,0,0
+EVT-d4cc9dc0,2026-09-22 07:55:53,AST-1268,T1003.001,LSASS Memory Credential Dumping,High,93.242.2.87,Allowed,0,4955
+EVT-d5906cad,2026-09-22 07:58:09,AST-1296,T1110.001,Password Guessing,Low,108.221.236.184,Alerted,0,0
+EVT-934e4b1e,2026-09-22 08:40:39,AST-1188,T1078,Valid Accounts,Medium,160.206.60.37,Allowed,0,0
+EVT-08fbf52b,2026-09-22 08:46:41,AST-1274,T1078,Valid Accounts,Medium,53.157.131.150,Blocked,0,0
+EVT-1289b60f,2026-09-22 09:01:40,AST-1255,T1003.001,LSASS Memory Credential Dumping,High,81.190.184.60,Blocked,0,0
+EVT-91fe5745,2026-09-22 09:38:54,AST-1217,T1110.001,Password Guessing,Low,79.224.243.95,Allowed,0,0
+EVT-3da1bc8d,2026-09-22 10:19:05,AST-1121,T1486,Data Encrypted for Impact (Ransomware),Critical,137.82.134.33,Alerted,0,0
+EVT-71815efa,2026-09-22 10:30:29,AST-1222,T1110.001,Password Guessing,Low,187.223.36.175,Blocked,0,0
+EVT-0ae001c8,2026-09-22 10:38:33,AST-1249,T1078,Valid Accounts,Medium,141.121.163.32,Allowed,0,0
+EVT-8ea79259,2026-09-22 11:27:45,AST-1236,T1110.001,Password Guessing,Low,97.220.121.142,Allowed,0,0
+EVT-a91c4b62,2026-09-22 11:41:03,AST-1166,T1078,Valid Accounts,Medium,63.80.28.177,Allowed,0,0
+EVT-a58e79c6,2026-09-22 13:00:25,AST-1217,T1003.001,LSASS Memory Credential Dumping,High,81.201.87.149,Blocked,0,0
+EVT-826ac313,2026-09-22 13:01:10,AST-1080,T1486,Data Encrypted for Impact (Ransomware),Critical,75.198.57.20,Alerted,0,0
+EVT-177bd6d1,2026-09-22 13:18:54,AST-1163,T1078,Valid Accounts,Medium,147.36.213.58,Alerted,0,0
+EVT-31b0e49c,2026-09-22 13:36:25,AST-1139,T1078,Valid Accounts,Medium,76.137.120.199,Blocked,0,0
+EVT-4eefdaa6,2026-09-22 13:39:34,AST-1262,T1059.001,PowerShell Execution,Medium,52.9.41.187,Allowed,0,0
+EVT-4cc73037,2026-09-22 13:44:28,AST-1086,T1059.001,PowerShell Execution,Medium,56.25.77.241,Blocked,0,0
+EVT-25f6968d,2026-09-22 14:30:34,AST-1262,T1059.001,PowerShell Execution,Medium,117.61.217.130,Alerted,0,0
+EVT-6ea36b58,2026-09-22 15:34:54,AST-1217,T1110.001,Password Guessing,Low,132.28.169.82,Blocked,0,0
+EVT-a02009d4,2026-09-22 17:01:19,AST-1137,T1059.001,PowerShell Execution,Medium,185.206.126.15,Allowed,0,0
+EVT-417d13a2,2026-09-22 17:03:04,AST-1122,T1003.001,LSASS Memory Credential Dumping,High,53.177.190.162,Alerted,0,0
+EVT-be35d394,2026-09-22 17:05:23,AST-1227,T1486,Data Encrypted for Impact (Ransomware),Critical,36.237.100.173,Allowed,19,0
+EVT-e5291615,2026-09-22 17:51:33,AST-1104,T1486,Data Encrypted for Impact (Ransomware),Critical,215.41.20.6,Blocked,0,0
+EVT-11b782b3,2026-09-22 17:51:49,AST-1013,T1110.001,Password Guessing,Low,65.126.136.16,Alerted,0,0
+EVT-d0fda787,2026-09-22 18:47:58,AST-1082,T1110.001,Password Guessing,Low,98.109.141.237,Blocked,0,0
+EVT-8bb7badb,2026-09-22 19:09:22,AST-1085,T1059.001,PowerShell Execution,Medium,157.249.96.159,Alerted,0,0
+EVT-04063a39,2026-09-22 19:34:10,AST-1227,T1486,Data Encrypted for Impact (Ransomware),Critical,109.231.199.66,Blocked,0,0
+EVT-5cb200a6,2026-09-22 19:34:41,AST-1201,T1078,Valid Accounts,Medium,14.203.48.147,Blocked,0,0
+EVT-6ff0d258,2026-09-22 20:00:24,AST-1016,T1059.001,PowerShell Execution,Medium,193.163.160.126,Alerted,0,0
+EVT-908f6b73,2026-09-22 20:44:45,AST-1227,T1059.001,PowerShell Execution,Medium,185.25.181.24,Alerted,0,0
+EVT-7fe9cdbc,2026-09-22 20:46:53,AST-1016,T1486,Data Encrypted for Impact (Ransomware),Critical,105.120.67.157,Allowed,72,0
+EVT-49f37c95,2026-09-22 21:11:21,AST-1199,T1110.001,Password Guessing,Low,119.197.1.50,Allowed,0,0
+EVT-ac9b686b,2026-09-22 22:47:35,AST-1171,T1059.001,PowerShell Execution,Medium,48.46.52.147,Blocked,0,0
+EVT-3227376d,2026-09-22 23:03:39,AST-1206,T1059.001,PowerShell Execution,Medium,36.87.199.33,Allowed,0,0
+EVT-0963d16c,2026-09-22 23:04:18,AST-1013,T1003.001,LSASS Memory Credential Dumping,High,40.204.169.24,Allowed,0,11372
+EVT-3b1c4b7e,2026-09-22 23:04:37,AST-1189,T1003.001,LSASS Memory Credential Dumping,High,171.110.59.115,Alerted,0,0
+EVT-e92a0b1c,2026-09-22 23:42:12,AST-1088,T1078,Valid Accounts,Medium,147.30.108.71,Allowed,0,0
+EVT-051568d6,2026-09-23 00:49:11,AST-1211,T1078,Valid Accounts,Medium,95.179.3.140,Blocked,0,0
+EVT-47e4684a,2026-09-23 00:53:43,AST-1065,T1110.001,Password Guessing,Low,97.76.213.220,Allowed,0,0
+EVT-49d3f3fe,2026-09-23 01:14:27,AST-1242,T1486,Data Encrypted for Impact (Ransomware),Critical,120.215.230.254,Alerted,0,0
+EVT-1d9732a3,2026-09-23 03:06:05,AST-1197,T1003.001,LSASS Memory Credential Dumping,High,190.110.213.218,Blocked,0,0
+EVT-4128b739,2026-09-23 04:06:44,AST-1129,T1486,Data Encrypted for Impact (Ransomware),Critical,86.74.126.63,Alerted,0,0
+EVT-7020a4c2,2026-09-23 04:24:19,AST-1086,T1078,Valid Accounts,Medium,18.187.63.188,Allowed,0,0
+EVT-5faf5399,2026-09-23 04:44:26,AST-1209,T1059.001,PowerShell Execution,Medium,126.213.29.238,Alerted,0,0
+EVT-a08df189,2026-09-23 05:25:01,AST-1102,T1486,Data Encrypted for Impact (Ransomware),Critical,51.14.46.193,Allowed,34,0
+EVT-8b514298,2026-09-23 05:31:18,AST-1157,T1486,Data Encrypted for Impact (Ransomware),Critical,45.76.227.151,Alerted,0,0
+EVT-7c8d9309,2026-09-23 05:32:54,AST-1144,T1059.001,PowerShell Execution,Medium,187.22.29.224,Alerted,0,0
+EVT-ba1569ff,2026-09-23 05:36:18,AST-1217,T1059.001,PowerShell Execution,Medium,90.215.208.180,Allowed,0,0
+EVT-40667614,2026-09-23 06:18:24,AST-1225,T1110.001,Password Guessing,Low,140.226.61.3,Alerted,0,0
+EVT-38c2ca82,2026-09-23 07:19:51,AST-1117,T1003.001,LSASS Memory Credential Dumping,High,109.200.26.199,Blocked,0,0
+EVT-6c8015f7,2026-09-23 07:49:19,AST-1127,T1078,Valid Accounts,Medium,165.136.226.222,Alerted,0,0
+EVT-a99366a3,2026-09-23 08:39:04,AST-1104,T1003.001,LSASS Memory Credential Dumping,High,135.206.210.198,Allowed,0,29134
+EVT-533f6481,2026-09-23 08:57:36,AST-1220,T1059.001,PowerShell Execution,Medium,83.190.192.68,Blocked,0,0
+EVT-a20c8523,2026-09-23 09:05:21,AST-1211,T1110.001,Password Guessing,Low,111.226.140.149,Blocked,0,0
+EVT-1ce80c24,2026-09-23 09:10:26,AST-1093,T1059.001,PowerShell Execution,Medium,54.124.117.236,Blocked,0,0
+EVT-466c90cb,2026-09-23 10:28:55,AST-1125,T1003.001,LSASS Memory Credential Dumping,High,163.226.39.143,Blocked,0,0
+EVT-350840e9,2026-09-23 10:37:50,AST-1073,T1078,Valid Accounts,Medium,114.67.2.184,Blocked,0,0
+EVT-fe3d8f26,2026-09-23 10:44:22,AST-1186,T1486,Data Encrypted for Impact (Ransomware),Critical,177.60.159.24,Blocked,0,0
+EVT-21556195,2026-09-23 10:55:17,AST-1193,T1078,Valid Accounts,Medium,12.36.206.208,Alerted,0,0
+EVT-35b118e9,2026-09-23 10:58:39,AST-1036,T1110.001,Password Guessing,Low,103.237.231.99,Alerted,0,0
+EVT-f2c970a4,2026-09-23 11:48:24,AST-1234,T1110.001,Password Guessing,Low,220.26.150.39,Blocked,0,0
+EVT-cb88531c,2026-09-23 12:11:40,AST-1096,T1078,Valid Accounts,Medium,116.97.43.85,Alerted,0,0
+EVT-c0ba416c,2026-09-23 12:32:13,AST-1095,T1059.001,PowerShell Execution,Medium,35.52.177.203,Allowed,0,0
+EVT-327960c8,2026-09-23 12:37:35,AST-1173,T1078,Valid Accounts,Medium,160.114.135.172,Blocked,0,0
+EVT-2f761397,2026-09-23 12:39:25,AST-1010,T1059.001,PowerShell Execution,Medium,199.111.160.47,Alerted,0,0
+EVT-1d15fc1f,2026-09-23 12:49:47,AST-1237,T1078,Valid Accounts,Medium,102.36.58.77,Blocked,0,0
+EVT-68df9cc1,2026-09-23 13:02:03,AST-1295,T1486,Data Encrypted for Impact (Ransomware),Critical,41.104.18.14,Blocked,0,0
+EVT-4b6a17cc,2026-09-23 14:11:41,AST-1121,T1078,Valid Accounts,Medium,114.236.31.47,Allowed,0,0
+EVT-1d676cdb,2026-09-23 14:41:23,AST-1243,T1110.001,Password Guessing,Low,60.68.155.89,Blocked,0,0
+EVT-edc85e4e,2026-09-23 15:38:20,AST-1195,T1110.001,Password Guessing,Low,116.169.135.191,Blocked,0,0
+EVT-91b44dac,2026-09-23 15:57:12,AST-1034,T1059.001,PowerShell Execution,Medium,102.249.78.46,Blocked,0,0
+EVT-b3008605,2026-09-23 16:25:51,AST-1164,T1078,Valid Accounts,Medium,175.147.58.244,Allowed,0,0
+EVT-61e4072d,2026-09-23 16:42:07,AST-1022,T1110.001,Password Guessing,Low,90.200.231.22,Alerted,0,0
+EVT-3323f631,2026-09-23 16:51:32,AST-1250,T1078,Valid Accounts,Medium,86.113.202.112,Alerted,0,0
+EVT-51f80b1b,2026-09-23 17:34:20,AST-1222,T1110.001,Password Guessing,Low,214.173.225.188,Allowed,0,0
+EVT-0f6638c3,2026-09-23 17:41:38,AST-1235,T1110.001,Password Guessing,Low,52.208.124.64,Allowed,0,0
+EVT-0dde70e2,2026-09-23 18:00:47,AST-1057,T1078,Valid Accounts,Medium,117.37.134.32,Alerted,0,0
+EVT-66e81fe3,2026-09-23 18:17:41,AST-1114,T1110.001,Password Guessing,Low,147.38.103.101,Alerted,0,0
+EVT-07570560,2026-09-23 18:24:52,AST-1220,T1078,Valid Accounts,Medium,52.235.51.197,Blocked,0,0
+EVT-5f5b94c8,2026-09-23 18:34:32,AST-1086,T1110.001,Password Guessing,Low,79.9.52.75,Allowed,0,0
+EVT-88b073e2,2026-09-23 18:40:55,AST-1166,T1003.001,LSASS Memory Credential Dumping,High,205.154.27.68,Blocked,0,0
+EVT-6be83775,2026-09-23 18:50:39,AST-1196,T1078,Valid Accounts,Medium,196.204.189.74,Allowed,0,0
+EVT-ff4ab554,2026-09-23 18:57:30,AST-1085,T1486,Data Encrypted for Impact (Ransomware),Critical,171.136.199.168,Blocked,0,0
+EVT-7d23a974,2026-09-23 19:01:15,AST-1004,T1003.001,LSASS Memory Credential Dumping,High,94.233.8.142,Alerted,0,0
+EVT-14977133,2026-09-23 19:11:05,AST-1161,T1078,Valid Accounts,Medium,153.214.171.67,Blocked,0,0
+EVT-87ffa700,2026-09-23 19:26:11,AST-1102,T1486,Data Encrypted for Impact (Ransomware),Critical,111.180.193.232,Allowed,42,0
+EVT-0d01528b,2026-09-23 19:43:43,AST-1195,T1003.001,LSASS Memory Credential Dumping,High,20.157.244.227,Alerted,0,0
+EVT-0ba28066,2026-09-23 19:48:38,AST-1122,T1003.001,LSASS Memory Credential Dumping,High,96.139.113.157,Allowed,0,46909
+EVT-c3ce054d,2026-09-23 19:54:18,AST-1240,T1003.001,LSASS Memory Credential Dumping,High,41.24.184.74,Blocked,0,0
+EVT-f28d543e,2026-09-23 20:18:27,AST-1263,T1078,Valid Accounts,Medium,48.109.41.38,Alerted,0,0
+EVT-3c8744ce,2026-09-23 21:10:43,AST-1035,T1110.001,Password Guessing,Low,200.177.193.37,Blocked,0,0
+EVT-dc935b58,2026-09-23 21:24:21,AST-1140,T1078,Valid Accounts,Medium,163.204.189.141,Alerted,0,0
+EVT-39552388,2026-09-23 22:01:42,AST-1290,T1059.001,PowerShell Execution,Medium,15.108.2.190,Alerted,0,0
+EVT-67f3a83d,2026-09-23 22:03:42,AST-1178,T1110.001,Password Guessing,Low,190.171.83.126,Allowed,0,0
+EVT-cb09663f,2026-09-23 22:19:31,AST-1061,T1059.001,PowerShell Execution,Medium,72.81.76.128,Blocked,0,0
+EVT-11db7abe,2026-09-23 22:31:57,AST-1139,T1059.001,PowerShell Execution,Medium,158.98.15.209,Blocked,0,0
+EVT-7fb265dd,2026-09-23 22:33:38,AST-1164,T1003.001,LSASS Memory Credential Dumping,High,74.203.186.229,Blocked,0,0
+EVT-f894e36d,2026-09-23 22:44:02,AST-1213,T1059.001,PowerShell Execution,Medium,58.200.232.73,Blocked,0,0
+EVT-797cb823,2026-09-23 23:06:40,AST-1282,T1486,Data Encrypted for Impact (Ransomware),Critical,217.167.250.150,Blocked,0,0
+EVT-e23d3e06,2026-09-23 23:35:44,AST-1001,T1110.001,Password Guessing,Low,213.103.110.185,Blocked,0,0
+EVT-abb9ffb3,2026-09-23 23:45:43,AST-1178,T1003.001,LSASS Memory Credential Dumping,High,49.223.243.95,Allowed,0,38052
+EVT-daffe8dd,2026-09-23 23:54:56,AST-1217,T1110.001,Password Guessing,Low,20.43.183.45,Blocked,0,0
+EVT-e9563d8c,2026-09-24 00:41:35,AST-1292,T1486,Data Encrypted for Impact (Ransomware),Critical,76.8.27.5,Blocked,0,0
+EVT-ac88e7de,2026-09-24 02:52:34,AST-1226,T1059.001,PowerShell Execution,Medium,52.90.246.124,Alerted,0,0
+EVT-b462297c,2026-09-24 03:10:45,AST-1286,T1078,Valid Accounts,Medium,158.96.252.124,Allowed,0,0
+EVT-1f90bc87,2026-09-24 03:26:33,AST-1024,T1078,Valid Accounts,Medium,21.204.33.203,Alerted,0,0
+EVT-1201e6cb,2026-09-24 03:44:39,AST-1106,T1486,Data Encrypted for Impact (Ransomware),Critical,60.40.120.220,Allowed,67,0
+EVT-14ea42f4,2026-09-24 03:55:28,AST-1240,T1486,Data Encrypted for Impact (Ransomware),Critical,25.153.99.78,Alerted,0,0
+EVT-d452e6ca,2026-09-24 04:23:27,AST-1116,T1078,Valid Accounts,Medium,64.70.139.197,Blocked,0,0
+EVT-ee7ac666,2026-09-24 04:33:15,AST-1052,T1003.001,LSASS Memory Credential Dumping,High,203.174.162.50,Allowed,0,37921
+EVT-6f5b90ae,2026-09-24 04:41:17,AST-1093,T1003.001,LSASS Memory Credential Dumping,High,218.179.213.182,Blocked,0,0
+EVT-8cb786a2,2026-09-24 04:44:24,AST-1002,T1059.001,PowerShell Execution,Medium,205.57.17.192,Blocked,0,0
+EVT-26dfba22,2026-09-24 04:57:28,AST-1137,T1003.001,LSASS Memory Credential Dumping,High,162.34.48.139,Blocked,0,0
+EVT-3274e8d2,2026-09-24 05:32:28,AST-1019,T1110.001,Password Guessing,Low,79.251.80.227,Blocked,0,0
+EVT-bb53f1c8,2026-09-24 05:48:54,AST-1153,T1059.001,PowerShell Execution,Medium,33.130.48.137,Blocked,0,0
+EVT-3c49402d,2026-09-24 06:18:16,AST-1193,T1078,Valid Accounts,Medium,194.190.167.208,Blocked,0,0
+EVT-0c3df168,2026-09-24 07:14:09,AST-1107,T1486,Data Encrypted for Impact (Ransomware),Critical,170.245.194.68,Blocked,0,0
+EVT-0ef701ce,2026-09-24 07:23:14,AST-1090,T1059.001,PowerShell Execution,Medium,129.12.250.6,Blocked,0,0
+EVT-810a71f7,2026-09-24 07:41:11,AST-1073,T1078,Valid Accounts,Medium,24.204.250.95,Alerted,0,0
+EVT-a06ddb0b,2026-09-24 07:43:17,AST-1220,T1110.001,Password Guessing,Low,109.46.175.179,Alerted,0,0
+EVT-e0a58e18,2026-09-24 07:53:48,AST-1225,T1059.001,PowerShell Execution,Medium,30.63.235.133,Allowed,0,0
+EVT-d31ef030,2026-09-24 08:00:43,AST-1220,T1110.001,Password Guessing,Low,203.28.132.138,Blocked,0,0
+EVT-aaddd5f7,2026-09-24 08:19:50,AST-1176,T1110.001,Password Guessing,Low,150.245.185.181,Blocked,0,0
+EVT-e08d9999,2026-09-24 08:25:07,AST-1299,T1078,Valid Accounts,Medium,51.109.128.109,Alerted,0,0
+EVT-28ce0cf7,2026-09-24 08:28:04,AST-1272,T1003.001,LSASS Memory Credential Dumping,High,97.84.162.112,Allowed,0,3534
+EVT-a65b803b,2026-09-24 08:32:55,AST-1292,T1003.001,LSASS Memory Credential Dumping,High,179.127.49.123,Blocked,0,0
+EVT-89b79ba3,2026-09-24 08:57:46,AST-1193,T1078,Valid Accounts,Medium,218.13.95.140,Alerted,0,0
+EVT-62116550,2026-09-24 09:29:52,AST-1007,T1486,Data Encrypted for Impact (Ransomware),Critical,105.51.42.173,Blocked,0,0
+EVT-95e9dc05,2026-09-24 09:36:58,AST-1114,T1078,Valid Accounts,Medium,152.56.69.151,Allowed,0,0
+EVT-9c858b2b,2026-09-24 10:38:35,AST-1190,T1110.001,Password Guessing,Low,178.213.227.23,Alerted,0,0
+EVT-c46dd927,2026-09-24 10:45:29,AST-1227,T1078,Valid Accounts,Medium,43.63.32.241,Alerted,0,0
+EVT-d989a98f,2026-09-24 10:57:33,AST-1275,T1003.001,LSASS Memory Credential Dumping,High,131.219.162.83,Alerted,0,0
+EVT-af024252,2026-09-24 11:12:15,AST-1039,T1059.001,PowerShell Execution,Medium,100.89.115.59,Allowed,0,0
+EVT-ad057d33,2026-09-24 11:49:01,AST-1083,T1110.001,Password Guessing,Low,50.217.103.46,Allowed,0,0
+EVT-cb5e6b34,2026-09-24 11:49:04,AST-1190,T1003.001,LSASS Memory Credential Dumping,High,145.106.74.135,Alerted,0,0
+EVT-19ab4f1f,2026-09-24 13:19:32,AST-1098,T1078,Valid Accounts,Medium,201.179.67.32,Alerted,0,0
+EVT-01fd755b,2026-09-24 13:41:14,AST-1252,T1110.001,Password Guessing,Low,134.202.230.237,Allowed,0,0
+EVT-c301c8de,2026-09-24 14:31:44,AST-1227,T1059.001,PowerShell Execution,Medium,212.199.215.117,Allowed,0,0
+EVT-31bcdd47,2026-09-24 14:33:21,AST-1122,T1078,Valid Accounts,Medium,197.127.184.87,Blocked,0,0
+EVT-85b5a33a,2026-09-24 15:31:54,AST-1100,T1078,Valid Accounts,Medium,20.204.196.76,Allowed,0,0
+EVT-01d0b786,2026-09-24 15:34:41,AST-1268,T1003.001,LSASS Memory Credential Dumping,High,191.11.89.95,Allowed,0,1250
+EVT-d405ded6,2026-09-24 15:41:43,AST-1217,T1110.001,Password Guessing,Low,59.6.79.70,Allowed,0,0
+EVT-429d3d57,2026-09-24 15:48:41,AST-1003,T1059.001,PowerShell Execution,Medium,148.106.79.103,Alerted,0,0
+EVT-fef9b4ea,2026-09-24 16:02:45,AST-1211,T1003.001,LSASS Memory Credential Dumping,High,98.102.92.214,Allowed,0,16781
+EVT-043b9729,2026-09-24 16:43:40,AST-1284,T1078,Valid Accounts,Medium,103.130.105.136,Alerted,0,0
+EVT-38d13500,2026-09-24 16:48:11,AST-1220,T1078,Valid Accounts,Medium,197.178.109.252,Alerted,0,0
+EVT-94621a35,2026-09-24 16:49:36,AST-1053,T1003.001,LSASS Memory Credential Dumping,High,86.62.47.203,Allowed,0,23112
+EVT-4c26264a,2026-09-24 17:02:10,AST-1279,T1486,Data Encrypted for Impact (Ransomware),Critical,105.126.234.45,Blocked,0,0
+EVT-4a0684d3,2026-09-24 17:26:05,AST-1176,T1078,Valid Accounts,Medium,91.106.240.206,Blocked,0,0
+EVT-857d96f1,2026-09-24 17:49:47,AST-1062,T1486,Data Encrypted for Impact (Ransomware),Critical,198.3.105.23,Allowed,24,0
+EVT-5d0d3c95,2026-09-24 17:53:39,AST-1107,T1486,Data Encrypted for Impact (Ransomware),Critical,206.50.73.35,Blocked,0,0
+EVT-2b7c96ba,2026-09-24 18:11:17,AST-1159,T1003.001,LSASS Memory Credential Dumping,High,195.109.144.225,Blocked,0,0
+EVT-9783e28d,2026-09-24 18:44:34,AST-1141,T1059.001,PowerShell Execution,Medium,44.154.217.229,Alerted,0,0
+EVT-50ad5605,2026-09-24 19:32:15,AST-1121,T1003.001,LSASS Memory Credential Dumping,High,123.189.3.105,Allowed,0,27273
+EVT-cb212058,2026-09-24 19:38:25,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,137.54.194.58,Alerted,0,0
+EVT-45d2b564,2026-09-24 19:50:52,AST-1065,T1059.001,PowerShell Execution,Medium,220.115.28.80,Allowed,0,0
+EVT-0348701a,2026-09-24 20:46:36,AST-1017,T1110.001,Password Guessing,Low,94.75.221.252,Allowed,0,0
+EVT-a16a55e7,2026-09-24 20:54:40,AST-1182,T1078,Valid Accounts,Medium,160.233.97.212,Alerted,0,0
+EVT-1814c46c,2026-09-24 20:57:02,AST-1213,T1059.001,PowerShell Execution,Medium,158.50.78.223,Alerted,0,0
+EVT-5f49543c,2026-09-24 21:09:43,AST-1141,T1486,Data Encrypted for Impact (Ransomware),Critical,34.164.138.227,Blocked,0,0
+EVT-7f044830,2026-09-24 21:36:23,AST-1180,T1110.001,Password Guessing,Low,40.210.118.209,Allowed,0,0
+EVT-c777121c,2026-09-24 21:54:54,AST-1272,T1486,Data Encrypted for Impact (Ransomware),Critical,175.199.242.126,Blocked,0,0
+EVT-876cd3b7,2026-09-24 22:32:56,AST-1044,T1486,Data Encrypted for Impact (Ransomware),Critical,216.31.184.152,Alerted,0,0
+EVT-91c9e326,2026-09-24 22:40:57,AST-1195,T1078,Valid Accounts,Medium,186.97.151.90,Blocked,0,0
+EVT-720bd8f1,2026-09-24 23:17:15,AST-1229,T1078,Valid Accounts,Medium,203.233.209.222,Alerted,0,0
+EVT-78248419,2026-09-24 23:26:17,AST-1158,T1078,Valid Accounts,Medium,73.231.21.128,Allowed,0,0
+EVT-24637821,2026-09-25 00:17:52,AST-1151,T1078,Valid Accounts,Medium,83.89.148.49,Allowed,0,0
+EVT-e6552722,2026-09-25 00:22:08,AST-1176,T1003.001,LSASS Memory Credential Dumping,High,220.74.14.114,Blocked,0,0
+EVT-7ee9c244,2026-09-25 00:29:50,AST-1114,T1486,Data Encrypted for Impact (Ransomware),Critical,55.93.55.232,Allowed,9,0
+EVT-cae049ef,2026-09-25 00:48:28,AST-1102,T1486,Data Encrypted for Impact (Ransomware),Critical,155.72.225.135,Blocked,0,0
+EVT-df0c5460,2026-09-25 01:11:41,AST-1220,T1486,Data Encrypted for Impact (Ransomware),Critical,52.215.180.242,Allowed,72,0
+EVT-94c83e5f,2026-09-25 01:35:24,AST-1275,T1486,Data Encrypted for Impact (Ransomware),Critical,176.183.224.118,Allowed,50,0
+EVT-4939b56f,2026-09-25 01:42:25,AST-1231,T1059.001,PowerShell Execution,Medium,188.168.250.98,Allowed,0,0
+EVT-5b911af4,2026-09-25 01:44:50,AST-1005,T1059.001,PowerShell Execution,Medium,13.128.199.227,Alerted,0,0
+EVT-663325ea,2026-09-25 02:02:56,AST-1262,T1003.001,LSASS Memory Credential Dumping,High,42.30.79.176,Alerted,0,0
+EVT-e836d827,2026-09-25 02:27:45,AST-1097,T1110.001,Password Guessing,Low,94.104.135.172,Blocked,0,0
+EVT-8c332a77,2026-09-25 02:57:17,AST-1166,T1003.001,LSASS Memory Credential Dumping,High,69.35.17.35,Blocked,0,0
+EVT-9d433ddf,2026-09-25 03:08:24,AST-1130,T1486,Data Encrypted for Impact (Ransomware),Critical,47.17.141.59,Blocked,0,0
+EVT-3373d2ed,2026-09-25 04:01:50,AST-1038,T1486,Data Encrypted for Impact (Ransomware),Critical,130.3.120.199,Blocked,0,0
+EVT-dc54ba45,2026-09-25 04:09:03,AST-1014,T1486,Data Encrypted for Impact (Ransomware),Critical,221.186.6.188,Alerted,0,0
+EVT-93b6e9b1,2026-09-25 04:10:06,AST-1266,T1003.001,LSASS Memory Credential Dumping,High,179.183.202.64,Allowed,0,38061
+EVT-0ae8d98c,2026-09-25 05:45:19,AST-1037,T1059.001,PowerShell Execution,Medium,110.20.37.247,Allowed,0,0
+EVT-fa28d3b6,2026-09-25 06:11:16,AST-1189,T1059.001,PowerShell Execution,Medium,182.102.207.249,Allowed,0,0
+EVT-016045c5,2026-09-25 06:29:48,AST-1271,T1486,Data Encrypted for Impact (Ransomware),Critical,126.94.75.66,Alerted,0,0
+EVT-3ae33cce,2026-09-25 06:44:46,AST-1070,T1003.001,LSASS Memory Credential Dumping,High,167.192.253.79,Allowed,0,41834
+EVT-8c0a05e2,2026-09-25 07:20:09,AST-1161,T1110.001,Password Guessing,Low,145.177.189.77,Alerted,0,0
+EVT-e5f92183,2026-09-25 07:26:45,AST-1139,T1059.001,PowerShell Execution,Medium,139.161.104.160,Blocked,0,0
+EVT-4b7ec249,2026-09-25 07:27:39,AST-1190,T1078,Valid Accounts,Medium,75.90.127.120,Alerted,0,0
+EVT-5190d2b0,2026-09-25 07:33:26,AST-1015,T1059.001,PowerShell Execution,Medium,89.62.248.135,Allowed,0,0
+EVT-45f45bdc,2026-09-25 07:45:19,AST-1139,T1110.001,Password Guessing,Low,166.53.220.55,Allowed,0,0
+EVT-821203b8,2026-09-25 07:47:33,AST-1063,T1110.001,Password Guessing,Low,122.106.215.151,Blocked,0,0
+EVT-a7fbf97f,2026-09-25 07:53:03,AST-1077,T1110.001,Password Guessing,Low,103.8.210.35,Alerted,0,0
+EVT-aaa2f6d6,2026-09-25 08:02:22,AST-1220,T1078,Valid Accounts,Medium,147.228.223.179,Blocked,0,0
+EVT-4f2e6f61,2026-09-25 08:34:22,AST-1196,T1110.001,Password Guessing,Low,14.132.33.215,Blocked,0,0
+EVT-4a3f91a2,2026-09-25 08:56:24,AST-1098,T1059.001,PowerShell Execution,Medium,45.65.119.100,Alerted,0,0
+EVT-58bf7781,2026-09-25 09:00:08,AST-1039,T1059.001,PowerShell Execution,Medium,169.139.85.55,Allowed,0,0
+EVT-37b2ad48,2026-09-25 09:10:09,AST-1094,T1078,Valid Accounts,Medium,186.103.86.210,Allowed,0,0
+EVT-330dcc1e,2026-09-25 09:17:52,AST-1014,T1003.001,LSASS Memory Credential Dumping,High,120.154.148.75,Blocked,0,0
+EVT-e020a4cd,2026-09-25 09:25:05,AST-1258,T1078,Valid Accounts,Medium,140.73.139.36,Allowed,0,0
+EVT-02c06299,2026-09-25 09:38:44,AST-1235,T1110.001,Password Guessing,Low,130.58.243.240,Allowed,0,0
+EVT-c44a1b78,2026-09-25 09:42:15,AST-1120,T1078,Valid Accounts,Medium,37.227.4.63,Allowed,0,0
+EVT-d818ca86,2026-09-25 09:48:18,AST-1137,T1078,Valid Accounts,Medium,218.115.103.118,Blocked,0,0
+EVT-02a977ec,2026-09-25 09:57:25,AST-1073,T1486,Data Encrypted for Impact (Ransomware),Critical,184.12.163.160,Alerted,0,0
+EVT-e1a48578,2026-09-25 10:29:36,AST-1280,T1078,Valid Accounts,Medium,162.220.152.236,Alerted,0,0
+EVT-e4bbfc4e,2026-09-25 11:00:11,AST-1073,T1003.001,LSASS Memory Credential Dumping,High,126.45.45.101,Alerted,0,0
+EVT-dcdbc349,2026-09-25 11:16:34,AST-1060,T1078,Valid Accounts,Medium,82.116.196.7,Blocked,0,0
+EVT-6c2040be,2026-09-25 12:39:41,AST-1108,T1486,Data Encrypted for Impact (Ransomware),Critical,133.82.57.142,Blocked,0,0
+EVT-fea7c0fa,2026-09-25 13:15:32,AST-1084,T1078,Valid Accounts,Medium,158.164.30.246,Allowed,0,0
+EVT-c60884f3,2026-09-25 13:19:18,AST-1077,T1078,Valid Accounts,Medium,14.138.99.44,Blocked,0,0
+EVT-1548e978,2026-09-25 13:23:57,AST-1225,T1486,Data Encrypted for Impact (Ransomware),Critical,20.109.125.169,Blocked,0,0
+EVT-006f4d69,2026-09-25 13:34:53,AST-1243,T1486,Data Encrypted for Impact (Ransomware),Critical,100.179.123.182,Blocked,0,0
+EVT-3ac06798,2026-09-25 13:39:21,AST-1122,T1059.001,PowerShell Execution,Medium,74.12.230.235,Alerted,0,0
+EVT-a1b8af43,2026-09-25 14:04:18,AST-1080,T1059.001,PowerShell Execution,Medium,87.5.183.248,Allowed,0,0
+EVT-644d9068,2026-09-25 14:24:13,AST-1006,T1486,Data Encrypted for Impact (Ransomware),Critical,120.195.220.20,Blocked,0,0
+EVT-083b9523,2026-09-25 14:52:05,AST-1073,T1003.001,LSASS Memory Credential Dumping,High,21.17.139.2,Alerted,0,0
+EVT-d793159e,2026-09-25 15:01:06,AST-1173,T1486,Data Encrypted for Impact (Ransomware),Critical,61.51.120.212,Blocked,0,0
+EVT-52d64c8f,2026-09-25 15:17:43,AST-1270,T1078,Valid Accounts,Medium,34.118.190.68,Blocked,0,0
+EVT-edc0154d,2026-09-25 15:19:01,AST-1166,T1059.001,PowerShell Execution,Medium,218.56.99.246,Blocked,0,0
+EVT-ce673b14,2026-09-25 15:59:04,AST-1132,T1110.001,Password Guessing,Low,205.51.116.98,Allowed,0,0
+EVT-d261ef4e,2026-09-25 17:08:07,AST-1197,T1110.001,Password Guessing,Low,61.155.229.19,Blocked,0,0
+EVT-d6851cf0,2026-09-25 18:25:13,AST-1027,T1059.001,PowerShell Execution,Medium,99.170.77.75,Alerted,0,0
+EVT-3b1d4fbc,2026-09-25 18:32:50,AST-1224,T1059.001,PowerShell Execution,Medium,48.62.82.138,Allowed,0,0
+EVT-10821de2,2026-09-25 18:43:05,AST-1058,T1003.001,LSASS Memory Credential Dumping,High,88.96.164.191,Alerted,0,0
+EVT-7b11efd4,2026-09-25 19:19:20,AST-1098,T1059.001,PowerShell Execution,Medium,102.66.236.94,Blocked,0,0
+EVT-dd4b1844,2026-09-25 19:45:49,AST-1179,T1059.001,PowerShell Execution,Medium,153.217.48.204,Allowed,0,0
+EVT-82d5c4df,2026-09-25 22:02:16,AST-1038,T1003.001,LSASS Memory Credential Dumping,High,105.106.192.132,Allowed,0,4339
+EVT-ff787adc,2026-09-25 22:13:09,AST-1088,T1003.001,LSASS Memory Credential Dumping,High,178.65.78.74,Blocked,0,0
+EVT-fcfaf80f,2026-09-25 22:52:08,AST-1034,T1078,Valid Accounts,Medium,142.171.11.122,Blocked,0,0
+EVT-41ac1ccb,2026-09-25 23:11:59,AST-1204,T1110.001,Password Guessing,Low,98.131.179.199,Allowed,0,0
+EVT-8c332b07,2026-09-25 23:57:03,AST-1077,T1078,Valid Accounts,Medium,132.216.245.251,Blocked,0,0
+EVT-232ea896,2026-09-26 01:59:58,AST-1017,T1003.001,LSASS Memory Credential Dumping,High,215.150.143.211,Alerted,0,0
+EVT-e8da50fb,2026-09-26 02:07:05,AST-1127,T1486,Data Encrypted for Impact (Ransomware),Critical,85.185.219.25,Alerted,0,0
+EVT-70f86c73,2026-09-26 02:13:32,AST-1109,T1110.001,Password Guessing,Low,38.244.33.170,Blocked,0,0
+EVT-5ae19708,2026-09-26 02:21:43,AST-1075,T1078,Valid Accounts,Medium,28.190.167.209,Allowed,0,0
+EVT-0e5e5095,2026-09-26 02:40:54,AST-1089,T1003.001,LSASS Memory Credential Dumping,High,104.109.183.237,Alerted,0,0
+EVT-b2a05a45,2026-09-26 03:15:04,AST-1125,T1486,Data Encrypted for Impact (Ransomware),Critical,86.150.246.92,Allowed,51,0
+EVT-57405b74,2026-09-26 04:02:49,AST-1121,T1486,Data Encrypted for Impact (Ransomware),Critical,200.178.152.57,Alerted,0,0
+EVT-a68d2a34,2026-09-26 04:14:20,AST-1241,T1486,Data Encrypted for Impact (Ransomware),Critical,168.111.240.40,Alerted,0,0
+EVT-3015a891,2026-09-26 04:56:51,AST-1068,T1059.001,PowerShell Execution,Medium,131.220.253.50,Blocked,0,0
+EVT-3b20f474,2026-09-26 05:12:05,AST-1194,T1059.001,PowerShell Execution,Medium,18.33.165.49,Alerted,0,0
+EVT-8a42ad2f,2026-09-26 05:26:51,AST-1266,T1110.001,Password Guessing,Low,161.40.77.185,Blocked,0,0
+EVT-da6879e7,2026-09-26 05:36:46,AST-1216,T1110.001,Password Guessing,Low,33.62.21.158,Alerted,0,0
+EVT-3cc86eb5,2026-09-26 05:52:08,AST-1017,T1059.001,PowerShell Execution,Medium,20.139.36.1,Blocked,0,0
+EVT-36647341,2026-09-26 06:52:01,AST-1287,T1078,Valid Accounts,Medium,86.97.153.93,Allowed,0,0
+EVT-5adc01be,2026-09-26 07:09:22,AST-1013,T1078,Valid Accounts,Medium,204.181.123.195,Allowed,0,0
+EVT-d22b3073,2026-09-26 08:32:31,AST-1009,T1003.001,LSASS Memory Credential Dumping,High,218.195.183.162,Allowed,0,21727
+EVT-35980e11,2026-09-26 08:46:12,AST-1293,T1059.001,PowerShell Execution,Medium,14.238.60.244,Alerted,0,0
+EVT-9895cbbc,2026-09-26 09:09:30,AST-1077,T1110.001,Password Guessing,Low,120.225.38.19,Blocked,0,0
+EVT-965c0438,2026-09-26 09:18:41,AST-1228,T1078,Valid Accounts,Medium,176.162.178.12,Allowed,0,0
+EVT-4626fd43,2026-09-26 09:25:05,AST-1075,T1110.001,Password Guessing,Low,222.227.5.156,Blocked,0,0
+EVT-482a2d8a,2026-09-26 09:35:47,AST-1048,T1059.001,PowerShell Execution,Medium,63.174.238.110,Alerted,0,0
+EVT-4dcc644f,2026-09-26 09:38:29,AST-1243,T1003.001,LSASS Memory Credential Dumping,High,14.97.31.54,Blocked,0,0
+EVT-61439074,2026-09-26 10:08:33,AST-1139,T1003.001,LSASS Memory Credential Dumping,High,78.157.122.185,Alerted,0,0
+EVT-8f2fc365,2026-09-26 10:30:00,AST-1265,T1059.001,PowerShell Execution,Medium,114.155.49.233,Blocked,0,0
+EVT-d6abc586,2026-09-26 10:32:55,AST-1262,T1486,Data Encrypted for Impact (Ransomware),Critical,71.19.26.124,Alerted,0,0
+EVT-f1a1bd8e,2026-09-26 11:33:44,AST-1055,T1486,Data Encrypted for Impact (Ransomware),Critical,30.89.234.171,Alerted,0,0
+EVT-3ff09d5e,2026-09-26 12:06:09,AST-1137,T1059.001,PowerShell Execution,Medium,19.29.199.154,Alerted,0,0
+EVT-13b585b6,2026-09-26 13:26:20,AST-1038,T1078,Valid Accounts,Medium,134.14.147.128,Blocked,0,0
+EVT-06d3d953,2026-09-26 13:37:39,AST-1288,T1059.001,PowerShell Execution,Medium,174.190.162.26,Blocked,0,0
+EVT-22f07280,2026-09-26 14:14:57,AST-1190,T1003.001,LSASS Memory Credential Dumping,High,163.157.58.220,Blocked,0,0
+EVT-ca92f713,2026-09-26 14:50:26,AST-1217,T1486,Data Encrypted for Impact (Ransomware),Critical,37.116.74.31,Allowed,72,0
+EVT-829a05e6,2026-09-26 14:50:34,AST-1294,T1003.001,LSASS Memory Credential Dumping,High,146.75.217.127,Blocked,0,0
+EVT-13c908c1,2026-09-26 15:28:52,AST-1079,T1110.001,Password Guessing,Low,117.239.161.95,Allowed,0,0
+EVT-21d80ef9,2026-09-26 15:50:12,AST-1087,T1003.001,LSASS Memory Credential Dumping,High,217.197.245.230,Alerted,0,0
+EVT-20d14eae,2026-09-26 16:10:59,AST-1270,T1059.001,PowerShell Execution,Medium,213.140.207.78,Alerted,0,0
+EVT-fdc86868,2026-09-26 16:18:20,AST-1039,T1059.001,PowerShell Execution,Medium,97.48.177.203,Blocked,0,0
+EVT-37a753fa,2026-09-26 17:18:17,AST-1202,T1486,Data Encrypted for Impact (Ransomware),Critical,132.31.153.94,Blocked,0,0
+EVT-cc306589,2026-09-26 18:02:37,AST-1048,T1078,Valid Accounts,Medium,182.144.25.2,Alerted,0,0
+EVT-291766d0,2026-09-26 18:26:48,AST-1292,T1059.001,PowerShell Execution,Medium,97.3.37.38,Blocked,0,0
+EVT-811e5699,2026-09-26 18:30:14,AST-1011,T1078,Valid Accounts,Medium,16.99.140.216,Allowed,0,0
+EVT-c0517fad,2026-09-26 19:35:04,AST-1070,T1003.001,LSASS Memory Credential Dumping,High,85.195.139.1,Allowed,0,46989
+EVT-1ee3c3e5,2026-09-26 19:56:15,AST-1040,T1486,Data Encrypted for Impact (Ransomware),Critical,102.109.29.119,Blocked,0,0
+EVT-b9fa5d7a,2026-09-26 20:20:07,AST-1236,T1059.001,PowerShell Execution,Medium,38.248.15.81,Blocked,0,0
+EVT-6d46dad7,2026-09-26 20:49:42,AST-1082,T1486,Data Encrypted for Impact (Ransomware),Critical,217.183.210.147,Alerted,0,0
+EVT-e16e1e6d,2026-09-26 20:53:39,AST-1238,T1003.001,LSASS Memory Credential Dumping,High,118.204.97.195,Alerted,0,0
+EVT-259e54d3,2026-09-26 21:11:17,AST-1060,T1486,Data Encrypted for Impact (Ransomware),Critical,74.239.95.210,Alerted,0,0
+EVT-a7c89bce,2026-09-26 21:17:24,AST-1104,T1078,Valid Accounts,Medium,134.12.143.198,Allowed,0,0
+EVT-f9447d9d,2026-09-26 21:35:34,AST-1118,T1486,Data Encrypted for Impact (Ransomware),Critical,159.81.10.4,Blocked,0,0
+EVT-a1ab07d1,2026-09-26 22:10:39,AST-1184,T1110.001,Password Guessing,Low,15.254.56.235,Allowed,0,0
+EVT-d9bc11f5,2026-09-26 22:48:14,AST-1065,T1486,Data Encrypted for Impact (Ransomware),Critical,115.88.155.182,Alerted,0,0
+EVT-5d47ce40,2026-09-26 23:21:04,AST-1085,T1110.001,Password Guessing,Low,56.82.171.126,Allowed,0,0
+EVT-1a3af783,2026-09-27 00:34:50,AST-1287,T1078,Valid Accounts,Medium,22.207.178.109,Blocked,0,0
+EVT-0b11b87b,2026-09-27 00:39:58,AST-1076,T1110.001,Password Guessing,Low,71.156.160.55,Blocked,0,0
+EVT-9ba769e3,2026-09-27 01:21:28,AST-1080,T1486,Data Encrypted for Impact (Ransomware),Critical,216.53.204.160,Allowed,48,0
+EVT-fb78adfb,2026-09-27 01:24:23,AST-1291,T1003.001,LSASS Memory Credential Dumping,High,165.214.162.246,Alerted,0,0
+EVT-04daa519,2026-09-27 01:26:56,AST-1190,T1486,Data Encrypted for Impact (Ransomware),Critical,186.166.172.223,Blocked,0,0
+EVT-c73d3840,2026-09-27 02:11:51,AST-1222,T1003.001,LSASS Memory Credential Dumping,High,84.223.62.197,Alerted,0,0
+EVT-40353423,2026-09-27 02:24:18,AST-1286,T1003.001,LSASS Memory Credential Dumping,High,24.9.80.201,Allowed,0,11926
+EVT-9539370c,2026-09-27 02:24:48,AST-1033,T1078,Valid Accounts,Medium,104.159.78.83,Allowed,0,0
+EVT-24dd7543,2026-09-27 02:51:02,AST-1044,T1110.001,Password Guessing,Low,16.155.131.194,Allowed,0,0
+EVT-4079fe5a,2026-09-27 04:58:17,AST-1052,T1486,Data Encrypted for Impact (Ransomware),Critical,81.251.174.31,Allowed,4,0
+EVT-3f57b14d,2026-09-27 06:10:28,AST-1255,T1059.001,PowerShell Execution,Medium,220.173.134.128,Allowed,0,0
+EVT-6b503ed3,2026-09-27 06:47:04,AST-1030,T1078,Valid Accounts,Medium,156.166.226.109,Alerted,0,0
+EVT-867a0cab,2026-09-27 06:54:39,AST-1234,T1003.001,LSASS Memory Credential Dumping,High,134.183.179.59,Allowed,0,29866
+EVT-e451e89e,2026-09-27 07:07:22,AST-1266,T1486,Data Encrypted for Impact (Ransomware),Critical,69.235.8.196,Allowed,42,0
+EVT-4da0b5d1,2026-09-27 07:39:49,AST-1250,T1486,Data Encrypted for Impact (Ransomware),Critical,45.218.147.112,Alerted,0,0
+EVT-b8e0b376,2026-09-27 08:01:53,AST-1088,T1110.001,Password Guessing,Low,203.30.226.29,Blocked,0,0
+EVT-79bddbb9,2026-09-27 08:23:28,AST-1248,T1059.001,PowerShell Execution,Medium,61.188.213.35,Alerted,0,0
+EVT-1b7bb032,2026-09-27 08:46:47,AST-1258,T1078,Valid Accounts,Medium,16.253.88.74,Alerted,0,0
+EVT-18bd194c,2026-09-27 08:58:27,AST-1236,T1059.001,PowerShell Execution,Medium,171.189.242.238,Blocked,0,0
+EVT-171822ec,2026-09-27 09:07:44,AST-1187,T1110.001,Password Guessing,Low,138.125.164.205,Allowed,0,0
+EVT-a90449e9,2026-09-27 09:11:07,AST-1156,T1059.001,PowerShell Execution,Medium,84.34.251.226,Allowed,0,0
+EVT-78456edc,2026-09-27 09:14:33,AST-1178,T1078,Valid Accounts,Medium,194.96.39.113,Allowed,0,0
+EVT-30ed2cc5,2026-09-27 09:42:53,AST-1136,T1486,Data Encrypted for Impact (Ransomware),Critical,213.134.181.29,Alerted,0,0
+EVT-bf8fa146,2026-09-27 09:48:24,AST-1107,T1110.001,Password Guessing,Low,136.237.38.192,Allowed,0,0
+EVT-76ead265,2026-09-27 10:00:04,AST-1289,T1078,Valid Accounts,Medium,71.196.82.207,Blocked,0,0
+EVT-1b398830,2026-09-27 10:33:26,AST-1100,T1078,Valid Accounts,Medium,219.123.1.178,Allowed,0,0
+EVT-5f1f77c9,2026-09-27 10:34:18,AST-1227,T1110.001,Password Guessing,Low,207.102.80.66,Blocked,0,0
+EVT-2acc3887,2026-09-27 10:48:01,AST-1136,T1110.001,Password Guessing,Low,169.28.20.183,Blocked,0,0
+EVT-cb5fc794,2026-09-27 11:24:01,AST-1121,T1059.001,PowerShell Execution,Medium,125.62.160.37,Blocked,0,0
+EVT-23275765,2026-09-27 11:54:39,AST-1211,T1078,Valid Accounts,Medium,132.185.241.49,Blocked,0,0
+EVT-3f24e33c,2026-09-27 12:41:10,AST-1236,T1003.001,LSASS Memory Credential Dumping,High,68.80.125.203,Blocked,0,0
+EVT-fa66b9ff,2026-09-27 13:08:32,AST-1085,T1078,Valid Accounts,Medium,12.29.85.109,Alerted,0,0
+EVT-8c855aa8,2026-09-27 13:15:54,AST-1071,T1486,Data Encrypted for Impact (Ransomware),Critical,65.248.6.42,Alerted,0,0
+EVT-d3973d52,2026-09-27 13:38:11,AST-1276,T1003.001,LSASS Memory Credential Dumping,High,86.226.110.207,Alerted,0,0
+EVT-3a917228,2026-09-27 13:57:26,AST-1205,T1078,Valid Accounts,Medium,171.16.27.225,Allowed,0,0
+EVT-211e2d23,2026-09-27 13:58:14,AST-1052,T1486,Data Encrypted for Impact (Ransomware),Critical,27.252.215.13,Blocked,0,0
+EVT-2db047d3,2026-09-27 13:59:12,AST-1002,T1486,Data Encrypted for Impact (Ransomware),Critical,130.83.148.172,Allowed,11,0
+EVT-8ca5f739,2026-09-27 14:16:24,AST-1118,T1059.001,PowerShell Execution,Medium,204.167.160.109,Blocked,0,0
+EVT-017c048f,2026-09-27 14:25:17,AST-1089,T1486,Data Encrypted for Impact (Ransomware),Critical,137.169.10.118,Alerted,0,0
+EVT-a2b80776,2026-09-27 15:00:33,AST-1271,T1110.001,Password Guessing,Low,194.248.101.32,Allowed,0,0
+EVT-349a57ac,2026-09-27 15:10:48,AST-1100,T1059.001,PowerShell Execution,Medium,166.247.238.118,Blocked,0,0
+EVT-a43d7551,2026-09-27 15:12:41,AST-1138,T1003.001,LSASS Memory Credential Dumping,High,74.235.123.182,Allowed,0,35504
+EVT-6fe6e5a8,2026-09-27 15:27:14,AST-1004,T1059.001,PowerShell Execution,Medium,69.78.185.114,Allowed,0,0
+EVT-d8c4b7f4,2026-09-27 16:39:41,AST-1077,T1078,Valid Accounts,Medium,118.111.174.83,Allowed,0,0
+EVT-59d9f25a,2026-09-27 16:59:39,AST-1249,T1110.001,Password Guessing,Low,207.14.236.148,Allowed,0,0
+EVT-72cfa0ac,2026-09-27 17:33:48,AST-1225,T1486,Data Encrypted for Impact (Ransomware),Critical,37.34.170.178,Allowed,60,0
+EVT-77d69e3e,2026-09-27 18:33:01,AST-1015,T1003.001,LSASS Memory Credential Dumping,High,22.80.3.220,Blocked,0,0
+EVT-51e8b4f0,2026-09-27 18:41:18,AST-1080,T1059.001,PowerShell Execution,Medium,101.248.34.145,Allowed,0,0
+EVT-e4b2c069,2026-09-27 18:50:04,AST-1217,T1059.001,PowerShell Execution,Medium,66.239.117.36,Blocked,0,0
+EVT-1eb5aa12,2026-09-27 19:22:02,AST-1262,T1003.001,LSASS Memory Credential Dumping,High,185.44.235.131,Blocked,0,0
+EVT-80cfd4e2,2026-09-27 19:33:40,AST-1078,T1059.001,PowerShell Execution,Medium,30.28.231.134,Blocked,0,0
+EVT-8cbdf298,2026-09-27 20:06:12,AST-1050,T1059.001,PowerShell Execution,Medium,183.253.203.29,Allowed,0,0
+EVT-e750cc52,2026-09-27 20:07:13,AST-1077,T1110.001,Password Guessing,Low,44.1.25.6,Blocked,0,0
+EVT-2481953f,2026-09-27 22:29:53,AST-1272,T1078,Valid Accounts,Medium,15.127.73.53,Blocked,0,0
+EVT-532b873b,2026-09-27 23:35:46,AST-1063,T1078,Valid Accounts,Medium,212.13.198.166,Blocked,0,0
+EVT-b213f037,2026-09-27 23:43:34,AST-1026,T1110.001,Password Guessing,Low,31.115.223.195,Alerted,0,0
+EVT-dccb7711,2026-09-27 23:49:33,AST-1279,T1059.001,PowerShell Execution,Medium,92.70.161.210,Alerted,0,0
+EVT-dbbff587,2026-09-27 23:52:50,AST-1122,T1078,Valid Accounts,Medium,97.148.9.107,Alerted,0,0
+EVT-74c3d549,2026-09-27 23:56:16,AST-1224,T1003.001,LSASS Memory Credential Dumping,High,70.75.237.186,Alerted,0,0
+EVT-2ec027a0,2026-09-27 23:59:37,AST-1184,T1003.001,LSASS Memory Credential Dumping,High,96.165.174.208,Blocked,0,0
+EVT-8e2c2d84,2026-09-28 00:07:39,AST-1217,T1059.001,PowerShell Execution,Medium,113.50.231.230,Alerted,0,0
+EVT-142773b3,2026-09-28 00:19:11,AST-1196,T1486,Data Encrypted for Impact (Ransomware),Critical,81.30.94.161,Allowed,70,0
+EVT-a72ce7f9,2026-09-28 00:19:42,AST-1156,T1003.001,LSASS Memory Credential Dumping,High,119.251.203.164,Allowed,0,49906
+EVT-2d4d1aab,2026-09-28 01:09:48,AST-1180,T1078,Valid Accounts,Medium,78.4.91.223,Alerted,0,0
+EVT-4a1f5eb0,2026-09-28 01:12:40,AST-1196,T1003.001,LSASS Memory Credential Dumping,High,131.15.59.92,Allowed,0,1508
+EVT-54b75501,2026-09-28 02:10:05,AST-1141,T1110.001,Password Guessing,Low,114.91.209.69,Alerted,0,0
+EVT-52184dda,2026-09-28 02:27:08,AST-1140,T1110.001,Password Guessing,Low,156.95.38.105,Allowed,0,0
+EVT-aa998c34,2026-09-28 02:35:21,AST-1272,T1059.001,PowerShell Execution,Medium,188.194.142.135,Alerted,0,0
+EVT-34936d0c,2026-09-28 04:11:10,AST-1011,T1003.001,LSASS Memory Credential Dumping,High,108.254.175.55,Alerted,0,0
+EVT-144daa32,2026-09-28 04:11:17,AST-1227,T1059.001,PowerShell Execution,Medium,90.165.19.156,Blocked,0,0
+EVT-239b8b0f,2026-09-28 04:15:31,AST-1217,T1059.001,PowerShell Execution,Medium,76.8.80.70,Alerted,0,0
+EVT-12154c0a,2026-09-28 04:40:50,AST-1066,T1078,Valid Accounts,Medium,59.218.245.253,Blocked,0,0
+EVT-b5138c7b,2026-09-28 05:49:18,AST-1062,T1059.001,PowerShell Execution,Medium,145.214.173.232,Alerted,0,0
+EVT-b0e3a3fb,2026-09-28 05:51:55,AST-1249,T1059.001,PowerShell Execution,Medium,194.221.176.112,Blocked,0,0
+EVT-6ab39970,2026-09-28 05:53:38,AST-1172,T1486,Data Encrypted for Impact (Ransomware),Critical,170.182.61.21,Blocked,0,0
+EVT-4e75c889,2026-09-28 06:00:29,AST-1067,T1059.001,PowerShell Execution,Medium,199.122.147.100,Alerted,0,0
+EVT-7ad3e6ad,2026-09-28 06:00:46,AST-1015,T1078,Valid Accounts,Medium,113.192.243.18,Alerted,0,0
+EVT-a88c34af,2026-09-28 06:14:35,AST-1261,T1059.001,PowerShell Execution,Medium,222.94.80.129,Allowed,0,0
+EVT-de9439db,2026-09-28 08:42:24,AST-1233,T1059.001,PowerShell Execution,Medium,206.48.77.80,Allowed,0,0
+EVT-f2de777b,2026-09-28 08:43:16,AST-1225,T1078,Valid Accounts,Medium,46.238.215.9,Alerted,0,0
+EVT-42fa56b2,2026-09-28 09:46:27,AST-1141,T1486,Data Encrypted for Impact (Ransomware),Critical,128.197.148.33,Alerted,0,0
+EVT-8b4d59eb,2026-09-28 10:17:36,AST-1182,T1110.001,Password Guessing,Low,139.46.183.42,Allowed,0,0
+EVT-3f507d22,2026-09-28 10:21:03,AST-1133,T1003.001,LSASS Memory Credential Dumping,High,28.111.154.139,Alerted,0,0
+EVT-4fb223ae,2026-09-28 10:35:47,AST-1260,T1059.001,PowerShell Execution,Medium,45.59.181.101,Blocked,0,0
+EVT-14962562,2026-09-28 10:36:34,AST-1166,T1078,Valid Accounts,Medium,188.159.61.231,Alerted,0,0
+EVT-42fa53e3,2026-09-28 10:54:59,AST-1199,T1059.001,PowerShell Execution,Medium,204.215.129.159,Alerted,0,0
+EVT-12341d3b,2026-09-28 11:03:11,AST-1034,T1486,Data Encrypted for Impact (Ransomware),Critical,64.108.6.102,Alerted,0,0
+EVT-ed39cec9,2026-09-28 11:23:39,AST-1190,T1078,Valid Accounts,Medium,109.147.146.219,Alerted,0,0
+EVT-57903a99,2026-09-28 12:01:57,AST-1142,T1059.001,PowerShell Execution,Medium,84.7.11.139,Allowed,0,0
+EVT-482b552b,2026-09-28 12:13:45,AST-1216,T1486,Data Encrypted for Impact (Ransomware),Critical,213.52.114.169,Blocked,0,0
+EVT-49ec3e96,2026-09-28 12:25:07,AST-1272,T1078,Valid Accounts,Medium,218.22.112.230,Blocked,0,0
+EVT-23dcc4d9,2026-09-28 12:28:25,AST-1079,T1003.001,LSASS Memory Credential Dumping,High,122.135.123.45,Blocked,0,0
+EVT-2be9c140,2026-09-28 12:38:01,AST-1077,T1059.001,PowerShell Execution,Medium,120.193.87.32,Blocked,0,0
+EVT-182264b7,2026-09-28 12:41:28,AST-1122,T1110.001,Password Guessing,Low,134.22.237.152,Blocked,0,0
+EVT-c753ffa2,2026-09-28 12:41:36,AST-1269,T1486,Data Encrypted for Impact (Ransomware),Critical,96.41.137.24,Allowed,69,0
+EVT-edc8c7b2,2026-09-28 12:43:18,AST-1271,T1059.001,PowerShell Execution,Medium,189.77.230.254,Alerted,0,0
+EVT-f22783c8,2026-09-28 15:51:50,AST-1227,T1486,Data Encrypted for Impact (Ransomware),Critical,25.141.94.239,Blocked,0,0
+EVT-51f68f9c,2026-09-28 16:13:12,AST-1226,T1110.001,Password Guessing,Low,21.45.69.164,Allowed,0,0
+EVT-a111d6f3,2026-09-28 16:14:46,AST-1092,T1003.001,LSASS Memory Credential Dumping,High,220.93.245.30,Allowed,0,24350
+EVT-8b8f598b,2026-09-28 16:21:07,AST-1049,T1078,Valid Accounts,Medium,15.101.219.129,Allowed,0,0
+EVT-01e12eae,2026-09-28 16:32:21,AST-1217,T1059.001,PowerShell Execution,Medium,29.64.205.95,Alerted,0,0
+EVT-c0462bbd,2026-09-28 16:33:25,AST-1086,T1059.001,PowerShell Execution,Medium,147.137.227.162,Alerted,0,0
+EVT-b263d4b4,2026-09-28 16:56:16,AST-1073,T1486,Data Encrypted for Impact (Ransomware),Critical,91.93.30.239,Alerted,0,0
+EVT-f29bca80,2026-09-28 17:23:29,AST-1027,T1110.001,Password Guessing,Low,132.128.222.223,Alerted,0,0
+EVT-12221de6,2026-09-28 19:22:36,AST-1248,T1110.001,Password Guessing,Low,185.89.45.70,Blocked,0,0
+EVT-68b82609,2026-09-28 20:07:40,AST-1077,T1003.001,LSASS Memory Credential Dumping,High,135.149.59.113,Allowed,0,36014
+EVT-0b98de58,2026-09-28 20:37:12,AST-1188,T1059.001,PowerShell Execution,Medium,44.213.112.239,Allowed,0,0
+EVT-fd3adef7,2026-09-28 21:11:45,AST-1239,T1003.001,LSASS Memory Credential Dumping,High,55.107.234.82,Alerted,0,0
+EVT-0c8a68af,2026-09-28 21:21:54,AST-1107,T1059.001,PowerShell Execution,Medium,91.89.170.174,Alerted,0,0
+EVT-57caf0b7,2026-09-28 21:41:07,AST-1068,T1110.001,Password Guessing,Low,203.116.21.37,Allowed,0,0
+EVT-fe707766,2026-09-28 22:03:10,AST-1298,T1110.001,Password Guessing,Low,169.109.82.71,Blocked,0,0
+EVT-4dade784,2026-09-28 22:12:41,AST-1200,T1003.001,LSASS Memory Credential Dumping,High,133.148.121.212,Blocked,0,0
+EVT-ca1b13eb,2026-09-28 22:13:52,AST-1294,T1486,Data Encrypted for Impact (Ransomware),Critical,150.46.208.50,Alerted,0,0
+EVT-d526d807,2026-09-28 22:19:35,AST-1147,T1486,Data Encrypted for Impact (Ransomware),Critical,95.158.168.150,Alerted,0,0
+EVT-0e98453c,2026-09-28 22:24:23,AST-1162,T1078,Valid Accounts,Medium,75.247.133.238,Allowed,0,0
+EVT-3d29387a,2026-09-28 22:49:30,AST-1204,T1486,Data Encrypted for Impact (Ransomware),Critical,185.140.59.46,Alerted,0,0
+EVT-7856fb70,2026-09-28 22:51:54,AST-1286,T1486,Data Encrypted for Impact (Ransomware),Critical,114.126.201.122,Blocked,0,0
+EVT-4b646a71,2026-09-28 23:14:22,AST-1135,T1486,Data Encrypted for Impact (Ransomware),Critical,102.248.190.22,Blocked,0,0
+EVT-39a10af2,2026-09-28 23:24:30,AST-1264,T1110.001,Password Guessing,Low,177.223.69.73,Blocked,0,0
+EVT-728e8ed2,2026-09-28 23:27:13,AST-1016,T1078,Valid Accounts,Medium,104.146.80.241,Blocked,0,0
+EVT-b1ffba0c,2026-09-28 23:40:00,AST-1271,T1486,Data Encrypted for Impact (Ransomware),Critical,177.134.23.83,Allowed,68,0
+EVT-5d8f0545,2026-09-28 23:40:18,AST-1054,T1059.001,PowerShell Execution,Medium,128.120.3.193,Allowed,0,0
+EVT-880feb71,2026-09-28 23:47:27,AST-1104,T1078,Valid Accounts,Medium,111.86.158.147,Alerted,0,0
+EVT-d7e61ee9,2026-09-28 23:52:21,AST-1271,T1059.001,PowerShell Execution,Medium,67.149.162.161,Allowed,0,0
+EVT-9bd5074d,2026-09-29 01:06:09,AST-1215,T1110.001,Password Guessing,Low,140.96.183.211,Allowed,0,0
+EVT-e48856c0,2026-09-29 01:33:31,AST-1204,T1059.001,PowerShell Execution,Medium,194.189.1.107,Allowed,0,0
+EVT-cd82e085,2026-09-29 01:50:27,AST-1132,T1059.001,PowerShell Execution,Medium,52.191.116.8,Alerted,0,0
+EVT-03ddee95,2026-09-29 02:27:50,AST-1174,T1110.001,Password Guessing,Low,83.140.165.32,Allowed,0,0
+EVT-6318add5,2026-09-29 03:20:06,AST-1220,T1486,Data Encrypted for Impact (Ransomware),Critical,82.148.64.193,Alerted,0,0
+EVT-2139ef61,2026-09-29 03:33:56,AST-1269,T1486,Data Encrypted for Impact (Ransomware),Critical,113.143.51.88,Blocked,0,0
+EVT-fdf2636d,2026-09-29 03:41:19,AST-1238,T1003.001,LSASS Memory Credential Dumping,High,168.45.244.185,Alerted,0,0
+EVT-aa49984b,2026-09-29 03:41:44,AST-1013,T1078,Valid Accounts,Medium,211.180.245.8,Allowed,0,0
+EVT-9d559294,2026-09-29 04:39:16,AST-1199,T1078,Valid Accounts,Medium,47.219.155.241,Alerted,0,0
+EVT-76755dc7,2026-09-29 04:50:31,AST-1138,T1110.001,Password Guessing,Low,148.149.181.25,Alerted,0,0
+EVT-e74981eb,2026-09-29 05:08:29,AST-1280,T1059.001,PowerShell Execution,Medium,38.94.246.3,Allowed,0,0
+EVT-7dee4fa5,2026-09-29 05:25:47,AST-1097,T1078,Valid Accounts,Medium,108.168.165.190,Blocked,0,0
+EVT-975e4327,2026-09-29 05:48:19,AST-1099,T1486,Data Encrypted for Impact (Ransomware),Critical,36.246.33.247,Blocked,0,0
+EVT-9a2b9160,2026-09-29 05:52:01,AST-1271,T1486,Data Encrypted for Impact (Ransomware),Critical,30.151.5.85,Alerted,0,0
+EVT-b2bede2b,2026-09-29 06:13:56,AST-1133,T1059.001,PowerShell Execution,Medium,128.73.193.170,Alerted,0,0
+EVT-fed2c33a,2026-09-29 06:18:08,AST-1261,T1059.001,PowerShell Execution,Medium,84.38.99.11,Blocked,0,0
+EVT-f35f4f4f,2026-09-29 06:20:53,AST-1014,T1110.001,Password Guessing,Low,33.13.209.155,Blocked,0,0
+EVT-74b63293,2026-09-29 07:22:39,AST-1032,T1059.001,PowerShell Execution,Medium,211.63.91.32,Allowed,0,0
+EVT-1212551c,2026-09-29 09:30:15,AST-1252,T1078,Valid Accounts,Medium,49.160.102.5,Allowed,0,0
+EVT-8681ffe5,2026-09-29 09:37:45,AST-1098,T1059.001,PowerShell Execution,Medium,135.118.248.67,Alerted,0,0
+EVT-dcaa1470,2026-09-29 09:50:57,AST-1075,T1110.001,Password Guessing,Low,128.84.129.55,Alerted,0,0
+EVT-296bb4f8,2026-09-29 10:09:18,AST-1108,T1078,Valid Accounts,Medium,45.68.233.209,Blocked,0,0
+EVT-f476848a,2026-09-29 10:23:54,AST-1087,T1110.001,Password Guessing,Low,110.198.65.138,Blocked,0,0
+EVT-62a383cc,2026-09-29 10:25:43,AST-1280,T1110.001,Password Guessing,Low,25.205.36.113,Alerted,0,0
+EVT-13315ab9,2026-09-29 10:42:56,AST-1108,T1110.001,Password Guessing,Low,28.178.29.200,Alerted,0,0
+EVT-8bc94e4c,2026-09-29 11:04:51,AST-1110,T1003.001,LSASS Memory Credential Dumping,High,145.9.154.107,Allowed,0,22792
+EVT-5aa1f7ba,2026-09-29 11:06:40,AST-1274,T1059.001,PowerShell Execution,Medium,190.244.99.14,Blocked,0,0
+EVT-66bc4374,2026-09-29 11:19:21,AST-1180,T1110.001,Password Guessing,Low,36.241.245.106,Alerted,0,0
+EVT-f7871b95,2026-09-29 12:08:24,AST-1073,T1003.001,LSASS Memory Credential Dumping,High,109.246.179.81,Blocked,0,0
+EVT-8761fc4a,2026-09-29 12:33:16,AST-1141,T1110.001,Password Guessing,Low,205.245.84.74,Alerted,0,0
+EVT-add74fdc,2026-09-29 13:11:25,AST-1182,T1059.001,PowerShell Execution,Medium,182.12.177.101,Alerted,0,0
+EVT-1d9f7476,2026-09-29 13:18:24,AST-1135,T1110.001,Password Guessing,Low,170.181.229.141,Blocked,0,0
+EVT-2478f353,2026-09-29 13:34:19,AST-1271,T1059.001,PowerShell Execution,Medium,76.161.53.107,Blocked,0,0
+EVT-947cbf58,2026-09-29 13:58:31,AST-1009,T1059.001,PowerShell Execution,Medium,187.151.4.188,Blocked,0,0
+EVT-bc4a7a3a,2026-09-29 14:35:40,AST-1232,T1078,Valid Accounts,Medium,50.252.38.10,Blocked,0,0
+EVT-f638ea37,2026-09-29 15:57:18,AST-1210,T1003.001,LSASS Memory Credential Dumping,High,191.79.60.6,Allowed,0,7904
+EVT-216aff58,2026-09-29 16:01:38,AST-1248,T1003.001,LSASS Memory Credential Dumping,High,120.18.73.87,Blocked,0,0
+EVT-0092f72e,2026-09-29 17:07:09,AST-1018,T1486,Data Encrypted for Impact (Ransomware),Critical,145.68.128.55,Alerted,0,0
+EVT-c27ce04a,2026-09-29 17:31:34,AST-1258,T1003.001,LSASS Memory Credential Dumping,High,164.204.141.92,Allowed,0,46496
+EVT-daea797c,2026-09-29 17:41:39,AST-1038,T1078,Valid Accounts,Medium,144.131.11.18,Alerted,0,0
+EVT-51552daa,2026-09-29 18:13:31,AST-1256,T1059.001,PowerShell Execution,Medium,121.212.100.51,Allowed,0,0
+EVT-0b50175b,2026-09-29 18:27:08,AST-1226,T1059.001,PowerShell Execution,Medium,162.132.3.88,Blocked,0,0
+EVT-316cc4d3,2026-09-29 18:36:56,AST-1135,T1110.001,Password Guessing,Low,128.21.203.7,Alerted,0,0
+EVT-54a36513,2026-09-29 18:40:38,AST-1290,T1110.001,Password Guessing,Low,64.233.230.153,Blocked,0,0
+EVT-a5f0c1eb,2026-09-29 19:25:08,AST-1271,T1059.001,PowerShell Execution,Medium,195.192.147.138,Alerted,0,0
+EVT-73e4d9a8,2026-09-29 19:33:17,AST-1234,T1110.001,Password Guessing,Low,215.130.152.98,Allowed,0,0
+EVT-db00854f,2026-09-29 20:13:06,AST-1076,T1078,Valid Accounts,Medium,45.202.70.60,Blocked,0,0
+EVT-30a0fccc,2026-09-29 20:18:32,AST-1101,T1078,Valid Accounts,Medium,64.115.19.180,Alerted,0,0
+EVT-7cbd2f09,2026-09-29 21:35:14,AST-1102,T1059.001,PowerShell Execution,Medium,50.19.217.160,Alerted,0,0
+EVT-52ee7a81,2026-09-29 22:21:13,AST-1127,T1110.001,Password Guessing,Low,141.244.39.100,Blocked,0,0
+EVT-cb259647,2026-09-29 22:23:25,AST-1182,T1003.001,LSASS Memory Credential Dumping,High,131.27.131.222,Allowed,0,24064
+EVT-8359b679,2026-09-29 22:47:57,AST-1238,T1110.001,Password Guessing,Low,44.31.88.158,Allowed,0,0
+EVT-24f29d47,2026-09-29 22:51:35,AST-1208,T1059.001,PowerShell Execution,Medium,126.40.236.229,Blocked,0,0
+EVT-caff06ba,2026-09-29 23:22:01,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,102.244.64.211,Alerted,0,0
+EVT-39ef391e,2026-09-30 00:07:24,AST-1068,T1059.001,PowerShell Execution,Medium,179.28.57.12,Alerted,0,0
+EVT-115cbdb0,2026-09-30 01:14:16,AST-1286,T1059.001,PowerShell Execution,Medium,54.118.47.148,Allowed,0,0
+EVT-4ae2efb6,2026-09-30 02:12:07,AST-1137,T1059.001,PowerShell Execution,Medium,196.223.229.228,Alerted,0,0
+EVT-e2f35f66,2026-09-30 04:38:46,AST-1275,T1078,Valid Accounts,Medium,171.70.45.13,Blocked,0,0
+EVT-f10a29f9,2026-09-30 05:12:56,AST-1121,T1110.001,Password Guessing,Low,23.151.130.176,Blocked,0,0
+EVT-30316cea,2026-09-30 05:14:02,AST-1280,T1110.001,Password Guessing,Low,100.85.138.17,Allowed,0,0
+EVT-2c89fc32,2026-09-30 05:16:02,AST-1075,T1078,Valid Accounts,Medium,110.75.192.8,Allowed,0,0
+EVT-a955c033,2026-09-30 07:27:45,AST-1297,T1003.001,LSASS Memory Credential Dumping,High,92.107.68.49,Allowed,0,21551
+EVT-9f8cb485,2026-09-30 07:39:40,AST-1237,T1059.001,PowerShell Execution,Medium,69.229.8.233,Alerted,0,0
+EVT-ea799ce0,2026-09-30 07:51:48,AST-1223,T1110.001,Password Guessing,Low,72.124.149.42,Blocked,0,0
+EVT-e83d23ec,2026-09-30 08:23:30,AST-1088,T1078,Valid Accounts,Medium,57.132.15.30,Blocked,0,0
+EVT-00236739,2026-09-30 08:27:39,AST-1086,T1059.001,PowerShell Execution,Medium,110.94.90.169,Alerted,0,0
+EVT-06523a68,2026-09-30 08:49:30,AST-1053,T1486,Data Encrypted for Impact (Ransomware),Critical,124.166.8.160,Alerted,0,0
+EVT-8873fa36,2026-09-30 09:04:04,AST-1084,T1486,Data Encrypted for Impact (Ransomware),Critical,133.113.40.3,Blocked,0,0
+EVT-94f8c476,2026-09-30 09:17:19,AST-1247,T1486,Data Encrypted for Impact (Ransomware),Critical,47.20.63.41,Alerted,0,0
+EVT-d6856b44,2026-09-30 09:20:57,AST-1252,T1486,Data Encrypted for Impact (Ransomware),Critical,185.157.222.114,Blocked,0,0
+EVT-4e274ddb,2026-09-30 09:35:03,AST-1140,T1003.001,LSASS Memory Credential Dumping,High,39.215.203.130,Blocked,0,0
+EVT-ecb392a9,2026-09-30 09:56:55,AST-1200,T1078,Valid Accounts,Medium,222.214.130.77,Blocked,0,0
+EVT-f3284bb8,2026-09-30 10:28:07,AST-1031,T1486,Data Encrypted for Impact (Ransomware),Critical,166.25.162.148,Alerted,0,0
+EVT-955d8cfc,2026-09-30 10:42:19,AST-1107,T1110.001,Password Guessing,Low,19.73.246.99,Alerted,0,0
+EVT-54353726,2026-09-30 10:49:31,AST-1217,T1059.001,PowerShell Execution,Medium,51.86.55.212,Blocked,0,0
+EVT-937bbcba,2026-09-30 10:56:51,AST-1099,T1486,Data Encrypted for Impact (Ransomware),Critical,144.224.34.134,Allowed,48,0
+EVT-841c9619,2026-09-30 11:05:45,AST-1009,T1078,Valid Accounts,Medium,78.47.19.43,Alerted,0,0
+EVT-938498a8,2026-09-30 11:09:46,AST-1247,T1486,Data Encrypted for Impact (Ransomware),Critical,54.34.163.159,Blocked,0,0
+EVT-a4a4a14c,2026-09-30 11:19:36,AST-1252,T1110.001,Password Guessing,Low,53.251.134.146,Blocked,0,0
+EVT-6ed14ba5,2026-09-30 11:22:26,AST-1211,T1486,Data Encrypted for Impact (Ransomware),Critical,20.110.172.64,Allowed,49,0
+EVT-04318666,2026-09-30 11:39:19,AST-1189,T1078,Valid Accounts,Medium,158.95.37.55,Blocked,0,0
+EVT-a3dede17,2026-09-30 12:11:05,AST-1288,T1078,Valid Accounts,Medium,84.235.216.224,Blocked,0,0
+EVT-696860ed,2026-09-30 12:20:02,AST-1062,T1486,Data Encrypted for Impact (Ransomware),Critical,41.211.250.102,Blocked,0,0
+EVT-cdfc171d,2026-09-30 12:22:24,AST-1030,T1059.001,PowerShell Execution,Medium,177.197.108.147,Blocked,0,0
+EVT-2842a7f4,2026-09-30 13:13:50,AST-1222,T1486,Data Encrypted for Impact (Ransomware),Critical,177.131.121.203,Alerted,0,0
+EVT-27173d17,2026-09-30 13:26:09,AST-1067,T1486,Data Encrypted for Impact (Ransomware),Critical,173.217.84.74,Blocked,0,0
+EVT-93b277e5,2026-09-30 13:52:49,AST-1146,T1486,Data Encrypted for Impact (Ransomware),Critical,21.44.31.113,Alerted,0,0
+EVT-fec214c7,2026-09-30 14:10:08,AST-1213,T1059.001,PowerShell Execution,Medium,54.167.188.93,Allowed,0,0
+EVT-81ce91b0,2026-09-30 14:25:14,AST-1058,T1078,Valid Accounts,Medium,18.219.43.56,Blocked,0,0
+EVT-4d995947,2026-09-30 15:12:06,AST-1188,T1003.001,LSASS Memory Credential Dumping,High,33.182.74.213,Allowed,0,19213
+EVT-4d95a254,2026-09-30 15:35:54,AST-1144,T1003.001,LSASS Memory Credential Dumping,High,128.154.167.197,Allowed,0,20624
+EVT-18beb855,2026-09-30 15:52:43,AST-1210,T1059.001,PowerShell Execution,Medium,199.110.101.235,Alerted,0,0
+EVT-a1d2a446,2026-09-30 16:02:06,AST-1063,T1078,Valid Accounts,Medium,147.231.232.14,Alerted,0,0
+EVT-ee21b91e,2026-09-30 16:40:56,AST-1027,T1110.001,Password Guessing,Low,102.123.73.148,Blocked,0,0
+EVT-58ef9a1e,2026-09-30 17:02:02,AST-1119,T1110.001,Password Guessing,Low,83.77.199.249,Alerted,0,0
+EVT-44c889e8,2026-09-30 17:24:16,AST-1080,T1003.001,LSASS Memory Credential Dumping,High,89.94.158.233,Allowed,0,16354
+EVT-6580b317,2026-09-30 18:28:53,AST-1020,T1003.001,LSASS Memory Credential Dumping,High,49.173.212.226,Alerted,0,0
+EVT-ce269b6f,2026-09-30 19:28:43,AST-1006,T1003.001,LSASS Memory Credential Dumping,High,11.226.196.185,Blocked,0,0
+EVT-738d1ae0,2026-09-30 19:32:16,AST-1067,T1059.001,PowerShell Execution,Medium,106.236.51.21,Blocked,0,0
+EVT-cc0bc904,2026-09-30 19:37:32,AST-1239,T1059.001,PowerShell Execution,Medium,16.227.152.82,Alerted,0,0
+EVT-7a43cc87,2026-09-30 19:52:01,AST-1271,T1059.001,PowerShell Execution,Medium,171.161.139.177,Blocked,0,0
+EVT-d703850c,2026-09-30 20:25:55,AST-1219,T1003.001,LSASS Memory Credential Dumping,High,107.159.63.124,Blocked,0,0
+EVT-ef4b4e5d,2026-09-30 20:27:04,AST-1216,T1110.001,Password Guessing,Low,18.224.176.24,Blocked,0,0
+EVT-68aaf84e,2026-09-30 22:04:24,AST-1238,T1486,Data Encrypted for Impact (Ransomware),Critical,79.182.192.75,Allowed,72,0
+EVT-172c2312,2026-09-30 22:12:35,AST-1073,T1486,Data Encrypted for Impact (Ransomware),Critical,100.36.30.90,Alerted,0,0
+EVT-2a6bc688,2026-09-30 22:23:38,AST-1068,T1059.001,PowerShell Execution,Medium,162.44.202.156,Allowed,0,0
+EVT-a5df4592,2026-09-30 23:56:09,AST-1183,T1003.001,LSASS Memory Credential Dumping,High,120.154.70.253,Alerted,0,0
+EVT-e4bb5cf6,2026-10-01 00:11:19,AST-1274,T1486,Data Encrypted for Impact (Ransomware),Critical,103.141.134.159,Alerted,0,0
+EVT-26e7b66c,2026-10-01 02:00:18,AST-1251,T1003.001,LSASS Memory Credential Dumping,High,213.92.18.112,Alerted,0,0
+EVT-ee18cd0a,2026-10-01 02:03:54,AST-1183,T1110.001,Password Guessing,Low,96.84.186.238,Alerted,0,0
+EVT-84b07d6a,2026-10-01 02:07:51,AST-1179,T1078,Valid Accounts,Medium,189.9.41.230,Blocked,0,0
+EVT-d4661a5b,2026-10-01 02:30:06,AST-1132,T1059.001,PowerShell Execution,Medium,114.190.154.227,Alerted,0,0
+EVT-05d00ff9,2026-10-01 02:44:17,AST-1035,T1059.001,PowerShell Execution,Medium,163.234.160.141,Alerted,0,0
+EVT-4b8f846e,2026-10-01 03:12:30,AST-1250,T1003.001,LSASS Memory Credential Dumping,High,31.207.165.63,Alerted,0,0
+EVT-1e5ca2dd,2026-10-01 03:34:31,AST-1044,T1110.001,Password Guessing,Low,122.75.51.71,Allowed,0,0
+EVT-fe6e36f4,2026-10-01 03:38:05,AST-1199,T1059.001,PowerShell Execution,Medium,31.90.123.47,Allowed,0,0
+EVT-9db63562,2026-10-01 04:41:43,AST-1266,T1078,Valid Accounts,Medium,217.226.67.45,Alerted,0,0
+EVT-b706b68e,2026-10-01 05:05:32,AST-1272,T1486,Data Encrypted for Impact (Ransomware),Critical,85.185.226.187,Blocked,0,0
+EVT-c93af7e0,2026-10-01 06:19:46,AST-1193,T1486,Data Encrypted for Impact (Ransomware),Critical,100.23.68.55,Alerted,0,0
+EVT-7e98b9fc,2026-10-01 06:49:03,AST-1127,T1110.001,Password Guessing,Low,14.190.7.177,Blocked,0,0
+EVT-f2ffeaca,2026-10-01 07:00:26,AST-1244,T1003.001,LSASS Memory Credential Dumping,High,81.49.229.115,Alerted,0,0
+EVT-4d8507de,2026-10-01 07:30:18,AST-1233,T1003.001,LSASS Memory Credential Dumping,High,13.105.89.9,Blocked,0,0
+EVT-12f2cc2a,2026-10-01 08:00:21,AST-1185,T1003.001,LSASS Memory Credential Dumping,High,180.3.235.80,Blocked,0,0
+EVT-d10862b4,2026-10-01 08:02:12,AST-1013,T1110.001,Password Guessing,Low,157.34.216.18,Alerted,0,0
+EVT-3d3cc782,2026-10-01 08:06:30,AST-1073,T1110.001,Password Guessing,Low,110.1.4.8,Alerted,0,0
+EVT-81748823,2026-10-01 08:15:14,AST-1258,T1486,Data Encrypted for Impact (Ransomware),Critical,44.193.26.220,Alerted,0,0
+EVT-be39966a,2026-10-01 08:28:54,AST-1199,T1059.001,PowerShell Execution,Medium,156.51.124.235,Alerted,0,0
+EVT-1f12334d,2026-10-01 08:58:39,AST-1283,T1059.001,PowerShell Execution,Medium,72.74.58.132,Blocked,0,0
+EVT-7ef2df9c,2026-10-01 09:11:35,AST-1217,T1486,Data Encrypted for Impact (Ransomware),Critical,62.184.154.16,Allowed,50,0
+EVT-e05ed1ef,2026-10-01 10:17:10,AST-1267,T1078,Valid Accounts,Medium,147.201.58.234,Blocked,0,0
+EVT-a5eba850,2026-10-01 10:45:34,AST-1213,T1078,Valid Accounts,Medium,73.72.80.128,Alerted,0,0
+EVT-6c2e2a9d,2026-10-01 11:21:57,AST-1104,T1059.001,PowerShell Execution,Medium,168.204.37.149,Blocked,0,0
+EVT-a961d113,2026-10-01 11:36:21,AST-1228,T1110.001,Password Guessing,Low,203.190.3.46,Allowed,0,0
+EVT-66d9e52e,2026-10-01 12:39:23,AST-1099,T1486,Data Encrypted for Impact (Ransomware),Critical,163.122.41.55,Allowed,70,0
+EVT-02283982,2026-10-01 12:46:31,AST-1079,T1110.001,Password Guessing,Low,194.209.193.29,Blocked,0,0
+EVT-1a46a0b1,2026-10-01 12:52:06,AST-1211,T1110.001,Password Guessing,Low,223.21.69.134,Blocked,0,0
+EVT-d3d97b7c,2026-10-01 13:16:38,AST-1157,T1110.001,Password Guessing,Low,126.172.193.52,Allowed,0,0
+EVT-60d9bd5c,2026-10-01 13:49:44,AST-1093,T1003.001,LSASS Memory Credential Dumping,High,210.204.219.119,Allowed,0,16594
+EVT-4b1c1ea2,2026-10-01 13:55:28,AST-1173,T1059.001,PowerShell Execution,Medium,70.176.80.97,Allowed,0,0
+EVT-06a2de01,2026-10-01 14:12:10,AST-1137,T1078,Valid Accounts,Medium,41.33.44.26,Blocked,0,0
+EVT-c63d5ef7,2026-10-01 14:18:00,AST-1128,T1003.001,LSASS Memory Credential Dumping,High,34.207.101.162,Blocked,0,0
+EVT-ec7cf8de,2026-10-01 14:24:17,AST-1114,T1059.001,PowerShell Execution,Medium,204.247.126.25,Allowed,0,0
+EVT-7be83d6d,2026-10-01 14:38:49,AST-1137,T1110.001,Password Guessing,Low,193.220.93.101,Allowed,0,0
+EVT-60b07baf,2026-10-01 15:05:40,AST-1261,T1059.001,PowerShell Execution,Medium,168.68.27.139,Blocked,0,0
+EVT-c8d67266,2026-10-01 15:46:24,AST-1090,T1003.001,LSASS Memory Credential Dumping,High,120.74.9.122,Alerted,0,0
+EVT-a0d4f1e3,2026-10-01 15:53:35,AST-1208,T1078,Valid Accounts,Medium,71.219.117.72,Alerted,0,0
+EVT-995a2a31,2026-10-01 15:56:07,AST-1076,T1486,Data Encrypted for Impact (Ransomware),Critical,27.67.131.176,Alerted,0,0
+EVT-53935106,2026-10-01 16:24:35,AST-1266,T1059.001,PowerShell Execution,Medium,140.12.96.61,Alerted,0,0
+EVT-b1194d49,2026-10-01 16:28:54,AST-1177,T1059.001,PowerShell Execution,Medium,33.178.67.165,Alerted,0,0
+EVT-a8b50703,2026-10-01 16:39:54,AST-1248,T1486,Data Encrypted for Impact (Ransomware),Critical,196.154.97.117,Alerted,0,0
+EVT-b9b469d6,2026-10-01 16:52:14,AST-1243,T1486,Data Encrypted for Impact (Ransomware),Critical,160.202.103.123,Alerted,0,0
+EVT-f0808a3b,2026-10-01 16:59:42,AST-1036,T1003.001,LSASS Memory Credential Dumping,High,102.227.89.59,Blocked,0,0
+EVT-e40dcd32,2026-10-01 17:03:23,AST-1027,T1003.001,LSASS Memory Credential Dumping,High,40.209.180.134,Alerted,0,0
+EVT-2c573bcf,2026-10-01 18:10:23,AST-1073,T1486,Data Encrypted for Impact (Ransomware),Critical,89.226.22.147,Alerted,0,0
+EVT-daff3af2,2026-10-01 18:13:52,AST-1015,T1003.001,LSASS Memory Credential Dumping,High,148.196.124.145,Alerted,0,0
+EVT-e35b4753,2026-10-01 18:28:57,AST-1234,T1059.001,PowerShell Execution,Medium,207.175.195.132,Allowed,0,0
+EVT-81c00a6f,2026-10-01 18:29:13,AST-1215,T1078,Valid Accounts,Medium,135.15.171.25,Alerted,0,0
+EVT-428685bc,2026-10-01 18:31:24,AST-1282,T1078,Valid Accounts,Medium,49.164.186.30,Alerted,0,0
+EVT-5903afcd,2026-10-01 19:20:01,AST-1197,T1486,Data Encrypted for Impact (Ransomware),Critical,203.249.173.63,Blocked,0,0
+EVT-4a4f5a70,2026-10-01 19:27:12,AST-1224,T1078,Valid Accounts,Medium,130.227.64.164,Blocked,0,0
+EVT-db3ac918,2026-10-01 20:08:13,AST-1184,T1078,Valid Accounts,Medium,140.225.173.45,Alerted,0,0
+EVT-a762fe0b,2026-10-01 20:14:06,AST-1058,T1003.001,LSASS Memory Credential Dumping,High,114.2.62.44,Allowed,0,28858
+EVT-dd33f1ae,2026-10-01 20:30:06,AST-1099,T1059.001,PowerShell Execution,Medium,66.203.196.13,Blocked,0,0
+EVT-1fc01458,2026-10-01 20:38:08,AST-1186,T1059.001,PowerShell Execution,Medium,206.11.143.249,Alerted,0,0
+EVT-dab5e920,2026-10-01 20:42:32,AST-1268,T1078,Valid Accounts,Medium,96.19.130.154,Blocked,0,0
+EVT-1962a332,2026-10-01 21:30:26,AST-1250,T1059.001,PowerShell Execution,Medium,27.5.248.139,Blocked,0,0
+EVT-5a067cb1,2026-10-01 23:13:51,AST-1290,T1486,Data Encrypted for Impact (Ransomware),Critical,165.242.50.226,Blocked,0,0
+EVT-8cfd6de3,2026-10-01 23:30:23,AST-1153,T1059.001,PowerShell Execution,Medium,213.239.4.48,Blocked,0,0
+EVT-e9fa8176,2026-10-01 23:31:37,AST-1269,T1078,Valid Accounts,Medium,221.121.75.197,Blocked,0,0
+EVT-c5972da4,2026-10-01 23:39:53,AST-1055,T1059.001,PowerShell Execution,Medium,81.222.84.23,Alerted,0,0
+EVT-dd1c7a04,2026-10-01 23:51:54,AST-1201,T1059.001,PowerShell Execution,Medium,202.247.216.248,Blocked,0,0
+EVT-e3da9255,2026-10-02 00:01:24,AST-1103,T1078,Valid Accounts,Medium,88.30.93.32,Blocked,0,0
+EVT-68cdf9e7,2026-10-02 00:25:39,AST-1227,T1003.001,LSASS Memory Credential Dumping,High,85.42.50.114,Blocked,0,0
+EVT-32b1e9d2,2026-10-02 00:34:29,AST-1137,T1486,Data Encrypted for Impact (Ransomware),Critical,217.96.194.39,Alerted,0,0
+EVT-34102cf2,2026-10-02 00:56:09,AST-1289,T1059.001,PowerShell Execution,Medium,117.75.191.50,Alerted,0,0
+EVT-a98e2e30,2026-10-02 01:10:40,AST-1107,T1003.001,LSASS Memory Credential Dumping,High,170.110.29.183,Allowed,0,4642
+EVT-6004ebc3,2026-10-02 01:19:33,AST-1036,T1486,Data Encrypted for Impact (Ransomware),Critical,113.129.82.143,Blocked,0,0
+EVT-c4d1b6aa,2026-10-02 01:30:46,AST-1271,T1110.001,Password Guessing,Low,155.163.104.78,Blocked,0,0
+EVT-afd72583,2026-10-02 01:48:49,AST-1095,T1003.001,LSASS Memory Credential Dumping,High,132.37.197.195,Alerted,0,0
+EVT-a73a1287,2026-10-02 02:08:58,AST-1044,T1059.001,PowerShell Execution,Medium,151.120.244.121,Allowed,0,0
+EVT-8398070f,2026-10-02 02:13:16,AST-1073,T1110.001,Password Guessing,Low,68.86.199.187,Blocked,0,0
+EVT-cd415364,2026-10-02 02:52:56,AST-1235,T1486,Data Encrypted for Impact (Ransomware),Critical,21.204.21.92,Blocked,0,0
+EVT-6e07ad5b,2026-10-02 03:00:11,AST-1068,T1486,Data Encrypted for Impact (Ransomware),Critical,109.2.219.174,Alerted,0,0
+EVT-e50cb875,2026-10-02 03:14:14,AST-1161,T1003.001,LSASS Memory Credential Dumping,High,106.252.179.12,Blocked,0,0
+EVT-5d4ad95b,2026-10-02 03:28:43,AST-1054,T1003.001,LSASS Memory Credential Dumping,High,146.104.50.49,Alerted,0,0
+EVT-6388f95f,2026-10-02 03:32:44,AST-1268,T1003.001,LSASS Memory Credential Dumping,High,18.66.61.154,Allowed,0,23825
+EVT-3b8aa0c4,2026-10-02 04:28:09,AST-1000,T1078,Valid Accounts,Medium,103.132.22.146,Alerted,0,0
+EVT-581b9666,2026-10-02 05:50:48,AST-1030,T1110.001,Password Guessing,Low,214.93.210.166,Blocked,0,0
+EVT-5a108495,2026-10-02 06:40:41,AST-1225,T1003.001,LSASS Memory Credential Dumping,High,78.64.212.229,Blocked,0,0
+EVT-36c48132,2026-10-02 06:42:20,AST-1042,T1486,Data Encrypted for Impact (Ransomware),Critical,163.68.3.124,Alerted,0,0
+EVT-b8952568,2026-10-02 06:48:01,AST-1184,T1059.001,PowerShell Execution,Medium,191.68.226.106,Alerted,0,0
+EVT-bf076f1e,2026-10-02 07:04:29,AST-1264,T1110.001,Password Guessing,Low,109.192.180.229,Blocked,0,0
+EVT-fee901c1,2026-10-02 07:14:44,AST-1139,T1003.001,LSASS Memory Credential Dumping,High,14.61.145.17,Alerted,0,0
+EVT-7cd84c48,2026-10-02 07:57:31,AST-1207,T1110.001,Password Guessing,Low,18.94.3.172,Blocked,0,0
+EVT-b43d4f85,2026-10-02 08:03:43,AST-1107,T1078,Valid Accounts,Medium,210.123.194.91,Blocked,0,0
+EVT-1765062a,2026-10-02 08:10:02,AST-1002,T1110.001,Password Guessing,Low,98.228.74.171,Allowed,0,0
+EVT-a086fe7e,2026-10-02 10:15:47,AST-1013,T1078,Valid Accounts,Medium,138.204.225.108,Blocked,0,0
+EVT-47f53814,2026-10-02 11:09:50,AST-1279,T1059.001,PowerShell Execution,Medium,13.114.165.90,Alerted,0,0
+EVT-823487be,2026-10-02 11:29:34,AST-1238,T1003.001,LSASS Memory Credential Dumping,High,49.227.54.122,Blocked,0,0
+EVT-e1011f9b,2026-10-02 12:06:55,AST-1058,T1078,Valid Accounts,Medium,43.88.17.62,Allowed,0,0
+EVT-ae5a7381,2026-10-02 12:42:13,AST-1084,T1003.001,LSASS Memory Credential Dumping,High,212.115.8.142,Allowed,0,32538
+EVT-6ed076c6,2026-10-02 13:23:41,AST-1060,T1486,Data Encrypted for Impact (Ransomware),Critical,13.175.147.13,Blocked,0,0
+EVT-10b2ef59,2026-10-02 13:27:26,AST-1220,T1078,Valid Accounts,Medium,116.69.120.61,Blocked,0,0
+EVT-19a2c464,2026-10-02 14:01:23,AST-1149,T1078,Valid Accounts,Medium,32.236.4.106,Alerted,0,0
+EVT-92c96a64,2026-10-02 14:37:22,AST-1294,T1059.001,PowerShell Execution,Medium,79.23.116.194,Alerted,0,0
+EVT-f0c71b01,2026-10-02 15:37:08,AST-1004,T1059.001,PowerShell Execution,Medium,49.32.248.232,Allowed,0,0
+EVT-2f1bc672,2026-10-02 16:59:14,AST-1225,T1003.001,LSASS Memory Credential Dumping,High,151.211.104.131,Alerted,0,0
+EVT-b71e3206,2026-10-02 17:30:46,AST-1249,T1003.001,LSASS Memory Credential Dumping,High,154.184.218.137,Alerted,0,0
+EVT-7cb92451,2026-10-02 17:33:40,AST-1227,T1110.001,Password Guessing,Low,203.65.212.121,Allowed,0,0
+EVT-57b94514,2026-10-02 18:00:49,AST-1018,T1059.001,PowerShell Execution,Medium,37.223.13.20,Blocked,0,0
+EVT-736960c3,2026-10-02 19:17:15,AST-1133,T1110.001,Password Guessing,Low,188.5.4.201,Blocked,0,0
+EVT-379c328d,2026-10-02 19:25:38,AST-1107,T1059.001,PowerShell Execution,Medium,73.45.53.208,Allowed,0,0
+EVT-69f7bbbd,2026-10-02 19:35:13,AST-1268,T1078,Valid Accounts,Medium,218.234.219.49,Allowed,0,0
+EVT-40e5cae4,2026-10-02 19:42:56,AST-1258,T1059.001,PowerShell Execution,Medium,117.167.176.74,Blocked,0,0
+EVT-e75d03b7,2026-10-02 20:25:18,AST-1289,T1003.001,LSASS Memory Credential Dumping,High,26.51.94.93,Alerted,0,0
+EVT-99c56440,2026-10-02 20:36:10,AST-1204,T1003.001,LSASS Memory Credential Dumping,High,163.141.154.254,Blocked,0,0
+EVT-a6493ae2,2026-10-02 20:49:55,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,94.80.55.93,Blocked,0,0
+EVT-ebecc9d5,2026-10-02 21:19:17,AST-1283,T1078,Valid Accounts,Medium,86.34.77.142,Alerted,0,0
+EVT-a00389e6,2026-10-02 21:31:24,AST-1194,T1078,Valid Accounts,Medium,182.28.196.14,Blocked,0,0
+EVT-2e26bdd8,2026-10-02 22:01:17,AST-1251,T1486,Data Encrypted for Impact (Ransomware),Critical,168.86.31.169,Allowed,52,0
+EVT-22a895e2,2026-10-02 22:16:20,AST-1254,T1059.001,PowerShell Execution,Medium,193.14.138.163,Blocked,0,0
+EVT-df5b720e,2026-10-02 22:17:13,AST-1036,T1110.001,Password Guessing,Low,189.243.140.25,Blocked,0,0
+EVT-737de14d,2026-10-02 23:00:56,AST-1288,T1110.001,Password Guessing,Low,119.95.204.23,Blocked,0,0
+EVT-106dc7a3,2026-10-02 23:01:38,AST-1190,T1003.001,LSASS Memory Credential Dumping,High,198.121.251.118,Blocked,0,0
+EVT-5084c6e2,2026-10-02 23:10:45,AST-1010,T1078,Valid Accounts,Medium,139.187.89.74,Blocked,0,0
+EVT-0f24269b,2026-10-02 23:21:25,AST-1228,T1078,Valid Accounts,Medium,168.238.20.87,Blocked,0,0
+EVT-2645229d,2026-10-02 23:47:20,AST-1287,T1486,Data Encrypted for Impact (Ransomware),Critical,51.1.110.23,Allowed,15,0
+EVT-898edada,2026-10-02 23:56:12,AST-1074,T1059.001,PowerShell Execution,Medium,99.232.75.81,Blocked,0,0
+EVT-1dd67aca,2026-10-03 00:02:07,AST-1041,T1003.001,LSASS Memory Credential Dumping,High,58.74.106.5,Allowed,0,43089
+EVT-8865c748,2026-10-03 00:27:50,AST-1205,T1110.001,Password Guessing,Low,213.186.41.205,Blocked,0,0
+EVT-b87c2d31,2026-10-03 00:29:03,AST-1006,T1486,Data Encrypted for Impact (Ransomware),Critical,155.174.230.113,Alerted,0,0
+EVT-92084a33,2026-10-03 00:43:04,AST-1130,T1078,Valid Accounts,Medium,43.65.126.225,Blocked,0,0
+EVT-2eb097d6,2026-10-03 01:03:51,AST-1271,T1078,Valid Accounts,Medium,188.131.193.113,Allowed,0,0
+EVT-b794b301,2026-10-03 01:18:45,AST-1252,T1110.001,Password Guessing,Low,186.139.73.24,Allowed,0,0
+EVT-c9cba7cf,2026-10-03 01:21:57,AST-1035,T1078,Valid Accounts,Medium,21.115.172.6,Blocked,0,0
+EVT-d0ea993a,2026-10-03 01:27:54,AST-1210,T1110.001,Password Guessing,Low,211.226.167.216,Allowed,0,0
+EVT-17607cc0,2026-10-03 01:31:27,AST-1152,T1078,Valid Accounts,Medium,162.154.99.230,Alerted,0,0
+EVT-e56dbc2a,2026-10-03 01:42:04,AST-1085,T1110.001,Password Guessing,Low,107.243.241.135,Blocked,0,0
+EVT-b103df75,2026-10-03 01:52:15,AST-1135,T1110.001,Password Guessing,Low,35.53.200.200,Alerted,0,0
+EVT-90c7d4a5,2026-10-03 02:32:21,AST-1291,T1003.001,LSASS Memory Credential Dumping,High,95.130.194.156,Blocked,0,0
+EVT-8ff3ec40,2026-10-03 03:00:59,AST-1117,T1003.001,LSASS Memory Credential Dumping,High,205.105.233.122,Blocked,0,0
+EVT-cc7cfaba,2026-10-03 03:31:40,AST-1271,T1486,Data Encrypted for Impact (Ransomware),Critical,162.130.10.172,Blocked,0,0
+EVT-295ceb9b,2026-10-03 03:58:20,AST-1018,T1078,Valid Accounts,Medium,183.67.108.208,Blocked,0,0
+EVT-09bde5af,2026-10-03 03:58:29,AST-1228,T1059.001,PowerShell Execution,Medium,62.192.71.194,Blocked,0,0
+EVT-0851f0dc,2026-10-03 04:05:03,AST-1049,T1059.001,PowerShell Execution,Medium,104.197.144.172,Alerted,0,0
+EVT-7b5f3a59,2026-10-03 04:13:44,AST-1196,T1059.001,PowerShell Execution,Medium,189.69.73.116,Blocked,0,0
+EVT-6d7625e8,2026-10-03 04:36:54,AST-1088,T1078,Valid Accounts,Medium,156.74.130.102,Alerted,0,0
+EVT-da47a7c1,2026-10-03 04:51:21,AST-1058,T1078,Valid Accounts,Medium,33.174.182.6,Blocked,0,0
+EVT-e303ac4e,2026-10-03 05:18:00,AST-1061,T1003.001,LSASS Memory Credential Dumping,High,22.220.155.30,Blocked,0,0
+EVT-8ca8b567,2026-10-03 06:06:30,AST-1217,T1486,Data Encrypted for Impact (Ransomware),Critical,36.238.49.71,Alerted,0,0
+EVT-0ca3ed93,2026-10-03 06:26:41,AST-1197,T1078,Valid Accounts,Medium,61.133.224.55,Allowed,0,0
+EVT-ede2b0ef,2026-10-03 06:27:03,AST-1234,T1059.001,PowerShell Execution,Medium,104.126.113.18,Blocked,0,0
+EVT-23ac64a9,2026-10-03 06:56:30,AST-1200,T1110.001,Password Guessing,Low,212.192.146.216,Allowed,0,0
+EVT-da5ebc32,2026-10-03 08:04:42,AST-1034,T1078,Valid Accounts,Medium,201.25.29.15,Allowed,0,0
+EVT-8d9e1a8d,2026-10-03 08:21:08,AST-1232,T1078,Valid Accounts,Medium,193.174.70.214,Alerted,0,0
+EVT-8c5ec4b8,2026-10-03 08:27:27,AST-1121,T1110.001,Password Guessing,Low,26.225.12.139,Alerted,0,0
+EVT-f6d9b9eb,2026-10-03 08:42:17,AST-1266,T1078,Valid Accounts,Medium,186.151.184.57,Blocked,0,0
+EVT-c73ea7f3,2026-10-03 09:04:02,AST-1055,T1110.001,Password Guessing,Low,222.78.113.184,Blocked,0,0
+EVT-2c683d74,2026-10-03 09:11:55,AST-1242,T1110.001,Password Guessing,Low,156.50.41.147,Blocked,0,0
+EVT-ad6d87da,2026-10-03 09:42:41,AST-1012,T1486,Data Encrypted for Impact (Ransomware),Critical,18.46.124.15,Blocked,0,0
+EVT-4cba0fe0,2026-10-03 09:59:12,AST-1043,T1059.001,PowerShell Execution,Medium,76.65.83.131,Blocked,0,0
+EVT-4cbec24f,2026-10-03 10:08:34,AST-1199,T1078,Valid Accounts,Medium,204.144.69.150,Allowed,0,0
+EVT-36fe7f53,2026-10-03 10:13:34,AST-1145,T1003.001,LSASS Memory Credential Dumping,High,19.12.249.235,Blocked,0,0
+EVT-ebb7d7da,2026-10-03 10:16:52,AST-1164,T1003.001,LSASS Memory Credential Dumping,High,89.85.25.188,Allowed,0,46707
+EVT-61c73f70,2026-10-03 10:47:28,AST-1126,T1059.001,PowerShell Execution,Medium,42.168.116.36,Blocked,0,0
+EVT-01b32c90,2026-10-03 10:51:51,AST-1016,T1486,Data Encrypted for Impact (Ransomware),Critical,133.103.125.77,Alerted,0,0
+EVT-46bb2647,2026-10-03 11:00:10,AST-1054,T1003.001,LSASS Memory Credential Dumping,High,169.165.134.134,Alerted,0,0
+EVT-456638f0,2026-10-03 12:01:09,AST-1165,T1003.001,LSASS Memory Credential Dumping,High,132.248.46.250,Alerted,0,0
+EVT-51062db6,2026-10-03 12:43:51,AST-1065,T1110.001,Password Guessing,Low,130.206.104.192,Blocked,0,0
+EVT-e279a511,2026-10-03 13:10:29,AST-1223,T1003.001,LSASS Memory Credential Dumping,High,113.45.115.14,Alerted,0,0
+EVT-96d94d63,2026-10-03 13:23:16,AST-1020,T1078,Valid Accounts,Medium,147.182.140.20,Blocked,0,0
+EVT-0a397f7e,2026-10-03 13:26:31,AST-1017,T1078,Valid Accounts,Medium,146.38.14.154,Alerted,0,0
+EVT-1776660b,2026-10-03 13:32:47,AST-1103,T1486,Data Encrypted for Impact (Ransomware),Critical,107.191.206.115,Alerted,0,0
+EVT-70c6db97,2026-10-03 13:49:43,AST-1124,T1110.001,Password Guessing,Low,216.40.152.105,Alerted,0,0
+EVT-25e93ad0,2026-10-03 14:07:38,AST-1122,T1486,Data Encrypted for Impact (Ransomware),Critical,191.184.192.207,Alerted,0,0
+EVT-7eacc930,2026-10-03 15:15:47,AST-1081,T1078,Valid Accounts,Medium,190.94.213.187,Allowed,0,0
+EVT-9b990859,2026-10-03 16:12:17,AST-1003,T1059.001,PowerShell Execution,Medium,144.191.52.238,Blocked,0,0
+EVT-5b180765,2026-10-03 16:52:54,AST-1167,T1110.001,Password Guessing,Low,201.133.85.157,Blocked,0,0
+EVT-e1fac2e6,2026-10-03 17:28:37,AST-1153,T1059.001,PowerShell Execution,Medium,99.87.58.187,Blocked,0,0
+EVT-9fced826,2026-10-03 17:47:02,AST-1104,T1078,Valid Accounts,Medium,17.147.75.253,Blocked,0,0
+EVT-71f9ef4e,2026-10-03 18:04:55,AST-1166,T1486,Data Encrypted for Impact (Ransomware),Critical,187.250.243.144,Blocked,0,0
+EVT-66f87969,2026-10-03 18:29:03,AST-1271,T1078,Valid Accounts,Medium,144.25.127.238,Blocked,0,0
+EVT-e65d1f74,2026-10-03 18:42:01,AST-1056,T1486,Data Encrypted for Impact (Ransomware),Critical,44.150.191.76,Alerted,0,0
+EVT-0984d2be,2026-10-03 19:10:33,AST-1185,T1486,Data Encrypted for Impact (Ransomware),Critical,198.129.150.5,Blocked,0,0
+EVT-316014b0,2026-10-03 19:25:32,AST-1248,T1059.001,PowerShell Execution,Medium,113.41.154.205,Alerted,0,0
+EVT-9afe7316,2026-10-03 19:30:22,AST-1274,T1059.001,PowerShell Execution,Medium,138.208.11.174,Allowed,0,0
+EVT-ed102f1b,2026-10-03 19:35:21,AST-1127,T1110.001,Password Guessing,Low,17.222.74.56,Alerted,0,0
+EVT-12a7fc7e,2026-10-03 19:47:07,AST-1271,T1078,Valid Accounts,Medium,139.209.82.136,Allowed,0,0
+EVT-00c3d203,2026-10-03 19:58:36,AST-1252,T1003.001,LSASS Memory Credential Dumping,High,156.238.34.120,Alerted,0,0
+EVT-b8a4d184,2026-10-03 20:54:38,AST-1051,T1003.001,LSASS Memory Credential Dumping,High,83.14.142.163,Alerted,0,0
+EVT-798deea8,2026-10-03 21:10:30,AST-1082,T1059.001,PowerShell Execution,Medium,202.109.62.148,Blocked,0,0
+EVT-93d42dfe,2026-10-03 21:30:14,AST-1280,T1059.001,PowerShell Execution,Medium,42.204.195.119,Allowed,0,0
+EVT-b4888fd5,2026-10-03 21:39:23,AST-1271,T1110.001,Password Guessing,Low,49.182.174.84,Blocked,0,0
+EVT-bdecf95b,2026-10-03 21:41:41,AST-1199,T1059.001,PowerShell Execution,Medium,76.154.80.240,Alerted,0,0
+EVT-22b96787,2026-10-03 22:18:32,AST-1153,T1110.001,Password Guessing,Low,213.57.211.125,Blocked,0,0
+EVT-9fcfc82c,2026-10-03 22:27:25,AST-1149,T1078,Valid Accounts,Medium,98.12.16.237,Blocked,0,0
+EVT-fbda6ffe,2026-10-03 22:35:12,AST-1287,T1059.001,PowerShell Execution,Medium,66.220.104.35,Allowed,0,0
+EVT-20001ace,2026-10-03 22:47:01,AST-1247,T1078,Valid Accounts,Medium,77.191.227.176,Allowed,0,0
+EVT-987d5530,2026-10-03 23:22:56,AST-1010,T1486,Data Encrypted for Impact (Ransomware),Critical,155.57.41.66,Alerted,0,0
+EVT-2cb60c66,2026-10-04 00:46:44,AST-1222,T1059.001,PowerShell Execution,Medium,221.68.213.40,Allowed,0,0
+EVT-cac72a42,2026-10-04 00:49:11,AST-1086,T1486,Data Encrypted for Impact (Ransomware),Critical,185.138.17.166,Alerted,0,0
+EVT-415e0f5c,2026-10-04 01:01:21,AST-1157,T1078,Valid Accounts,Medium,166.182.245.194,Allowed,0,0
+EVT-f809d4d4,2026-10-04 01:12:43,AST-1243,T1486,Data Encrypted for Impact (Ransomware),Critical,195.16.213.153,Allowed,55,0
+EVT-71e613de,2026-10-04 01:16:48,AST-1271,T1110.001,Password Guessing,Low,145.145.112.67,Allowed,0,0
+EVT-99d145e7,2026-10-04 03:09:23,AST-1209,T1110.001,Password Guessing,Low,189.42.129.196,Alerted,0,0
+EVT-7fcbd039,2026-10-04 03:35:23,AST-1222,T1078,Valid Accounts,Medium,179.96.117.154,Allowed,0,0
+EVT-044b2088,2026-10-04 03:44:00,AST-1217,T1486,Data Encrypted for Impact (Ransomware),Critical,181.82.42.81,Blocked,0,0
+EVT-b9063c3b,2026-10-04 03:54:50,AST-1194,T1110.001,Password Guessing,Low,92.208.65.206,Allowed,0,0
+EVT-fb33eb5d,2026-10-04 04:01:23,AST-1140,T1003.001,LSASS Memory Credential Dumping,High,216.68.80.202,Alerted,0,0
+EVT-2b83358b,2026-10-04 04:09:25,AST-1233,T1078,Valid Accounts,Medium,112.137.113.139,Allowed,0,0
+EVT-088b7369,2026-10-04 04:20:22,AST-1164,T1003.001,LSASS Memory Credential Dumping,High,140.9.252.116,Alerted,0,0
+EVT-2d808ead,2026-10-04 04:44:31,AST-1022,T1059.001,PowerShell Execution,Medium,167.232.251.86,Blocked,0,0
+EVT-61cc7a12,2026-10-04 05:48:43,AST-1284,T1110.001,Password Guessing,Low,75.83.53.71,Allowed,0,0
+EVT-a1412f6f,2026-10-04 06:24:21,AST-1269,T1078,Valid Accounts,Medium,54.250.123.105,Alerted,0,0
+EVT-ad646a0d,2026-10-04 06:40:00,AST-1040,T1486,Data Encrypted for Impact (Ransomware),Critical,16.79.4.77,Blocked,0,0
+EVT-fce4e06b,2026-10-04 06:56:27,AST-1077,T1486,Data Encrypted for Impact (Ransomware),Critical,115.140.94.13,Allowed,56,0
+EVT-e40cc612,2026-10-04 07:20:14,AST-1299,T1059.001,PowerShell Execution,Medium,184.17.239.146,Allowed,0,0
+EVT-5d6257cd,2026-10-04 07:23:06,AST-1280,T1110.001,Password Guessing,Low,142.163.239.76,Blocked,0,0
+EVT-32ee520a,2026-10-04 07:50:06,AST-1279,T1003.001,LSASS Memory Credential Dumping,High,90.56.12.188,Blocked,0,0
+EVT-44938cc5,2026-10-04 07:52:51,AST-1250,T1003.001,LSASS Memory Credential Dumping,High,204.139.144.18,Blocked,0,0
+EVT-2ec7af83,2026-10-04 08:02:34,AST-1076,T1059.001,PowerShell Execution,Medium,125.110.220.97,Alerted,0,0
+EVT-9a747527,2026-10-04 08:55:27,AST-1030,T1078,Valid Accounts,Medium,133.24.84.69,Blocked,0,0
+EVT-b2b90605,2026-10-04 09:02:45,AST-1292,T1059.001,PowerShell Execution,Medium,13.249.98.102,Alerted,0,0
+EVT-6eaf7054,2026-10-04 09:32:21,AST-1243,T1110.001,Password Guessing,Low,68.208.228.250,Blocked,0,0
+EVT-2113362a,2026-10-04 09:36:16,AST-1075,T1078,Valid Accounts,Medium,120.96.34.83,Blocked,0,0
+EVT-bcf530d8,2026-10-04 09:56:35,AST-1121,T1078,Valid Accounts,Medium,72.91.113.26,Allowed,0,0
+EVT-7abc0985,2026-10-04 10:13:19,AST-1121,T1059.001,PowerShell Execution,Medium,16.83.176.253,Alerted,0,0
+EVT-3798f51c,2026-10-04 10:29:09,AST-1041,T1486,Data Encrypted for Impact (Ransomware),Critical,90.52.58.254,Allowed,60,0
+EVT-06244245,2026-10-04 10:47:24,AST-1015,T1003.001,LSASS Memory Credential Dumping,High,208.172.155.8,Alerted,0,0
+EVT-772c453d,2026-10-04 11:04:32,AST-1248,T1059.001,PowerShell Execution,Medium,165.115.1.153,Allowed,0,0
+EVT-d31beac7,2026-10-04 11:46:15,AST-1077,T1003.001,LSASS Memory Credential Dumping,High,216.191.25.139,Blocked,0,0
+EVT-86904e1f,2026-10-04 11:50:32,AST-1284,T1003.001,LSASS Memory Credential Dumping,High,67.20.11.181,Blocked,0,0
+EVT-85148507,2026-10-04 11:53:14,AST-1271,T1110.001,Password Guessing,Low,185.49.6.109,Allowed,0,0
+EVT-0994ff67,2026-10-04 12:27:36,AST-1039,T1486,Data Encrypted for Impact (Ransomware),Critical,177.85.1.54,Blocked,0,0
+EVT-f2202751,2026-10-04 12:58:46,AST-1269,T1110.001,Password Guessing,Low,195.168.196.193,Blocked,0,0
+EVT-5a390f10,2026-10-04 14:24:00,AST-1176,T1003.001,LSASS Memory Credential Dumping,High,67.168.57.77,Alerted,0,0
+EVT-af168a5e,2026-10-04 14:34:39,AST-1292,T1110.001,Password Guessing,Low,125.51.153.161,Alerted,0,0
+EVT-52c2cd97,2026-10-04 15:14:01,AST-1233,T1078,Valid Accounts,Medium,116.2.45.85,Blocked,0,0
+EVT-812c0153,2026-10-04 15:26:05,AST-1274,T1110.001,Password Guessing,Low,186.142.202.7,Alerted,0,0
+EVT-e636ca0c,2026-10-04 15:31:02,AST-1092,T1110.001,Password Guessing,Low,153.112.61.136,Allowed,0,0
+EVT-2422ebb4,2026-10-04 15:45:29,AST-1273,T1078,Valid Accounts,Medium,144.45.93.172,Blocked,0,0
+EVT-cff9d9a1,2026-10-04 15:52:52,AST-1132,T1486,Data Encrypted for Impact (Ransomware),Critical,42.175.122.134,Allowed,66,0
+EVT-fa17d587,2026-10-04 16:35:44,AST-1100,T1059.001,PowerShell Execution,Medium,213.11.164.140,Allowed,0,0
+EVT-87500224,2026-10-04 16:45:30,AST-1184,T1078,Valid Accounts,Medium,75.39.173.150,Alerted,0,0
+EVT-cdc2d001,2026-10-04 16:59:50,AST-1122,T1059.001,PowerShell Execution,Medium,47.126.72.182,Alerted,0,0
+EVT-b1445e5e,2026-10-04 17:00:27,AST-1103,T1110.001,Password Guessing,Low,92.211.59.225,Blocked,0,0
+EVT-373fc9e8,2026-10-04 17:30:05,AST-1239,T1003.001,LSASS Memory Credential Dumping,High,109.88.15.115,Allowed,0,33607
+EVT-3fc12955,2026-10-04 17:35:05,AST-1225,T1059.001,PowerShell Execution,Medium,159.117.16.20,Allowed,0,0
+EVT-56116117,2026-10-04 18:38:58,AST-1189,T1059.001,PowerShell Execution,Medium,206.169.174.128,Alerted,0,0
+EVT-1309f510,2026-10-04 18:49:18,AST-1131,T1003.001,LSASS Memory Credential Dumping,High,108.110.102.208,Alerted,0,0
+EVT-a2912684,2026-10-04 18:55:47,AST-1072,T1059.001,PowerShell Execution,Medium,27.31.76.183,Allowed,0,0
+EVT-83039988,2026-10-04 19:16:06,AST-1006,T1078,Valid Accounts,Medium,104.232.48.208,Allowed,0,0
+EVT-45e65b56,2026-10-04 19:42:02,AST-1053,T1486,Data Encrypted for Impact (Ransomware),Critical,175.85.113.196,Alerted,0,0
+EVT-c1031fe6,2026-10-04 19:43:34,AST-1250,T1110.001,Password Guessing,Low,116.165.18.236,Blocked,0,0
+EVT-bd1be0b1,2026-10-04 20:22:29,AST-1079,T1486,Data Encrypted for Impact (Ransomware),Critical,61.198.88.171,Blocked,0,0
+EVT-776db675,2026-10-04 21:08:29,AST-1279,T1078,Valid Accounts,Medium,133.14.59.30,Allowed,0,0
+EVT-98649c1c,2026-10-04 21:24:12,AST-1130,T1003.001,LSASS Memory Credential Dumping,High,206.50.224.38,Blocked,0,0
+EVT-13226705,2026-10-04 22:09:51,AST-1029,T1486,Data Encrypted for Impact (Ransomware),Critical,30.28.206.14,Blocked,0,0
+EVT-61af7173,2026-10-04 22:24:02,AST-1222,T1059.001,PowerShell Execution,Medium,117.62.220.208,Alerted,0,0
+EVT-4f8df963,2026-10-04 23:16:39,AST-1180,T1486,Data Encrypted for Impact (Ransomware),Critical,216.2.77.15,Alerted,0,0
+EVT-857bd5e5,2026-10-05 00:09:17,AST-1214,T1486,Data Encrypted for Impact (Ransomware),Critical,138.30.90.103,Allowed,70,0
+EVT-0ff10bca,2026-10-05 00:17:35,AST-1144,T1078,Valid Accounts,Medium,64.30.13.52,Blocked,0,0
+EVT-c5c68c34,2026-10-05 01:43:02,AST-1068,T1486,Data Encrypted for Impact (Ransomware),Critical,81.57.16.77,Allowed,12,0
+EVT-b8a4cd90,2026-10-05 02:26:04,AST-1287,T1078,Valid Accounts,Medium,17.108.89.175,Allowed,0,0
+EVT-4f0d2897,2026-10-05 02:38:47,AST-1200,T1486,Data Encrypted for Impact (Ransomware),Critical,121.77.24.125,Blocked,0,0
+EVT-a597a775,2026-10-05 02:54:08,AST-1060,T1059.001,PowerShell Execution,Medium,141.250.244.75,Alerted,0,0
+EVT-4b4486b6,2026-10-05 03:30:05,AST-1243,T1003.001,LSASS Memory Credential Dumping,High,167.216.102.157,Allowed,0,31959
+EVT-82802f1a,2026-10-05 03:44:03,AST-1131,T1078,Valid Accounts,Medium,13.104.235.62,Alerted,0,0
+EVT-9427d2e6,2026-10-05 04:20:03,AST-1278,T1003.001,LSASS Memory Credential Dumping,High,46.136.202.163,Blocked,0,0
+EVT-f03096f9,2026-10-05 04:35:13,AST-1181,T1486,Data Encrypted for Impact (Ransomware),Critical,93.79.208.231,Alerted,0,0
+EVT-04513ce0,2026-10-05 04:36:21,AST-1172,T1110.001,Password Guessing,Low,73.144.147.70,Allowed,0,0
+EVT-3da16556,2026-10-05 05:02:06,AST-1200,T1078,Valid Accounts,Medium,53.143.248.43,Blocked,0,0
+EVT-ee3b4cb6,2026-10-05 05:34:04,AST-1252,T1003.001,LSASS Memory Credential Dumping,High,200.127.235.31,Alerted,0,0
+EVT-84b589dd,2026-10-05 06:05:33,AST-1282,T1059.001,PowerShell Execution,Medium,32.86.212.148,Allowed,0,0
+EVT-661f2734,2026-10-05 06:06:20,AST-1291,T1078,Valid Accounts,Medium,145.10.165.131,Alerted,0,0
+EVT-a5d7286c,2026-10-05 06:44:12,AST-1093,T1078,Valid Accounts,Medium,108.130.185.35,Blocked,0,0
+EVT-0b5fec5b,2026-10-05 07:07:29,AST-1099,T1003.001,LSASS Memory Credential Dumping,High,71.140.144.77,Blocked,0,0
+EVT-0f7aa1f8,2026-10-05 07:15:04,AST-1271,T1110.001,Password Guessing,Low,91.86.246.134,Alerted,0,0
+EVT-72d2de4b,2026-10-05 09:03:42,AST-1163,T1059.001,PowerShell Execution,Medium,135.140.220.73,Alerted,0,0
+EVT-c12eb032,2026-10-05 09:14:33,AST-1022,T1059.001,PowerShell Execution,Medium,102.248.202.222,Blocked,0,0
+EVT-dc694776,2026-10-05 09:17:19,AST-1022,T1110.001,Password Guessing,Low,80.97.247.25,Alerted,0,0
+EVT-ac4ac47e,2026-10-05 09:24:25,AST-1064,T1078,Valid Accounts,Medium,206.83.28.138,Blocked,0,0
+EVT-8fd20ac7,2026-10-05 09:41:55,AST-1171,T1486,Data Encrypted for Impact (Ransomware),Critical,116.196.6.158,Blocked,0,0
+EVT-ffcf9419,2026-10-05 09:45:59,AST-1248,T1059.001,PowerShell Execution,Medium,206.250.5.188,Blocked,0,0
+EVT-5c19f204,2026-10-05 10:19:42,AST-1132,T1110.001,Password Guessing,Low,212.78.241.73,Alerted,0,0
+EVT-058ec197,2026-10-05 11:03:07,AST-1055,T1003.001,LSASS Memory Credential Dumping,High,136.108.87.83,Blocked,0,0
+EVT-82772a96,2026-10-05 11:18:18,AST-1297,T1110.001,Password Guessing,Low,102.95.107.150,Allowed,0,0
+EVT-8d9cb8ad,2026-10-05 11:49:45,AST-1190,T1486,Data Encrypted for Impact (Ransomware),Critical,122.80.35.174,Blocked,0,0
+EVT-f15d67f2,2026-10-05 12:13:56,AST-1034,T1486,Data Encrypted for Impact (Ransomware),Critical,96.252.93.233,Blocked,0,0
+EVT-d4cb24de,2026-10-05 13:20:38,AST-1153,T1110.001,Password Guessing,Low,126.104.160.140,Allowed,0,0
+EVT-f44b982a,2026-10-05 13:45:31,AST-1220,T1486,Data Encrypted for Impact (Ransomware),Critical,119.90.224.16,Alerted,0,0
+EVT-173df892,2026-10-05 13:51:04,AST-1242,T1110.001,Password Guessing,Low,113.232.158.163,Alerted,0,0
+EVT-451df5a4,2026-10-05 14:06:23,AST-1213,T1486,Data Encrypted for Impact (Ransomware),Critical,111.28.61.163,Alerted,0,0
+EVT-69ed05b6,2026-10-05 14:43:54,AST-1102,T1110.001,Password Guessing,Low,62.140.245.97,Blocked,0,0
+EVT-d0131aa7,2026-10-05 14:58:44,AST-1038,T1003.001,LSASS Memory Credential Dumping,High,44.205.13.210,Blocked,0,0
+EVT-d6bed77a,2026-10-05 15:02:02,AST-1137,T1003.001,LSASS Memory Credential Dumping,High,37.71.104.84,Alerted,0,0
+EVT-32c2b87f,2026-10-05 15:23:34,AST-1042,T1059.001,PowerShell Execution,Medium,203.239.155.203,Blocked,0,0
+EVT-4cb6a2be,2026-10-05 15:40:36,AST-1004,T1486,Data Encrypted for Impact (Ransomware),Critical,105.251.7.161,Alerted,0,0
+EVT-31c4e356,2026-10-05 15:42:12,AST-1056,T1486,Data Encrypted for Impact (Ransomware),Critical,140.79.90.116,Alerted,0,0
+EVT-bec41fb4,2026-10-05 15:52:42,AST-1165,T1059.001,PowerShell Execution,Medium,151.237.161.112,Blocked,0,0
+EVT-aa902b07,2026-10-05 15:57:52,AST-1013,T1003.001,LSASS Memory Credential Dumping,High,169.171.124.150,Alerted,0,0
+EVT-68d317be,2026-10-05 16:28:43,AST-1198,T1110.001,Password Guessing,Low,35.127.122.155,Blocked,0,0
+EVT-09f02e53,2026-10-05 16:29:31,AST-1287,T1110.001,Password Guessing,Low,13.239.38.15,Blocked,0,0
+EVT-34f7896c,2026-10-05 17:18:00,AST-1042,T1003.001,LSASS Memory Credential Dumping,High,23.121.75.52,Blocked,0,0
+EVT-e26c0fac,2026-10-05 17:24:27,AST-1173,T1486,Data Encrypted for Impact (Ransomware),Critical,44.232.109.142,Allowed,42,0
+EVT-24c1ef8b,2026-10-05 17:50:18,AST-1204,T1078,Valid Accounts,Medium,56.229.42.80,Blocked,0,0
+EVT-2c3dda8f,2026-10-05 18:19:50,AST-1011,T1003.001,LSASS Memory Credential Dumping,High,217.128.173.12,Alerted,0,0
+EVT-0e052bf2,2026-10-05 18:44:15,AST-1203,T1078,Valid Accounts,Medium,28.78.49.70,Allowed,0,0
+EVT-e523b70f,2026-10-05 18:46:30,AST-1277,T1003.001,LSASS Memory Credential Dumping,High,51.185.144.54,Allowed,0,22064
+EVT-f2e39c44,2026-10-05 18:53:53,AST-1010,T1078,Valid Accounts,Medium,24.245.26.22,Allowed,0,0
+EVT-f303b043,2026-10-05 19:20:53,AST-1146,T1078,Valid Accounts,Medium,58.110.65.11,Blocked,0,0
+EVT-72940c09,2026-10-05 19:23:28,AST-1262,T1003.001,LSASS Memory Credential Dumping,High,117.30.149.188,Alerted,0,0
+EVT-ab55cfa5,2026-10-05 19:43:34,AST-1099,T1078,Valid Accounts,Medium,124.149.64.50,Allowed,0,0
+EVT-6b37e134,2026-10-05 19:57:47,AST-1242,T1078,Valid Accounts,Medium,199.114.123.23,Alerted,0,0
+EVT-ba8a0e39,2026-10-05 20:12:05,AST-1048,T1078,Valid Accounts,Medium,125.197.152.73,Blocked,0,0
+EVT-53603e96,2026-10-05 20:23:59,AST-1155,T1110.001,Password Guessing,Low,220.242.1.50,Alerted,0,0
+EVT-4e8975fe,2026-10-05 20:33:28,AST-1297,T1486,Data Encrypted for Impact (Ransomware),Critical,13.15.122.136,Blocked,0,0
+EVT-69d81ebd,2026-10-05 20:34:04,AST-1174,T1078,Valid Accounts,Medium,35.185.208.157,Alerted,0,0
+EVT-8ab501ee,2026-10-05 22:22:02,AST-1232,T1003.001,LSASS Memory Credential Dumping,High,183.194.173.5,Alerted,0,0
+EVT-01621071,2026-10-05 22:39:25,AST-1118,T1003.001,LSASS Memory Credential Dumping,High,108.253.234.210,Alerted,0,0
+EVT-8ce009fa,2026-10-05 22:45:53,AST-1010,T1110.001,Password Guessing,Low,138.239.237.232,Allowed,0,0
+EVT-54062bdb,2026-10-05 22:56:48,AST-1289,T1003.001,LSASS Memory Credential Dumping,High,70.127.114.56,Blocked,0,0
+EVT-1b2b392f,2026-10-05 23:08:14,AST-1297,T1486,Data Encrypted for Impact (Ransomware),Critical,29.122.147.182,Alerted,0,0
+EVT-fd7bc4fb,2026-10-05 23:43:17,AST-1297,T1059.001,PowerShell Execution,Medium,78.99.243.180,Alerted,0,0
+EVT-7f17f120,2026-10-05 23:58:34,AST-1107,T1486,Data Encrypted for Impact (Ransomware),Critical,139.106.130.113,Allowed,17,0
+EVT-69128e00,2026-10-06 00:07:40,AST-1271,T1110.001,Password Guessing,Low,219.51.100.185,Blocked,0,0
+EVT-2bcd8408,2026-10-06 00:25:10,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,158.147.201.109,Blocked,0,0
+EVT-7b4057a7,2026-10-06 00:47:54,AST-1081,T1486,Data Encrypted for Impact (Ransomware),Critical,125.224.29.139,Alerted,0,0
+EVT-c1f50c3f,2026-10-06 01:33:32,AST-1195,T1110.001,Password Guessing,Low,159.190.32.35,Allowed,0,0
+EVT-6fca9f05,2026-10-06 01:45:21,AST-1035,T1003.001,LSASS Memory Credential Dumping,High,139.241.89.104,Allowed,0,2002
+EVT-746c6809,2026-10-06 01:50:17,AST-1224,T1059.001,PowerShell Execution,Medium,18.223.44.35,Blocked,0,0
+EVT-30e78d61,2026-10-06 01:55:32,AST-1161,T1003.001,LSASS Memory Credential Dumping,High,109.66.169.249,Alerted,0,0
+EVT-7c670421,2026-10-06 02:16:22,AST-1152,T1078,Valid Accounts,Medium,57.39.152.170,Blocked,0,0
+EVT-d61b2f22,2026-10-06 02:40:52,AST-1009,T1486,Data Encrypted for Impact (Ransomware),Critical,173.249.44.154,Alerted,0,0
+EVT-86bfb79f,2026-10-06 02:55:52,AST-1271,T1059.001,PowerShell Execution,Medium,120.188.35.24,Alerted,0,0
+EVT-2caa4a70,2026-10-06 02:57:34,AST-1013,T1078,Valid Accounts,Medium,71.118.24.102,Allowed,0,0
+EVT-292c4dac,2026-10-06 03:08:57,AST-1269,T1110.001,Password Guessing,Low,214.92.191.221,Blocked,0,0
+EVT-f483d579,2026-10-06 04:03:15,AST-1199,T1486,Data Encrypted for Impact (Ransomware),Critical,75.45.119.50,Blocked,0,0
+EVT-564bf3a1,2026-10-06 04:44:52,AST-1104,T1003.001,LSASS Memory Credential Dumping,High,155.173.246.148,Allowed,0,3449
+EVT-90cacb0d,2026-10-06 05:16:45,AST-1099,T1110.001,Password Guessing,Low,53.74.65.107,Blocked,0,0
+EVT-7ad98e78,2026-10-06 07:29:03,AST-1072,T1078,Valid Accounts,Medium,123.179.50.147,Allowed,0,0
+EVT-50518573,2026-10-06 07:29:17,AST-1097,T1003.001,LSASS Memory Credential Dumping,High,90.230.25.221,Blocked,0,0
+EVT-ef6663b8,2026-10-06 07:32:39,AST-1258,T1486,Data Encrypted for Impact (Ransomware),Critical,212.243.22.51,Allowed,36,0
+EVT-8dfb930c,2026-10-06 08:10:56,AST-1266,T1110.001,Password Guessing,Low,124.89.24.36,Allowed,0,0
+EVT-b4730242,2026-10-06 08:26:23,AST-1166,T1486,Data Encrypted for Impact (Ransomware),Critical,113.62.235.62,Allowed,15,0
+EVT-a3a4257a,2026-10-06 09:02:18,AST-1190,T1486,Data Encrypted for Impact (Ransomware),Critical,159.76.95.162,Blocked,0,0
+EVT-bcb67591,2026-10-06 09:17:58,AST-1073,T1059.001,PowerShell Execution,Medium,114.209.68.225,Blocked,0,0
+EVT-b5dc56e7,2026-10-06 09:24:53,AST-1263,T1059.001,PowerShell Execution,Medium,34.52.106.160,Alerted,0,0
+EVT-87320844,2026-10-06 10:07:40,AST-1161,T1059.001,PowerShell Execution,Medium,60.234.44.208,Blocked,0,0
+EVT-09c62de3,2026-10-06 10:08:45,AST-1180,T1003.001,LSASS Memory Credential Dumping,High,135.132.92.246,Allowed,0,20070
+EVT-7d28e0e9,2026-10-06 10:55:57,AST-1299,T1110.001,Password Guessing,Low,48.95.142.155,Allowed,0,0
+EVT-b4125112,2026-10-06 11:01:28,AST-1094,T1003.001,LSASS Memory Credential Dumping,High,25.167.185.164,Blocked,0,0
+EVT-a3e9b6eb,2026-10-06 11:30:42,AST-1060,T1078,Valid Accounts,Medium,214.222.2.221,Alerted,0,0
+EVT-0d558b30,2026-10-06 11:33:46,AST-1133,T1003.001,LSASS Memory Credential Dumping,High,52.10.157.56,Allowed,0,1254
+EVT-ae3f44f8,2026-10-06 12:00:29,AST-1242,T1078,Valid Accounts,Medium,82.87.69.225,Blocked,0,0
+EVT-ae175b20,2026-10-06 12:04:31,AST-1002,T1486,Data Encrypted for Impact (Ransomware),Critical,12.125.177.82,Blocked,0,0
+EVT-5cd99b68,2026-10-06 12:12:59,AST-1272,T1110.001,Password Guessing,Low,71.74.80.153,Alerted,0,0
+EVT-377a6e94,2026-10-06 12:19:12,AST-1217,T1110.001,Password Guessing,Low,64.204.211.105,Alerted,0,0
+EVT-acea9047,2026-10-06 12:19:48,AST-1038,T1059.001,PowerShell Execution,Medium,159.132.250.139,Allowed,0,0
+EVT-7fb395ce,2026-10-06 12:28:41,AST-1262,T1486,Data Encrypted for Impact (Ransomware),Critical,113.243.231.187,Alerted,0,0
+EVT-69543f20,2026-10-06 12:32:04,AST-1106,T1486,Data Encrypted for Impact (Ransomware),Critical,176.208.127.15,Blocked,0,0
+EVT-8320acf5,2026-10-06 12:42:58,AST-1016,T1110.001,Password Guessing,Low,101.66.117.218,Allowed,0,0
+EVT-c3587e40,2026-10-06 13:03:41,AST-1255,T1110.001,Password Guessing,Low,65.115.117.39,Blocked,0,0
+EVT-102dacfd,2026-10-06 13:13:35,AST-1268,T1078,Valid Accounts,Medium,157.225.107.110,Alerted,0,0
+EVT-f11166a3,2026-10-06 13:23:51,AST-1265,T1078,Valid Accounts,Medium,38.89.18.97,Alerted,0,0
+EVT-c387febf,2026-10-06 13:59:56,AST-1284,T1486,Data Encrypted for Impact (Ransomware),Critical,41.12.168.199,Alerted,0,0
+EVT-d8c4d314,2026-10-06 14:16:48,AST-1007,T1003.001,LSASS Memory Credential Dumping,High,148.111.225.171,Allowed,0,31411
+EVT-7edcc0d5,2026-10-06 14:21:08,AST-1180,T1078,Valid Accounts,Medium,152.52.154.146,Alerted,0,0
+EVT-25caf68b,2026-10-06 15:00:22,AST-1262,T1003.001,LSASS Memory Credential Dumping,High,217.162.19.167,Allowed,0,5313
+EVT-57ca26c1,2026-10-06 16:04:46,AST-1040,T1110.001,Password Guessing,Low,19.59.103.57,Alerted,0,0
+EVT-75964801,2026-10-06 16:40:40,AST-1085,T1078,Valid Accounts,Medium,103.37.85.191,Blocked,0,0
+EVT-ea82c7a7,2026-10-06 16:55:12,AST-1245,T1059.001,PowerShell Execution,Medium,57.159.243.219,Blocked,0,0
+EVT-e96264d5,2026-10-06 17:17:39,AST-1076,T1486,Data Encrypted for Impact (Ransomware),Critical,125.200.3.241,Allowed,20,0
+EVT-5a89e633,2026-10-06 17:35:27,AST-1249,T1486,Data Encrypted for Impact (Ransomware),Critical,178.147.185.126,Alerted,0,0
+EVT-db919ed8,2026-10-06 18:48:56,AST-1075,T1110.001,Password Guessing,Low,150.11.210.199,Blocked,0,0
+EVT-1ff27937,2026-10-06 18:57:37,AST-1217,T1110.001,Password Guessing,Low,148.34.128.39,Blocked,0,0
+EVT-a9b6a24e,2026-10-06 19:26:47,AST-1014,T1059.001,PowerShell Execution,Medium,68.196.104.104,Allowed,0,0
+EVT-338c42ec,2026-10-06 20:11:40,AST-1240,T1110.001,Password Guessing,Low,202.75.89.73,Alerted,0,0
+EVT-cfbbfa7e,2026-10-06 20:30:58,AST-1108,T1059.001,PowerShell Execution,Medium,78.200.137.48,Blocked,0,0
+EVT-5aa9e9f8,2026-10-06 20:37:52,AST-1046,T1078,Valid Accounts,Medium,90.142.187.122,Allowed,0,0
+EVT-e6af08aa,2026-10-06 20:38:59,AST-1258,T1003.001,LSASS Memory Credential Dumping,High,193.146.128.51,Blocked,0,0
+EVT-5ebc4257,2026-10-06 21:35:25,AST-1236,T1059.001,PowerShell Execution,Medium,151.135.197.210,Blocked,0,0
+EVT-c093df34,2026-10-06 21:42:17,AST-1238,T1059.001,PowerShell Execution,Medium,159.166.47.182,Blocked,0,0
+EVT-1b733cc2,2026-10-06 21:58:06,AST-1164,T1003.001,LSASS Memory Credential Dumping,High,137.238.65.81,Blocked,0,0
+EVT-5a3e3c57,2026-10-06 22:32:38,AST-1142,T1486,Data Encrypted for Impact (Ransomware),Critical,155.229.126.124,Allowed,40,0
+EVT-36fd5e14,2026-10-06 23:16:57,AST-1234,T1059.001,PowerShell Execution,Medium,82.121.220.242,Allowed,0,0
+EVT-34015af6,2026-10-06 23:29:01,AST-1182,T1059.001,PowerShell Execution,Medium,50.29.248.169,Allowed,0,0
+EVT-8893c780,2026-10-06 23:50:07,AST-1061,T1003.001,LSASS Memory Credential Dumping,High,191.83.216.120,Blocked,0,0
+EVT-2433990a,2026-10-07 00:07:56,AST-1087,T1003.001,LSASS Memory Credential Dumping,High,55.130.190.24,Alerted,0,0
+EVT-f61e4c16,2026-10-07 00:42:51,AST-1151,T1059.001,PowerShell Execution,Medium,160.241.252.55,Blocked,0,0
+EVT-636bce5b,2026-10-07 00:59:24,AST-1066,T1003.001,LSASS Memory Credential Dumping,High,167.232.10.68,Blocked,0,0
+EVT-638c3b65,2026-10-07 01:13:30,AST-1289,T1078,Valid Accounts,Medium,181.254.6.201,Blocked,0,0
+EVT-0cfdd720,2026-10-07 01:28:27,AST-1019,T1003.001,LSASS Memory Credential Dumping,High,84.144.50.1,Blocked,0,0
+EVT-559e4f82,2026-10-07 01:40:20,AST-1268,T1486,Data Encrypted for Impact (Ransomware),Critical,81.252.94.174,Blocked,0,0
+EVT-06226b26,2026-10-07 01:41:42,AST-1055,T1059.001,PowerShell Execution,Medium,220.231.184.88,Alerted,0,0
+EVT-07cfddd0,2026-10-07 02:23:15,AST-1128,T1003.001,LSASS Memory Credential Dumping,High,182.73.9.225,Alerted,0,0
+EVT-49668306,2026-10-07 02:44:53,AST-1026,T1486,Data Encrypted for Impact (Ransomware),Critical,202.133.42.78,Alerted,0,0
+EVT-39139d8e,2026-10-07 02:45:47,AST-1287,T1486,Data Encrypted for Impact (Ransomware),Critical,50.125.200.174,Alerted,0,0
+EVT-a5dadd0d,2026-10-07 02:47:15,AST-1200,T1078,Valid Accounts,Medium,18.217.91.19,Alerted,0,0
+EVT-f1eab033,2026-10-07 02:51:01,AST-1141,T1078,Valid Accounts,Medium,143.240.135.81,Alerted,0,0
+EVT-878a9759,2026-10-07 02:51:35,AST-1238,T1059.001,PowerShell Execution,Medium,46.172.48.88,Allowed,0,0
+EVT-f5566842,2026-10-07 03:17:31,AST-1115,T1059.001,PowerShell Execution,Medium,23.188.117.182,Alerted,0,0
+EVT-b9462400,2026-10-07 03:26:03,AST-1192,T1078,Valid Accounts,Medium,73.221.162.194,Allowed,0,0
+EVT-ed86811f,2026-10-07 03:53:57,AST-1227,T1003.001,LSASS Memory Credential Dumping,High,188.64.48.215,Allowed,0,41963
+EVT-514fc2ec,2026-10-07 04:00:03,AST-1053,T1003.001,LSASS Memory Credential Dumping,High,51.150.210.59,Alerted,0,0
+EVT-3a59d9a7,2026-10-07 04:05:54,AST-1257,T1059.001,PowerShell Execution,Medium,146.43.116.160,Blocked,0,0
+EVT-ab27f208,2026-10-07 05:22:27,AST-1258,T1003.001,LSASS Memory Credential Dumping,High,188.103.205.164,Blocked,0,0
+EVT-b1e63498,2026-10-07 05:35:13,AST-1188,T1059.001,PowerShell Execution,Medium,62.134.53.176,Blocked,0,0
+EVT-64dfcab7,2026-10-07 07:22:34,AST-1029,T1003.001,LSASS Memory Credential Dumping,High,71.242.73.177,Blocked,0,0
+EVT-ab764bb2,2026-10-07 07:36:30,AST-1262,T1486,Data Encrypted for Impact (Ransomware),Critical,190.17.9.47,Alerted,0,0
+EVT-b84dd1db,2026-10-07 07:43:33,AST-1005,T1078,Valid Accounts,Medium,154.171.76.159,Blocked,0,0
+EVT-6b7edb73,2026-10-07 08:06:02,AST-1100,T1059.001,PowerShell Execution,Medium,167.238.43.136,Alerted,0,0
+EVT-c63939a8,2026-10-07 08:12:16,AST-1064,T1110.001,Password Guessing,Low,42.91.152.247,Blocked,0,0
+EVT-627d0f4e,2026-10-07 09:24:04,AST-1034,T1059.001,PowerShell Execution,Medium,18.31.189.243,Blocked,0,0
+EVT-fa2f80bb,2026-10-07 09:39:34,AST-1110,T1486,Data Encrypted for Impact (Ransomware),Critical,52.124.40.173,Blocked,0,0
+EVT-8beebe45,2026-10-07 10:45:38,AST-1266,T1078,Valid Accounts,Medium,46.217.72.114,Allowed,0,0
+EVT-9d58dfd7,2026-10-07 11:23:31,AST-1208,T1110.001,Password Guessing,Low,64.44.21.230,Blocked,0,0
+EVT-cc4a8e59,2026-10-07 11:24:58,AST-1238,T1110.001,Password Guessing,Low,95.92.238.70,Allowed,0,0
+EVT-16fe09c0,2026-10-07 11:36:47,AST-1258,T1486,Data Encrypted for Impact (Ransomware),Critical,157.166.211.2,Allowed,61,0
+EVT-03457094,2026-10-07 12:32:21,AST-1225,T1110.001,Password Guessing,Low,41.224.229.239,Blocked,0,0
+EVT-f1498a14,2026-10-07 12:47:31,AST-1095,T1110.001,Password Guessing,Low,186.184.166.228,Alerted,0,0
+EVT-e1fdae73,2026-10-07 12:48:41,AST-1079,T1078,Valid Accounts,Medium,135.110.107.147,Alerted,0,0
+EVT-8bd1d200,2026-10-07 12:56:32,AST-1239,T1486,Data Encrypted for Impact (Ransomware),Critical,176.121.138.205,Blocked,0,0
+EVT-c46c9b54,2026-10-07 13:04:23,AST-1070,T1078,Valid Accounts,Medium,73.51.178.146,Alerted,0,0
+EVT-de4f19be,2026-10-07 14:34:35,AST-1272,T1003.001,LSASS Memory Credential Dumping,High,197.113.37.65,Allowed,0,42165
+EVT-81048391,2026-10-07 14:36:59,AST-1192,T1110.001,Password Guessing,Low,139.51.200.170,Alerted,0,0
+EVT-2a62f033,2026-10-07 14:37:38,AST-1217,T1078,Valid Accounts,Medium,11.248.62.138,Allowed,0,0
+EVT-e090b3e0,2026-10-07 14:48:37,AST-1134,T1486,Data Encrypted for Impact (Ransomware),Critical,183.188.181.239,Blocked,0,0
+EVT-c54cd960,2026-10-07 14:53:35,AST-1089,T1110.001,Password Guessing,Low,56.17.75.131,Allowed,0,0
+EVT-5ee15346,2026-10-07 14:54:37,AST-1062,T1003.001,LSASS Memory Credential Dumping,High,142.5.80.117,Allowed,0,9013
+EVT-be7373b3,2026-10-07 15:27:56,AST-1010,T1078,Valid Accounts,Medium,171.130.231.80,Allowed,0,0
+EVT-2b08c751,2026-10-07 16:17:44,AST-1248,T1078,Valid Accounts,Medium,54.89.150.200,Blocked,0,0
+EVT-5d4e5662,2026-10-07 16:18:49,AST-1016,T1059.001,PowerShell Execution,Medium,90.126.129.228,Alerted,0,0
+EVT-d7f054f8,2026-10-07 18:05:49,AST-1137,T1486,Data Encrypted for Impact (Ransomware),Critical,176.72.71.216,Alerted,0,0
+EVT-7e93a8cd,2026-10-07 18:10:04,AST-1205,T1059.001,PowerShell Execution,Medium,137.192.184.182,Allowed,0,0
+EVT-56835b43,2026-10-07 18:47:37,AST-1109,T1003.001,LSASS Memory Credential Dumping,High,128.118.233.246,Allowed,0,13547
+EVT-582e1360,2026-10-07 18:55:01,AST-1196,T1110.001,Password Guessing,Low,141.129.164.107,Alerted,0,0
+EVT-754e5f3b,2026-10-07 18:55:44,AST-1183,T1078,Valid Accounts,Medium,146.105.68.191,Allowed,0,0
+EVT-6b4e8493,2026-10-07 19:50:22,AST-1130,T1003.001,LSASS Memory Credential Dumping,High,47.201.40.87,Allowed,0,28587
+EVT-9ee475fb,2026-10-07 19:53:25,AST-1137,T1003.001,LSASS Memory Credential Dumping,High,21.48.151.113,Blocked,0,0
+EVT-59bb9218,2026-10-07 21:28:29,AST-1200,T1110.001,Password Guessing,Low,186.20.217.68,Allowed,0,0
+EVT-ec08b7fb,2026-10-07 21:58:54,AST-1054,T1110.001,Password Guessing,Low,130.117.177.177,Blocked,0,0
+EVT-5e0edb73,2026-10-07 22:09:58,AST-1234,T1486,Data Encrypted for Impact (Ransomware),Critical,219.198.30.154,Blocked,0,0
+EVT-bad0516e,2026-10-07 22:47:20,AST-1236,T1003.001,LSASS Memory Credential Dumping,High,179.200.63.61,Alerted,0,0
+EVT-26126f4b,2026-10-07 22:51:26,AST-1054,T1110.001,Password Guessing,Low,70.248.216.228,Alerted,0,0
+EVT-3e8ea110,2026-10-07 23:16:03,AST-1020,T1110.001,Password Guessing,Low,106.14.148.129,Allowed,0,0
+EVT-049b4874,2026-10-08 00:19:11,AST-1093,T1486,Data Encrypted for Impact (Ransomware),Critical,134.188.60.71,Allowed,9,0
+EVT-18c7d8b1,2026-10-08 00:36:10,AST-1006,T1003.001,LSASS Memory Credential Dumping,High,121.76.28.193,Allowed,0,27128
+EVT-f3db08a1,2026-10-08 01:02:56,AST-1224,T1078,Valid Accounts,Medium,13.180.238.127,Alerted,0,0
+EVT-c3acbe34,2026-10-08 01:42:56,AST-1041,T1486,Data Encrypted for Impact (Ransomware),Critical,101.189.210.80,Alerted,0,0
+EVT-c60c3491,2026-10-08 01:50:44,AST-1021,T1078,Valid Accounts,Medium,38.65.88.213,Allowed,0,0
+EVT-501ceb26,2026-10-08 01:53:20,AST-1012,T1059.001,PowerShell Execution,Medium,62.178.53.32,Blocked,0,0
+EVT-5d63eca1,2026-10-08 02:12:29,AST-1119,T1110.001,Password Guessing,Low,165.100.54.76,Blocked,0,0
+EVT-0ded2ec9,2026-10-08 03:03:18,AST-1000,T1078,Valid Accounts,Medium,120.180.59.229,Blocked,0,0
+EVT-cd6fcb2a,2026-10-08 03:30:19,AST-1014,T1078,Valid Accounts,Medium,144.37.145.58,Alerted,0,0
+EVT-a748c940,2026-10-08 05:06:09,AST-1200,T1059.001,PowerShell Execution,Medium,150.213.147.200,Blocked,0,0
+EVT-42629a80,2026-10-08 05:08:41,AST-1286,T1486,Data Encrypted for Impact (Ransomware),Critical,20.154.118.109,Allowed,60,0
+EVT-4201ec8b,2026-10-08 05:15:53,AST-1140,T1110.001,Password Guessing,Low,189.29.195.65,Blocked,0,0
+EVT-c08918d1,2026-10-08 06:22:20,AST-1011,T1003.001,LSASS Memory Credential Dumping,High,131.129.116.80,Allowed,0,33412
+EVT-4339d3a3,2026-10-08 06:27:06,AST-1271,T1059.001,PowerShell Execution,Medium,34.113.89.162,Alerted,0,0
+EVT-5884efb3,2026-10-08 06:30:33,AST-1217,T1110.001,Password Guessing,Low,50.192.37.211,Blocked,0,0
+EVT-71c19a4b,2026-10-08 06:45:58,AST-1163,T1078,Valid Accounts,Medium,54.184.79.235,Blocked,0,0
+EVT-c1f7bdd6,2026-10-08 07:01:16,AST-1268,T1110.001,Password Guessing,Low,135.140.239.200,Alerted,0,0
+EVT-4ae1999b,2026-10-08 07:04:24,AST-1075,T1486,Data Encrypted for Impact (Ransomware),Critical,45.139.120.179,Blocked,0,0
+EVT-f6fa353e,2026-10-08 07:12:29,AST-1180,T1110.001,Password Guessing,Low,100.79.146.243,Blocked,0,0
+EVT-df061925,2026-10-08 07:22:44,AST-1169,T1059.001,PowerShell Execution,Medium,213.120.84.105,Blocked,0,0
+EVT-2a8a5002,2026-10-08 07:23:34,AST-1027,T1059.001,PowerShell Execution,Medium,48.13.87.177,Allowed,0,0
+EVT-2f1102f7,2026-10-08 07:41:07,AST-1108,T1003.001,LSASS Memory Credential Dumping,High,69.121.105.154,Alerted,0,0
+EVT-9463fc9d,2026-10-08 08:41:05,AST-1297,T1110.001,Password Guessing,Low,75.159.108.239,Allowed,0,0
+EVT-b2665c17,2026-10-08 08:54:13,AST-1139,T1003.001,LSASS Memory Credential Dumping,High,39.244.238.71,Allowed,0,25780
+EVT-770f5c17,2026-10-08 09:24:28,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,182.159.159.22,Alerted,0,0
+EVT-2960f250,2026-10-08 09:49:12,AST-1258,T1078,Valid Accounts,Medium,75.187.48.111,Allowed,0,0
+EVT-d59e21ee,2026-10-08 10:25:00,AST-1193,T1110.001,Password Guessing,Low,205.79.127.198,Blocked,0,0
+EVT-d6ff00f6,2026-10-08 10:36:31,AST-1161,T1059.001,PowerShell Execution,Medium,202.12.242.164,Alerted,0,0
+EVT-e61cea3e,2026-10-08 10:53:03,AST-1151,T1078,Valid Accounts,Medium,93.139.165.21,Allowed,0,0
+EVT-85bd6477,2026-10-08 11:25:02,AST-1077,T1003.001,LSASS Memory Credential Dumping,High,199.30.170.229,Blocked,0,0
+EVT-287e4c45,2026-10-08 11:42:43,AST-1122,T1486,Data Encrypted for Impact (Ransomware),Critical,47.21.6.221,Blocked,0,0
+EVT-57aa4033,2026-10-08 11:46:00,AST-1287,T1003.001,LSASS Memory Credential Dumping,High,108.129.19.224,Alerted,0,0
+EVT-368cb5d9,2026-10-08 12:12:01,AST-1045,T1078,Valid Accounts,Medium,85.130.114.199,Allowed,0,0
+EVT-6b298460,2026-10-08 12:20:53,AST-1174,T1110.001,Password Guessing,Low,85.36.71.189,Blocked,0,0
+EVT-aaf76533,2026-10-08 12:32:48,AST-1157,T1059.001,PowerShell Execution,Medium,211.106.27.217,Allowed,0,0
+EVT-1e6223de,2026-10-08 13:36:50,AST-1113,T1003.001,LSASS Memory Credential Dumping,High,158.130.137.176,Allowed,0,24055
+EVT-49ce9455,2026-10-08 13:48:26,AST-1001,T1110.001,Password Guessing,Low,65.222.216.58,Allowed,0,0
+EVT-c684b2b0,2026-10-08 14:13:42,AST-1072,T1078,Valid Accounts,Medium,34.22.70.108,Alerted,0,0
+EVT-01c3c885,2026-10-08 14:39:01,AST-1269,T1110.001,Password Guessing,Low,133.222.246.66,Allowed,0,0
+EVT-b15b301b,2026-10-08 14:44:08,AST-1268,T1486,Data Encrypted for Impact (Ransomware),Critical,160.199.36.87,Allowed,16,0
+EVT-2ad7b71e,2026-10-08 15:53:21,AST-1108,T1059.001,PowerShell Execution,Medium,86.84.236.193,Blocked,0,0
+EVT-cee8e899,2026-10-08 16:03:37,AST-1269,T1003.001,LSASS Memory Credential Dumping,High,63.180.252.236,Alerted,0,0
+EVT-adc570eb,2026-10-08 16:06:01,AST-1058,T1059.001,PowerShell Execution,Medium,34.81.57.88,Blocked,0,0
+EVT-90de37a7,2026-10-08 16:33:56,AST-1135,T1059.001,PowerShell Execution,Medium,212.74.88.1,Blocked,0,0
+EVT-df49ced6,2026-10-08 16:45:44,AST-1297,T1003.001,LSASS Memory Credential Dumping,High,108.12.127.69,Blocked,0,0
+EVT-d54c0dee,2026-10-08 17:23:39,AST-1109,T1110.001,Password Guessing,Low,45.201.211.70,Blocked,0,0
+EVT-69624f3a,2026-10-08 17:23:47,AST-1176,T1078,Valid Accounts,Medium,44.100.146.125,Alerted,0,0
+EVT-95d602dd,2026-10-08 17:38:30,AST-1093,T1003.001,LSASS Memory Credential Dumping,High,94.246.17.99,Blocked,0,0
+EVT-0b39dd3d,2026-10-08 17:43:03,AST-1195,T1078,Valid Accounts,Medium,221.251.53.48,Alerted,0,0
+EVT-91cef0d0,2026-10-08 17:43:24,AST-1065,T1003.001,LSASS Memory Credential Dumping,High,133.235.22.122,Alerted,0,0
+EVT-43f52be4,2026-10-08 17:56:38,AST-1010,T1078,Valid Accounts,Medium,210.78.112.39,Blocked,0,0
+EVT-a1ce4615,2026-10-08 18:53:56,AST-1141,T1078,Valid Accounts,Medium,147.39.200.76,Blocked,0,0
+EVT-145c0451,2026-10-08 19:02:12,AST-1236,T1003.001,LSASS Memory Credential Dumping,High,200.46.93.94,Alerted,0,0
+EVT-0e5c6f6a,2026-10-08 19:45:46,AST-1258,T1486,Data Encrypted for Impact (Ransomware),Critical,30.53.74.181,Blocked,0,0
+EVT-4b820b23,2026-10-08 19:48:23,AST-1118,T1078,Valid Accounts,Medium,187.146.248.102,Blocked,0,0
+EVT-087120c5,2026-10-08 20:03:07,AST-1173,T1110.001,Password Guessing,Low,220.169.121.72,Blocked,0,0
+EVT-23db023b,2026-10-08 20:51:53,AST-1250,T1003.001,LSASS Memory Credential Dumping,High,85.154.238.218,Blocked,0,0
+EVT-f90b029c,2026-10-08 21:22:52,AST-1000,T1078,Valid Accounts,Medium,54.133.214.223,Allowed,0,0
+EVT-e3feb5f2,2026-10-08 22:02:53,AST-1137,T1110.001,Password Guessing,Low,112.154.144.183,Blocked,0,0
+EVT-5144efc7,2026-10-08 22:10:02,AST-1094,T1110.001,Password Guessing,Low,62.30.254.252,Alerted,0,0
+EVT-1beef132,2026-10-08 22:29:55,AST-1085,T1059.001,PowerShell Execution,Medium,46.244.212.94,Allowed,0,0
+EVT-48aa979e,2026-10-08 22:36:11,AST-1217,T1003.001,LSASS Memory Credential Dumping,High,89.247.130.189,Allowed,0,19131
+EVT-563fe419,2026-10-08 22:41:27,AST-1043,T1078,Valid Accounts,Medium,71.165.86.225,Blocked,0,0
+EVT-c2b1d8fa,2026-10-08 22:44:47,AST-1100,T1059.001,PowerShell Execution,Medium,102.214.180.61,Allowed,0,0
+EVT-4fce9e43,2026-10-08 23:42:34,AST-1269,T1003.001,LSASS Memory Credential Dumping,High,22.25.101.204,Allowed,0,11564
+EVT-abd397b5,2026-10-09 00:58:58,AST-1183,T1110.001,Password Guessing,Low,11.136.156.215,Blocked,0,0
+EVT-11a70d2a,2026-10-09 01:13:33,AST-1224,T1059.001,PowerShell Execution,Medium,186.226.1.88,Allowed,0,0
+EVT-17d04a2e,2026-10-09 01:27:45,AST-1188,T1059.001,PowerShell Execution,Medium,40.252.193.83,Allowed,0,0
+EVT-4673e9d9,2026-10-09 01:37:30,AST-1271,T1059.001,PowerShell Execution,Medium,77.215.95.254,Allowed,0,0
+EVT-d74405b6,2026-10-09 01:42:25,AST-1262,T1078,Valid Accounts,Medium,163.231.188.198,Allowed,0,0
+EVT-4b3fb674,2026-10-09 01:47:51,AST-1227,T1486,Data Encrypted for Impact (Ransomware),Critical,179.1.42.52,Blocked,0,0
+EVT-d174ebaa,2026-10-09 02:09:19,AST-1298,T1110.001,Password Guessing,Low,134.44.199.115,Alerted,0,0
+EVT-c28e19ac,2026-10-09 02:43:20,AST-1224,T1486,Data Encrypted for Impact (Ransomware),Critical,177.113.104.164,Blocked,0,0
+EVT-d834e74b,2026-10-09 02:48:56,AST-1003,T1110.001,Password Guessing,Low,35.249.6.130,Blocked,0,0
+EVT-523099fc,2026-10-09 03:24:16,AST-1186,T1059.001,PowerShell Execution,Medium,122.68.243.126,Alerted,0,0
+EVT-b6c95d55,2026-10-09 03:34:02,AST-1192,T1003.001,LSASS Memory Credential Dumping,High,117.76.117.77,Allowed,0,28026
+EVT-7aa8c0b8,2026-10-09 03:40:05,AST-1182,T1003.001,LSASS Memory Credential Dumping,High,134.56.23.229,Blocked,0,0
+EVT-09d45c6c,2026-10-09 03:41:46,AST-1133,T1110.001,Password Guessing,Low,56.111.195.250,Blocked,0,0
+EVT-30ad1421,2026-10-09 03:45:14,AST-1068,T1003.001,LSASS Memory Credential Dumping,High,69.173.122.3,Allowed,0,34781
+EVT-08081bac,2026-10-09 03:54:55,AST-1065,T1003.001,LSASS Memory Credential Dumping,High,76.199.29.8,Blocked,0,0
+EVT-600ccd26,2026-10-09 04:05:19,AST-1095,T1059.001,PowerShell Execution,Medium,14.190.58.148,Blocked,0,0
+EVT-7b04ada9,2026-10-09 04:32:02,AST-1164,T1078,Valid Accounts,Medium,205.14.199.92,Blocked,0,0
+EVT-497e51af,2026-10-09 04:42:49,AST-1227,T1078,Valid Accounts,Medium,207.24.191.180,Blocked,0,0
+EVT-855eef5a,2026-10-09 04:43:20,AST-1196,T1003.001,LSASS Memory Credential Dumping,High,103.241.80.175,Alerted,0,0
+EVT-7e38920e,2026-10-09 05:06:02,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,196.202.141.169,Allowed,0,41231
+EVT-44dc82bd,2026-10-09 05:54:18,AST-1261,T1003.001,LSASS Memory Credential Dumping,High,46.207.152.250,Alerted,0,0
+EVT-c67b36b5,2026-10-09 05:55:36,AST-1181,T1078,Valid Accounts,Medium,52.26.157.42,Allowed,0,0
+EVT-a5a277f1,2026-10-09 06:46:12,AST-1017,T1059.001,PowerShell Execution,Medium,33.247.204.48,Alerted,0,0
+EVT-50139032,2026-10-09 07:36:42,AST-1293,T1003.001,LSASS Memory Credential Dumping,High,114.177.70.225,Blocked,0,0
+EVT-5a9ab02e,2026-10-09 08:23:03,AST-1127,T1059.001,PowerShell Execution,Medium,44.236.223.247,Blocked,0,0
+EVT-e2f4cc0c,2026-10-09 08:58:52,AST-1269,T1486,Data Encrypted for Impact (Ransomware),Critical,45.77.241.59,Allowed,5,0
+EVT-bb2b183e,2026-10-09 09:02:21,AST-1281,T1059.001,PowerShell Execution,Medium,145.74.125.153,Alerted,0,0
+EVT-ad999d69,2026-10-09 09:15:14,AST-1075,T1078,Valid Accounts,Medium,136.232.174.229,Blocked,0,0
+EVT-36a4c63c,2026-10-09 09:32:02,AST-1108,T1110.001,Password Guessing,Low,121.103.48.156,Blocked,0,0
+EVT-11d475db,2026-10-09 09:32:38,AST-1294,T1486,Data Encrypted for Impact (Ransomware),Critical,157.208.64.24,Alerted,0,0
+EVT-3d15a99f,2026-10-09 09:36:16,AST-1278,T1003.001,LSASS Memory Credential Dumping,High,163.116.42.185,Allowed,0,25843
+EVT-e64410fa,2026-10-09 09:57:38,AST-1220,T1110.001,Password Guessing,Low,196.190.194.137,Alerted,0,0
+EVT-f2dbf432,2026-10-09 10:11:13,AST-1016,T1486,Data Encrypted for Impact (Ransomware),Critical,129.1.43.54,Allowed,22,0
+EVT-80ef1162,2026-10-09 10:16:33,AST-1083,T1059.001,PowerShell Execution,Medium,205.129.166.248,Alerted,0,0
+EVT-0e1bb63f,2026-10-09 10:29:28,AST-1121,T1078,Valid Accounts,Medium,30.175.69.141,Blocked,0,0
+EVT-61e904db,2026-10-09 10:33:35,AST-1093,T1486,Data Encrypted for Impact (Ransomware),Critical,213.107.2.123,Alerted,0,0
+EVT-3288803b,2026-10-09 10:55:17,AST-1095,T1003.001,LSASS Memory Credential Dumping,High,182.1.53.71,Alerted,0,0
+EVT-1cf1b511,2026-10-09 12:38:57,AST-1038,T1486,Data Encrypted for Impact (Ransomware),Critical,171.58.244.68,Alerted,0,0
+EVT-4c95291f,2026-10-09 12:48:13,AST-1127,T1003.001,LSASS Memory Credential Dumping,High,115.76.208.23,Allowed,0,31319
+EVT-304a88f0,2026-10-09 12:51:16,AST-1070,T1110.001,Password Guessing,Low,48.171.178.18,Blocked,0,0
+EVT-d18ebb36,2026-10-09 14:02:06,AST-1206,T1059.001,PowerShell Execution,Medium,25.116.137.159,Blocked,0,0
+EVT-1f9629d9,2026-10-09 14:51:00,AST-1262,T1110.001,Password Guessing,Low,14.133.151.90,Blocked,0,0
+EVT-f32a56a4,2026-10-09 15:14:18,AST-1057,T1078,Valid Accounts,Medium,55.47.63.247,Allowed,0,0
+EVT-5a9e74ec,2026-10-09 15:14:54,AST-1232,T1003.001,LSASS Memory Credential Dumping,High,114.4.43.134,Alerted,0,0
+EVT-3c915cb1,2026-10-09 15:22:21,AST-1197,T1110.001,Password Guessing,Low,17.201.85.49,Alerted,0,0
+EVT-3a567ba2,2026-10-09 15:52:06,AST-1287,T1059.001,PowerShell Execution,Medium,25.159.126.118,Blocked,0,0
+EVT-16f2ebb7,2026-10-09 16:04:22,AST-1073,T1110.001,Password Guessing,Low,108.145.79.97,Alerted,0,0
+EVT-b3ea65d3,2026-10-09 16:26:36,AST-1061,T1078,Valid Accounts,Medium,29.100.8.185,Blocked,0,0
+EVT-e6c37d18,2026-10-09 17:54:11,AST-1195,T1059.001,PowerShell Execution,Medium,122.147.121.190,Blocked,0,0
+EVT-0847ec85,2026-10-09 18:06:28,AST-1088,T1110.001,Password Guessing,Low,82.174.97.221,Allowed,0,0
+EVT-173212a3,2026-10-09 18:57:43,AST-1035,T1486,Data Encrypted for Impact (Ransomware),Critical,168.157.152.42,Alerted,0,0
+EVT-c05ad685,2026-10-09 19:33:05,AST-1190,T1078,Valid Accounts,Medium,198.190.82.155,Alerted,0,0
+EVT-ea901d1f,2026-10-09 19:47:25,AST-1076,T1003.001,LSASS Memory Credential Dumping,High,215.127.228.232,Blocked,0,0
+EVT-448ca388,2026-10-09 20:24:11,AST-1063,T1059.001,PowerShell Execution,Medium,37.34.207.199,Alerted,0,0
+EVT-e3a95535,2026-10-09 21:06:18,AST-1233,T1110.001,Password Guessing,Low,23.155.142.100,Allowed,0,0
+EVT-2da70814,2026-10-09 21:29:07,AST-1098,T1003.001,LSASS Memory Credential Dumping,High,191.78.116.181,Blocked,0,0
+EVT-7a511e92,2026-10-09 21:44:05,AST-1260,T1003.001,LSASS Memory Credential Dumping,High,177.158.51.10,Allowed,0,41698
+EVT-8a11b025,2026-10-09 22:13:32,AST-1218,T1003.001,LSASS Memory Credential Dumping,High,211.37.233.106,Alerted,0,0
+EVT-1895569c,2026-10-09 22:47:28,AST-1225,T1110.001,Password Guessing,Low,76.56.106.17,Allowed,0,0
+EVT-78f52923,2026-10-09 23:20:41,AST-1220,T1078,Valid Accounts,Medium,200.244.162.36,Blocked,0,0
+EVT-bd84c755,2026-10-10 00:07:39,AST-1273,T1078,Valid Accounts,Medium,153.36.51.178,Blocked,0,0
+EVT-a442ee29,2026-10-10 00:20:40,AST-1172,T1003.001,LSASS Memory Credential Dumping,High,153.141.234.228,Alerted,0,0
+EVT-7448e419,2026-10-10 01:01:56,AST-1287,T1059.001,PowerShell Execution,Medium,99.111.249.17,Alerted,0,0
+EVT-843fbc52,2026-10-10 01:04:20,AST-1260,T1003.001,LSASS Memory Credential Dumping,High,165.77.10.138,Allowed,0,33318
+EVT-624544df,2026-10-10 01:07:56,AST-1135,T1003.001,LSASS Memory Credential Dumping,High,125.232.215.34,Allowed,0,27764
+EVT-1972eaea,2026-10-10 01:59:23,AST-1195,T1110.001,Password Guessing,Low,21.201.199.103,Alerted,0,0
+EVT-1ea273e9,2026-10-10 02:12:59,AST-1237,T1078,Valid Accounts,Medium,133.251.189.122,Alerted,0,0
+EVT-ab14d3a1,2026-10-10 02:17:19,AST-1160,T1078,Valid Accounts,Medium,117.88.54.63,Alerted,0,0
+EVT-d0f0a072,2026-10-10 02:48:26,AST-1052,T1059.001,PowerShell Execution,Medium,90.240.188.1,Alerted,0,0
+EVT-1eaf9e74,2026-10-10 03:26:56,AST-1011,T1486,Data Encrypted for Impact (Ransomware),Critical,123.37.30.110,Alerted,0,0
+EVT-ad734226,2026-10-10 03:50:22,AST-1166,T1078,Valid Accounts,Medium,180.250.221.225,Alerted,0,0
+EVT-ef2a1a50,2026-10-10 04:06:24,AST-1180,T1078,Valid Accounts,Medium,115.134.107.85,Alerted,0,0
+EVT-6fade959,2026-10-10 04:06:24,AST-1261,T1078,Valid Accounts,Medium,75.47.205.215,Blocked,0,0
+EVT-6706c645,2026-10-10 04:25:48,AST-1269,T1078,Valid Accounts,Medium,134.109.66.83,Blocked,0,0
+EVT-d424f845,2026-10-10 04:32:59,AST-1190,T1110.001,Password Guessing,Low,166.44.33.209,Alerted,0,0
+EVT-ca2cae04,2026-10-10 05:50:35,AST-1284,T1486,Data Encrypted for Impact (Ransomware),Critical,125.38.165.196,Blocked,0,0
+EVT-4b79d375,2026-10-10 06:21:25,AST-1248,T1003.001,LSASS Memory Credential Dumping,High,156.111.204.192,Alerted,0,0
+EVT-9e9d7365,2026-10-10 06:26:41,AST-1172,T1486,Data Encrypted for Impact (Ransomware),Critical,21.134.53.2,Blocked,0,0
+EVT-eab9588f,2026-10-10 06:30:39,AST-1038,T1110.001,Password Guessing,Low,194.199.243.228,Allowed,0,0
+EVT-4f778045,2026-10-10 06:33:16,AST-1201,T1059.001,PowerShell Execution,Medium,85.18.76.211,Allowed,0,0
+EVT-60765c16,2026-10-10 07:01:26,AST-1217,T1110.001,Password Guessing,Low,151.25.185.181,Blocked,0,0
+EVT-f17da1e3,2026-10-10 07:13:40,AST-1232,T1059.001,PowerShell Execution,Medium,12.102.150.31,Blocked,0,0
+EVT-5f48e133,2026-10-10 07:42:51,AST-1205,T1003.001,LSASS Memory Credential Dumping,High,147.184.116.186,Blocked,0,0
+EVT-459b5ee6,2026-10-10 08:19:12,AST-1014,T1486,Data Encrypted for Impact (Ransomware),Critical,130.183.34.196,Allowed,20,0
+EVT-b9c7d579,2026-10-10 08:21:33,AST-1083,T1003.001,LSASS Memory Credential Dumping,High,60.89.108.39,Alerted,0,0
+EVT-7422fcfa,2026-10-10 08:28:10,AST-1082,T1486,Data Encrypted for Impact (Ransomware),Critical,70.221.181.214,Blocked,0,0
+EVT-c9c56ea2,2026-10-10 08:56:43,AST-1212,T1059.001,PowerShell Execution,Medium,23.42.112.171,Allowed,0,0
+EVT-e84066ca,2026-10-10 09:15:59,AST-1220,T1486,Data Encrypted for Impact (Ransomware),Critical,164.82.157.231,Alerted,0,0
+EVT-16e46162,2026-10-10 09:52:30,AST-1086,T1078,Valid Accounts,Medium,103.232.27.86,Allowed,0,0
+EVT-eea8df2c,2026-10-10 10:03:54,AST-1126,T1486,Data Encrypted for Impact (Ransomware),Critical,107.7.206.49,Blocked,0,0
+EVT-d4d97162,2026-10-10 10:31:09,AST-1262,T1486,Data Encrypted for Impact (Ransomware),Critical,55.174.152.82,Alerted,0,0
+EVT-c8d27434,2026-10-10 10:58:52,AST-1077,T1003.001,LSASS Memory Credential Dumping,High,104.235.106.158,Blocked,0,0
+EVT-dd3721cc,2026-10-10 11:15:05,AST-1217,T1110.001,Password Guessing,Low,183.224.238.242,Alerted,0,0
+EVT-eaaf3bca,2026-10-10 11:22:25,AST-1035,T1110.001,Password Guessing,Low,108.156.164.71,Allowed,0,0
+EVT-f3d2fadc,2026-10-10 12:05:47,AST-1174,T1486,Data Encrypted for Impact (Ransomware),Critical,147.36.100.244,Allowed,55,0
+EVT-35d1a5da,2026-10-10 12:28:04,AST-1196,T1059.001,PowerShell Execution,Medium,113.41.230.57,Blocked,0,0
+EVT-16c8d0d3,2026-10-10 12:48:11,AST-1165,T1059.001,PowerShell Execution,Medium,83.105.199.160,Alerted,0,0
+EVT-be004bea,2026-10-10 12:48:24,AST-1109,T1003.001,LSASS Memory Credential Dumping,High,186.127.6.35,Blocked,0,0
+EVT-b7c39b26,2026-10-10 12:55:14,AST-1279,T1059.001,PowerShell Execution,Medium,21.208.207.22,Alerted,0,0
+EVT-dfa891d8,2026-10-10 13:22:43,AST-1091,T1110.001,Password Guessing,Low,67.145.119.217,Alerted,0,0
+EVT-d980ff21,2026-10-10 14:31:49,AST-1098,T1486,Data Encrypted for Impact (Ransomware),Critical,157.78.225.39,Allowed,68,0
+EVT-8e839eed,2026-10-10 15:03:54,AST-1044,T1486,Data Encrypted for Impact (Ransomware),Critical,122.25.206.4,Allowed,18,0
+EVT-4680e868,2026-10-10 15:10:55,AST-1030,T1486,Data Encrypted for Impact (Ransomware),Critical,169.250.91.26,Allowed,61,0
+EVT-d10d8dc9,2026-10-10 15:36:39,AST-1163,T1003.001,LSASS Memory Credential Dumping,High,95.202.131.182,Alerted,0,0
+EVT-daf23753,2026-10-10 16:02:06,AST-1272,T1110.001,Password Guessing,Low,67.202.117.115,Alerted,0,0
+EVT-6715fc79,2026-10-10 16:21:28,AST-1156,T1059.001,PowerShell Execution,Medium,164.175.93.254,Blocked,0,0
+EVT-664862fa,2026-10-10 16:31:27,AST-1272,T1003.001,LSASS Memory Credential Dumping,High,17.167.166.62,Blocked,0,0
+EVT-fb054979,2026-10-10 16:35:38,AST-1106,T1110.001,Password Guessing,Low,173.28.101.134,Blocked,0,0
+EVT-5b15d904,2026-10-10 16:51:23,AST-1014,T1078,Valid Accounts,Medium,60.179.19.182,Blocked,0,0
+EVT-76813ace,2026-10-10 17:27:51,AST-1055,T1078,Valid Accounts,Medium,199.131.193.216,Alerted,0,0
+EVT-22ddbfc4,2026-10-10 17:31:32,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,129.229.197.37,Alerted,0,0
+EVT-adfa60b5,2026-10-10 17:34:59,AST-1199,T1003.001,LSASS Memory Credential Dumping,High,34.65.143.48,Allowed,0,47588
+EVT-5f3f3019,2026-10-10 17:40:30,AST-1292,T1078,Valid Accounts,Medium,206.112.50.199,Alerted,0,0
+EVT-9dfd5452,2026-10-10 18:42:19,AST-1165,T1078,Valid Accounts,Medium,60.51.5.218,Allowed,0,0
+EVT-b7be741a,2026-10-10 19:02:51,AST-1075,T1059.001,PowerShell Execution,Medium,201.12.147.238,Alerted,0,0
+EVT-2440b2dc,2026-10-10 19:27:34,AST-1203,T1110.001,Password Guessing,Low,209.10.93.9,Alerted,0,0
+EVT-0e369968,2026-10-10 20:45:25,AST-1214,T1486,Data Encrypted for Impact (Ransomware),Critical,174.189.47.37,Blocked,0,0
+EVT-abadc1c8,2026-10-10 21:17:34,AST-1127,T1003.001,LSASS Memory Credential Dumping,High,148.72.198.186,Blocked,0,0
+EVT-609b1a10,2026-10-10 22:24:08,AST-1296,T1003.001,LSASS Memory Credential Dumping,High,132.114.99.84,Alerted,0,0
+EVT-b52ed459,2026-10-10 22:33:45,AST-1017,T1078,Valid Accounts,Medium,183.180.42.3,Blocked,0,0
+EVT-cfbf9e39,2026-10-10 23:13:28,AST-1007,T1003.001,LSASS Memory Credential Dumping,High,61.197.225.207,Allowed,0,22272
+EVT-e0959fdb,2026-10-10 23:29:30,AST-1016,T1078,Valid Accounts,Medium,63.52.94.208,Alerted,0,0
+EVT-cb6a49f1,2026-10-11 00:31:06,AST-1135,T1486,Data Encrypted for Impact (Ransomware),Critical,76.240.186.82,Blocked,0,0
+EVT-e69bb9ae,2026-10-11 00:38:23,AST-1287,T1486,Data Encrypted for Impact (Ransomware),Critical,74.7.48.66,Allowed,67,0
+EVT-3ebbe302,2026-10-11 01:30:11,AST-1191,T1078,Valid Accounts,Medium,201.167.22.201,Allowed,0,0
+EVT-15e03280,2026-10-11 01:34:25,AST-1262,T1059.001,PowerShell Execution,Medium,96.147.213.79,Blocked,0,0
+EVT-6cae10cf,2026-10-11 01:38:30,AST-1085,T1110.001,Password Guessing,Low,121.139.132.173,Blocked,0,0
+EVT-0b221eb1,2026-10-11 02:32:00,AST-1248,T1110.001,Password Guessing,Low,223.46.196.231,Alerted,0,0
+EVT-e5361f93,2026-10-11 02:40:52,AST-1292,T1059.001,PowerShell Execution,Medium,170.27.52.172,Allowed,0,0
+EVT-edc9db21,2026-10-11 03:05:09,AST-1143,T1486,Data Encrypted for Impact (Ransomware),Critical,208.4.143.218,Blocked,0,0
+EVT-36d0428c,2026-10-11 03:28:43,AST-1195,T1078,Valid Accounts,Medium,162.253.32.109,Allowed,0,0
+EVT-e5971c83,2026-10-11 04:19:09,AST-1222,T1078,Valid Accounts,Medium,174.63.151.73,Allowed,0,0
+EVT-4d436b34,2026-10-11 04:40:02,AST-1176,T1110.001,Password Guessing,Low,65.123.194.116,Blocked,0,0
+EVT-33c3ef22,2026-10-11 04:52:10,AST-1235,T1110.001,Password Guessing,Low,206.32.243.248,Alerted,0,0
+EVT-5a63e9c6,2026-10-11 04:52:31,AST-1292,T1110.001,Password Guessing,Low,42.186.30.136,Allowed,0,0
+EVT-5b05985e,2026-10-11 05:31:56,AST-1234,T1059.001,PowerShell Execution,Medium,200.137.42.86,Blocked,0,0
+EVT-7ac93be0,2026-10-11 05:46:10,AST-1007,T1110.001,Password Guessing,Low,163.25.121.65,Alerted,0,0
+EVT-43758fc2,2026-10-11 05:47:12,AST-1084,T1003.001,LSASS Memory Credential Dumping,High,21.33.139.213,Allowed,0,29461
+EVT-c43a28ba,2026-10-11 05:54:01,AST-1202,T1059.001,PowerShell Execution,Medium,26.185.248.161,Alerted,0,0
+EVT-f69ab090,2026-10-11 06:11:44,AST-1135,T1078,Valid Accounts,Medium,136.186.119.246,Alerted,0,0
+EVT-7d382b7a,2026-10-11 06:13:38,AST-1141,T1059.001,PowerShell Execution,Medium,95.127.118.22,Blocked,0,0
+EVT-7028af51,2026-10-11 06:14:50,AST-1077,T1003.001,LSASS Memory Credential Dumping,High,205.120.209.12,Allowed,0,16422
+EVT-f4ec6f7e,2026-10-11 06:45:23,AST-1080,T1059.001,PowerShell Execution,Medium,13.163.33.146,Blocked,0,0
+EVT-7989408f,2026-10-11 06:58:11,AST-1061,T1059.001,PowerShell Execution,Medium,130.177.1.33,Blocked,0,0
+EVT-78807590,2026-10-11 07:42:23,AST-1178,T1059.001,PowerShell Execution,Medium,170.74.47.146,Blocked,0,0
+EVT-ee6aee71,2026-10-11 07:46:56,AST-1039,T1003.001,LSASS Memory Credential Dumping,High,62.183.132.184,Alerted,0,0
+EVT-4d7ce712,2026-10-11 08:13:38,AST-1220,T1059.001,PowerShell Execution,Medium,64.42.32.125,Alerted,0,0
+EVT-c53d05e5,2026-10-11 09:53:52,AST-1207,T1078,Valid Accounts,Medium,166.166.47.93,Blocked,0,0
+EVT-3621156e,2026-10-11 10:06:56,AST-1182,T1486,Data Encrypted for Impact (Ransomware),Critical,72.159.145.199,Alerted,0,0
+EVT-f589a445,2026-10-11 10:18:03,AST-1200,T1078,Valid Accounts,Medium,62.173.227.23,Alerted,0,0
+EVT-9aaa480f,2026-10-11 10:21:51,AST-1293,T1003.001,LSASS Memory Credential Dumping,High,145.239.145.206,Alerted,0,0
+EVT-895f5284,2026-10-11 11:03:52,AST-1260,T1003.001,LSASS Memory Credential Dumping,High,144.235.230.55,Alerted,0,0
+EVT-c588a4a0,2026-10-11 11:05:19,AST-1076,T1059.001,PowerShell Execution,Medium,217.81.94.60,Allowed,0,0
+EVT-665a1f22,2026-10-11 11:06:56,AST-1017,T1078,Valid Accounts,Medium,203.218.40.72,Blocked,0,0
+EVT-d4762e57,2026-10-11 11:34:35,AST-1062,T1078,Valid Accounts,Medium,12.219.135.151,Allowed,0,0
+EVT-0497c21c,2026-10-11 12:19:09,AST-1243,T1078,Valid Accounts,Medium,20.210.132.168,Allowed,0,0
+EVT-49578d56,2026-10-11 12:55:07,AST-1107,T1078,Valid Accounts,Medium,82.45.30.249,Blocked,0,0
+EVT-177c0151,2026-10-11 13:46:41,AST-1247,T1003.001,LSASS Memory Credential Dumping,High,175.128.201.252,Alerted,0,0
+EVT-dd80ffe6,2026-10-11 13:47:27,AST-1013,T1078,Valid Accounts,Medium,154.158.200.234,Alerted,0,0
+EVT-b0ce377a,2026-10-11 14:31:04,AST-1252,T1003.001,LSASS Memory Credential Dumping,High,58.39.103.46,Alerted,0,0
+EVT-12cb1dd6,2026-10-11 15:12:03,AST-1245,T1110.001,Password Guessing,Low,86.238.102.35,Alerted,0,0
+EVT-98d8b9eb,2026-10-11 15:29:42,AST-1287,T1486,Data Encrypted for Impact (Ransomware),Critical,130.68.160.174,Blocked,0,0
+EVT-9810e3d3,2026-10-11 15:49:28,AST-1029,T1110.001,Password Guessing,Low,20.194.200.9,Allowed,0,0
+EVT-302db3c2,2026-10-11 15:51:56,AST-1083,T1059.001,PowerShell Execution,Medium,96.125.37.253,Blocked,0,0
+EVT-3231be99,2026-10-11 16:15:13,AST-1248,T1486,Data Encrypted for Impact (Ransomware),Critical,40.234.247.25,Blocked,0,0
+EVT-2e2f0461,2026-10-11 16:21:38,AST-1091,T1078,Valid Accounts,Medium,118.132.163.168,Alerted,0,0
+EVT-fdafe3a6,2026-10-11 16:44:31,AST-1164,T1486,Data Encrypted for Impact (Ransomware),Critical,121.145.66.184,Alerted,0,0
+EVT-fe874773,2026-10-11 17:02:54,AST-1203,T1059.001,PowerShell Execution,Medium,70.213.142.212,Allowed,0,0
+EVT-45aecee3,2026-10-11 17:15:11,AST-1084,T1486,Data Encrypted for Impact (Ransomware),Critical,205.252.42.129,Alerted,0,0
+EVT-042c4868,2026-10-11 17:24:58,AST-1250,T1078,Valid Accounts,Medium,99.120.88.184,Blocked,0,0
+EVT-7566232d,2026-10-11 18:35:54,AST-1183,T1110.001,Password Guessing,Low,28.160.203.198,Blocked,0,0
+EVT-77e9ce29,2026-10-11 18:57:31,AST-1271,T1003.001,LSASS Memory Credential Dumping,High,195.71.53.173,Blocked,0,0
+EVT-b91acfc1,2026-10-11 19:28:44,AST-1197,T1078,Valid Accounts,Medium,168.178.87.147,Alerted,0,0
+EVT-56d9c87f,2026-10-11 19:29:04,AST-1262,T1110.001,Password Guessing,Low,219.111.7.22,Blocked,0,0
+EVT-2434c95a,2026-10-11 20:23:29,AST-1294,T1486,Data Encrypted for Impact (Ransomware),Critical,71.127.146.71,Allowed,53,0
+EVT-aec76a42,2026-10-11 20:36:31,AST-1107,T1003.001,LSASS Memory Credential Dumping,High,136.93.248.232,Allowed,0,15381
+EVT-592fab4b,2026-10-11 20:51:16,AST-1147,T1486,Data Encrypted for Impact (Ransomware),Critical,183.226.103.185,Allowed,11,0
+EVT-c8b2c5cc,2026-10-11 21:05:24,AST-1236,T1003.001,LSASS Memory Credential Dumping,High,155.197.69.52,Alerted,0,0
+EVT-b3437c26,2026-10-11 21:10:28,AST-1276,T1003.001,LSASS Memory Credential Dumping,High,155.24.55.94,Alerted,0,0
+EVT-389a5947,2026-10-11 21:35:09,AST-1119,T1003.001,LSASS Memory Credential Dumping,High,115.112.178.221,Alerted,0,0
+EVT-27944e33,2026-10-11 21:35:16,AST-1245,T1110.001,Password Guessing,Low,99.80.180.214,Blocked,0,0
+EVT-51956bc5,2026-10-11 22:23:35,AST-1164,T1003.001,LSASS Memory Credential Dumping,High,137.163.187.138,Blocked,0,0
+EVT-5bd9e65b,2026-10-11 22:34:37,AST-1017,T1486,Data Encrypted for Impact (Ransomware),Critical,81.9.16.232,Blocked,0,0
+EVT-ec647259,2026-10-11 22:41:42,AST-1227,T1059.001,PowerShell Execution,Medium,170.243.61.159,Alerted,0,0
+EVT-36904dab,2026-10-11 22:42:54,AST-1242,T1059.001,PowerShell Execution,Medium,123.171.78.154,Allowed,0,0
+EVT-f1473f21,2026-10-11 23:44:51,AST-1283,T1078,Valid Accounts,Medium,34.35.229.49,Allowed,0,0
+EVT-4a8e8089,2026-10-12 00:22:58,AST-1272,T1110.001,Password Guessing,Low,121.219.203.243,Allowed,0,0
+EVT-d23196d0,2026-10-12 01:02:44,AST-1039,T1486,Data Encrypted for Impact (Ransomware),Critical,43.36.161.101,Allowed,60,0
+EVT-faeb0376,2026-10-12 01:04:28,AST-1119,T1059.001,PowerShell Execution,Medium,33.157.136.137,Allowed,0,0
+EVT-fafef52b,2026-10-12 02:16:08,AST-1240,T1003.001,LSASS Memory Credential Dumping,High,136.187.80.247,Blocked,0,0
+EVT-9f90a6f3,2026-10-12 02:54:16,AST-1082,T1059.001,PowerShell Execution,Medium,57.43.140.79,Alerted,0,0
+EVT-8e3dfc9b,2026-10-12 02:56:32,AST-1212,T1059.001,PowerShell Execution,Medium,102.132.1.146,Allowed,0,0
+EVT-3dfd906f,2026-10-12 02:59:12,AST-1086,T1078,Valid Accounts,Medium,154.243.172.235,Allowed,0,0
+EVT-a61dcebe,2026-10-12 03:01:52,AST-1297,T1059.001,PowerShell Execution,Medium,135.1.71.60,Blocked,0,0
+EVT-50bdcfdf,2026-10-12 03:09:43,AST-1182,T1078,Valid Accounts,Medium,14.142.53.101,Allowed,0,0
+EVT-4b2f4620,2026-10-12 03:39:59,AST-1119,T1486,Data Encrypted for Impact (Ransomware),Critical,104.86.93.3,Blocked,0,0
+EVT-8cd37408,2026-10-12 03:51:37,AST-1176,T1059.001,PowerShell Execution,Medium,163.129.170.34,Alerted,0,0
+EVT-75bd6ff0,2026-10-12 05:27:19,AST-1256,T1110.001,Password Guessing,Low,164.134.237.200,Allowed,0,0
+EVT-6c6e0876,2026-10-12 06:05:14,AST-1183,T1110.001,Password Guessing,Low,125.156.243.171,Allowed,0,0
+EVT-063fe2e0,2026-10-12 06:16:37,AST-1184,T1003.001,LSASS Memory Credential Dumping,High,161.43.7.90,Allowed,0,39827
+EVT-2265a992,2026-10-12 06:24:24,AST-1183,T1110.001,Password Guessing,Low,194.203.240.144,Alerted,0,0
+EVT-f1d6acd7,2026-10-12 06:28:06,AST-1132,T1078,Valid Accounts,Medium,41.2.109.179,Blocked,0,0
+EVT-20b5e0a5,2026-10-12 06:50:18,AST-1144,T1059.001,PowerShell Execution,Medium,176.131.96.187,Alerted,0,0
+EVT-448b4d22,2026-10-12 07:03:24,AST-1113,T1078,Valid Accounts,Medium,200.48.117.62,Allowed,0,0
+EVT-f63a6c9f,2026-10-12 07:06:27,AST-1103,T1110.001,Password Guessing,Low,214.28.156.126,Blocked,0,0
+EVT-c25f9254,2026-10-12 07:55:58,AST-1058,T1078,Valid Accounts,Medium,116.241.84.74,Blocked,0,0

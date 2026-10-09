@@ -1,0 +1,3 @@
+control_id,name,risk_reduction_pct,cost_usd
+CTRL-1,EDR,0.8,20000
+CTRL-2,MFA,0.6,5000

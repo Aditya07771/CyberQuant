@@ -1,0 +1,21 @@
+control_id,name,risk_reduction_pct,cost_usd
+CTRL-01,Endpoint Detection & Response (EDR),0.75,45000
+CTRL-02,Multi-Factor Authentication (MFA),0.6,15000
+CTRL-03,Network Segmentation,0.9,95000
+CTRL-04,Regular Patching Program,0.55,18000
+CTRL-05,Security Information & Event Management (SIEM),0.8,65000
+CTRL-06,Data Loss Prevention (DLP),0.5,55000
+CTRL-07,Web Application Firewall (WAF),0.65,40000
+CTRL-08,Privileged Access Management (PAM),0.7,60000
+CTRL-09,Backup & Disaster Recovery,0.45,35000
+CTRL-10,Security Awareness Training,0.35,8000
+CTRL-11,Vulnerability Scanner,0.4,22000
+CTRL-12,Cloud Security Posture Management (CSPM),0.55,48000
+CTRL-13,Zero Trust Network Access (ZTNA),0.72,75000
+CTRL-14,Encryption at Rest,0.45,25000
+CTRL-15,Email Security Gateway,0.5,20000
+CTRL-16,Identity & Access Management (IAM),0.58,50000
+CTRL-17,Incident Response Plan,0.4,12000
+CTRL-18,Configuration Management / Hardening,0.5,15000
+CTRL-19,Mobile Device Management (MDM),0.38,18000
+CTRL-20,API Security Gateway,0.55,38000
