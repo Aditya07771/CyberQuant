@@ -7,7 +7,10 @@ venv/
 # Environment variables
 .env
 .env.*
+*.env
+backend/.env
 !.env.example
+!backend/.env.example
 
 # Node
 node_modules/
@@ -16,7 +19,12 @@ build/
 
 # Backend generated files
 backend/outputs/
-backend/.env.example
+backend/*.db
+backend/*.sqlite
+backend/uploads/
+backend/data/uploads/
+
+
 
 # IDE
 .vscode/

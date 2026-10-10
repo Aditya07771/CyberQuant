@@ -179,27 +179,70 @@ A FastAPI layer exposes the risk metrics for the dashboard and other consumers.
 
 ### Start the server
 ```bash
+# From the backend/ directory
 uvicorn api.main:app --reload
 ```
-Interactive docs available at `http://localhost:8000/docs`.
+Interactive docs available at `http://localhost:8000/docs`. Liveness/readiness probes are
+available at `/health` and `/readyz`.
 
-### Key Endpoints
+### Authentication & Tenant Scoping
 
-**`GET /risk/assets`** — Returns risk metrics for all assets.
+All business endpoints live under the versioned `/api/v1` prefix and require a Bearer access
+token obtained from `POST /api/v1/auth/register` or `POST /api/v1/auth/login`. Every request is
+scoped to the caller's active organization (and, for risk results, to a specific dataset +
+run). Cross-tenant resource access returns `404` rather than leaking the existence of another
+tenant's data.
 
-**`GET /risk/assets/{asset_id}`** — Returns detailed risk metrics, loss breakdown, and LEC for an asset.
+The old unversioned paths (`/risk/*`, `/controls/*`, `/compliance/*`, `/predictions/*`,
+`/api/datasets/*`, `/chat`) previously served a shared, unauthenticated output directory. They
+are **retired and return `410 Gone`** with a pointer to the `/api/v1` replacement. They are no
+longer safe to use.
 
-**`GET /risk/assets/{asset_id}/drivers`** — Returns counterfactual EAL sensitivity drivers.
+### Canonical Endpoints (all under `/api/v1`)
 
-**`GET /risk/business-units`** — Returns aggregated risk metrics per business unit.
+| Endpoint | Purpose |
+|---|---|
+| `POST /api/v1/auth/{register,login,refresh,logout}`, `GET /api/v1/auth/me` | Auth lifecycle |
+| `GET/POST /api/v1/datasets`, `GET /api/v1/datasets/{id}`, `GET .../{id}/status` | Dataset CRUD & readiness |
+| `POST /api/v1/datasets/demo` | Ingest the built-in **synthetic demo** bundle into your org |
+| `POST /api/v1/datasets/{id}/runs` | Queue a Monte Carlo run (returns `run_id` + `job_id`) |
+| `GET /api/v1/datasets/{id}/runs[/{run_id}]` | Run history & status |
+| `GET /api/v1/datasets/{id}/scans[/{scan_id}[/findings]]` | Scanner-import history & normalized findings |
+| `POST /api/v1/datasets/{id}/scans` | Upload OpenVAS XML / Nessus JSON / AppSec CSV |
+| `GET /api/v1/datasets/{id}/runs/{run_id}/risk/{assets,business-units,organization,portfolio-lec,trend,dependency-graph}` | Run-scoped risk results |
+| `POST /api/v1/datasets/{id}/runs/{run_id}/controls/{optimize,frontier}` | Investment optimization |
+| `GET /api/v1/datasets/{id}/runs/{run_id}/compliance/{posture,gaps,assessments}` | Framework mapping & exposure |
+| `GET /api/v1/datasets/{id}/runs/{run_id}/predictions/{vulnerabilities,threat-forecast}` | ML predictions (uncalibrated, human-review-required) |
+| `GET /api/v1/regulatory/rules`, `POST .../regulatory/assessments/{id}/review` | Regulatory rules & review workflow |
+| `GET/POST /api/v1/alerts[/{id}/...]` | Alert lifecycle (acknowledge/assign/escalate/resolve/close) |
+| `GET /api/v1/threat-intel/status`, `POST /api/v1/threat-intel/refresh` | Feed status & refresh |
+| `GET /api/v1/jobs/{job_id}` | Background job progress |
 
-**`GET /risk/organization`** — Returns enterprise-level metrics including CVaR95.
+Every risk response is wrapped in a **run envelope** so the model context travels with the
+numbers: `{"run": {run_id, currency, model_version, config_version, code_version, rng_seed,
+calculated_at, data_quality, uncertainty, assumptions, threat_intel_snapshot_refs}, "results"|
+"data": ...}`. Missing or stale inputs are reported as `null`/labelled — never silently zeroed.
 
-**`GET /risk/portfolio-lec`** — Returns empirical portfolio-wide loss exceedance curve data.
+### Database Migrations
 
-**`GET /controls/roi`** — Returns controls ranked by overall ROSI.
+Schema is created automatically on startup for local/dev; for persistent environments use
+Alembic:
 
-**`GET /controls/optimize`** — Runs exact Knapsack ILP investment optimization under a budget limit.
+```bash
+alembic upgrade head      # apply migrations
+alembic downgrade -1      # revert the most recent migration
+alembic revision --autogenerate -m "describe change"
+```
+
+### Background Worker
+
+`USE_IN_PROCESS_WORKER=true` (default) executes jobs in-process — fine for local dev and tests.
+For production set it to `false` and run an RQ worker; ingestion, risk runs, scan imports and
+threat-intel refreshes are enqueued on the `cyberquant` queue:
+
+```bash
+rq worker cyberquant -u redis://localhost:6379/0
+```
 
 ---
 
@@ -241,31 +284,50 @@ judge questioning rather than appearing as a black box.
 ## Installation
 
 ```bash
+# Create a virtual environment, then:
 pip install -r requirements.txt
+
+# Copy the environment template and fill in local values (never commit real secrets)
+cp .env.example .env
 ```
 
 ## Running Everything
 
 ```bash
-# 1. Install dependencies
-pip install -r requirements.txt
+# 1. Install dependencies (see above) and configure .env
 
-# 2. Run the end-to-end risk simulation pipeline
-python -m risk_engine.pipeline
-# → runs the Monte Carlo simulations and writes results into outputs/
+# 2. Apply database migrations (or rely on auto-create for local SQLite)
+alembic upgrade head
 
 # 3. Launch the REST API server
 uvicorn api.main:app --reload
 # → interactive docs at http://localhost:8000/docs
+# → register/login, then upload a dataset and queue a run via /api/v1
 
-# 4. Run the test suite
+# 4. (Production only) run a background RQ worker instead of the in-process worker
+#    after setting USE_IN_PROCESS_WORKER=false
+rq worker cyberquant -u redis://localhost:6379/0
+
+# 5. Run the test suite
 python -m pytest tests/ -v
 ```
 
+`python -m risk_engine.pipeline` remains available for local engine experimentation with the
+built-in sample bundle, but the authoritative, tenant-scoped path is the API: upload (or load
+the demo dataset) → queue a run → read run-scoped results. Do not expose the shared `outputs/`
+directory directly.
+
 ## Tests (`tests/`)
 
-A Pytest suite covers every engine module (`ingest`, `likelihood`, `frequency`, 
-`loss_magnitude`, `simulate`, `control_scenarios`, `drivers`), validating the correctness of each 
-transformation independently before it feeds the next pipeline stage.
+The Pytest suite has two layers:
+
+- **Engine tests** (`test_new_features.py`, `test_risk_engine.py`, ...) validate the modeling
+  modules (`ingest`, `likelihood`, `frequency`, `loss_magnitude`, `simulate`,
+  `control_scenarios`, `drivers`, dependency graph) in isolation with deterministic, seeded
+  fixtures.
+- **Acceptance tests** (`test_acceptance.py`, `test_upload.py`) drive the HTTP API end-to-end
+  through a `TestClient`: auth lifecycle, uniform error shape, tenant isolation across datasets,
+  risk runs, scanners, regulatory assessments and alerts, plus legacy-route deprecation
+  (`410 Gone`).
 
 ---
