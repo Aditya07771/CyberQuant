@@ -1,18 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Shield, RefreshCw, Upload, BarChart3 } from 'lucide-react';
+import { Shield, RefreshCw, Upload, BarChart3, Bell, LogOut } from 'lucide-react';
 import { getHealth } from '../../api/client';
 import { ThemeToggle } from '../ui/ThemeToggle';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import { useDataset } from '../../context/DatasetContext';
 import { useCurrency } from '../../context/CurrencyContext';
+import { useAuth } from '../../context/AuthContext';
 
 export const Header = ({ onRefreshAll, isRefreshing, activeTab, setActiveTab }) => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { hasDataset } = useDataset();
+  const { hasDataset, datasets, activeDatasetId, selectDataset } = useDataset();
   const { currency, setCurrency } = useCurrency();
+  const { user, organization, signOut } = useAuth();
   const isInsightsPage = location.pathname === '/insights';
 
   const [backendOnline, setBackendOnline] = useState(null);
@@ -59,6 +61,22 @@ export const Header = ({ onRefreshAll, isRefreshing, activeTab, setActiveTab }) 
 
           {/* Right actions: Currency Toggle + Theme toggle + Upload New + Refresh Report */}
           <div className="flex items-center space-x-2.5">
+            {/* Active dataset selector */}
+            {isInsightsPage && datasets.length > 1 && (
+              <select
+                value={activeDatasetId || ''}
+                onChange={(e) => selectDataset(e.target.value)}
+                className="hidden lg:block max-w-[180px] px-2 py-1 text-xs bg-th-surface border border-th-border rounded-lg text-th-text-primary focus:outline-none focus:ring-2 focus:ring-th-brand"
+                title="Switch active dataset"
+              >
+                {datasets.map((d) => (
+                  <option key={d.id} value={d.id}>
+                    {d.name}
+                  </option>
+                ))}
+              </select>
+            )}
+
             {/* Currency USD | INR Toggle */}
             <div className="flex items-center rounded-lg border border-th-border bg-th-surface-el p-0.5 text-xs font-mono font-medium shadow-soft">
               <button
@@ -88,6 +106,32 @@ export const Header = ({ onRefreshAll, isRefreshing, activeTab, setActiveTab }) 
             </div>
 
             <ThemeToggle />
+
+            <Button
+              variant="secondary"
+              size="sm"
+              onClick={() => navigate('/alerts')}
+              title="Risk alerts"
+              className="text-xs font-medium gap-1.5"
+            >
+              <Bell className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Alerts</span>
+            </Button>
+
+            {organization?.name && (
+              <Badge variant="default" className="hidden xl:inline-flex max-w-[160px]" title={organization.name}>
+                <span className="truncate">{organization.name}</span>
+              </Badge>
+            )}
+
+            <button
+              type="button"
+              onClick={signOut}
+              title={user?.email ? `Sign out ${user.email}` : 'Sign out'}
+              className="p-2 rounded-full text-th-text-muted hover:text-th-danger hover:bg-th-surface-el transition-colors"
+            >
+              <LogOut className="w-4 h-4" />
+            </button>
 
             {isInsightsPage ? (
               <>

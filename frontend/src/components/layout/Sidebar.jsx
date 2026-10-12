@@ -7,6 +7,7 @@ import {
   Zap,
   Share2,
   Lock,
+  Bell,
   ChevronLeft,
   ChevronRight,
   Cpu,
@@ -98,6 +99,21 @@ export const Sidebar = ({ activeTab, setActiveTab, isOpen, onToggle }) => {
             );
           })}
         </nav>
+
+        <div className="px-2 pb-3">
+          <button
+            onClick={() => navigate('/alerts')}
+            title="Risk Alerts"
+            className={`flex items-center gap-3 px-2 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 w-full text-left whitespace-nowrap ${
+              location.pathname === '/alerts'
+                ? 'bg-th-brand-tint text-th-brand'
+                : 'text-th-text-secondary hover:text-th-text-primary hover:bg-th-surface-el cursor-pointer'
+            }`}
+          >
+            <Bell className="w-4 h-4 flex-shrink-0 text-th-text-muted" />
+            {isOpen && <span className="truncate leading-tight">Risk Alerts</span>}
+          </button>
+        </div>
       </aside>
 
       {/* Invisible spacer so the flex layout pushes content right */}
