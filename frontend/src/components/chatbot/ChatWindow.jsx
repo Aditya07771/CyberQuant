@@ -7,7 +7,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { ChatMessage } from './ChatMessage';
-import { sendChatMessage } from '../../api/client';
+import { sendChatMessage, getApiErrorMessage } from '../../api/client';
 
 export const ChatWindow = ({ onClose }) => {
   const [messages, setMessages] = useState([
@@ -62,19 +62,18 @@ export const ChatWindow = ({ onClose }) => {
         id: `assistant-${Date.now()}`,
         role: 'assistant',
         content: res.reply || "I didn't receive a response.",
+        disclaimer: res.disclaimer,
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
       setMessages((prev) => [...prev, assistantMsg]);
     } catch (err) {
-      let errDetail = err.response?.data?.detail;
-      if (err.response?.status === 502) {
-        errDetail =
-          errDetail ||
-          'AI service configuration issue. Please verify backend environment and token.';
+      let errDetail = getApiErrorMessage(err, 'Sorry, I encountered an error processing your query. Please try again.');
+      if (err.code === 'NO_ACTIVE_RUN') {
+        errDetail = err.message;
+      } else if (err.response?.status === 502) {
+        errDetail = errDetail || 'AI service configuration issue. Please verify backend environment and token.';
       } else if (err.code === 'ERR_NETWORK' || !err.response) {
-        errDetail = 'Cannot reach backend server. Please verify FastAPI is running on http://localhost:8000.';
-      } else {
-        errDetail = errDetail || 'Sorry, I encountered an error processing your query. Please try again.';
+        errDetail = 'Cannot reach backend server. Please verify FastAPI is running and VITE_API_BASE_URL is correct.';
       }
 
       const errorMsg = {

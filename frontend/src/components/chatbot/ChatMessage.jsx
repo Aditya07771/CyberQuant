@@ -38,6 +38,12 @@ export const ChatMessage = ({ message }) => {
       >
         <div className="whitespace-pre-wrap break-words">{message.content}</div>
 
+        {message.disclaimer && (
+          <div className="mt-2 pt-2 border-t border-th-border/70 text-[10px] leading-snug text-th-text-muted">
+            {message.disclaimer}
+          </div>
+        )}
+
         {message.timestamp && (
           <div
             className={`text-[9px] mt-2 text-right font-mono ${isUser ? 'text-th-text-muted' : 'text-th-text-secondary'
