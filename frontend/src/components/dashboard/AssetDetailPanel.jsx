@@ -74,21 +74,18 @@ export const AssetDetailPanel = ({ assetId, onClose }) => {
 
   const exceedancePoints = (() => {
     if (!data) return [];
-    if (data.loss_exceedance_curve && Array.isArray(data.loss_exceedance_curve)) {
-      return data.loss_exceedance_curve;
-    }
-    const eal = data.EAL_usd || 0;
-    const var95 = data.VaR95_usd || eal * 2.5;
-    const var99 = data.VaR99_usd || var95 * 1.5;
-
-    return [
-      { probability: '50%', loss: Math.round(eal * 0.7), probNum: 50 },
-      { probability: '20%', loss: Math.round(eal * 1.2), probNum: 20 },
-      { probability: '10%', loss: Math.round(eal * 1.8), probNum: 10 },
-      { probability: '5% (VaR 95)', loss: Math.round(var95), probNum: 5 },
-      { probability: '1% (VaR 99)', loss: Math.round(var99), probNum: 1 },
-      { probability: '0.1%', loss: Math.round(var99 * 1.4), probNum: 0.1 },
-    ];
+    const raw = data.LEC_points || data.loss_exceedance_curve;
+    if (!Array.isArray(raw)) return [];
+    return raw.map((pt) => {
+      const p = pt.probability ?? pt.prob_num;
+      const probPct = p !== undefined && p <= 1 ? p * 100 : p;
+      return {
+        probability: probPct !== undefined ? `${Number(probPct).toFixed(1)}%` : '—',
+        probNum: probPct,
+        loss: pt.loss ?? pt.loss_usd,
+        ...pt,
+      };
+    });
   })();
 
   // Impact breakdown components
@@ -197,7 +194,7 @@ export const AssetDetailPanel = ({ assetId, onClose }) => {
                       Simple Estimate
                     </span>
                     <div className="text-lg font-bold font-serif text-th-text-primary mt-1 tabular-nums">
-                      {formatCurrency(data.EAL_simple_usd ?? (data.EAL_usd * 0.82))}
+                      {formatCurrency(data.eal_simple_usd ?? data.EAL_simple_usd)}
                     </div>
                     <span className="text-[10px] text-th-text-muted block mt-0.5 font-mono">
                       TEF × Vuln × Mean LM
@@ -336,6 +333,11 @@ export const AssetDetailPanel = ({ assetId, onClose }) => {
                   </p>
                 </div>
 
+                {exceedancePoints.length === 0 ? (
+                  <div className="h-56 w-full mt-2 flex items-center justify-center rounded-lg border border-dashed border-th-border text-xs text-th-text-muted text-center px-6">
+                    No loss exceedance curve was reported for this asset in the selected run.
+                  </div>
+                ) : (
                 <div className="h-56 w-full mt-2">
                   <ResponsiveContainer width="100%" height="100%">
                     <AreaChart data={exceedancePoints} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
@@ -377,6 +379,7 @@ export const AssetDetailPanel = ({ assetId, onClose }) => {
                     </AreaChart>
                   </ResponsiveContainer>
                 </div>
+                )}
               </Card>
               
               {/* Vulnerability Exploit Predictions */}

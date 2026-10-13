@@ -33,40 +33,27 @@ export const InvestmentFrontierChart = ({ data, loading, error, onRetry }) => {
     );
   }
 
-  // Generate fallback data if needed
-  const generateFallbackData = () => {
-    const points = [];
-    let currentRiskRed = 0;
-    let greedyRiskRed = 0;
-    for (let budget = 0; budget <= 5000000; budget += 250000) {
-      if (budget > 0) {
-        // diminishing returns curve
-        const factor = 1 - Math.exp(-budget / 1000000);
-        currentRiskRed = 4000000 * factor + (Math.random() * 50000);
-        greedyRiskRed = 3500000 * (1 - Math.exp(-budget / 1200000));
-      }
-      points.push({
-        budget_usd: budget,
-        risk_reduction_usd: Math.round(currentRiskRed),
-        greedy_risk_reduction_usd: Math.round(greedyRiskRed),
-        residual_eal_usd: 8500000 - Math.round(currentRiskRed),
-        n_actions: Math.round(budget / 100000)
-      });
-    }
-    return {
-      frontier_points: points,
-      knee_point_index: 6,
-      max_possible_budget: 5000000
-    };
-  };
+  const points = Array.isArray(data?.frontier_points) ? data.frontier_points : [];
 
-  const chartData = data?.frontier_points?.length ? data : generateFallbackData();
-  const points = chartData.frontier_points;
-  const kneeIndex = chartData.knee_point_index || 0;
-  
+  if (points.length === 0) {
+    return (
+      <Card className="w-full h-80 flex items-center justify-center">
+        <div className="flex flex-col items-center text-th-text-secondary text-center px-6">
+          <ShieldAlert className="w-8 h-8 mb-4 opacity-60" />
+          <p className="font-medium text-th-text-primary">No investment frontier reported</p>
+          <p className="text-xs mt-1 max-w-sm">
+            This run did not produce an efficient-frontier cache (controls/frontier).
+          </p>
+        </div>
+      </Card>
+    );
+  }
+
+  const kneeIndex = data.knee_point_index ?? 0;
   const kneePoint = points[kneeIndex] || points[Math.floor(points.length / 2)];
-  
-  const ilpAdvantage = (kneePoint.risk_reduction_usd || 0) - (kneePoint.greedy_risk_reduction_usd || 0);
+
+  const ilpAdvantage =
+    (kneePoint.risk_reduction_usd ?? 0) - (kneePoint.greedy_risk_reduction_usd ?? 0);
 
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {

@@ -156,14 +156,18 @@ export const SystemicRiskGraph = () => {
       {/* Header Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-th-border pb-4">
         <div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 flex-wrap gap-y-1">
             <Share2 className="w-5 h-5 text-th-brand" />
             <h2 className="text-xl font-semibold text-th-text-primary font-serif">
               Active Directory Asset Dependency &amp; Systemic Lateral Movement Graph
             </h2>
+            <Badge variant="warning" title="Dependency edges and lateral-movement probabilities are heuristic estimates inferred from asset metadata, not observed network telemetry.">
+              Inferred topology
+            </Badge>
           </div>
           <p className="text-xs text-th-text-secondary mt-1">
-            Simulates cascading compromise propagation across trust boundaries, RPC links, and credential vectors.
+            Heuristic simulation of cascading compromise propagation across trust boundaries, RPC links, and credential
+            vectors. Edge probabilities are estimated, not observed.
           </p>
         </div>
 
