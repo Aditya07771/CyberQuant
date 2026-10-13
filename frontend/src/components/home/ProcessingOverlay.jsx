@@ -11,7 +11,7 @@ const PIPELINE_STEPS = [
   { id: 'parquet', title: 'Phase I: Generating Parquet Outputs', detail: 'Serializing executive summaries and preparing dashboard cache...' },
 ];
 
-export const ProcessingOverlay = ({ isVisible }) => {
+export const ProcessingOverlay = ({ isVisible, job }) => {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
   useEffect(() => {
@@ -35,10 +35,19 @@ export const ProcessingOverlay = ({ isVisible }) => {
 
   if (!isVisible) return null;
 
-  const progressPercent = Math.min(
-    100,
-    Math.round(((currentStepIndex + 0.5) / PIPELINE_STEPS.length) * 100)
-  );
+  const serverProgress =
+    job && Number.isFinite(Number(job.progress_pct)) ? Math.round(Number(job.progress_pct)) : null;
+  const progressPercent =
+    serverProgress !== null
+      ? serverProgress
+      : Math.min(100, Math.round(((currentStepIndex + 0.5) / PIPELINE_STEPS.length) * 100));
+
+  const taskLabel =
+    job?.task_type === 'ingestion'
+      ? 'Ingesting and normalizing dataset upload...'
+      : job?.task_type === 'risk_run'
+      ? 'Running Monte Carlo risk quantification...'
+      : 'Executing full FAIR-aligned actuarial simulation on uploaded data...';
 
   return (
     <div
@@ -72,7 +81,7 @@ export const ProcessingOverlay = ({ isVisible }) => {
                 </Badge>
               </div>
               <p className="text-xs text-th-text-secondary mt-0.5">
-                Executing full FAIR-aligned actuarial simulation on uploaded data...
+                {taskLabel}
               </p>
             </div>
           </div>

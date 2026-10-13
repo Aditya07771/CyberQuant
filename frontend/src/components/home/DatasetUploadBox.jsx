@@ -15,7 +15,7 @@ import {
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
-import { uploadDatasetFiles, loadDemoDataset } from '../../api/client';
+import { getApiErrorMessage } from '../../api/client';
 
 const REQUIRED_TABLES = [
   { id: 'assets', label: 'assets.csv', description: 'Asset inventory & financial criticality' },
@@ -25,7 +25,7 @@ const REQUIRED_TABLES = [
   { id: 'vulnerabilities', label: 'vulnerabilities.csv', description: 'CVE, CVSS & EPSS telemetry' },
 ];
 
-export const DatasetUploadBox = ({ onStartProcessing, onSuccess, onError, isProcessing }) => {
+export const DatasetUploadBox = ({ onIngest, onDemo, isProcessing }) => {
   const [dragActive, setDragActive] = useState(false);
   const [selectedFiles, setSelectedFiles] = useState([]);
   const [validationError, setValidationError] = useState(null);
@@ -132,42 +132,23 @@ export const DatasetUploadBox = ({ onStartProcessing, onSuccess, onError, isProc
     }
 
     setValidationError(null);
-    onStartProcessing();
 
     try {
-      const formData = new FormData();
-      selectedFiles.forEach((file) => {
-        formData.append('files', file);
-      });
-
-      const result = await uploadDatasetFiles(formData);
-      onSuccess(result);
+      await onIngest(selectedFiles);
     } catch (err) {
-      let msg =
-        err.response?.data?.detail ||
-        err.message ||
-        'Failed to process dataset. Please ensure file schemas match specifications.';
-      if (err.code === 'ECONNABORTED' || (err.message && err.message.toLowerCase().includes('timeout'))) {
-        msg = 'The quantification pipeline is processing a large dataset and took longer than expected. Please check server logs or retry with fewer rows.';
-      }
-      setValidationError(msg);
-      onError(msg);
+      setValidationError(
+        getApiErrorMessage(err, 'Failed to process dataset. Please ensure file schemas match specifications.'),
+      );
     }
   };
 
   const handleDemoClick = async () => {
     setValidationError(null);
-    onStartProcessing();
+
     try {
-      const result = await loadDemoDataset();
-      onSuccess(result);
+      await onDemo();
     } catch (err) {
-      const msg =
-        err.response?.data?.detail ||
-        err.message ||
-        'Failed to load demo dataset.';
-      setValidationError(msg);
-      onError(msg);
+      setValidationError(getApiErrorMessage(err, 'Failed to load demo dataset.'));
     }
   };
 
@@ -263,7 +244,7 @@ export const DatasetUploadBox = ({ onStartProcessing, onSuccess, onError, isProc
                       The workbook is parsed server-side. A multi-sheet workbook containing the 5 risk
                       tables is loaded directly; a financial card/account sheet (e.g.{' '}
                       <span className="font-mono">Financial Transactions.xlsx</span>) is auto-mapped onto
-                      the risk engine schema, and an Excel File Summary is shown on the dashboard.
+                      the risk engine schema before quantification.
                     </p>
                   </div>
                 </div>

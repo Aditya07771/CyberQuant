@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Header } from '../components/layout/Header';
 import { HeroSection } from '../components/home/HeroSection';
@@ -6,12 +6,13 @@ import { AboutSection } from '../components/home/AboutSection';
 import { DatasetUploadBox } from '../components/home/DatasetUploadBox';
 import { ProcessingOverlay } from '../components/home/ProcessingOverlay';
 import { useDataset } from '../context/DatasetContext';
+import { loadDemoDataset } from '../api/client';
 import { Shield } from 'lucide-react';
 
 export const HomePage = () => {
   const navigate = useNavigate();
-  const { setDatasetLoaded } = useDataset();
-  const [isProcessing, setIsProcessing] = useState(false);
+  const { ingestDataset, refreshDatasets, status, job } = useDataset();
+  const isProcessing = status === 'ingesting' || status === 'running';
 
   const scrollToUpload = () => {
     const el = document.getElementById('upload-section');
@@ -20,26 +21,21 @@ export const HomePage = () => {
     }
   };
 
-  const handleStartProcessing = () => {
-    setIsProcessing(true);
+  const handleIngest = async (files) => {
+    const name =
+      files?.length === 1 && files[0]?.name
+        ? files[0].name.replace(/\.[^.]+$/, '')
+        : 'Uploaded Dataset';
+    await ingestDataset({ files, name });
+    navigate('/insights');
   };
 
-  const handleSuccess = (result) => {
-    setDatasetLoaded({
-      assetCount: result?.asset_count,
-      sessionId: result?.session_id,
-      processedAt: result?.processed_at,
-      excelSummary: result?.excel_summary || null,
-    });
-    // Smooth transition
-    setTimeout(() => {
-      setIsProcessing(false);
-      navigate('/insights');
-    }, 600);
-  };
-
-  const handleError = () => {
-    setIsProcessing(false);
+  const handleDemo = async () => {
+    // No canonical POST /api/v1/datasets/demo endpoint exists in this backend
+    // build; surface the failure honestly rather than faking a dataset.
+    await loadDemoDataset();
+    await refreshDatasets();
+    navigate('/insights');
   };
 
   return (
@@ -51,17 +47,13 @@ export const HomePage = () => {
       <main className="flex-1 space-y-fluid-md">
         <HeroSection
           onScrollToUpload={scrollToUpload}
-          onQuickDemo={() => {
-            const el = document.getElementById('upload-section');
-            if (el) el.scrollIntoView({ behavior: 'smooth' });
-          }}
+          onQuickDemo={scrollToUpload}
           isProcessingDemo={isProcessing}
         />
 
         <DatasetUploadBox
-          onStartProcessing={handleStartProcessing}
-          onSuccess={handleSuccess}
-          onError={handleError}
+          onIngest={handleIngest}
+          onDemo={handleDemo}
           isProcessing={isProcessing}
         />
 
@@ -69,7 +61,7 @@ export const HomePage = () => {
       </main>
 
       {/* Simulation Progress Overlay */}
-      <ProcessingOverlay isVisible={isProcessing} />
+      <ProcessingOverlay isVisible={isProcessing} job={job} />
 
       {/* Modern Editorial Footer */}
       <footer className="border-t border-th-border bg-th-surface py-12 text-sm text-th-text-secondary mt-auto">
