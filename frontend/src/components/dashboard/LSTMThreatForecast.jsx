@@ -161,7 +161,7 @@ export const LSTMThreatForecast = () => {
                 <span className="text-xs font-normal text-th-text-muted ml-1 font-sans">events/day</span>
               </div>
               <p className="text-[11px] text-th-text-secondary mt-1">
-                Empirical mean across 30-day telemetry ({summary.total_observed_events} total)
+                Empirical mean across historical telemetry ({summary.total_observed_events ?? '—'} total events observed)
               </p>
             </Card>
 
@@ -201,8 +201,8 @@ export const LSTMThreatForecast = () => {
                 <span className="text-xs font-medium">Model Architecture &amp; Loss</span>
                 <Cpu className="w-4 h-4 text-th-brand" />
               </div>
-              <div className="text-sm font-semibold font-mono text-th-brand mt-2 truncate">
-                2-Layer PyTorch LSTM
+              <div className="text-sm font-semibold font-mono text-th-brand mt-2 truncate" title={summary.engine || undefined}>
+                {summary.model_architecture || summary.engine || 'Sequential recurrent model'}
               </div>
               <div className="flex items-center gap-2 mt-1 text-[11px] text-th-text-secondary">
                 <span>Seq Window: <strong className="text-th-text-primary">{summary.sequence_window_days}d</strong></span>
@@ -417,12 +417,15 @@ export const LSTMThreatForecast = () => {
                   </div>
                 </div>
 
-                <div className="mt-4 p-3 rounded-lg bg-th-brand-tint text-th-brand text-xs flex items-start gap-2">
-                  <Info className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                  <span>
-                    <strong>Defensive Recommendation:</strong> Highest transition flow leads to <strong>T1486 (Ransomware)</strong>. Enforcing Immutable Backups and EDR agent isolation disrupts this kill-chain sequence.
-                  </span>
-                </div>
+                {summary.mitre_killchain_lead && (
+                  <div className="mt-4 p-3 rounded-lg bg-th-brand-tint text-th-brand text-xs flex items-start gap-2">
+                    <Info className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                    <span>
+                      <strong>Defensive Recommendation:</strong> The highest-probability kill-chain lead in this run is{' '}
+                      <strong className="font-mono">{summary.mitre_killchain_lead}</strong>. Prioritise controls that disrupt this transition sequence.
+                    </span>
+                  </div>
+                )}
               </Card>
             </div>
 
