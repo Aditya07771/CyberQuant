@@ -45,24 +45,27 @@ export const PortfolioLECChart = ({ data, loading, error, onRetry }) => {
     );
   }
 
-  // Fallback data if needed
-  const defaultPoints = [
-    { probability: '50%', prob_num: 50, loss_usd: 3500000 },
-    { probability: '30%', prob_num: 30, loss_usd: 4800000 },
-    { probability: '20%', prob_num: 20, loss_usd: 6200000 },
-    { probability: '10%', prob_num: 10, loss_usd: 8900000 },
-    { probability: '5% (VaR 95)', prob_num: 5, loss_usd: 12500000 },
-    { probability: '2%', prob_num: 2, loss_usd: 15200000 },
-    { probability: '1% (VaR 99)', prob_num: 1, loss_usd: 18700000 },
-    { probability: '0.1% (Extreme)', prob_num: 0.1, loss_usd: 24500000 },
-  ];
+  const lecData = Array.isArray(data?.lec_points) ? data.lec_points : [];
 
-  const lecData = data?.lec_points?.length ? data.lec_points : defaultPoints;
-  const totalEal = data?.total_eal_usd || 5100000;
-  const var95 = data?.total_var95_usd || 12500000;
-  const var99 = data?.total_var99_usd || 18700000;
-  const cvar95 = data?.total_cvar95_usd || Math.round(var95 * 1.15);
-  const maxLoss = data?.max_probable_loss_usd || 24500000;
+  if (lecData.length === 0) {
+    return (
+      <Card className="w-full h-80 flex items-center justify-center">
+        <div className="flex flex-col items-center text-th-text-secondary text-center px-6">
+          <ShieldAlert className="w-8 h-8 mb-4 opacity-60" />
+          <p className="font-medium text-th-text-primary">No portfolio loss exceedance curve reported</p>
+          <p className="text-xs mt-1 max-w-sm">
+            This run did not emit an enterprise loss exceedance distribution (org_lec.json).
+          </p>
+        </div>
+      </Card>
+    );
+  }
+
+  const totalEal = data?.total_eal_usd;
+  const var95 = data?.total_var95_usd;
+  const var99 = data?.total_var99_usd;
+  const cvar95 = data?.total_cvar95_usd;
+  const maxLoss = data?.max_probable_loss_usd;
 
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
