@@ -4,11 +4,13 @@ import { FileCheck, ShieldAlert, CheckCircle2, AlertTriangle, AlertCircle } from
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
 import { Badge } from '../ui/Badge';
 import { useApi } from '../../hooks/useApi';
+import { useDataset } from '../../context/DatasetContext';
 import { getCompliancePosture, getComplianceGaps } from '../../api/client';
 
 export const ComplianceDashboard = () => {
-  const posture = useApi(getCompliancePosture);
-  const gaps = useApi(getComplianceGaps);
+  const { activeRunId } = useDataset();
+  const posture = useApi(getCompliancePosture, [activeRunId]);
+  const gaps = useApi(getComplianceGaps, [activeRunId]);
 
   const loading = posture.loading || gaps.loading;
   const error = posture.error || gaps.error;
@@ -41,36 +43,20 @@ export const ComplianceDashboard = () => {
     );
   }
 
-  // Fallback default data for posture
-  const defaultFrameworks = [
-    { name: 'NIST CSF 2.0', score: 75, mapped: 82, total: 108 },
-    { name: 'ISO/IEC 27001', score: 60, mapped: 56, total: 93 },
-    { name: 'CIS Controls', score: 85, mapped: 130, total: 153 },
-    { name: 'RBI Cyber', score: 92, mapped: 65, total: 70 },
-    { name: 'SEBI CSCRF', score: 45, mapped: 30, total: 68 },
-  ];
-
-  const frameworks = posture.data?.frameworks?.map(fw => ({
+  const frameworks = (Array.isArray(posture.data?.frameworks) ? posture.data.frameworks : []).map((fw) => ({
     name: fw.short_name || fw.name,
     score: fw.coverage_pct,
     mapped: fw.controls_covered,
-    total: fw.controls_total
-  })) || defaultFrameworks;
-  
-  const defaultGaps = [
-    { id: '1', framework: 'SEBI CSCRF', reqId: 'SC-01', description: 'Real-time threat intelligence feeds missing', control: 'Threat Intel Platform', severity: 'High' },
-    { id: '2', framework: 'ISO/IEC 27001', reqId: 'A.8.1.1', description: 'Inventory of assets not fully automated', control: 'Asset Discovery Tool', severity: 'Medium' },
-    { id: '3', framework: 'NIST CSF 2.0', reqId: 'PR.DS-1', description: 'Data-at-rest encryption not enforced across all DBs', control: 'Database Encryption', severity: 'High' },
-  ];
-  
-  const gapsList = gaps.data ? gaps.data.map((g, i) => ({
+    total: fw.controls_total,
+  }));
+
+  const gapsList = (Array.isArray(gaps.data) ? gaps.data : []).map((g, i) => ({
     id: i.toString(),
-    framework: g.framework_name,
+    framework: g.framework_name || g.framework_id,
     reqId: g.gap_control_id,
-    description: `Missing control for requirement ${g.gap_control_id}`,
     control: g.recommended_control_name,
-    severity: g.severity
-  })) : defaultGaps;
+    severity: g.severity,
+  }));
 
   const getScoreColor = (score) => {
     if (score < 50) return 'bg-red-500';
@@ -117,21 +103,30 @@ export const ComplianceDashboard = () => {
         </div>
       </div>
 
+      {frameworks.length === 0 && (
+        <Card>
+          <CardContent className="p-8 text-center text-th-text-secondary text-sm">
+            No compliance posture was reported for this run. Deploy controls and re-run quantification to populate framework mapping.
+          </CardContent>
+        </Card>
+      )}
+
       {/* Framework Coverage Cards */}
+      {frameworks.length > 0 && (
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {frameworks.map((fw, idx) => (
           <Card key={idx} className="flex flex-col">
             <CardContent className="p-4 flex-1 flex flex-col">
               <div className="text-sm font-semibold text-th-text-primary mb-2 line-clamp-1 truncate" title={fw.name}>{fw.name}</div>
               <div className="flex items-baseline gap-1 mt-auto">
-                <span className={`text-3xl font-bold font-serif ${getScoreTextClass(fw.score)}`}>
-                  {Math.round(fw.score)}%
+                <span className={`text-3xl font-bold font-serif ${Number.isFinite(fw.score) ? getScoreTextClass(fw.score) : 'text-th-text-muted'}`}>
+                  {Number.isFinite(fw.score) ? `${Math.round(fw.score)}%` : '—'}
                 </span>
               </div>
               <div className="w-full h-1.5 bg-th-surface-el rounded-full mt-3 mb-2 overflow-hidden">
                 <div 
                   className={`h-full rounded-full transition-all duration-1000 ${getScoreColor(fw.score)}`} 
-                  style={{ width: `${fw.score}%` }}
+                  style={{ width: `${Number.isFinite(fw.score) ? Math.max(0, Math.min(100, fw.score)) : 0}%` }}
                 />
               </div>
               <div className="text-xs text-th-text-secondary mt-1">
@@ -141,6 +136,7 @@ export const ComplianceDashboard = () => {
           </Card>
         ))}
       </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Radar Chart */}
@@ -183,8 +179,7 @@ export const ComplianceDashboard = () => {
                 <thead className="text-xs text-th-text-secondary bg-th-surface-el border-b border-th-border uppercase sticky top-0 z-10">
                   <tr>
                     <th className="px-4 py-3 font-medium">Framework</th>
-                    <th className="px-4 py-3 font-medium">Req ID</th>
-                    <th className="px-4 py-3 font-medium">Description</th>
+                    <th className="px-4 py-3 font-medium">Requirement ID</th>
                     <th className="px-4 py-3 font-medium">Recommended Control</th>
                     <th className="px-4 py-3 font-medium text-right">Severity</th>
                   </tr>
@@ -192,12 +187,9 @@ export const ComplianceDashboard = () => {
                 <tbody className="divide-y divide-th-border">
                   {gapsList.map((gap, i) => (
                     <tr key={i} className="hover:bg-th-surface-el/30 transition-colors">
-                      <td className="px-4 py-3 font-medium text-th-text-primary">{gap.framework}</td>
-                      <td className="px-4 py-3 text-th-text-secondary">{gap.reqId}</td>
-                      <td className="px-4 py-3 text-th-text-secondary truncate max-w-[200px]" title={gap.description}>
-                        {gap.description}
-                      </td>
-                      <td className="px-4 py-3 text-th-text-secondary">{gap.control}</td>
+                      <td className="px-4 py-3 font-medium text-th-text-primary">{gap.framework || '—'}</td>
+                      <td className="px-4 py-3 text-th-text-secondary">{gap.reqId || '—'}</td>
+                      <td className="px-4 py-3 text-th-text-secondary">{gap.control || '—'}</td>
                       <td className="px-4 py-3 text-right">
                         <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-medium border ${getSeverityClass(gap.severity)}`}>
                           {getSeverityIcon(gap.severity)}
@@ -208,8 +200,8 @@ export const ComplianceDashboard = () => {
                   ))}
                   {gapsList.length === 0 && (
                     <tr>
-                      <td colSpan="5" className="px-4 py-8 text-center text-th-text-secondary">
-                        No critical compliance gaps detected.
+                      <td colSpan="4" className="px-4 py-8 text-center text-th-text-secondary">
+                        No compliance gaps reported for this run.
                       </td>
                     </tr>
                   )}

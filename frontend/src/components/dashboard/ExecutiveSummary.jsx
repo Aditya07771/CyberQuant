@@ -6,30 +6,28 @@ import { Badge } from '../ui/Badge';
 import { Button } from '../ui/Button';
 
 export const ExecutiveSummary = ({ data, loading, error, statusCode, onRetry }) => {
-  // Support all snake_case, PascalCase, and total_ prefix variations defensively
-  const eal = data?.eal_usd ?? data?.EAL_usd ?? data?.total_EAL_usd ?? 0;
+  // Support all snake_case, PascalCase, and total_ prefix variations defensively.
+  // Missing values are preserved as undefined so the render layer shows an explicit
+  // "not reported" state instead of a fabricated fallback.
+  const eal = data?.eal_usd ?? data?.EAL_usd ?? data?.total_EAL_usd;
   const var95 =
-    data?.var_95_usd ??
-    data?.VaR95_usd ??
-    data?.total_VaR95_usd ??
-    data?.total_VaR95_usd_upper_bound ??
-    (eal > 0 ? eal * 2.85 : 0);
+    data?.var_95_usd ?? data?.VaR95_usd ?? data?.total_VaR95_usd ?? data?.total_VaR95_usd_upper_bound;
   const cvar95 =
     data?.cvar_95_usd ??
     data?.CVaR95_usd ??
     data?.total_CVaR95_usd ??
-    data?.total_cvar95_usd ??
-    (var95 > 0 ? var95 * 1.15 : eal * 3.3);
+    data?.total_cvar95_usd;
   const var99 =
-    data?.var_99_usd ??
-    data?.VaR99_usd ??
-    data?.total_VaR99_usd ??
-    data?.total_VaR99_usd_upper_bound ??
-    (var95 > 0 ? var95 * 1.45 : eal * 4.1);
+    data?.var_99_usd ?? data?.VaR99_usd ?? data?.total_VaR99_usd ?? data?.total_VaR99_usd_upper_bound;
 
-  const var95Multiplier = eal > 0 ? (var95 / eal).toFixed(1) : '1.0';
-  const cvar95Multiplier = eal > 0 ? (cvar95 / eal).toFixed(1) : '1.0';
-  const var99Multiplier = eal > 0 ? (var99 / eal).toFixed(1) : '1.0';
+  const ratio = (numerator, denominator) =>
+    Number.isFinite(numerator) && Number.isFinite(denominator) && denominator > 0
+      ? (numerator / denominator).toFixed(1)
+      : null;
+
+  const var95Multiplier = ratio(var95, eal);
+  const cvar95Multiplier = ratio(cvar95, eal);
+  const var99Multiplier = ratio(var99, eal);
 
   if (loading) {
     return (
@@ -103,7 +101,7 @@ export const ExecutiveSummary = ({ data, loading, error, statusCode, onRetry }) 
         <div className="flex items-center space-x-3 text-xs text-th-text-muted shrink-0 font-mono">
           <span>Model: Log-Normal / Beta-PERT</span>
           <span>•</span>
-          <span className="text-th-brand font-medium font-sans">20,000 Iterations</span>
+          <span className="text-th-brand font-medium font-sans">Monte Carlo</span>
         </div>
       </div>
 
@@ -165,9 +163,9 @@ export const ExecutiveSummary = ({ data, loading, error, statusCode, onRetry }) 
 
           <div className="pt-3 border-t border-th-border flex items-center justify-between text-xs">
             <span className="text-th-text-muted">Exceedance prob: 5%</span>
-            <Badge variant="warning">
-              {var95Multiplier}x Base
-            </Badge>
+            {var95Multiplier && (
+              <Badge variant="warning">{var95Multiplier}x Base</Badge>
+            )}
           </div>
         </Card>
 
@@ -194,9 +192,9 @@ export const ExecutiveSummary = ({ data, loading, error, statusCode, onRetry }) 
 
           <div className="pt-3 border-t border-amber-500/20 flex items-center justify-between text-xs">
             <span className="text-th-text-muted">Expected Shortfall</span>
-            <Badge variant="warning">
-              {cvar95Multiplier}x Tail
-            </Badge>
+            {cvar95Multiplier && (
+              <Badge variant="warning">{cvar95Multiplier}x Tail</Badge>
+            )}
           </div>
         </Card>
 
@@ -223,9 +221,9 @@ export const ExecutiveSummary = ({ data, loading, error, statusCode, onRetry }) 
 
           <div className="pt-3 border-t border-th-border flex items-center justify-between text-xs">
             <span className="text-th-text-muted">Exceedance prob: 1%</span>
-            <Badge variant="danger">
-              {var99Multiplier}x Cat
-            </Badge>
+            {var99Multiplier && (
+              <Badge variant="danger">{var99Multiplier}x Cat</Badge>
+            )}
           </div>
         </Card>
 
