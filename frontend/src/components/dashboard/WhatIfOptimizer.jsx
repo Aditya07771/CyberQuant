@@ -108,21 +108,28 @@ export const WhatIfOptimizer = ({ orgEal = 0 }) => {
   const sliderStep = 10000 * (currency === 'INR' ? rate : 1);
   const inputStep = 5000 * (currency === 'INR' ? rate : 1);
 
-  // Comparison data for Residual EAL Before vs After
+  // Comparison data for Residual EAL Before vs After. Only points backed by real
+  // values are rendered; missing values are omitted rather than fabricated.
   const residualChartData = (() => {
     if (!optimizationResult) return [];
-    const totalRiskReduction = optimizationResult.total_risk_reduction_usd || 0;
-    const initialEal = optimizationResult.residual_eal_usd
-      ? optimizationResult.residual_eal_usd + totalRiskReduction
-      : orgEal > 0
-        ? orgEal
-        : totalRiskReduction * 1.5;
-    const residualEal = optimizationResult.residual_eal_usd || Math.max(0, initialEal - totalRiskReduction);
+    const totalRiskReduction = optimizationResult.total_risk_reduction_usd;
+    const residualEal = optimizationResult.residual_eal_usd;
 
-    return [
-      { name: 'Initial EAL', eal: initialEal, fill: 'var(--danger)' },
-      { name: 'Residual EAL', eal: residualEal, fill: 'var(--success)' },
-    ];
+    const initialEal =
+      Number.isFinite(residualEal) && Number.isFinite(totalRiskReduction)
+        ? residualEal + totalRiskReduction
+        : Number.isFinite(orgEal) && orgEal > 0
+          ? orgEal
+          : null;
+
+    const points = [];
+    if (initialEal !== null) {
+      points.push({ name: 'Initial EAL', eal: initialEal, fill: 'var(--danger)' });
+    }
+    if (Number.isFinite(residualEal)) {
+      points.push({ name: 'Residual EAL', eal: residualEal, fill: 'var(--success)' });
+    }
+    return points;
   })();
 
   // Comparison data for Optimal ILP vs Naive Greedy

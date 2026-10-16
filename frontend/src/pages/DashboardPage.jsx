@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Header } from '../components/layout/Header';
 import { Sidebar } from '../components/layout/Sidebar';
 import { ExecutiveSummary } from '../components/dashboard/ExecutiveSummary';
@@ -10,7 +11,9 @@ import { WhatIfOptimizer } from '../components/dashboard/WhatIfOptimizer';
 import { ChatWidget } from '../components/chatbot/ChatWidget';
 import { useApi } from '../hooks/useApi';
 import { Card, CardContent } from '../components/ui/Card';
+import { Button } from '../components/ui/Button';
 import { ComplianceDashboard } from '../components/dashboard/ComplianceDashboard';
+import { RegulatoryAssessmentPanel } from '../components/dashboard/RegulatoryAssessmentPanel';
 import { RiskTrendChart } from '../components/dashboard/RiskTrendChart';
 import { InvestmentFrontierChart } from '../components/dashboard/InvestmentFrontierChart';
 import { LiveThreatFeed } from '../components/dashboard/LiveThreatFeed';
@@ -19,6 +22,7 @@ import { SystemicRiskGraph } from '../components/dashboard/SystemicRiskGraph';
 import { LSTMThreatForecast } from '../components/dashboard/LSTMThreatForecast';
 import { ExcelDatasetSummary } from '../components/dashboard/ExcelDatasetSummary';
 import { useCurrency } from '../context/CurrencyContext';
+import { useDataset } from '../context/DatasetContext';
 import { getOrgRisk, getBusinessUnits, getAssets, getControlsRoi, getRiskTrend, getInvestmentFrontier, getPortfolioLec } from '../api/client';
 import {
   Server,
@@ -33,44 +37,24 @@ export function DashboardPage() {
   const [activeTab, setActiveTab] = useState('overview');
   const [selectedAssetId, setSelectedAssetId] = useState(null);
   const [isRefreshing, setIsRefreshing] = useState(false);
-  const [realtimeAssetOverrides, setRealtimeAssetOverrides] = useState({});
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const { currency } = useCurrency();
+  const { activeRunId, hasDataset, isCheckingStatus } = useDataset();
+  const navigate = useNavigate();
 
-  // API hooks
-  const orgRisk = useApi(getOrgRisk);
-  const businessUnits = useApi(getBusinessUnits);
-  const assets = useApi(getAssets);
-  const controlsRoi = useApi(getControlsRoi);
-  const riskTrend = useApi(getRiskTrend);
-  const frontier = useApi(getInvestmentFrontier);
-  const portfolioLec = useApi(getPortfolioLec);
-
-  const handleAssetRiskUpdate = (assetId, newMetrics) => {
-    setRealtimeAssetOverrides((prev) => ({
-      ...prev,
-      [assetId]: {
-        ...(prev[assetId] || {}),
-        ...newMetrics,
-      },
-    }));
-  };
-
-  const reactiveAssets = React.useMemo(() => {
-    if (!assets.data || !Array.isArray(assets.data)) return assets.data;
-    if (Object.keys(realtimeAssetOverrides).length === 0) return assets.data;
-    return assets.data.map((item) => {
-      const override = realtimeAssetOverrides[item.asset_id];
-      if (override) {
-        return { ...item, ...override };
-      }
-      return item;
-    });
-  }, [assets.data, realtimeAssetOverrides]);
+  // API hooks. Run-scoped endpoints re-fetch whenever the active run changes and
+  // only fire once a run is available (avoids a burst of NO_ACTIVE_RUN errors).
+  const runDeps = [activeRunId];
+  const orgRisk = useApi(getOrgRisk, runDeps, hasDataset);
+  const businessUnits = useApi(getBusinessUnits, runDeps, hasDataset);
+  const assets = useApi(getAssets, runDeps, hasDataset);
+  const controlsRoi = useApi(getControlsRoi, runDeps, hasDataset);
+  const riskTrend = useApi(getRiskTrend, runDeps, hasDataset);
+  const frontier = useApi(getInvestmentFrontier, runDeps, hasDataset);
+  const portfolioLec = useApi(getPortfolioLec, runDeps, hasDataset);
 
   const handleRefreshAll = async () => {
     setIsRefreshing(true);
-    setRealtimeAssetOverrides({});
     try {
       await Promise.allSettled([
         orgRisk.refetch(),
@@ -86,7 +70,7 @@ export function DashboardPage() {
     }
   };
 
-  const orgEal = orgRisk.data?.eal_usd ?? orgRisk.data?.EAL_usd ?? 0;
+  const orgEal = orgRisk.data?.eal_usd ?? orgRisk.data?.EAL_usd ?? null;
 
   return (
     <div className="min-h-screen flex flex-col font-sans theme-transition bg-th-bg">
@@ -110,6 +94,28 @@ export function DashboardPage() {
 
         {/* Main Container - Keyed on currency so flipping USD <-> INR re-renders the dashboard subtree */}
         <main key={currency} className="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-fluid-lg space-y-fluid-md">
+        {isCheckingStatus ? (
+          <div className="flex items-center justify-center py-24 text-sm text-th-text-secondary">
+            Loading workspace…
+          </div>
+        ) : !hasDataset ? (
+          <Card className="p-10 max-w-xl mx-auto mt-12 text-center space-y-4">
+            <div className="w-12 h-12 rounded-full bg-th-brand-tint text-th-brand flex items-center justify-center mx-auto">
+              <Server className="w-6 h-6" />
+            </div>
+            <h2 className="text-lg font-semibold font-serif text-th-text-primary">
+              No quantified dataset selected
+            </h2>
+            <p className="text-sm text-th-text-secondary">
+              Upload a dataset and run the risk quantification pipeline, or select an existing
+              dataset from the header to populate this dashboard.
+            </p>
+            <Button onClick={() => navigate('/')} className="mx-auto">
+              Go to Data &amp; Upload
+            </Button>
+          </Card>
+        ) : (
+        <>
         {/* TAB 1: EXECUTIVE OVERVIEW */}
         {activeTab === 'overview' && (
           <div className="space-y-fluid-md animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -125,8 +131,8 @@ export function DashboardPage() {
             {/* Uploaded Excel File Summary (only when a workbook was ingested) */}
             <ExcelDatasetSummary />
 
-            {/* Live Streaming Threat Telemetry Ticker */}
-            <LiveThreatFeed onAssetRiskUpdate={handleAssetRiskUpdate} />
+            {/* Threat Telemetry Feed */}
+            <LiveThreatFeed />
 
             {/* Enterprise-wide Portfolio Loss Exceedance Curve */}
             <PortfolioLECChart
@@ -182,7 +188,7 @@ export function DashboardPage() {
             </div>
 
             <AssetRiskTable
-              assets={reactiveAssets}
+              assets={assets.data}
               loading={assets.loading}
               error={assets.error}
               onSelectAsset={(id) => setSelectedAssetId(id)}
@@ -259,6 +265,7 @@ export function DashboardPage() {
         {activeTab === 'compliance' && (
           <div className="space-y-fluid-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
             <ComplianceDashboard />
+            <RegulatoryAssessmentPanel />
           </div>
         )}
 
@@ -273,6 +280,8 @@ export function DashboardPage() {
             />
             <WhatIfOptimizer orgEal={orgEal} />
           </div>
+        )}
+        </>
         )}
       </main>
 
