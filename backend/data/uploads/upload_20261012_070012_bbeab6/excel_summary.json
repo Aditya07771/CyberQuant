@@ -1,0 +1,88 @@
+{
+  "file_name": "Financial Transactions.xlsx",
+  "total_rows": 6146,
+  "total_columns": 13,
+  "worksheets": [
+    "Sheet1"
+  ],
+  "worksheet_count": 1,
+  "dataset_type": "Financial card and account information.",
+  "column_details": [
+    {
+      "column": "id",
+      "description": "Card record ID",
+      "dtype": "int64"
+    },
+    {
+      "column": "client_id",
+      "description": "Customer ID",
+      "dtype": "int64"
+    },
+    {
+      "column": "card_brand",
+      "description": "Card brand, such as Visa",
+      "dtype": "str"
+    },
+    {
+      "column": "card_type",
+      "description": "Debit or credit card",
+      "dtype": "str"
+    },
+    {
+      "column": "card_number",
+      "description": "Card number",
+      "dtype": "int64"
+    },
+    {
+      "column": "expires",
+      "description": "Card expiry date",
+      "dtype": "str"
+    },
+    {
+      "column": "cvv",
+      "description": "Card security code",
+      "dtype": "int64"
+    },
+    {
+      "column": "has_chip",
+      "description": "Whether the card has a chip",
+      "dtype": "str"
+    },
+    {
+      "column": "num_cards_issued",
+      "description": "Number of cards issued",
+      "dtype": "int64"
+    },
+    {
+      "column": "credit_limit",
+      "description": "Card credit limit",
+      "dtype": "int64"
+    },
+    {
+      "column": "acct_open_date",
+      "description": "Account opening date",
+      "dtype": "str"
+    },
+    {
+      "column": "year_pin_last_changed",
+      "description": "Year the PIN was last changed",
+      "dtype": "int64"
+    },
+    {
+      "column": "card_on_dark_web",
+      "description": "Whether the card is reported on the dark web",
+      "dtype": "str"
+    }
+  ],
+  "risk_table_counts": {
+    "assets": 160,
+    "controls": 4,
+    "asset_controls": 399,
+    "threat_events": 122,
+    "vulnerabilities": 160
+  },
+  "notes": [
+    "6,146 card records were aggregated into 160 risk assets (brand x product x chip x dark-web x credit segment) so the Monte Carlo / ILP frontier stays within the API response budget."
+  ],
+  "simulation_iterations": 20000
+}

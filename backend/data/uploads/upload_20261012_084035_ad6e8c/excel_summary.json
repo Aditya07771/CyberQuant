@@ -1,0 +1,26 @@
+{
+  "file_name": "CyberQuant_Risk_Dataset_300.xlsx",
+  "total_rows": 3028,
+  "total_columns": 30,
+  "worksheets": [
+    "assets",
+    "controls",
+    "asset_controls",
+    "threat_events",
+    "vulnerabilities"
+  ],
+  "worksheet_count": 5,
+  "dataset_type": "Relational cyber risk dataset (multi-sheet workbook).",
+  "column_details": [],
+  "risk_table_counts": {
+    "assets": 125,
+    "vulnerabilities": 728,
+    "threat_events": 1800,
+    "controls": 20,
+    "asset_controls": 355
+  },
+  "notes": [
+    "Workbook contained the 5 risk tables; rows were loaded directly without transformation."
+  ],
+  "simulation_iterations": 20000
+}

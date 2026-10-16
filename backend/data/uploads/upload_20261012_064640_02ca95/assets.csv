@@ -1,0 +1,41 @@
+asset_id,business_unit,criticality,data_sensitivity_tier,financial_value_usd,downtime_cost_per_hour_usd,regulatory_penalty_potential_usd
+CRD-1000,Mastercard,5,Restricted,29127.0,582.54,1456.35
+CRD-1001,Visa,1,Restricted,921.0,50.0,46.05
+CRD-1002,American Express,4,Restricted,26052.0,521.04,1302.6
+CRD-1003,Visa,4,Confidential,19039.0,380.78,0.0
+CRD-1004,American Express,3,Internal,14817.0,296.34,0.0
+CRD-1005,Mastercard,4,Confidential,23894.0,477.88,0.0
+CRD-1006,Visa,5,Confidential,28590.0,571.8,0.0
+CRD-1007,Visa,3,Restricted,15633.0,312.66,781.65
+CRD-1008,Mastercard,1,Confidential,3080.0,61.6,0.0
+CRD-1009,Visa,4,Confidential,21912.0,438.24,0.0
+CRD-1010,Visa,2,Internal,7304.0,146.08,0.0
+CRD-1011,Mastercard,2,Restricted,7179.0,143.58,358.95
+CRD-1012,American Express,1,Restricted,6190.0,123.8,309.5
+CRD-1013,Mastercard,2,Internal,6356.0,127.12,0.0
+CRD-1014,American Express,5,Restricted,27344.0,546.88,1367.2
+CRD-1015,American Express,3,Confidential,11212.0,224.24,0.0
+CRD-1016,American Express,1,Restricted,3631.0,72.62,181.55
+CRD-1017,Mastercard,1,Restricted,5792.0,115.84,289.6
+CRD-1018,Mastercard,3,Restricted,12146.0,242.92,607.3
+CRD-1019,Mastercard,3,Confidential,10708.0,214.16,0.0
+CRD-1020,Visa,2,Confidential,9649.0,192.98,0.0
+CRD-1021,Mastercard,5,Restricted,28469.0,569.38,1423.45
+CRD-1022,Mastercard,4,Restricted,26063.0,521.26,1303.15
+CRD-1023,Visa,4,Confidential,17413.0,348.26,0.0
+CRD-1024,American Express,5,Restricted,29599.0,591.98,1479.95
+CRD-1025,Visa,2,Internal,10532.0,210.64,0.0
+CRD-1026,Visa,1,Restricted,4558.0,91.16,227.9
+CRD-1027,Visa,2,Restricted,8509.0,170.18,425.45
+CRD-1028,American Express,1,Confidential,3134.0,62.68,0.0
+CRD-1029,American Express,5,Restricted,28585.0,571.7,1429.25
+CRD-1030,American Express,2,Internal,6960.0,139.2,0.0
+CRD-1031,Visa,3,Restricted,13612.0,272.24,680.6
+CRD-1032,American Express,2,Restricted,6464.0,129.28,323.2
+CRD-1033,Mastercard,5,Confidential,29421.0,588.42,0.0
+CRD-1034,Mastercard,1,Internal,5162.0,103.24,0.0
+CRD-1035,Visa,3,Internal,15707.0,314.14,0.0
+CRD-1036,Mastercard,5,Confidential,28541.0,570.82,0.0
+CRD-1037,American Express,3,Confidential,15874.0,317.48,0.0
+CRD-1038,Mastercard,4,Internal,27018.0,540.36,0.0
+CRD-1039,Visa,4,Restricted,26947.0,538.94,1347.35

@@ -1,0 +1,3 @@
+asset_id,business_unit,criticality,data_sensitivity_tier,financial_value_usd,downtime_cost_per_hour_usd
+AST-1,Finance,3,Internal,100000,1000
+AST-2,HR,2,Public,50000,500

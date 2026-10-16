@@ -1,0 +1,26 @@
+{
+  "file_name": "risk_dataset.xlsx",
+  "total_rows": 7,
+  "total_columns": 16,
+  "worksheets": [
+    "assets",
+    "controls",
+    "asset_controls",
+    "threat_events",
+    "vulnerabilities"
+  ],
+  "worksheet_count": 5,
+  "dataset_type": "Relational cyber risk dataset (multi-sheet workbook).",
+  "column_details": [],
+  "risk_table_counts": {
+    "assets": 2,
+    "vulnerabilities": 1,
+    "threat_events": 1,
+    "controls": 2,
+    "asset_controls": 1
+  },
+  "notes": [
+    "Workbook contained the 5 risk tables; rows were loaded directly without transformation."
+  ],
+  "simulation_iterations": 20000
+}

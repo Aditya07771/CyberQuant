@@ -1,0 +1,184 @@
+{
+  "cves": [
+    {
+      "cve_id": "CVE-2021-44228",
+      "name": "Log4Shell (Apache Log4j RCE)",
+      "cvss_score": 10.0,
+      "epss_score": 0.975,
+      "severity": "Critical",
+      "applicable_os": ["Windows Server 2019", "Ubuntu 22.04", "RHEL 8", "Windows 10", "Cross-platform"],
+      "description": "Remote code execution in Log4j JNDI lookup parsing."
+    },
+    {
+      "cve_id": "CVE-2020-1472",
+      "name": "Zerologon (Netlogon Elevation of Privilege)",
+      "cvss_score": 10.0,
+      "epss_score": 0.945,
+      "severity": "Critical",
+      "applicable_os": ["Windows Server 2019"],
+      "description": "Unauthenticated domain controller takeover via Netlogon cryptographic flaw."
+    },
+    {
+      "cve_id": "CVE-2019-0708",
+      "name": "BlueKeep (RDP Remote Code Execution)",
+      "cvss_score": 9.8,
+      "epss_score": 0.920,
+      "severity": "Critical",
+      "applicable_os": ["Windows Server 2019", "Windows 10"],
+      "description": "Pre-authentication remote code execution in Remote Desktop Services."
+    },
+    {
+      "cve_id": "CVE-2021-26855",
+      "name": "ProxyLogon (Microsoft Exchange SSRF)",
+      "cvss_score": 9.8,
+      "epss_score": 0.935,
+      "severity": "Critical",
+      "applicable_os": ["Windows Server 2019"],
+      "description": "Pre-auth SSRF leading to complete arbitrary file write and command execution."
+    },
+    {
+      "cve_id": "CVE-2023-23397",
+      "name": "Microsoft Outlook NTLM Relay PrivEsc",
+      "cvss_score": 9.8,
+      "epss_score": 0.890,
+      "severity": "Critical",
+      "applicable_os": ["Windows 10", "Windows Server 2019"],
+      "description": "Zero-click NTLM credential relay vulnerability triggered by appointment reminder."
+    },
+    {
+      "cve_id": "CVE-2021-34527",
+      "name": "PrintNightmare (Windows Print Spooler RCE)",
+      "cvss_score": 8.8,
+      "epss_score": 0.875,
+      "severity": "High",
+      "applicable_os": ["Windows Server 2019", "Windows 10"],
+      "description": "Remote code execution in Windows Print Spooler service."
+    },
+    {
+      "cve_id": "CVE-2022-30190",
+      "name": "Follina (MSDT Remote Code Execution)",
+      "cvss_score": 7.8,
+      "epss_score": 0.810,
+      "severity": "High",
+      "applicable_os": ["Windows 10", "Windows Server 2019"],
+      "description": "Code execution via Microsoft Support Diagnostic Tool protocol handler."
+    },
+    {
+      "cve_id": "CVE-2020-0601",
+      "name": "CurveBall (Windows CryptoAPI Spoofing)",
+      "cvss_score": 8.1,
+      "epss_score": 0.650,
+      "severity": "High",
+      "applicable_os": ["Windows 10", "Windows Server 2019"],
+      "description": "Spoofing vulnerability in Windows CryptoAPI elliptic curve cert validation."
+    },
+    {
+      "cve_id": "CVE-2023-34362",
+      "name": "MOVEit Transfer SQLi RCE",
+      "cvss_score": 9.8,
+      "epss_score": 0.960,
+      "severity": "Critical",
+      "applicable_os": ["Windows Server 2019"],
+      "description": "SQL injection in MOVEit Transfer web app allowing unauthorized database access."
+    },
+    {
+      "cve_id": "CVE-2021-4034",
+      "name": "PwnKit (Polkit pkexec Local PrivEsc)",
+      "cvss_score": 7.8,
+      "epss_score": 0.840,
+      "severity": "High",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8"],
+      "description": "Memory corruption in Polkit pkexec component giving full root access."
+    },
+    {
+      "cve_id": "CVE-2022-0847",
+      "name": "Dirty Pipe (Linux Kernel Local PrivEsc)",
+      "cvss_score": 7.8,
+      "epss_score": 0.860,
+      "severity": "High",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8"],
+      "description": "Arbitrary file overwrite flaw in Linux kernel page cache."
+    },
+    {
+      "cve_id": "CVE-2021-3156",
+      "name": "Baron Samedit (Sudo Heap Buffer Overflow)",
+      "cvss_score": 7.8,
+      "epss_score": 0.790,
+      "severity": "High",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8"],
+      "description": "Heap buffer overflow in sudo argument parsing giving local root privileges."
+    },
+    {
+      "cve_id": "CVE-2023-4966",
+      "name": "Citrix Bleed (NetScaler Memory Disclosure)",
+      "cvss_score": 9.4,
+      "epss_score": 0.950,
+      "severity": "Critical",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8"],
+      "description": "Sensitive session token disclosure in Citrix NetScaler ADC gateway."
+    },
+    {
+      "cve_id": "CVE-2023-27997",
+      "name": "FortiOS SSL-VPN Heap Overflow",
+      "cvss_score": 9.8,
+      "epss_score": 0.930,
+      "severity": "Critical",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8"],
+      "description": "Pre-authentication remote code execution via FortiOS SSL-VPN web portal."
+    },
+    {
+      "cve_id": "CVE-2023-46805",
+      "name": "Ivanti Connect Secure Auth Bypass",
+      "cvss_score": 8.2,
+      "epss_score": 0.910,
+      "severity": "High",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8"],
+      "description": "Authentication bypass in Ivanti Connect Secure VPN web components."
+    },
+    {
+      "cve_id": "CVE-2022-22965",
+      "name": "Spring4Shell (Spring Framework RCE)",
+      "cvss_score": 9.8,
+      "epss_score": 0.925,
+      "severity": "Critical",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8", "Windows Server 2019"],
+      "description": "Data binding flaw in Spring Framework allowing arbitrary code execution."
+    },
+    {
+      "cve_id": "CVE-2022-26134",
+      "name": "Atlassian Confluence OGNL Injection RCE",
+      "cvss_score": 9.8,
+      "epss_score": 0.940,
+      "severity": "Critical",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8", "Windows Server 2019"],
+      "description": "Pre-auth OGNL expression injection in Confluence Server and Data Center."
+    },
+    {
+      "cve_id": "CVE-2023-22515",
+      "name": "Confluence Broken Access Control",
+      "cvss_score": 9.8,
+      "epss_score": 0.915,
+      "severity": "Critical",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8", "Windows Server 2019"],
+      "description": "Improper input validation allowing unauthorized administrative setup access."
+    },
+    {
+      "cve_id": "CVE-2023-20198",
+      "name": "Cisco IOS XE Web UI Privilege Escalation",
+      "cvss_score": 10.0,
+      "epss_score": 0.965,
+      "severity": "Critical",
+      "applicable_os": ["RHEL 8", "Ubuntu 22.04"],
+      "description": "Unauthenticated attacker gains level 15 privilege access via Web UI feature."
+    },
+    {
+      "cve_id": "CVE-2023-38606",
+      "name": "Operation Triangulation Kernel Exploit",
+      "cvss_score": 7.8,
+      "epss_score": 0.720,
+      "severity": "High",
+      "applicable_os": ["Ubuntu 22.04", "RHEL 8"],
+      "description": "Hardware-mapped memory register manipulation bypass for kernel security."
+    }
+  ]
+}

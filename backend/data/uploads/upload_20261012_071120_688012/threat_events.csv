@@ -1,0 +1,32 @@
+event_id,timestamp,asset_id,mitre_technique_id,description,severity,source_ip,action_taken,downtime_hours_caused,records_compromised
+EVT-00001,2026-09-12T07:11:21.107868+00:00,CRD-1024,T1078,Valid Accounts attempt against CRD-1024,Critical,198.51.100.1,allowed,44.78,3
+EVT-00002,2026-09-13T10:18:21.107868+00:00,CRD-1000,T1110,Brute Force attempt against CRD-1000,High,198.51.100.2,blocked,44.17,2
+EVT-00003,2026-09-14T13:25:21.107868+00:00,CRD-1022,T1003,OS Credential Dumping attempt against CRD-1022,High,198.51.100.3,blocked,43.19,3
+EVT-00004,2026-09-15T16:32:21.107868+00:00,CRD-1002,T1566,Phishing attempt against CRD-1002,Critical,198.51.100.4,blocked,43.87,1
+EVT-00005,2026-09-16T19:39:21.107868+00:00,CRD-1031,T1552,Unsecured Credentials attempt against CRD-1031,High,198.51.100.5,allowed,38.5,3
+EVT-00006,2026-09-17T22:46:21.107868+00:00,CRD-1027,T1078,Valid Accounts attempt against CRD-1027,High,198.51.100.6,blocked,37.78,3
+EVT-00007,2026-09-19T01:53:21.107868+00:00,CRD-1011,T1110,Brute Force attempt against CRD-1011,Critical,198.51.100.7,blocked,36.67,2
+EVT-00008,2026-09-20T05:00:21.107868+00:00,CRD-1012,T1003,OS Credential Dumping attempt against CRD-1012,High,198.51.100.8,blocked,39.34,1
+EVT-00009,2026-09-20T08:07:21.107868+00:00,CRD-1026,T1566,Phishing attempt against CRD-1026,High,198.51.100.9,allowed,38.13,2
+EVT-00010,2026-09-21T10:14:21.107868+00:00,CRD-1016,T1552,Unsecured Credentials attempt against CRD-1016,Critical,198.51.100.10,blocked,38.29,3
+EVT-00011,2026-09-22T13:21:21.107868+00:00,CRD-1029,T1078,Valid Accounts attempt against CRD-1029,High,198.51.100.11,blocked,32.95,1
+EVT-00012,2026-09-23T16:28:21.107868+00:00,CRD-1021,T1110,Brute Force attempt against CRD-1021,High,198.51.100.12,blocked,34.3,3
+EVT-00013,2026-09-24T19:35:21.107868+00:00,CRD-1014,T1003,OS Credential Dumping attempt against CRD-1014,Critical,198.51.100.13,allowed,34.17,1
+EVT-00014,2026-09-25T22:42:21.107868+00:00,CRD-1039,T1566,Phishing attempt against CRD-1039,High,198.51.100.14,blocked,34.73,3
+EVT-00015,2026-09-27T01:49:21.107868+00:00,CRD-1036,T1552,Unsecured Credentials attempt against CRD-1036,Medium,198.51.100.15,blocked,23.51,3
+EVT-00016,2026-09-28T04:56:21.107868+00:00,CRD-1038,T1078,Valid Accounts attempt against CRD-1038,Medium,198.51.100.16,blocked,25.09,3
+EVT-00017,2026-09-28T08:03:21.107868+00:00,CRD-1005,T1110,Brute Force attempt against CRD-1005,Medium,198.51.100.17,allowed,23.17,2
+EVT-00018,2026-09-29T11:10:21.107868+00:00,CRD-1007,T1003,OS Credential Dumping attempt against CRD-1007,High,198.51.100.18,blocked,27.88,2
+EVT-00019,2026-09-30T13:17:21.107868+00:00,CRD-1018,T1566,Phishing attempt against CRD-1018,Critical,198.51.100.19,blocked,28.14,3
+EVT-00020,2026-10-01T16:24:21.107868+00:00,CRD-1032,T1552,Unsecured Credentials attempt against CRD-1032,High,198.51.100.20,blocked,27.24,3
+EVT-00021,2026-10-02T19:31:21.107868+00:00,CRD-1017,T1078,Valid Accounts attempt against CRD-1017,High,198.51.100.21,allowed,26.1,2
+EVT-00022,2026-10-03T22:38:21.107868+00:00,CRD-1001,T1110,Brute Force attempt against CRD-1001,Critical,198.51.100.22,blocked,23.85,3
+EVT-00023,2026-10-05T01:45:21.107868+00:00,CRD-1009,T1003,OS Credential Dumping attempt against CRD-1009,Medium,198.51.100.23,blocked,22.53,3
+EVT-00024,2026-10-06T04:52:21.107868+00:00,CRD-1003,T1566,Phishing attempt against CRD-1003,Medium,198.51.100.24,blocked,20.92,2
+EVT-00025,2026-10-06T07:59:21.107868+00:00,CRD-1023,T1552,Unsecured Credentials attempt against CRD-1023,Medium,198.51.100.25,allowed,19.71,3
+EVT-00026,2026-10-07T11:06:21.107868+00:00,CRD-1020,T1078,Valid Accounts attempt against CRD-1020,Medium,198.51.100.26,blocked,17.45,2
+EVT-00027,2026-10-08T13:13:21.107868+00:00,CRD-1010,T1110,Brute Force attempt against CRD-1010,Medium,198.51.100.27,blocked,16.7,3
+EVT-00028,2026-10-09T16:20:21.107868+00:00,CRD-1013,T1003,OS Credential Dumping attempt against CRD-1013,Medium,198.51.100.28,blocked,18.69,2
+EVT-00029,2026-10-10T19:27:21.107868+00:00,CRD-1034,T1566,Phishing attempt against CRD-1034,Medium,198.51.100.29,allowed,16.47,2
+EVT-00030,2026-10-11T22:34:21.107868+00:00,CRD-1033,T1552,Unsecured Credentials attempt against CRD-1033,Medium,198.51.100.30,blocked,13.67,3
+EVT-00031,2026-09-13T01:41:21.107868+00:00,CRD-1006,T1078,Valid Accounts attempt against CRD-1006,Medium,198.51.100.31,blocked,11.11,1

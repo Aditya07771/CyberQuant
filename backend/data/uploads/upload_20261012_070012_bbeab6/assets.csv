@@ -1,0 +1,161 @@
+asset_id,business_unit,criticality,data_sensitivity_tier,financial_value_usd,downtime_cost_per_hour_usd,regulatory_penalty_potential_usd
+SEG-0001,American Express,1,Restricted,132060.0,2641.2,6603.0
+SEG-0002,American Express,2,Confidential,328105.0,6562.1,0.0
+SEG-0003,Visa,3,Restricted,644707.0,12894.14,32235.35
+SEG-0004,Discover,1,Internal,157431.0,3148.62,0.0
+SEG-0005,Visa,1,Restricted,103446.0,2068.92,5172.3
+SEG-0006,Discover,5,Restricted,1124275.0,22485.5,56213.75
+SEG-0007,American Express,1,Confidential,118880.0,2377.6,0.0
+SEG-0008,Mastercard,2,Restricted,403982.0,8079.64,20199.1
+SEG-0009,Visa,5,Confidential,1012754.0,20255.08,0.0
+SEG-0010,American Express,1,Restricted,115724.0,2314.48,5786.2
+SEG-0011,Visa,4,Internal,785631.0,15712.62,0.0
+SEG-0012,American Express,3,Restricted,689644.0,13792.88,34482.2
+SEG-0013,Discover,3,Restricted,577587.0,11551.74,28879.35
+SEG-0014,Mastercard,5,Restricted,1136410.0,22728.2,56820.5
+SEG-0015,Visa,1,Restricted,153546.0,3070.92,7677.3
+SEG-0016,Visa,1,Confidential,111182.0,2223.64,0.0
+SEG-0017,Visa,3,Internal,556861.0,11137.22,0.0
+SEG-0018,Visa,5,Internal,1188192.0,23763.84,0.0
+SEG-0019,American Express,1,Internal,111322.0,2226.44,0.0
+SEG-0020,Mastercard,4,Confidential,700621.0,14012.42,0.0
+SEG-0021,Discover,4,Internal,796596.0,15931.92,0.0
+SEG-0022,Discover,1,Confidential,117620.0,2352.4,0.0
+SEG-0023,Discover,2,Internal,420233.0,8404.66,0.0
+SEG-0024,American Express,2,Internal,425597.0,8511.94,0.0
+SEG-0025,Mastercard,1,Internal,136767.0,2735.34,0.0
+SEG-0026,Discover,3,Internal,497465.0,9949.3,0.0
+SEG-0027,Mastercard,2,Internal,308541.0,6170.82,0.0
+SEG-0028,Mastercard,4,Restricted,824591.0,16491.82,41229.55
+SEG-0029,American Express,4,Restricted,840786.0,16815.72,42039.3
+SEG-0030,American Express,5,Restricted,1297486.0,25949.72,64874.3
+SEG-0031,Discover,4,Restricted,920991.0,18419.82,46049.55
+SEG-0032,Mastercard,4,Internal,885565.0,17711.3,0.0
+SEG-0033,Discover,5,Restricted,1026801.0,20536.02,51340.05
+SEG-0034,Visa,4,Internal,717619.0,14352.38,0.0
+SEG-0035,Discover,4,Confidential,824062.0,16481.24,0.0
+SEG-0036,Visa,3,Restricted,492109.0,9842.18,24605.45
+SEG-0037,Discover,2,Restricted,338503.0,6770.06,16925.15
+SEG-0038,Mastercard,3,Confidential,549610.0,10992.2,0.0
+SEG-0039,Visa,5,Confidential,1036667.0,20733.34,0.0
+SEG-0040,Mastercard,3,Restricted,570790.0,11415.8,28539.5
+SEG-0041,Visa,3,Internal,450639.0,9012.78,0.0
+SEG-0042,Mastercard,4,Internal,814850.0,16297.0,0.0
+SEG-0043,Visa,2,Restricted,287702.0,5754.04,14385.1
+SEG-0044,American Express,1,Internal,138028.0,2760.56,0.0
+SEG-0045,Mastercard,4,Restricted,702034.0,14040.68,35101.7
+SEG-0046,Visa,3,Confidential,531230.0,10624.6,0.0
+SEG-0047,Visa,5,Restricted,949241.0,18984.82,47462.05
+SEG-0048,Discover,1,Restricted,194087.0,3881.74,9704.35
+SEG-0049,Visa,5,Restricted,1259454.0,25189.08,62972.7
+SEG-0050,Visa,2,Restricted,415183.0,8303.66,20759.15
+SEG-0051,Visa,2,Internal,379398.0,7587.96,0.0
+SEG-0052,Discover,1,Restricted,104570.0,2091.4,5228.5
+SEG-0053,American Express,3,Confidential,638855.0,12777.1,0.0
+SEG-0054,Discover,5,Confidential,945979.0,18919.58,0.0
+SEG-0055,American Express,3,Restricted,639143.0,12782.86,31957.15
+SEG-0056,American Express,3,Internal,636968.0,12739.36,0.0
+SEG-0057,American Express,2,Confidential,357601.0,7152.02,0.0
+SEG-0058,Mastercard,5,Internal,929465.0,18589.3,0.0
+SEG-0059,American Express,2,Restricted,379048.0,7580.96,18952.4
+SEG-0060,American Express,5,Restricted,991940.0,19838.8,49597.0
+SEG-0061,Mastercard,3,Confidential,457480.0,9149.6,0.0
+SEG-0062,Visa,3,Restricted,607034.0,12140.68,30351.7
+SEG-0063,Visa,2,Restricted,420026.0,8400.52,21001.3
+SEG-0064,Discover,4,Restricted,871291.0,17425.82,43564.55
+SEG-0065,American Express,5,Restricted,981704.0,19634.08,49085.2
+SEG-0066,Mastercard,1,Internal,161768.0,3235.36,0.0
+SEG-0067,American Express,3,Confidential,667929.0,13358.58,0.0
+SEG-0068,American Express,3,Internal,666897.0,13337.94,0.0
+SEG-0069,Mastercard,1,Restricted,116390.0,2327.8,5819.5
+SEG-0070,American Express,4,Confidential,780103.0,15602.06,0.0
+SEG-0071,Mastercard,4,Restricted,830902.0,16618.04,41545.1
+SEG-0072,Mastercard,4,Internal,864112.0,17282.24,0.0
+SEG-0073,Mastercard,5,Internal,1142454.0,22849.08,0.0
+SEG-0074,Discover,4,Internal,759978.0,15199.56,0.0
+SEG-0075,Discover,5,Internal,941228.0,18824.56,0.0
+SEG-0076,Mastercard,4,Restricted,787459.0,15749.18,39372.95
+SEG-0077,Visa,1,Restricted,103977.0,2079.54,5198.85
+SEG-0078,Visa,1,Restricted,102473.0,2049.46,5123.65
+SEG-0079,American Express,5,Restricted,1424224.0,28484.48,71211.2
+SEG-0080,Visa,1,Confidential,148974.0,2979.48,0.0
+SEG-0081,American Express,1,Restricted,140086.0,2801.72,7004.3
+SEG-0082,American Express,5,Restricted,982900.0,19658.0,49145.0
+SEG-0083,American Express,3,Internal,659745.0,13194.9,0.0
+SEG-0084,Discover,2,Restricted,219457.0,4389.14,10972.85
+SEG-0085,Discover,1,Restricted,133000.0,2660.0,6650.0
+SEG-0086,Visa,5,Confidential,956692.0,19133.84,0.0
+SEG-0087,Visa,5,Restricted,1088589.0,21771.78,54429.45
+SEG-0088,American Express,2,Restricted,413959.0,8279.18,20697.95
+SEG-0089,Discover,2,Restricted,271245.0,5424.9,13562.25
+SEG-0090,Discover,4,Confidential,819937.0,16398.74,0.0
+SEG-0091,American Express,4,Restricted,794470.0,15889.4,39723.5
+SEG-0092,Discover,1,Confidential,115133.0,2302.66,0.0
+SEG-0093,Mastercard,4,Confidential,895183.0,17903.66,0.0
+SEG-0094,Mastercard,2,Restricted,291179.0,5823.58,14558.95
+SEG-0095,Discover,3,Restricted,430742.0,8614.84,21537.1
+SEG-0096,Visa,2,Confidential,392848.0,7856.96,0.0
+SEG-0097,Discover,4,Confidential,875572.0,17511.44,0.0
+SEG-0098,Mastercard,2,Restricted,383472.0,7669.44,19173.6
+SEG-0099,Visa,3,Confidential,476313.0,9526.26,0.0
+SEG-0100,Mastercard,3,Internal,580048.0,11600.96,0.0
+SEG-0101,Visa,2,Restricted,401337.0,8026.74,20066.85
+SEG-0102,Mastercard,5,Restricted,1103124.0,22062.48,55156.2
+SEG-0103,Visa,4,Internal,916098.0,18321.96,0.0
+SEG-0104,Mastercard,1,Confidential,110968.0,2219.36,0.0
+SEG-0105,Discover,3,Restricted,615330.0,12306.6,30766.5
+SEG-0106,Discover,1,Restricted,134234.0,2684.68,6711.7
+SEG-0107,Discover,5,Restricted,1098467.0,21969.34,54923.35
+SEG-0108,Mastercard,2,Confidential,322213.0,6444.26,0.0
+SEG-0109,American Express,5,Restricted,1144288.0,22885.76,57214.4
+SEG-0110,Visa,2,Confidential,326711.0,6534.22,0.0
+SEG-0111,American Express,1,Restricted,181883.0,3637.66,9094.15
+SEG-0112,Visa,1,Internal,159525.0,3190.5,0.0
+SEG-0113,American Express,3,Internal,569169.0,11383.38,0.0
+SEG-0114,Mastercard,1,Confidential,119643.0,2392.86,0.0
+SEG-0115,Discover,4,Restricted,857295.0,17145.9,42864.75
+SEG-0116,Mastercard,3,Confidential,600768.0,12015.36,0.0
+SEG-0117,American Express,5,Internal,1105377.0,22107.54,0.0
+SEG-0118,American Express,4,Internal,848493.0,16969.86,0.0
+SEG-0119,Discover,3,Restricted,571034.0,11420.68,28551.7
+SEG-0120,Mastercard,1,Restricted,119403.0,2388.06,5970.15
+SEG-0121,Mastercard,5,Restricted,947897.0,18957.94,47394.85
+SEG-0122,Visa,3,Internal,624892.0,12497.84,0.0
+SEG-0123,Visa,4,Restricted,809333.0,16186.66,40466.65
+SEG-0124,American Express,5,Confidential,1031476.0,20629.52,0.0
+SEG-0125,American Express,2,Restricted,372286.0,7445.72,18614.3
+SEG-0126,American Express,1,Confidential,136661.0,2733.22,0.0
+SEG-0127,Discover,3,Confidential,579476.0,11589.52,0.0
+SEG-0128,American Express,4,Confidential,760020.0,15200.4,0.0
+SEG-0129,Discover,5,Internal,1273586.0,25471.72,0.0
+SEG-0130,Discover,2,Confidential,263729.0,5274.58,0.0
+SEG-0131,American Express,2,Restricted,412127.0,8242.54,20606.35
+SEG-0132,Discover,2,Confidential,429346.0,8586.92,0.0
+SEG-0133,Visa,4,Restricted,732102.0,14642.04,36605.1
+SEG-0134,Visa,4,Restricted,691789.0,13835.78,34589.45
+SEG-0135,Discover,4,Restricted,792423.0,15848.46,39621.15
+SEG-0136,Discover,3,Restricted,652565.0,13051.3,32628.25
+SEG-0137,American Express,2,Internal,343289.0,6865.78,0.0
+SEG-0138,Discover,2,Internal,346181.0,6923.62,0.0
+SEG-0139,Mastercard,2,Internal,340788.0,6815.76,0.0
+SEG-0140,Mastercard,5,Restricted,986972.0,19739.44,49348.6
+SEG-0141,Mastercard,5,Confidential,991657.0,19833.14,0.0
+SEG-0142,Visa,5,Restricted,1084720.0,21694.4,54236.0
+SEG-0143,Discover,2,Confidential,361473.0,7229.46,0.0
+SEG-0144,Mastercard,3,Restricted,559366.0,11187.32,27968.3
+SEG-0145,American Express,3,Restricted,546339.0,10926.78,27316.95
+SEG-0146,Visa,5,Restricted,1195524.0,23910.48,59776.2
+SEG-0147,Mastercard,4,Restricted,856610.0,17132.2,42830.5
+SEG-0148,Mastercard,1,Restricted,95483.0,1909.66,4774.15
+SEG-0149,Mastercard,1,Restricted,117219.0,2344.38,5860.95
+SEG-0150,American Express,3,Restricted,475973.0,9519.46,23798.65
+SEG-0151,Mastercard,4,Confidential,909939.0,18198.78,0.0
+SEG-0152,Visa,5,Confidential,1120037.0,22400.74,0.0
+SEG-0153,Visa,1,Internal,144630.0,2892.6,0.0
+SEG-0154,American Express,5,Confidential,1001767.0,20035.34,0.0
+SEG-0155,Mastercard,4,Restricted,822357.0,16447.14,41117.85
+SEG-0156,Discover,3,Internal,625994.0,12519.88,0.0
+SEG-0157,Mastercard,2,Restricted,335384.0,6707.68,16769.2
+SEG-0158,Discover,2,Restricted,391957.0,7839.14,19597.85
+SEG-0159,Visa,2,Restricted,409514.0,8190.28,20475.7
+SEG-0160,Discover,1,Internal,130594.0,2611.88,0.0

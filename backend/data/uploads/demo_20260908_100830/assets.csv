@@ -1,0 +1,51 @@
+asset_id,hostname,business_unit,criticality,data_sensitivity_tier,financial_value_usd,downtime_cost_per_hour_usd,regulatory_penalty_potential_usd,os
+AST-1000,host-34-engineering.internal,HR,1,Public,63296,4526,0,RHEL 8
+AST-1001,host-28-sales.internal,Engineering,1,Public,21765,1116,0,Windows Server 2019
+AST-1002,host-64-operations.internal,Operations,2,Public,94450,6056,0,RHEL 8
+AST-1003,host-30-operations.internal,HR,4,Restricted,63812,18124,50000,Ubuntu 22.04
+AST-1004,host-28-finance.internal,Sales,5,Restricted,372300,24870,250000,Windows 10
+AST-1005,host-19-hr.internal,Finance,3,Internal,276684,12579,0,RHEL 8
+AST-1006,host-45-engineering.internal,Finance,1,Public,98270,1185,0,Windows 10
+AST-1007,host-10-hr.internal,HR,3,Internal,220425,3177,0,Ubuntu 22.04
+AST-1008,host-49-hr.internal,Sales,3,Internal,122694,9210,0,Windows 10
+AST-1009,host-24-finance.internal,Engineering,3,Internal,54141,11442,0,RHEL 8
+AST-1010,host-51-finance.internal,HR,4,Restricted,69472,18916,50000,Ubuntu 22.04
+AST-1011,host-38-finance.internal,HR,3,Internal,287223,5253,0,Windows Server 2019
+AST-1012,host-99-finance.internal,Engineering,3,Internal,88125,14964,0,RHEL 8
+AST-1013,host-24-operations.internal,Sales,4,Restricted,166240,19932,250000,RHEL 8
+AST-1014,host-74-operations.internal,Finance,3,Internal,49689,4440,0,RHEL 8
+AST-1015,host-35-operations.internal,Finance,3,Internal,238176,8577,0,RHEL 8
+AST-1016,host-24-sales.internal,Sales,2,Public,170206,2232,0,RHEL 8
+AST-1017,host-85-operations.internal,Sales,1,Public,49885,2041,0,Ubuntu 22.04
+AST-1018,host-95-operations.internal,Sales,5,Restricted,337065,18115,0,RHEL 8
+AST-1019,host-88-sales.internal,Operations,2,Public,191538,9060,0,Windows Server 2019
+AST-1020,host-70-hr.internal,HR,3,Internal,36903,3945,0,Ubuntu 22.04
+AST-1021,host-42-sales.internal,Engineering,4,Confidential,134300,4860,250000,Windows Server 2019
+AST-1022,host-57-engineering.internal,Operations,2,Public,69906,2124,0,Windows Server 2019
+AST-1023,host-72-sales.internal,Sales,3,Internal,136014,13281,0,Windows Server 2019
+AST-1024,host-53-finance.internal,HR,3,Internal,143886,10665,0,RHEL 8
+AST-1025,host-10-hr.internal,Finance,3,Internal,114570,12468,0,Windows 10
+AST-1026,host-52-sales.internal,HR,4,Restricted,93804,9100,1000000,Windows Server 2019
+AST-1027,host-88-operations.internal,Operations,3,Internal,151590,9321,0,Ubuntu 22.04
+AST-1028,host-96-sales.internal,Sales,2,Public,63880,9194,0,Windows Server 2019
+AST-1029,host-66-sales.internal,Engineering,2,Public,115602,6588,0,Windows 10
+AST-1030,host-27-operations.internal,Operations,3,Internal,143787,3177,0,Windows 10
+AST-1031,host-10-operations.internal,HR,2,Public,151596,7120,0,Windows Server 2019
+AST-1032,host-77-sales.internal,Finance,4,Restricted,325996,5096,250000,Ubuntu 22.04
+AST-1033,host-51-sales.internal,HR,1,Public,50239,4389,0,RHEL 8
+AST-1034,host-73-sales.internal,Engineering,4,Confidential,392532,15520,50000,Windows 10
+AST-1035,host-80-hr.internal,Finance,3,Internal,137970,10221,0,Windows 10
+AST-1036,host-38-engineering.internal,Engineering,5,Confidential,100540,12505,50000,Ubuntu 22.04
+AST-1037,host-96-finance.internal,Sales,2,Public,159956,6240,0,Ubuntu 22.04
+AST-1038,host-57-hr.internal,HR,3,Internal,70095,4269,0,Windows 10
+AST-1039,host-26-engineering.internal,Finance,3,Internal,224709,7095,0,RHEL 8
+AST-1040,host-57-finance.internal,Sales,5,Confidential,313935,16695,0,RHEL 8
+AST-1041,host-59-operations.internal,HR,4,Confidential,244920,12812,0,RHEL 8
+AST-1042,host-64-engineering.internal,Operations,1,Public,26240,4429,0,Windows Server 2019
+AST-1043,host-10-sales.internal,Operations,4,Restricted,240116,5184,250000,Windows 10
+AST-1044,host-90-hr.internal,HR,1,Public,82539,2814,0,Ubuntu 22.04
+AST-1045,host-63-finance.internal,Sales,2,Public,92772,9194,0,Windows 10
+AST-1046,host-47-engineering.internal,Engineering,4,Confidential,372028,8856,1000000,RHEL 8
+AST-1047,host-66-hr.internal,Sales,3,Internal,243615,9873,0,Ubuntu 22.04
+AST-1048,host-15-hr.internal,HR,3,Internal,139050,5034,0,Windows Server 2019
+AST-1049,host-85-sales.internal,HR,4,Confidential,68608,18548,50000,Ubuntu 22.04

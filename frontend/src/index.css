@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════
+   DESIGN TOKENS — LIGHT THEME (Opera)
+   ═══════════════════════════════════════════ */
+:root,
+[data-theme="light"] {
+  --bg:                    #F7F5F0;
+  --surface:               #FFFFFF;
+  --surface-elevated:      #FFFFFF;
+  --border:                rgba(0, 0, 0, 0.06);
+  --border-strong:         rgba(0, 0, 0, 0.10);
+
+  --text-primary:          #111111;
+  --text-secondary:        #4A4852;
+  --text-muted:            #7E7C88;
+
+  --accent-primary:        #111111;
+  --accent-primary-hover:  #2F2E36;
+  --accent-secondary:      #D4A94B;
+
+  --brand:                 #0F5C42;
+  --brand-hover:           #0B4733;
+  --brand-tint:            #EDF5F2;
+
+  --success:               #3D6B4F;
+  --success-tint:          #EEF6F1;
+  --warning:               #92702D;
+  --warning-tint:          #FAF3EB;
+  --danger:                #8B3232;
+  --danger-tint:           #F9ECEC;
+
+  /* Chart fills — Recharts reads these via getComputedStyle */
+  --chart-bar-1:           #0F5C42;
+  --chart-bar-2:           rgba(15, 92, 66, 0.70);
+  --chart-bar-3:           rgba(15, 92, 66, 0.45);
+  --chart-bar-4:           rgba(15, 92, 66, 0.25);
+  --chart-bar-alt-1:       #111111;
+  --chart-bar-alt-2:       rgba(17, 17, 17, 0.60);
+  --chart-bar-alt-3:       rgba(17, 17, 17, 0.35);
+  --chart-area-stroke:     #0F5C42;
+  --chart-area-fill-start: rgba(15, 92, 66, 0.20);
+  --chart-area-fill-end:   rgba(15, 92, 66, 0.00);
+  --chart-grid:            #F0ECE1;
+  --chart-axis:            #7E7C88;
+
+  /* Elevation */
+  --shadow-soft:     0 1px 3px 0 rgba(0,0,0,0.03), 0 1px 2px -1px rgba(0,0,0,0.02);
+  --shadow-card:     0 4px 12px -2px rgba(0,0,0,0.06), 0 1px 3px -1px rgba(0,0,0,0.03);
+  --shadow-elevated: 0 8px 24px -4px rgba(0,0,0,0.08), 0 2px 8px -2px rgba(0,0,0,0.04);
+}
+
+/* ═══════════════════════════════════════════
+   DESIGN TOKENS — DARK THEME (Aether)
+   ═══════════════════════════════════════════ */
+[data-theme="dark"] {
+  --bg:                    #0A0A0B;
+  --surface:               #17171A;
+  --surface-elevated:      #1C1C20;
+  --border:                rgba(255, 255, 255, 0.08);
+  --border-strong:         rgba(255, 255, 255, 0.12);
+
+  --text-primary:          #F4F4F5;
+  --text-secondary:        #A1A1AA;
+  --text-muted:            #71717A;
+
+  --accent-primary:        #A855F7;
+  --accent-primary-hover:  #7C3AED;
+  --accent-secondary:      #D4A94B;
+
+  --brand:                 #059669;
+  --brand-hover:           #047857;
+  --brand-tint:            rgba(34, 197, 94, 0.10);
+
+  --success:               #4ADE80;
+  --success-tint:          rgba(74, 222, 128, 0.10);
+  --warning:               #FBBF24;
+  --warning-tint:          rgba(251, 191, 36, 0.10);
+  --danger:                #F87171;
+  --danger-tint:           rgba(248, 113, 113, 0.10);
+
+  /* Chart fills */
+  --chart-bar-1:           #059669;
+  --chart-bar-2:           rgba(5, 150, 105, 0.70);
+  --chart-bar-3:           rgba(5, 150, 105, 0.45);
+  --chart-bar-4:           rgba(5, 150, 105, 0.25);
+  --chart-bar-alt-1:       #059669;
+  --chart-bar-alt-2:       rgba(5, 150, 105, 0.55);
+  --chart-bar-alt-3:       rgba(5, 150, 105, 0.30);
+  --chart-area-stroke:     #059669;
+  --chart-area-fill-start: rgba(5, 150, 105, 0.20);
+  --chart-area-fill-end:   rgba(5, 150, 105, 0.00);
+  --chart-grid:            rgba(255, 255, 255, 0.04);
+  --chart-axis:            #71717A;
+
+  /* Elevation */
+  --shadow-soft:     0 1px 3px 0 rgba(0,0,0,0.4), 0 1px 2px -1px rgba(0,0,0,0.2);
+  --shadow-card:     0 4px 12px -2px rgba(0,0,0,0.5), 0 1px 3px -1px rgba(0,0,0,0.3);
+  --shadow-elevated: 0 8px 24px -4px rgba(0,0,0,0.6), 0 2px 8px -2px rgba(0,0,0,0.4);
+}
+
+/* ═══════════════════════════════════════════
+   BASE STYLES
+   ═══════════════════════════════════════════ */
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--brand-tint);
+    color: var(--brand);
+  }
+}
+
+/* ═══════════════════════════════════════════
+   UTILITY CLASSES
+   ═══════════════════════════════════════════ */
+@layer utilities {
+  .bg-dot-pattern {
+    background-image: radial-gradient(var(--border) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* ═══════════════════════════════════════════
+   SCROLLBAR STYLING
+   ═══════════════════════════════════════════ */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* ═══════════════════════════════════════════
+   RANGE INPUT THEMING
+   ═══════════════════════════════════════════ */
+input[type="range"] {
+  accent-color: var(--brand);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  cursor: pointer;
+}
+
+/* ═══════════════════════════════════════════
+   TRANSITION HELPERS
+   ═══════════════════════════════════════════ */
+.theme-transition,
+.theme-transition * {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.15s ease, box-shadow 0.2s ease !important;
+}

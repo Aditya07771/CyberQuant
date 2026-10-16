@@ -1,0 +1,6 @@
+control_id,name,risk_reduction_pct,cost_usd
+CTRL-01,Endpoint Detection & Response (EDR),0.75,45000
+CTRL-02,Multi-Factor Authentication (MFA),0.6,15000
+CTRL-03,Network Segmentation,0.9,95000
+CTRL-04,Regular Patching Program,0.55,18000
+CTRL-05,Security Information & Event Management (SIEM),0.8,65000

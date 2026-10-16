@@ -1,0 +1,88 @@
+{
+  "file_name": "Financial Transactions.xlsx",
+  "total_rows": 300,
+  "total_columns": 13,
+  "worksheets": [
+    "Sheet1"
+  ],
+  "worksheet_count": 1,
+  "dataset_type": "Financial card and account information.",
+  "column_details": [
+    {
+      "column": "id",
+      "description": "Card record ID",
+      "dtype": "object"
+    },
+    {
+      "column": "client_id",
+      "description": "Customer ID",
+      "dtype": "object"
+    },
+    {
+      "column": "card_brand",
+      "description": "Card brand, such as Visa",
+      "dtype": "object"
+    },
+    {
+      "column": "card_type",
+      "description": "Debit or credit card",
+      "dtype": "object"
+    },
+    {
+      "column": "card_number",
+      "description": "Card number",
+      "dtype": "int64"
+    },
+    {
+      "column": "expires",
+      "description": "Card expiry date",
+      "dtype": "object"
+    },
+    {
+      "column": "cvv",
+      "description": "Card security code",
+      "dtype": "int64"
+    },
+    {
+      "column": "has_chip",
+      "description": "Whether the card has a chip",
+      "dtype": "object"
+    },
+    {
+      "column": "num_cards_issued",
+      "description": "Number of cards issued",
+      "dtype": "int64"
+    },
+    {
+      "column": "credit_limit",
+      "description": "Card credit limit",
+      "dtype": "int64"
+    },
+    {
+      "column": "acct_open_date",
+      "description": "Account opening date",
+      "dtype": "object"
+    },
+    {
+      "column": "year_pin_last_changed",
+      "description": "Year the PIN was last changed",
+      "dtype": "int64"
+    },
+    {
+      "column": "card_on_dark_web",
+      "description": "Whether the card is reported on the dark web",
+      "dtype": "object"
+    }
+  ],
+  "risk_table_counts": {
+    "assets": 300,
+    "controls": 4,
+    "asset_controls": 330,
+    "threat_events": 187,
+    "vulnerabilities": 300
+  },
+  "notes": [
+    "Each card record was modeled as an individual risk asset."
+  ],
+  "simulation_iterations": 3000
+}

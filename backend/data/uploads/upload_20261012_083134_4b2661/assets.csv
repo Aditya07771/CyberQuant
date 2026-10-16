@@ -1,0 +1,301 @@
+asset_id,hostname,business_unit,criticality,data_sensitivity_tier,financial_value_usd,downtime_cost_per_hour_usd,regulatory_penalty_potential_usd,os
+AST-1000,wks-sal-0001.internal,Sales,2,Public,30726,6446,0,Ubuntu 22.04
+AST-1001,app-eng-0002.internal,Engineering,3,Internal,200835,3657,0,RHEL 8
+AST-1002,app-fin-0003.internal,Finance,3,Internal,189114,11715,0,Ubuntu 22.04
+AST-1003,web-eng-0004.internal,Engineering,3,Internal,287862,7218,0,Ubuntu 22.04
+AST-1004,web-hr-0005.internal,HR,3,Internal,297627,5856,0,Windows 10
+AST-1005,sql-eng-0006.internal,Engineering,4,Restricted,186380,18288,50000,Ubuntu 22.04
+AST-1006,app-eng-0007.internal,Engineering,5,Restricted,286280,10745,0,Windows 10
+AST-1007,wks-eng-0008.internal,Engineering,2,Public,86470,6694,0,Windows Server 2019
+AST-1008,web-eng-0009.internal,Engineering,3,Internal,43068,6669,0,RHEL 8
+AST-1009,wks-fin-0010.internal,Finance,2,Public,35432,4556,0,RHEL 8
+AST-1010,sql-hr-0011.internal,HR,5,Confidential,91995,16160,1000000,Windows 10
+AST-1011,dc-ops-0012.internal,Operations,5,Restricted,474295,12065,1000000,Windows Server 2019
+AST-1012,web-eng-0013.internal,Engineering,3,Internal,141681,9174,0,Windows 10
+AST-1013,app-ops-0014.internal,Operations,4,Confidential,69488,14636,50000,RHEL 8
+AST-1014,web-ops-0015.internal,Operations,3,Internal,103974,9270,0,Windows 10
+AST-1015,app-hr-0016.internal,HR,4,Restricted,367672,15028,50000,RHEL 8
+AST-1016,app-eng-0017.internal,Engineering,3,Internal,231636,12819,0,Ubuntu 22.04
+AST-1017,app-eng-0018.internal,Engineering,3,Internal,125745,4773,0,RHEL 8
+AST-1018,wks-fin-0019.internal,Finance,2,Public,82724,2922,0,Windows Server 2019
+AST-1019,wks-fin-0020.internal,Finance,2,Public,198450,5576,0,Windows Server 2019
+AST-1020,app-ops-0021.internal,Operations,3,Internal,142929,11538,0,RHEL 8
+AST-1021,web-ops-0022.internal,Operations,3,Internal,65463,13017,0,Windows 10
+AST-1022,app-eng-0023.internal,Engineering,3,Internal,211326,8418,0,Windows 10
+AST-1023,wks-sal-0024.internal,Sales,1,Public,31766,4335,0,Ubuntu 22.04
+AST-1024,web-eng-0025.internal,Engineering,3,Internal,201654,5262,0,RHEL 8
+AST-1025,web-sal-0026.internal,Sales,3,Internal,243450,11388,0,RHEL 8
+AST-1026,wks-hr-0027.internal,HR,2,Public,122212,7456,0,Windows Server 2019
+AST-1027,app-eng-0028.internal,Engineering,3,Internal,135075,12702,0,RHEL 8
+AST-1028,web-ops-0029.internal,Operations,3,Internal,194886,3096,0,Windows 10
+AST-1029,wks-ops-0030.internal,Operations,2,Public,99372,7494,0,Ubuntu 22.04
+AST-1030,wks-hr-0031.internal,HR,2,Public,128982,6232,0,Windows Server 2019
+AST-1031,sql-ops-0032.internal,Operations,4,Confidential,112360,17384,1000000,RHEL 8
+AST-1032,sql-eng-0033.internal,Engineering,4,Confidential,313960,17368,0,Windows 10
+AST-1033,web-sal-0034.internal,Sales,3,Internal,72195,7266,0,RHEL 8
+AST-1034,app-sal-0035.internal,Sales,3,Internal,107160,9771,0,Windows 10
+AST-1035,sql-eng-0036.internal,Engineering,5,Confidential,436395,6420,0,Windows 10
+AST-1036,app-ops-0037.internal,Operations,3,Internal,173127,4248,0,RHEL 8
+AST-1037,app-eng-0038.internal,Engineering,3,Internal,189786,4140,0,RHEL 8
+AST-1038,dc-ops-0039.internal,Operations,5,Confidential,360185,17760,0,Windows Server 2019
+AST-1039,app-ops-0040.internal,Operations,3,Internal,242280,10122,0,Ubuntu 22.04
+AST-1040,app-ops-0041.internal,Operations,3,Internal,51897,14025,0,Windows 10
+AST-1041,web-ops-0042.internal,Operations,3,Internal,128976,3150,0,Ubuntu 22.04
+AST-1042,wks-fin-0043.internal,Finance,2,Public,152314,8728,0,Windows Server 2019
+AST-1043,sql-sal-0044.internal,Sales,4,Restricted,215208,17456,1000000,Windows Server 2019
+AST-1044,wks-sal-0045.internal,Sales,2,Public,102454,3234,0,Windows Server 2019
+AST-1045,app-eng-0046.internal,Engineering,3,Internal,277272,5277,0,RHEL 8
+AST-1046,app-eng-0047.internal,Engineering,3,Internal,290847,12858,0,Windows 10
+AST-1047,wks-hr-0048.internal,HR,2,Public,182944,8536,0,Ubuntu 22.04
+AST-1048,app-fin-0049.internal,Finance,4,Confidential,58816,17124,50000,RHEL 8
+AST-1049,app-ops-0050.internal,Operations,3,Internal,190806,7269,0,Windows Server 2019
+AST-1050,app-fin-0051.internal,Finance,3,Internal,66114,12696,0,Windows 10
+AST-1051,web-sal-0052.internal,Sales,3,Internal,213981,4278,0,Windows 10
+AST-1052,web-fin-0053.internal,Finance,3,Internal,97221,14994,0,Ubuntu 22.04
+AST-1053,web-eng-0054.internal,Engineering,3,Internal,50199,7437,0,Ubuntu 22.04
+AST-1054,app-fin-0055.internal,Finance,3,Internal,205572,5067,0,Windows 10
+AST-1055,web-sal-0056.internal,Sales,3,Internal,122892,3108,0,Windows Server 2019
+AST-1056,web-hr-0057.internal,HR,3,Internal,280935,11985,0,Windows 10
+AST-1057,app-eng-0058.internal,Engineering,3,Internal,183174,5409,0,Windows 10
+AST-1058,wks-hr-0059.internal,HR,1,Public,19100,1029,0,Windows 10
+AST-1059,app-eng-0060.internal,Engineering,4,Confidential,199108,6340,0,Windows 10
+AST-1060,app-sal-0061.internal,Sales,3,Internal,255582,8259,0,Ubuntu 22.04
+AST-1061,web-fin-0062.internal,Finance,3,Internal,113010,14709,0,RHEL 8
+AST-1062,app-ops-0063.internal,Operations,3,Internal,210582,10059,0,Ubuntu 22.04
+AST-1063,wks-ops-0064.internal,Operations,1,Public,73254,2733,0,Ubuntu 22.04
+AST-1064,app-ops-0065.internal,Operations,5,Confidential,181975,15855,50000,Windows 10
+AST-1065,dc-eng-0066.internal,Engineering,5,Confidential,156055,15975,1000000,Windows Server 2019
+AST-1066,wks-ops-0067.internal,Operations,1,Public,76824,1658,0,Windows Server 2019
+AST-1067,app-fin-0068.internal,Finance,3,Internal,275727,3672,0,Windows 10
+AST-1068,app-ops-0069.internal,Operations,4,Restricted,184668,6508,250000,Windows 10
+AST-1069,web-hr-0070.internal,HR,3,Internal,85914,3708,0,Windows Server 2019
+AST-1070,app-eng-0071.internal,Engineering,3,Internal,170475,11775,0,Windows 10
+AST-1071,app-fin-0072.internal,Finance,3,Internal,223836,10218,0,Windows 10
+AST-1072,sql-ops-0073.internal,Operations,4,Restricted,254212,15812,0,RHEL 8
+AST-1073,sql-eng-0074.internal,Engineering,5,Restricted,272450,11755,50000,RHEL 8
+AST-1074,sql-ops-0075.internal,Operations,4,Confidential,111032,12140,50000,Ubuntu 22.04
+AST-1075,web-fin-0076.internal,Finance,3,Internal,227913,6561,0,Windows Server 2019
+AST-1076,wks-ops-0077.internal,Operations,2,Public,121110,6996,0,Ubuntu 22.04
+AST-1077,app-eng-0078.internal,Engineering,5,Confidential,232505,8265,1000000,Ubuntu 22.04
+AST-1078,wks-hr-0079.internal,HR,1,Public,69636,1274,0,Windows Server 2019
+AST-1079,wks-sal-0080.internal,Sales,2,Public,83672,8066,0,Windows Server 2019
+AST-1080,wks-fin-0081.internal,Finance,2,Public,50386,3678,0,Windows Server 2019
+AST-1081,app-eng-0082.internal,Engineering,3,Internal,203982,14307,0,Ubuntu 22.04
+AST-1082,app-eng-0083.internal,Engineering,3,Internal,103011,6411,0,RHEL 8
+AST-1083,wks-fin-0084.internal,Finance,1,Public,96688,2475,0,RHEL 8
+AST-1084,wks-eng-0085.internal,Engineering,1,Public,39191,4069,0,Ubuntu 22.04
+AST-1085,app-hr-0086.internal,HR,3,Internal,215898,7515,0,RHEL 8
+AST-1086,app-hr-0087.internal,HR,3,Internal,82902,5463,0,Windows 10
+AST-1087,web-ops-0088.internal,Operations,3,Internal,34347,6507,0,Ubuntu 22.04
+AST-1088,app-eng-0089.internal,Engineering,3,Internal,295881,12321,0,RHEL 8
+AST-1089,sql-fin-0090.internal,Finance,4,Restricted,51128,6800,1000000,Windows 10
+AST-1090,dc-sal-0091.internal,Sales,5,Restricted,52580,14190,250000,Windows Server 2019
+AST-1091,wks-eng-0092.internal,Engineering,2,Public,58394,4516,0,RHEL 8
+AST-1092,app-eng-0093.internal,Engineering,5,Restricted,85345,12985,50000,RHEL 8
+AST-1093,sql-eng-0094.internal,Engineering,4,Confidential,167172,17148,0,Ubuntu 22.04
+AST-1094,web-sal-0095.internal,Sales,3,Internal,234513,10629,0,RHEL 8
+AST-1095,web-sal-0096.internal,Sales,3,Internal,73056,3999,0,Windows 10
+AST-1096,app-hr-0097.internal,HR,3,Internal,299376,11352,0,RHEL 8
+AST-1097,app-ops-0098.internal,Operations,5,Confidential,479075,21395,250000,Ubuntu 22.04
+AST-1098,wks-sal-0099.internal,Sales,2,Public,91024,7202,0,RHEL 8
+AST-1099,web-sal-0100.internal,Sales,3,Internal,101760,3660,0,RHEL 8
+AST-1100,sql-hr-0101.internal,HR,4,Confidential,76332,12172,1000000,Ubuntu 22.04
+AST-1101,wks-hr-0102.internal,HR,2,Public,102558,6302,0,Windows Server 2019
+AST-1102,app-eng-0103.internal,Engineering,3,Internal,181974,3360,0,Windows 10
+AST-1103,app-fin-0104.internal,Finance,3,Internal,67986,12198,0,Ubuntu 22.04
+AST-1104,sql-fin-0105.internal,Finance,4,Confidential,388532,6348,250000,Windows Server 2019
+AST-1105,wks-sal-0106.internal,Sales,1,Public,37458,2357,0,Windows Server 2019
+AST-1106,web-hr-0107.internal,HR,3,Internal,192825,6831,0,Ubuntu 22.04
+AST-1107,sql-sal-0108.internal,Sales,4,Restricted,236492,18020,0,RHEL 8
+AST-1108,app-fin-0109.internal,Finance,3,Internal,216036,14325,0,Ubuntu 22.04
+AST-1109,app-sal-0110.internal,Sales,3,Internal,143010,12150,0,Ubuntu 22.04
+AST-1110,web-hr-0111.internal,HR,3,Internal,261753,7260,0,Windows Server 2019
+AST-1111,app-ops-0112.internal,Operations,3,Internal,53991,10695,0,Windows 10
+AST-1112,app-ops-0113.internal,Operations,3,Internal,204738,10803,0,Windows Server 2019
+AST-1113,admin-sal-0114.internal,Sales,2,Public,154610,4876,0,Windows 10
+AST-1114,wks-eng-0115.internal,Engineering,2,Public,160230,4050,0,Windows Server 2019
+AST-1115,wks-fin-0116.internal,Finance,1,Public,97264,1545,0,Ubuntu 22.04
+AST-1116,wks-ops-0117.internal,Operations,1,Public,92631,2825,0,RHEL 8
+AST-1117,app-eng-0118.internal,Engineering,3,Internal,93594,10143,0,RHEL 8
+AST-1118,wks-fin-0119.internal,Finance,2,Public,87256,7774,0,RHEL 8
+AST-1119,app-eng-0120.internal,Engineering,3,Internal,89826,5448,0,Windows Server 2019
+AST-1120,app-fin-0121.internal,Finance,3,Internal,58050,10692,0,Windows 10
+AST-1121,app-eng-0122.internal,Engineering,4,Restricted,311880,18068,0,RHEL 8
+AST-1122,app-sal-0123.internal,Sales,3,Internal,278958,12246,0,Windows 10
+AST-1123,web-ops-0124.internal,Operations,3,Internal,152634,13551,0,Windows 10
+AST-1124,app-hr-0125.internal,HR,3,Internal,273060,12561,0,RHEL 8
+AST-1125,admin-hr-0126.internal,HR,2,Public,27266,5960,0,Windows 10
+AST-1126,app-eng-0127.internal,Engineering,3,Internal,234996,14922,0,Windows 10
+AST-1127,sql-fin-0128.internal,Finance,4,Confidential,57328,15040,50000,RHEL 8
+AST-1128,web-ops-0129.internal,Operations,3,Internal,201528,8526,0,RHEL 8
+AST-1129,app-ops-0130.internal,Operations,3,Internal,294972,11724,0,Ubuntu 22.04
+AST-1130,sql-sal-0131.internal,Sales,5,Restricted,227440,23820,250000,Ubuntu 22.04
+AST-1131,web-fin-0132.internal,Finance,3,Internal,225303,7116,0,RHEL 8
+AST-1132,app-fin-0133.internal,Finance,4,Restricted,320860,4200,0,RHEL 8
+AST-1133,sql-ops-0134.internal,Operations,4,Restricted,225512,6456,50000,Windows Server 2019
+AST-1134,wks-fin-0135.internal,Finance,2,Public,95544,7840,0,Windows Server 2019
+AST-1135,app-fin-0136.internal,Finance,3,Internal,72705,8145,0,Ubuntu 22.04
+AST-1136,app-ops-0137.internal,Operations,4,Confidential,293308,4512,1000000,Windows Server 2019
+AST-1137,sql-hr-0138.internal,HR,4,Restricted,367724,12056,1000000,RHEL 8
+AST-1138,app-eng-0139.internal,Engineering,3,Internal,131604,13857,0,Windows 10
+AST-1139,web-eng-0140.internal,Engineering,3,Internal,131295,11319,0,Windows Server 2019
+AST-1140,web-sal-0141.internal,Sales,3,Internal,78255,14259,0,Windows 10
+AST-1141,app-eng-0142.internal,Engineering,3,Internal,118596,11211,0,Ubuntu 22.04
+AST-1142,wks-ops-0143.internal,Operations,2,Public,132676,2516,0,RHEL 8
+AST-1143,web-eng-0144.internal,Engineering,3,Internal,243318,3663,0,Windows Server 2019
+AST-1144,sql-hr-0145.internal,HR,5,Confidential,470805,20865,50000,RHEL 8
+AST-1145,wks-hr-0146.internal,HR,2,Public,167272,9376,0,Ubuntu 22.04
+AST-1146,wks-sal-0147.internal,Sales,2,Public,111362,6290,0,Windows 10
+AST-1147,web-hr-0148.internal,HR,3,Internal,35199,5460,0,Windows Server 2019
+AST-1148,wks-sal-0149.internal,Sales,2,Public,54554,8772,0,Ubuntu 22.04
+AST-1149,wks-sal-0150.internal,Sales,2,Public,119038,3868,0,Windows 10
+AST-1150,app-ops-0151.internal,Operations,5,Restricted,332145,20675,250000,RHEL 8
+AST-1151,web-fin-0152.internal,Finance,3,Internal,124776,4068,0,Windows Server 2019
+AST-1152,app-hr-0153.internal,HR,3,Internal,187623,8313,0,Windows 10
+AST-1153,wks-sal-0154.internal,Sales,2,Public,194652,5968,0,Windows Server 2019
+AST-1154,app-eng-0155.internal,Engineering,3,Internal,230400,9807,0,Windows Server 2019
+AST-1155,wks-fin-0156.internal,Finance,2,Public,76618,9396,0,Windows Server 2019
+AST-1156,sql-ops-0157.internal,Operations,4,Restricted,393380,14060,1000000,RHEL 8
+AST-1157,web-sal-0158.internal,Sales,3,Internal,111177,10953,0,Windows 10
+AST-1158,wks-hr-0159.internal,HR,2,Public,45622,8600,0,Windows 10
+AST-1159,app-fin-0160.internal,Finance,4,Restricted,277020,11860,1000000,RHEL 8
+AST-1160,app-ops-0161.internal,Operations,3,Internal,227853,11640,0,Windows 10
+AST-1161,web-eng-0162.internal,Engineering,3,Internal,274011,13311,0,Windows 10
+AST-1162,wks-ops-0163.internal,Operations,2,Public,36246,2196,0,Ubuntu 22.04
+AST-1163,app-eng-0164.internal,Engineering,4,Restricted,271140,19196,1000000,RHEL 8
+AST-1164,web-hr-0165.internal,HR,3,Internal,290259,13383,0,Windows 10
+AST-1165,wks-fin-0166.internal,Finance,1,Public,60384,3245,0,Ubuntu 22.04
+AST-1166,dc-eng-0167.internal,Engineering,5,Restricted,438730,17860,250000,Windows Server 2019
+AST-1167,wks-sal-0168.internal,Sales,1,Public,20870,4172,0,Windows 10
+AST-1168,wks-fin-0169.internal,Finance,2,Public,22192,6950,0,Windows Server 2019
+AST-1169,app-eng-0170.internal,Engineering,3,Internal,99411,14796,0,RHEL 8
+AST-1170,wks-eng-0171.internal,Engineering,2,Public,184046,7202,0,Windows 10
+AST-1171,app-sal-0172.internal,Sales,3,Internal,245685,3351,0,RHEL 8
+AST-1172,app-hr-0173.internal,HR,3,Internal,228135,6438,0,RHEL 8
+AST-1173,sql-ops-0174.internal,Operations,5,Restricted,111245,16700,50000,Ubuntu 22.04
+AST-1174,dc-eng-0175.internal,Engineering,5,Restricted,472480,17720,1000000,Windows Server 2019
+AST-1175,wks-ops-0176.internal,Operations,1,Public,94621,3754,0,RHEL 8
+AST-1176,app-ops-0177.internal,Operations,4,Confidential,175300,15784,1000000,RHEL 8
+AST-1177,wks-ops-0178.internal,Operations,2,Public,190522,6356,0,RHEL 8
+AST-1178,sql-hr-0179.internal,HR,4,Confidential,129544,5620,1000000,RHEL 8
+AST-1179,wks-ops-0180.internal,Operations,2,Public,135030,4428,0,Windows 10
+AST-1180,sql-hr-0181.internal,HR,4,Confidential,222724,12740,50000,RHEL 8
+AST-1181,app-eng-0182.internal,Engineering,4,Confidential,148800,8276,0,RHEL 8
+AST-1182,app-fin-0183.internal,Finance,4,Restricted,113160,11668,50000,Windows 10
+AST-1183,app-eng-0184.internal,Engineering,5,Confidential,465850,22705,0,RHEL 8
+AST-1184,wks-fin-0185.internal,Finance,2,Public,172272,4114,0,Windows Server 2019
+AST-1185,app-ops-0186.internal,Operations,3,Internal,245352,13569,0,RHEL 8
+AST-1186,app-fin-0187.internal,Finance,4,Confidential,167152,19620,50000,Windows 10
+AST-1187,admin-eng-0188.internal,Engineering,1,Public,76329,1550,0,Windows 10
+AST-1188,app-ops-0189.internal,Operations,3,Internal,287346,13890,0,Windows Server 2019
+AST-1189,app-fin-0190.internal,Finance,3,Internal,68244,11934,0,Ubuntu 22.04
+AST-1190,wks-eng-0191.internal,Engineering,2,Public,159884,5126,0,Windows Server 2019
+AST-1191,app-eng-0192.internal,Engineering,3,Internal,194826,11391,0,Ubuntu 22.04
+AST-1192,app-sal-0193.internal,Sales,3,Internal,159327,4434,0,Ubuntu 22.04
+AST-1193,app-sal-0194.internal,Sales,3,Internal,250686,8544,0,Windows Server 2019
+AST-1194,web-ops-0195.internal,Operations,3,Internal,192396,7464,0,Windows 10
+AST-1195,app-ops-0196.internal,Operations,3,Internal,92589,7770,0,RHEL 8
+AST-1196,sql-eng-0197.internal,Engineering,5,Restricted,354785,21375,0,Ubuntu 22.04
+AST-1197,wks-eng-0198.internal,Engineering,2,Public,66532,4592,0,RHEL 8
+AST-1198,wks-fin-0199.internal,Finance,2,Public,85860,6626,0,Windows Server 2019
+AST-1199,app-fin-0200.internal,Finance,3,Internal,150831,11610,0,Windows Server 2019
+AST-1200,app-ops-0201.internal,Operations,4,Confidential,222636,16636,0,RHEL 8
+AST-1201,web-hr-0202.internal,HR,3,Internal,246948,8430,0,RHEL 8
+AST-1202,wks-ops-0203.internal,Operations,2,Public,65152,8256,0,RHEL 8
+AST-1203,app-hr-0204.internal,HR,4,Restricted,74732,14844,250000,Ubuntu 22.04
+AST-1204,sql-fin-0205.internal,Finance,4,Restricted,284444,6808,1000000,Windows Server 2019
+AST-1205,app-hr-0206.internal,HR,4,Restricted,292812,15184,50000,Ubuntu 22.04
+AST-1206,wks-eng-0207.internal,Engineering,1,Public,22602,2447,0,RHEL 8
+AST-1207,admin-fin-0208.internal,Finance,2,Public,123792,9850,0,Windows 10
+AST-1208,app-eng-0209.internal,Engineering,4,Restricted,214044,16900,0,Windows 10
+AST-1209,app-ops-0210.internal,Operations,4,Restricted,295352,14936,0,Windows 10
+AST-1210,wks-eng-0211.internal,Engineering,2,Public,34262,7566,0,Ubuntu 22.04
+AST-1211,app-eng-0212.internal,Engineering,3,Internal,71631,3945,0,Windows 10
+AST-1212,wks-ops-0213.internal,Operations,2,Public,38280,8556,0,Windows 10
+AST-1213,web-hr-0214.internal,HR,3,Internal,290610,5658,0,Windows Server 2019
+AST-1214,wks-eng-0215.internal,Engineering,1,Public,71608,4018,0,Windows Server 2019
+AST-1215,wks-ops-0216.internal,Operations,2,Public,47984,6710,0,Windows Server 2019
+AST-1216,wks-eng-0217.internal,Engineering,2,Public,20926,9888,0,RHEL 8
+AST-1217,app-eng-0218.internal,Engineering,5,Restricted,420960,5495,50000,Windows 10
+AST-1218,app-eng-0219.internal,Engineering,3,Internal,160083,10917,0,Windows Server 2019
+AST-1219,wks-fin-0220.internal,Finance,2,Public,21650,5628,0,Windows 10
+AST-1220,web-sal-0221.internal,Sales,3,Internal,208053,9780,0,Windows Server 2019
+AST-1221,web-ops-0222.internal,Operations,3,Internal,224265,6672,0,RHEL 8
+AST-1222,web-ops-0223.internal,Operations,3,Internal,140208,11169,0,Windows Server 2019
+AST-1223,app-eng-0224.internal,Engineering,3,Internal,112257,5145,0,RHEL 8
+AST-1224,web-eng-0225.internal,Engineering,3,Internal,71553,4701,0,Windows Server 2019
+AST-1225,web-sal-0226.internal,Sales,3,Internal,132174,3546,0,RHEL 8
+AST-1226,app-ops-0227.internal,Operations,3,Internal,237012,4131,0,Ubuntu 22.04
+AST-1227,app-ops-0228.internal,Operations,5,Confidential,445855,5335,50000,RHEL 8
+AST-1228,web-hr-0229.internal,HR,3,Internal,87159,7167,0,Windows 10
+AST-1229,sql-ops-0230.internal,Operations,4,Restricted,181656,6716,1000000,Ubuntu 22.04
+AST-1230,wks-sal-0231.internal,Sales,1,Public,51116,3726,0,Windows 10
+AST-1231,wks-ops-0232.internal,Operations,2,Public,116108,9508,0,Ubuntu 22.04
+AST-1232,sql-fin-0233.internal,Finance,4,Confidential,182436,19736,50000,Ubuntu 22.04
+AST-1233,app-ops-0234.internal,Operations,3,Internal,196401,6927,0,Windows Server 2019
+AST-1234,app-sal-0235.internal,Sales,3,Internal,205926,13593,0,Windows Server 2019
+AST-1235,web-fin-0236.internal,Finance,3,Internal,33129,14250,0,Windows Server 2019
+AST-1236,wks-eng-0237.internal,Engineering,2,Public,22674,6730,0,Windows 10
+AST-1237,web-fin-0238.internal,Finance,3,Internal,216690,4176,0,Windows Server 2019
+AST-1238,web-sal-0239.internal,Sales,3,Internal,247506,3699,0,RHEL 8
+AST-1239,app-eng-0240.internal,Engineering,3,Internal,286176,10248,0,RHEL 8
+AST-1240,app-eng-0241.internal,Engineering,4,Confidential,230968,13776,1000000,RHEL 8
+AST-1241,app-ops-0242.internal,Operations,5,Confidential,230765,15580,250000,Ubuntu 22.04
+AST-1242,dc-ops-0243.internal,Operations,5,Restricted,134440,16680,50000,Windows Server 2019
+AST-1243,app-fin-0244.internal,Finance,3,Internal,257442,10617,0,Windows Server 2019
+AST-1244,wks-ops-0245.internal,Operations,2,Public,41296,4930,0,RHEL 8
+AST-1245,wks-eng-0246.internal,Engineering,1,Public,30632,4390,0,Windows 10
+AST-1246,web-hr-0247.internal,HR,3,Internal,158448,11721,0,Ubuntu 22.04
+AST-1247,wks-eng-0248.internal,Engineering,1,Public,59143,2559,0,Ubuntu 22.04
+AST-1248,admin-eng-0249.internal,Engineering,2,Public,122194,7794,0,Windows 10
+AST-1249,wks-ops-0250.internal,Operations,2,Public,64128,7322,0,Windows Server 2019
+AST-1250,sql-ops-0251.internal,Operations,5,Confidential,160070,10910,0,RHEL 8
+AST-1251,admin-fin-0252.internal,Finance,2,Public,57404,3690,0,Windows 10
+AST-1252,wks-eng-0253.internal,Engineering,2,Public,75386,4358,0,Ubuntu 22.04
+AST-1253,sql-ops-0254.internal,Operations,5,Confidential,336555,20715,1000000,Ubuntu 22.04
+AST-1254,app-sal-0255.internal,Sales,3,Internal,88143,4836,0,Ubuntu 22.04
+AST-1255,app-ops-0256.internal,Operations,4,Restricted,50280,12552,1000000,RHEL 8
+AST-1256,app-eng-0257.internal,Engineering,3,Internal,205206,14514,0,Windows 10
+AST-1257,sql-hr-0258.internal,HR,5,Restricted,495410,6605,1000000,RHEL 8
+AST-1258,sql-eng-0259.internal,Engineering,5,Confidential,385355,15945,50000,Ubuntu 22.04
+AST-1259,web-eng-0260.internal,Engineering,3,Internal,219306,6516,0,Ubuntu 22.04
+AST-1260,sql-ops-0261.internal,Operations,5,Confidential,229650,21700,0,RHEL 8
+AST-1261,web-eng-0262.internal,Engineering,3,Internal,102648,4617,0,RHEL 8
+AST-1262,web-hr-0263.internal,HR,3,Internal,206853,10170,0,Windows Server 2019
+AST-1263,app-sal-0264.internal,Sales,4,Restricted,257612,15924,0,RHEL 8
+AST-1264,app-eng-0265.internal,Engineering,3,Internal,233754,4560,0,RHEL 8
+AST-1265,wks-eng-0266.internal,Engineering,2,Public,29898,5230,0,Windows Server 2019
+AST-1266,app-ops-0267.internal,Operations,3,Internal,94134,4728,0,RHEL 8
+AST-1267,wks-sal-0268.internal,Sales,1,Public,69833,3093,0,Windows Server 2019
+AST-1268,sql-sal-0269.internal,Sales,4,Restricted,368180,4036,250000,Windows Server 2019
+AST-1269,app-ops-0270.internal,Operations,3,Internal,257709,10314,0,RHEL 8
+AST-1270,wks-sal-0271.internal,Sales,1,Public,77151,2192,0,RHEL 8
+AST-1271,app-ops-0272.internal,Operations,5,Restricted,413520,12455,0,RHEL 8
+AST-1272,sql-sal-0273.internal,Sales,5,Restricted,471210,20780,50000,RHEL 8
+AST-1273,app-eng-0274.internal,Engineering,4,Restricted,86440,19776,0,Windows Server 2019
+AST-1274,web-hr-0275.internal,HR,3,Internal,241620,8871,0,RHEL 8
+AST-1275,app-hr-0276.internal,HR,3,Internal,69939,12036,0,Ubuntu 22.04
+AST-1276,wks-eng-0277.internal,Engineering,1,Public,50203,2554,0,Windows Server 2019
+AST-1277,wks-fin-0278.internal,Finance,2,Public,138478,7188,0,RHEL 8
+AST-1278,web-fin-0279.internal,Finance,3,Internal,122676,7689,0,Windows Server 2019
+AST-1279,web-sal-0280.internal,Sales,3,Internal,106968,4824,0,Ubuntu 22.04
+AST-1280,sql-sal-0281.internal,Sales,4,Confidential,124764,17880,50000,Ubuntu 22.04
+AST-1281,wks-fin-0282.internal,Finance,2,Public,187356,4968,0,RHEL 8
+AST-1282,wks-fin-0283.internal,Finance,2,Public,25282,4868,0,Windows 10
+AST-1283,web-sal-0284.internal,Sales,3,Internal,184158,7548,0,RHEL 8
+AST-1284,app-eng-0285.internal,Engineering,4,Confidential,82764,16956,50000,Windows Server 2019
+AST-1285,sql-eng-0286.internal,Engineering,4,Confidential,242832,15260,1000000,Windows Server 2019
+AST-1286,sql-fin-0287.internal,Finance,4,Restricted,305548,6808,1000000,Ubuntu 22.04
+AST-1287,sql-ops-0288.internal,Operations,5,Confidential,391765,6625,1000000,Ubuntu 22.04
+AST-1288,web-hr-0289.internal,HR,3,Internal,82185,10458,0,RHEL 8
+AST-1289,app-eng-0290.internal,Engineering,4,Restricted,357792,6236,0,Ubuntu 22.04
+AST-1290,web-eng-0291.internal,Engineering,3,Internal,118938,4941,0,Ubuntu 22.04
+AST-1291,app-eng-0292.internal,Engineering,3,Internal,154713,12531,0,RHEL 8
+AST-1292,sql-ops-0293.internal,Operations,5,Restricted,458510,19515,1000000,Ubuntu 22.04
+AST-1293,app-hr-0294.internal,HR,3,Internal,181710,7587,0,Windows 10
+AST-1294,app-fin-0295.internal,Finance,4,Restricted,344092,15664,250000,RHEL 8
+AST-1295,web-fin-0296.internal,Finance,3,Internal,50955,6591,0,RHEL 8
+AST-1296,wks-ops-0297.internal,Operations,2,Public,171760,5734,0,Windows 10
+AST-1297,wks-eng-0298.internal,Engineering,2,Public,186402,2840,0,RHEL 8
+AST-1298,app-ops-0299.internal,Operations,3,Internal,67041,12855,0,RHEL 8
+AST-1299,sql-fin-0300.internal,Finance,4,Confidential,361992,5352,1000000,RHEL 8
