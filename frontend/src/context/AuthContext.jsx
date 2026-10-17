@@ -4,6 +4,7 @@ import {
   writeAuth,
   clearAuth,
   login as apiLogin,
+  demoLogin as apiDemoLogin,
   register as apiRegister,
   logout as apiLogout,
 } from '../api/client';
@@ -28,6 +29,25 @@ export function AuthProvider({ children }) {
       setBusy(true);
       try {
         const res = await apiLogin(credentials);
+        const next = {
+          user: res.user,
+          organization: res.organization,
+          tokens: res.tokens,
+        };
+        persist(next);
+        return next;
+      } finally {
+        setBusy(false);
+      }
+    },
+    [persist],
+  );
+
+  const signInDemo = useCallback(
+    async (payload) => {
+      setBusy(true);
+      try {
+        const res = await apiDemoLogin(payload);
         const next = {
           user: res.user,
           organization: res.organization,
@@ -82,6 +102,7 @@ export function AuthProvider({ children }) {
     isAuthenticated,
     busy,
     signIn,
+    signInDemo,
     signUp,
     signOut,
     updateProfile: persist,

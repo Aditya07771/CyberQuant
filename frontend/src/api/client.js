@@ -194,6 +194,19 @@ export const login = async ({ email, password, organizationId }) => {
   return data;
 };
 
+export const listDemoAccounts = async () => {
+  const { data } = await apiClient.get('/api/v1/auth/demo-accounts');
+  return Array.isArray(data) ? data : [];
+};
+
+export const demoLogin = async ({ key, email } = {}) => {
+  const { data } = await apiClient.post('/api/v1/auth/demo-login', {
+    ...(key ? { key } : {}),
+    ...(email ? { email } : {}),
+  });
+  return data;
+};
+
 export const fetchProfile = async () => {
   const { data } = await apiClient.get('/api/v1/auth/me');
   return data;

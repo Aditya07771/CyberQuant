@@ -1,0 +1,2 @@
+event_id,asset_id,downtime_hours_caused,records_compromised
+EVT-1,AST-1,2,50

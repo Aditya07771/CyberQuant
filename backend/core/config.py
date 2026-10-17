@@ -18,6 +18,10 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = Field(default=30)
     REFRESH_TOKEN_EXPIRE_DAYS: int = Field(default=7)
 
+    # One-click demo login. Enabled by default for local/demo builds; set to
+    # false to remove the demo accounts and endpoints entirely (production).
+    ENABLE_DEMO_LOGIN: bool = Field(default=True)
+
     # Database
     DATABASE_URL: str = Field(default=f"sqlite:///{BACKEND_DIR / 'cyberquant.db'}")
 

@@ -57,6 +57,44 @@ def test_login_with_wrong_password_rejected(app_client):
     assert bad.status_code == 401
 
 
+def test_demo_accounts_and_one_click_login(app_client):
+    accounts = app_client.get("/api/v1/auth/demo-accounts")
+    assert accounts.status_code == 200, accounts.text
+    listed = accounts.json()
+    assert len(listed) >= 2
+    assert all({"key", "label", "organization_name"} <= set(a.keys()) for a in listed)
+
+    for account in listed:
+        resp = app_client.post("/api/v1/auth/demo-login", json={"key": account["key"]})
+        assert resp.status_code == 200, resp.text
+        body = resp.json()
+        assert body["tokens"]["access_token"]
+        assert body["organization"]["name"] == account["organization_name"]
+
+        me = app_client.get(
+            "/api/v1/auth/me",
+            headers={"Authorization": f"Bearer {body['tokens']['access_token']}"},
+        )
+        assert me.status_code == 200
+
+    # Unknown demo key is rejected.
+    unknown = app_client.post("/api/v1/auth/demo-login", json={"key": "nope"})
+    assert unknown.status_code == 400
+
+
+def test_demo_organizations_are_isolated(app_client):
+    accounts = app_client.get("/api/v1/auth/demo-accounts").json()
+    tokens = {}
+    for account in accounts[:2]:
+        body = app_client.post("/api/v1/auth/demo-login", json={"key": account["key"]}).json()
+        tokens[account["key"]] = body["tokens"]["access_token"]
+
+    keys = list(tokens.keys())
+    headers_b = {"Authorization": f"Bearer {tokens[keys[1]]}"}
+    datasets_b = app_client.get("/api/v1/datasets", headers=headers_b)
+    assert datasets_b.status_code == 200
+
+
 # ---------------------------------------------------------------------------
 # Shared run fixture: demo dataset + completed risk run
 # ---------------------------------------------------------------------------

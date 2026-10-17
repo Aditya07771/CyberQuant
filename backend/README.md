@@ -198,6 +198,14 @@ The old unversioned paths (`/risk/*`, `/controls/*`, `/compliance/*`, `/predicti
 are **retired and return `410 Gone`** with a pointer to the `/api/v1` replacement. They are no
 longer safe to use.
 
+#### One-click demo login
+
+When `ENABLE_DEMO_LOGIN=true` (the local/demo default), the login page offers one-click access
+to 2–3 pre-seeded demo organizations. `GET /api/v1/auth/demo-accounts` lists them and
+`POST /api/v1/auth/demo-login` (body `{"key": "<demo-key>"}`) creates the account on first use
+and returns the same payload as `/login`. These are **public demo credentials and must be
+disabled (`ENABLE_DEMO_LOGIN=false`) on any production deployment**.
+
 ### Canonical Endpoints (all under `/api/v1`)
 
 | Endpoint | Purpose |
